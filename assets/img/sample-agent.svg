@@ -1,0 +1,31 @@
+<!-- AIGC START -->
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="400" viewBox="0 0 640 400" role="img" aria-label="Sample agent navigation graph">
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#131a3a"/>
+      <stop offset="1" stop-color="#0a0f24"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="400" fill="url(#bg3)"/>
+  <text x="48" y="56" fill="#e8ecf6" font-family="system-ui, sans-serif" font-size="20" font-weight="700">End-to-End Navigation Trace</text>
+  <text x="48" y="76" fill="#6b7490" font-family="system-ui, sans-serif" font-size="12">:‹pn · sample placeholder</text>
+  <g stroke="rgba(56,201,229,0.5)" stroke-width="2" stroke-dasharray="6 6" fill="none">
+    <path d="M120 320 C200 300 240 220 320 210 C400 200 430 150 510 130"/>
+  </g>
+  <g fill="none" stroke="rgba(139,124,246,0.45)" stroke-width="1.6">
+    <line x1="120" y1="320" x2="180" y2="240"/>
+    <line x1="320" y1="210" x2="250" y2="150"/>
+    <line x1="320" y1="210" x2="420" y2="240"/>
+    <line x1="510" y1="130" x2="560" y2="200"/>
+    <line x1="250" y1="150" x2="200" y2="120"/>
+  </g>
+  <circle cx="120" cy="320" r="12" fill="#38c9e5"/>
+  <circle cx="250" cy="150" r="9" fill="#8b7cf6"/>
+  <circle cx="420" cy="240" r="9" fill="#8b7cf6"/>
+  <circle cx="200" cy="120" r="7" fill="#38c9e5"/>
+  <circle cx="560" cy="200" r="7" fill="#8b7cf6"/>
+  <circle cx="510" cy="130" r="12" fill="#ffb454"/>
+  <text x="104" y="356" fill="#9aa3b8" font-family="system-ui, sans-serif" font-size="12">start</text>
+  <text x="486" y="110" fill="#9aa3b8" font-family="system-ui, sans-serif" font-size="12">goal</text>
+</svg>
+<!-- AIGC END -->

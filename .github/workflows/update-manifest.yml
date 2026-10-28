@@ -1,0 +1,43 @@
+# AIGC START
+# 自动维护期数清单：推送/修改 data/editions/*.json 后自动重建 index.json 并提交。
+# 每日自动化管线只需生成新的日期 JSON 文件并推送到 main，其余交给本工作流与 GitHub Pages。
+name: Update editions manifest
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "data/editions/*.json"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-manifest
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          persist-credentials: true
+
+      - name: Rebuild data/editions/index.json
+        run: python3 scripts/update_manifest.py
+
+      - name: Commit manifest if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/editions/index.json
+          if git diff --cached --quiet; then
+            echo "Manifest unchanged."
+          else
+            git commit -m "chore: update editions manifest [skip ci]"
+            git push
+          fi
+# AIGC END

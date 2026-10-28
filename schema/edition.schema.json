@@ -1,0 +1,177 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://happyangel.github.io/ai-daily-newspaper/schema/edition.schema.json",
+  "title": "小熊早报 · 单期数据模型 (Bear Morning Brief edition)",
+  "description": "每期早报一个 JSON 文件，置于 data/editions/YYYY-MM-DD.json。所有文案字段支持双语：直接写字符串，或写 {\"zh\": \"...\", \"en\": \"...\"} 对象（缺失语言回退到 zh）。sections 顺序即页面展示顺序：weather → aiTech → aiProducts → finance → todos。",
+  "type": "object",
+  "required": ["date", "weather", "aiTech", "aiProducts", "finance", "todos"],
+  "$defs": {
+    "l10n": {
+      "oneOf": [
+        { "type": "string" },
+        {
+          "type": "object",
+          "properties": { "zh": { "type": "string" }, "en": { "type": "string" } },
+          "additionalProperties": false
+        }
+      ]
+    },
+    "image": {
+      "type": "object",
+      "required": ["src"],
+      "properties": {
+        "src": { "type": "string", "description": "图片路径，仓库内相对路径或外链。作为小缩略图展示，点击进灯箱。" },
+        "caption": { "$ref": "#/$defs/l10n" }
+      }
+    }
+  },
+  "properties": {
+    "date": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$", "description": "期数日期，须与文件名一致" },
+    "sample": { "type": "boolean", "description": "true 时页面显示「示例数据」角标，正式数据不要设置" },
+    "weather": {
+      "type": "object",
+      "required": ["city", "condition", "temp"],
+      "properties": {
+        "city": { "$ref": "#/$defs/l10n" },
+        "condition": { "$ref": "#/$defs/l10n" },
+        "icon": { "type": "string", "enum": ["sunny", "sun-cloud", "cloudy", "rain", "snow"] },
+        "temp": { "type": "string", "description": "如 11 ~ 21°C" },
+        "feels": { "type": "string" },
+        "wind": { "$ref": "#/$defs/l10n" },
+        "humidity": { "type": "string" },
+        "air": { "$ref": "#/$defs/l10n" },
+        "sunrise": { "type": "string" },
+        "sunset": { "type": "string" },
+        "tip": { "$ref": "#/$defs/l10n" }
+      }
+    },
+    "aiTech": {
+      "type": "object",
+      "required": ["openingSummary"],
+      "properties": {
+        "openingSummary": { "$ref": "#/$defs/l10n", "description": "开篇速览，必须是本节第一段内容；多段用 \\n 分隔" },
+        "xPosts": {
+          "type": "array",
+          "description": "X 帖子：一句话摘要 + 原帖链接，可带小缩略图",
+          "items": {
+            "type": "object",
+            "required": ["summary", "link"],
+            "properties": {
+              "author": { "$ref": "#/$defs/l10n" },
+              "handle": { "$ref": "#/$defs/l10n" },
+              "time": { "type": "string" },
+              "summary": { "$ref": "#/$defs/l10n" },
+              "link": { "type": "string", "format": "uri" },
+              "images": { "type": "array", "items": { "$ref": "#/$defs/image" } }
+            }
+          }
+        },
+        "engBlogs": {
+          "type": "array",
+          "description": "工程博客精选",
+          "items": {
+            "type": "object",
+            "required": ["title", "link"],
+            "properties": {
+              "source": { "$ref": "#/$defs/l10n" },
+              "title": { "$ref": "#/$defs/l10n" },
+              "summary": { "$ref": "#/$defs/l10n" },
+              "link": { "type": "string", "format": "uri" }
+            }
+          }
+        },
+        "alphaxivTop3": {
+          "type": "array",
+          "description": "alphaXiv TOP3 论文，rank 1-3",
+          "items": {
+            "type": "object",
+            "required": ["rank", "title", "summary"],
+            "properties": {
+              "rank": { "type": "integer" },
+              "title": { "$ref": "#/$defs/l10n" },
+              "authors": { "$ref": "#/$defs/l10n" },
+              "summary": { "$ref": "#/$defs/l10n" },
+              "link": { "type": "string", "format": "uri" },
+              "images": { "type": "array", "items": { "$ref": "#/$defs/image" } }
+            }
+          }
+        },
+        "weeklyTrend": {
+          "type": ["object", "null"],
+          "description": "仅在周日（Sunday）的期数中填写；其他日期保持 null",
+          "properties": {
+            "title": { "$ref": "#/$defs/l10n" },
+            "summary": { "$ref": "#/$defs/l10n" },
+            "points": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": { "label": { "$ref": "#/$defs/l10n" }, "text": { "$ref": "#/$defs/l10n" } }
+              }
+            }
+          }
+        }
+      }
+    },
+    "aiProducts": {
+      "type": "object",
+      "required": ["items"],
+      "properties": {
+        "items": {
+          "type": "array",
+          "description": "固定顺序：Hermes Agent / OpenClaw / DeepSeek Harness / codex + Claude / Cursor / Grok Bot",
+          "items": {
+            "type": "object",
+            "required": ["name", "summary"],
+            "properties": {
+              "name": { "$ref": "#/$defs/l10n" },
+              "tag": { "type": "string", "enum": ["update", "release"] },
+              "link": { "type": "string" },
+              "summary": { "$ref": "#/$defs/l10n" },
+              "images": { "type": "array", "items": { "$ref": "#/$defs/image" } }
+            }
+          }
+        }
+      }
+    },
+    "finance": {
+      "type": "object",
+      "required": ["stock"],
+      "properties": {
+        "stock": {
+          "type": "object",
+          "required": ["name", "symbol", "price"],
+          "properties": {
+            "name": { "$ref": "#/$defs/l10n" },
+            "symbol": { "type": "string", "description": "默认跟踪 01810.HK（小米集团-W）" },
+            "currency": { "type": "string" },
+            "price": { "type": "number" },
+            "change": { "type": "number" },
+            "changePercent": { "type": "number" },
+            "prevClose": { "type": "number" },
+            "open": { "type": "number" },
+            "high": { "type": "number" },
+            "low": { "type": "number" },
+            "volume": { "$ref": "#/$defs/l10n" },
+            "amount": { "$ref": "#/$defs/l10n" },
+            "spark": { "type": "array", "items": { "type": "number" }, "description": "日内分时数据，渲染为走势小图" },
+            "summary": { "$ref": "#/$defs/l10n" },
+            "highlights": { "type": "array", "items": { "$ref": "#/$defs/l10n" } }
+          }
+        }
+      }
+    },
+    "todos": {
+      "type": "array",
+      "description": "今日待办；priority: high / mid / low",
+      "items": {
+        "type": "object",
+        "required": ["text"],
+        "properties": {
+          "text": { "$ref": "#/$defs/l10n" },
+          "priority": { "type": "string", "enum": ["high", "mid", "low"] }
+        }
+      }
+    }
+  }
+}
