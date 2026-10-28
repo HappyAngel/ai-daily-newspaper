@@ -1,0 +1,21 @@
+<!-- AIGC START -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="bearBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffb454"/>
+      <stop offset="1" stop-color="#ff7b54"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="url(#bearBg)"/>
+  <circle cx="20" cy="21" r="7.5" fill="#ffd9a8"/>
+  <circle cx="44" cy="21" r="7.5" fill="#ffd9a8"/>
+  <circle cx="20" cy="21" r="3.4" fill="#e8955a"/>
+  <circle cx="44" cy="21" r="3.4" fill="#e8955a"/>
+  <ellipse cx="32" cy="38" rx="14.5" ry="12.5" fill="#ffd9a8"/>
+  <circle cx="26.5" cy="35" r="2.3" fill="#4a2c14"/>
+  <circle cx="37.5" cy="35" r="2.3" fill="#4a2c14"/>
+  <ellipse cx="32" cy="42.5" rx="5.6" ry="4" fill="#fff3e0"/>
+  <ellipse cx="32" cy="41" rx="2.6" ry="1.9" fill="#4a2c14"/>
+  <path d="M32 43.2 v1.8 M32 45 q-1.8 1.6 -3.4 0.4 M32 45 q1.8 1.6 3.4 0.4" stroke="#4a2c14" stroke-width="1.4" stroke-linecap="round" fill="none"/>
+</svg>
+<!-- AIGC END -->

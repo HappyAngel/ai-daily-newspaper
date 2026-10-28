@@ -1,0 +1,188 @@
+{
+  "date": "2026-10-28",
+  "sample": true,
+  "weather": {
+    "city": { "zh": "北京", "en": "Beijing" },
+    "condition": { "zh": "晴转多云", "en": "Sunny, turning cloudy" },
+    "icon": "sun-cloud",
+    "temp": "11 ~ 21°C",
+    "feels": "10°C",
+    "wind": { "zh": "东北风 2 级", "en": "NE wind, force 2" },
+    "humidity": "38%",
+    "air": { "zh": "AQI 42 · 优", "en": "AQI 42 · Good" },
+    "sunrise": "06:36",
+    "sunset": "17:22",
+    "tip": {
+      "zh": "昼夜温差近 10°C：早晚出门记得加件外套，午后适合散步晒太阳。",
+      "en": "Nearly a 10°C day-night swing: bring a jacket for the morning; sunshine is fine for an afternoon walk."
+    }
+  },
+  "aiTech": {
+    "openingSummary": {
+      "zh": "隔夜 AI 圈的主线依然是「更便宜、更长的上下文、更自主的 Agent」：开源社区放出新的 MoE 权重把推理成本再压一档；长上下文复现工作提醒大家显存账本别只看论文里的理想值；具身方向有新 demo 展示端到端导航的可靠性提升。产品侧，多家助手类工具都把「多步工作流固化」作为本轮更新的关键词。以下为编辑整理的要点速览。",
+      "en": "Overnight, the AI world stayed on three rails — cheaper, longer, more autonomous: the open-source community shipped a new MoE checkpoint pushing inference cost down again; a long-context replication effort reminded everyone that real VRAM bills exceed paper claims; and embodied agents demoed sturdier end-to-end navigation. On the product side, several assistants converged on \"turning multi-step workflows into reusable skills\" as this cycle's keyword. Below is our edited digest."
+    },
+    "xPosts": [
+      {
+        "author": { "zh": "示例博主 A", "en": "Sample Author A" },
+        "handle": "@example_ai",
+        "time": "08:42",
+        "summary": {
+          "zh": "开源社区放出新的 70B 级 MoE 权重：推理成本再降一档，评测脚本与权重已在 Hugging Face 同步上线。",
+          "en": "A new 70B-class MoE checkpoint just dropped: another notch down on inference cost, with eval scripts and weights already on Hugging Face."
+        },
+        "link": "https://x.com/example_ai",
+        "images": [
+          { "src": "assets/img/sample-bench.svg", "caption": { "zh": "示例：新权重与主流模型的多基准对比（占位图）", "en": "Sample: multi-benchmark comparison with mainstream models (placeholder)" } }
+        ]
+      },
+      {
+        "author": { "zh": "示例博主 B", "en": "Sample Author B" },
+        "handle": "@example_ml",
+        "time": "07:15",
+        "summary": {
+          "zh": "团队复现某长上下文论文的 1M-token 实验：实测显存占用约为论文报告值的 1.8 倍，附开源 profiling 工具。",
+          "en": "We replicated a 1M-token long-context paper: measured VRAM use is ~1.8x the reported figure — open-source profiler linked."
+        },
+        "link": "https://x.com/example_ml",
+        "images": [
+          { "src": "assets/img/sample-chart.svg", "caption": { "zh": "示例：1M-token 显存占用曲线（占位图）", "en": "Sample: 1M-token VRAM curve (placeholder)" } }
+        ]
+      },
+      {
+        "author": { "zh": "示例博主 C", "en": "Sample Author C" },
+        "handle": "@example_robot",
+        "time": "06:58",
+        "summary": {
+          "zh": "人形机器人新 demo：连续 40 分钟端到端导航零人工接管，中途摔了两次但都自己爬起来了。",
+          "en": "New humanoid demo: 40 minutes of end-to-end navigation with zero human takeover — it fell twice and got up on its own."
+        },
+        "link": "https://x.com/example_robot",
+        "images": [
+          { "src": "assets/img/sample-agent.svg", "caption": { "zh": "示例：端到端导航轨迹图（占位图）", "en": "Sample: end-to-end navigation trace (placeholder)" } },
+          { "src": "assets/img/sample-ui.svg", "caption": { "zh": "示例：任务编排面板截图（占位图）", "en": "Sample: task orchestration panel (placeholder)" } }
+        ]
+      }
+    ],
+    "engBlogs": [
+      {
+        "source": "Anthropic",
+        "title": { "zh": "示例：构建更可控的 Agent", "en": "Sample: Building more steerable agents" },
+        "summary": { "zh": "把「人类可审计的中间状态」当作 Agent 可控性的第一公民，并给出三层检查点设计。", "en": "Argues for human-auditable intermediate states as first-class citizens of agent steerability, with a three-tier checkpoint design." },
+        "link": "https://www.anthropic.com/news"
+      },
+      {
+        "source": "Google DeepMind",
+        "title": { "zh": "示例：测试时计算的实践者笔记", "en": "Sample: Test-time compute — a practitioner's notes" },
+        "summary": { "zh": "把测试时计算的花费-收益曲线整理成可直接复用的决策表，并开源了拟合脚本。", "en": "Casts test-time compute spend-benefit curves into a reusable decision table, with open-sourced fitting scripts." },
+        "link": "https://deepmind.google/discover/blog"
+      },
+      {
+        "source": "Hugging Face",
+        "title": { "zh": "示例：小模型训练复盘", "en": "Sample: Small-model training post-mortem" },
+        "summary": { "zh": "复盘 1B 以下模型的数据配比实验：代码数据的边际收益在 30% 之后迅速递减。", "en": "Post-mortem on sub-1B data-mix ablations: marginal returns from code data drop sharply past 30%." },
+        "link": "https://huggingface.co/blog"
+      }
+    ],
+    "alphaxivTop3": [
+      {
+        "rank": 1,
+        "title": { "zh": "AlphaReason：基于结果校验的自我审查思维链", "en": "AlphaReason: Self-verifying chain-of-thought via outcome grounding" },
+        "authors": { "zh": "示例作者 等", "en": "Sample Authors et al." },
+        "summary": { "zh": "让模型在采样多条推理路径后用外部执行器回灌校验，数学类任务准确率提升约 6 个点。", "en": "Feeds sampled reasoning paths back through an external executor for verification; ~6-point gain on math benchmarks." },
+        "link": "https://www.alphaxiv.org",
+        "images": [
+          { "src": "assets/img/sample-paper.svg", "caption": { "zh": "示例：论文首页示意（占位图）", "en": "Sample: paper front page (placeholder)" } }
+        ]
+      },
+      {
+        "rank": 2,
+        "title": { "zh": "千万级上下文的稀疏注意力路由", "en": "Sparse attention routing at 10M context" },
+        "authors": { "zh": "示例作者 等", "en": "Sample Authors et al." },
+        "summary": { "zh": "提出按查询难度动态选择稀疏模式的路由器，长文检索任务显存占用降低 42%。", "en": "A router that picks sparse attention patterns per query difficulty cuts long-doc retrieval VRAM by 42%." },
+        "link": "https://www.alphaxiv.org",
+        "images": [
+          { "src": "assets/img/sample-chart.svg", "caption": { "zh": "示例：显存-上下文长度曲线（占位图）", "en": "Sample: VRAM vs context length (placeholder)" } }
+        ]
+      },
+      {
+        "rank": 3,
+        "title": { "zh": "免 GPU 强化学习：在移动 NPU 上做策略优化", "en": "GPU-free RL: policy optimization on mobile NPUs" },
+        "authors": { "zh": "示例作者 等", "en": "Sample Authors et al." },
+        "summary": { "zh": "把 PPO 的关键算子量化到 4bit 后塞进手机 NPU，端上即可完成小策略的训练回路。", "en": "Quantizes core PPO operators to 4-bit and runs the full training loop on phone NPUs." },
+        "link": "https://www.alphaxiv.org"
+      }
+    ],
+    "weeklyTrend": null
+  },
+  "aiProducts": {
+    "items": [
+      {
+        "name": "Hermes Agent",
+        "tag": "update",
+        "link": "#",
+        "summary": { "zh": "示例：新增多智能体编排面板，常用工作流可一键固化为可复用技能；夜间回归构建通过率 97%。", "en": "Sample: new multi-agent orchestration panel; one-click freezing of workflows into reusable skills; nightly regression pass rate 97%." }
+      },
+      {
+        "name": "OpenClaw",
+        "tag": "update",
+        "link": "#",
+        "summary": { "zh": "示例：v0.9 引入浏览器长驻会话与本地记忆压缩，长时任务平均提速 22%。", "en": "Sample: v0.9 adds persistent browser sessions and local memory compression — 22% faster on long-running tasks." }
+      },
+      {
+        "name": "DeepSeek Harness",
+        "tag": "release",
+        "link": "#",
+        "summary": { "zh": "示例：评测脚手架开源发布，内置 12 个 Agent 基准的一键复现与横向对比。", "en": "Sample: eval harness open-sourced with one-click reproduction and comparison across 12 agent benchmarks." }
+      },
+      {
+        "name": "codex + Claude",
+        "tag": "update",
+        "link": "https://openai.com/codex",
+        "summary": { "zh": "示例：跨模型结对工作流上线——codex 负责改动、Claude 负责评审，往返延迟压到 8 秒。", "en": "Sample: cross-model pairing ships — codex writes, Claude reviews, round-trip latency down to 8s." }
+      },
+      {
+        "name": "Cursor",
+        "tag": "update",
+        "link": "https://cursor.com",
+        "summary": { "zh": "示例：多仓库并行 diff 审阅进入 Composer 面板，Agent 模式新增里程碑回顾。", "en": "Sample: parallel multi-repo diff review lands in the Composer panel; agent mode gains milestone recaps." }
+      },
+      {
+        "name": "Grok Bot",
+        "tag": "update",
+        "link": "https://x.ai",
+        "summary": { "zh": "示例：接入实时 X 时间线摘要，早报草稿可一键生成并导出 Markdown。", "en": "Sample: live X timeline digests wired in; morning-brief drafts export to Markdown in one click." }
+      }
+    ]
+  },
+  "finance": {
+    "stock": {
+      "name": { "zh": "小米集团-W", "en": "Xiaomi Corporation" },
+      "symbol": "01810.HK",
+      "currency": "HKD",
+      "price": 28.45,
+      "change": 0.38,
+      "changePercent": 1.35,
+      "prevClose": 28.07,
+      "open": 28.1,
+      "high": 28.62,
+      "low": 27.96,
+      "volume": { "zh": "1.24 亿股", "en": "124M shares" },
+      "amount": { "zh": "35.2 亿港元", "en": "HK$3.52B" },
+      "spark": [27.9, 27.85, 27.9, 28.0, 28.05, 28.1, 27.95, 28.0, 28.15, 28.2, 28.1, 28.05, 28.2, 28.3, 28.25, 28.4, 28.35, 28.5, 28.45, 28.55, 28.5, 28.6, 28.55, 28.45],
+      "summary": { "zh": "示例：高开高走，尾盘小幅回落；汽车与手机业务消息面偏暖。", "en": "Sample: opened high and climbed, slight fade into the close; autos and handset news flow stayed warm." },
+      "highlights": [
+        { "zh": "示例：EV 二期工厂爬产进度符合管理层指引（消息面）。", "en": "Sample: EV plant phase-2 ramp tracking management guidance (news flow)." },
+        { "zh": "示例：端侧大模型落地带动高端机型 ASP 提升。", "en": "Sample: on-device LLM rollout lifting flagship ASP." },
+        { "zh": "示例：IoT 出货量创新高，海外占比首破 60%。", "en": "Sample: record IoT shipments, overseas share tops 60% for the first time." }
+      ]
+    }
+  },
+  "todos": [
+    { "text": { "zh": "评审昨晚跑完的 Hermes Agent 评测报告", "en": "Review last night's Hermes Agent eval report" }, "priority": "high" },
+    { "text": { "zh": "整理 alphaXiv TOP3 的中文摘要并定时发布", "en": "Prepare Chinese digests for the alphaXiv TOP3 and schedule posting" }, "priority": "mid" },
+    { "text": { "zh": "跟进小米 Q3 电话会纪要要点（示例）", "en": "Follow up on Xiaomi's Q3 earnings-call notes (sample)" }, "priority": "mid" },
+    { "text": { "zh": "给早报挑一张新的头图壁纸", "en": "Pick a new header wallpaper for the morning brief" }, "priority": "low" },
+    { "text": { "zh": "备份本周 X 收藏夹", "en": "Back up this week's X bookmarks" }, "priority": "low" }
+  ]
+}

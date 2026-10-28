@@ -1,0 +1,33 @@
+<!-- AIGC START -->
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="400" viewBox="0 0 640 400" role="img" aria-label="Sample line chart">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#131a3a"/>
+      <stop offset="1" stop-color="#0a0f24"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#38c9e5"/>
+      <stop offset="1" stop-color="#8b7cf6"/>
+    </linearGradient>
+    <linearGradient id="area" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="rgba(139,124,246,0.35)"/>
+      <stop offset="1" stop-color="rgba(56,201,229,0)"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="400" fill="url(#bg2)"/>
+  <g stroke="rgba(255,255,255,0.07)" stroke-width="1">
+    <line x1="48" y1="100" x2="592" y2="100"/>
+    <line x1="48" y1="160" x2="592" y2="160"/>
+    <line x1="48" y1="220" x2="592" y2="220"/>
+    <line x1="48" y1="280" x2="592" y2="280"/>
+  </g>
+  <text x="48" y="56" fill="#e8ecf6" font-family="system-ui, sans-serif" font-size="20" font-weight="700">VRAM vs Context Length</text>
+  <text x="48" y="76" fill="#6b7490" font-family="system-ui, sans-serif" font-size="12">:‹pn · sample placeholder</text>
+  <path d="M60 300 C120 290 140 240 200 232 C260 224 280 190 340 172 C400 154 420 130 480 108 C520 93 550 80 584 70 L584 330 L60 330 Z" fill="url(#area)"/>
+  <path d="M60 300 C120 290 140 240 200 232 C260 224 280 190 340 172 C400 154 420 130 480 108 C520 93 550 80 584 70" fill="none" stroke="url(#line)" stroke-width="3.5" stroke-linecap="round"/>
+  <circle cx="200" cy="232" r="5" fill="#38c9e5"/>
+  <circle cx="340" cy="172" r="5" fill="#8b7cf6"/>
+  <circle cx="584" cy="70" r="6" fill="#ffb454"/>
+  <line x1="48" y1="330" x2="592" y2="330" stroke="rgba(255,255,255,0.18)" stroke-width="1"/>
+</svg>
+<!-- AIGC END -->

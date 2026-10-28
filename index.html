@@ -1,0 +1,127 @@
+<!doctype html>
+<!-- AIGC START -->
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>小熊早报 · AI 晨间简报</title>
+  <meta name="description" content="小熊早报：每天一杯咖啡的时间，看完天气、AI 前沿动态、产品更新、小米行情与今日待办。Bear Morning Brief: a daily AI digest in one cup of coffee.">
+  <meta name="color-scheme" content="dark">
+  <meta property="og:title" content="小熊早报 · AI 晨间简报">
+  <meta property="og:description" content="天气 · AI 前沿 · 产品更新 · 财经（小米 01810.HK）· 今日待办">
+  <meta property="og:type" content="website">
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <div class="ambient" aria-hidden="true">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+  </div>
+
+  <header class="wrap masthead">
+    <div class="brand">
+      <svg class="brand-logo" viewBox="0 0 64 64" aria-hidden="true">
+        <defs>
+          <linearGradient id="bearBgHtml" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0" stop-color="#ffb454"/>
+            <stop offset="1" stop-color="#ff7b54"/>
+          </linearGradient>
+        </defs>
+        <rect width="64" height="64" rx="16" fill="url(#bearBgHtml)"/>
+        <circle cx="20" cy="21" r="7.5" fill="#ffd9a8"/>
+        <circle cx="44" cy="21" r="7.5" fill="#ffd9a8"/>
+        <circle cx="20" cy="21" r="3.4" fill="#e8955a"/>
+        <circle cx="44" cy="21" r="3.4" fill="#e8955a"/>
+        <ellipse cx="32" cy="38" rx="14.5" ry="12.5" fill="#ffd9a8"/>
+        <circle cx="26.5" cy="35" r="2.3" fill="#4a2c14"/>
+        <circle cx="37.5" cy="35" r="2.3" fill="#4a2c14"/>
+        <ellipse cx="32" cy="42.5" rx="5.6" ry="4" fill="#fff3e0"/>
+        <ellipse cx="32" cy="41" rx="2.6" ry="1.9" fill="#4a2c14"/>
+        <path d="M32 43.2 v1.8 M32 45 q-1.8 1.6 -3.4 0.4 M32 45 q1.8 1.6 3.4 0.4" stroke="#4a2c14" stroke-width="1.4" stroke-linecap="round" fill="none"/>
+      </svg>
+      <div>
+        <h1>小熊早报</h1>
+        <p class="brand-tagline" id="brand-tagline">一杯咖啡的时间，看完今天的 AI 世界</p>
+      </div>
+    </div>
+    <div class="controls">
+      <div class="seg" id="lang-seg" role="group" aria-label="切换语言">
+        <button class="seg-btn" type="button" data-lang="zh">中</button>
+        <button class="seg-btn" type="button" data-lang="en">EN</button>
+      </div>
+      <button class="btn-ghost" type="button" id="btn-archive">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>
+        <span>归档</span>
+      </button>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <div id="meta-bar-slot">
+      <div class="meta-bar" id="meta-bar"></div>
+    </div>
+    <div id="content">
+      <div class="card state-box"><h3>小熊早报</h3><p>正在加载早报…</p></div>
+    </div>
+  </main>
+
+  <footer class="wrap">
+    <div class="footer-inner">
+      <div>
+        <div class="footer-brand">小熊早报 · Bear Morning Brief</div>
+        <p class="footer-note" id="footer-note">数据与截图均为演示用示例数据；每日期数由自动化流程注入。</p>
+      </div>
+      <div style="display:flex; flex-direction:column; gap:8px; align-items:flex-end;">
+        <p class="footer-note" id="footer-powered">由 GitHub Pages 驱动 · 每日自动更新</p>
+        <a class="footer-link" id="footer-link" href="https://github.com/HappyAngel/ai-daily-newspaper" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.1.79-.25.79-.55v-2.17c-3.2.7-3.87-1.36-3.87-1.36-.52-1.33-1.28-1.68-1.28-1.68-1.05-.72.08-.71.08-.71 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.23-1.28-5.23-5.68 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11.1 11.1 0 0 1 5.79 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.83 1.19 3.09 0 4.41-2.69 5.38-5.25 5.67.41.35.78 1.05.78 2.12v3.14c0 .3.21.66.8.55A11.52 11.52 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5z"/></svg>
+          <span>在 GitHub 查看</span>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p style="text-align:center;color:#9aa3b8;padding:20px;">本页面需要启用 JavaScript 才能渲染期数内容（This page needs JavaScript to render editions）。</p>
+  </noscript>
+
+  <div class="archive-backdrop" id="archive-backdrop"></div>
+  <aside class="archive-panel" id="archive-panel" aria-label="日期归档">
+    <div class="archive-head">
+      <h3 id="archive-title">日期归档</h3>
+      <button class="nav-btn" id="archive-close" aria-label="关闭">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg>
+      </button>
+    </div>
+    <div class="archive-list" id="archive-list"></div>
+  </aside>
+
+  <div class="lightbox" id="lightbox" hidden>
+    <div class="lb-backdrop"></div>
+    <figure class="lb-stage" id="lb-stage">
+      <img id="lb-img" alt="">
+      <figcaption class="lb-caption">
+        <span id="lb-caption"></span>
+        <span class="lb-count" id="lb-count"></span>
+      </figcaption>
+    </figure>
+    <button class="lb-btn lb-close" id="lb-close" aria-label="关闭">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg>
+    </button>
+    <button class="lb-btn lb-prev" id="lb-prev" aria-label="上一张">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="15 18 9 12 15 6"/></svg>
+    </button>
+    <button class="lb-btn lb-next" id="lb-next" aria-label="下一张">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg>
+    </button>
+  </div>
+
+  <script src="assets/js/i18n.js"></script>
+  <script src="assets/js/app.js"></script>
+
+</body>
+</html>
+<!-- AIGC END -->
