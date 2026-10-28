@@ -29,14 +29,14 @@
 
 站点从 **`main` 分支根目录（`/`）** 提供服务（不使用 `/docs` 目录）。
 
-仓库已通过 GitHub API 启用 Pages：`main` 分支 / 根目录。若需手工检查或重新启用：
+本仓库的自动化令牌没有 Pages 写权限（启用 Pages 会返回 403），所以需要手动启用一次（约两步）：
 
 1. 打开 <https://github.com/HappyAngel/ai-daily-newspaper/settings/pages>
 2. **Build and deployment → Source** 选择 *Deploy from a branch*
 3. Branch 选择 `main`，目录选 `/ (root)`，保存
 4. 约等待 1-2 分钟，访问 <https://happyangel.github.io/ai-daily-newspaper/>
 
-等价的 CLI 方式：
+有 `pages:write` 权限的 CLI 一行命令（任选其一）：
 
 ```bash
 gh api repos/HappyAngel/ai-daily-newspaper/pages \
