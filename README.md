@@ -64,6 +64,8 @@ python3 scripts/update_manifest.py
 
 **周日特供**：当日期为周日时，在 `aiTech.weeklyTrend` 里填写本周趋势小结（`title` / `summary` / `points[]`），页面会在 AI 前沿区块顶部渲染成醒目的周趋势卡片；其他日期保持 `null`。
 
+**图片必须入库，禁止热链外部 CDN**：单期 JSON 里的图片 `src` 不要直接引用 `pbs.twimg.com`、`ton.twitter.com` 等外链（在中国大陆常被阻断，GitHub Pages 上的缩略图会整片空白）。正确做法：把当期截图下载到 `data/editions/YYYY-MM-DD/images/`（短稳定文件名，如 `xpost-01.jpg`，保留原始格式），`src` 写成站点根相对路径 `data/editions/YYYY-MM-DD/images/xpost-01.jpg`（与页面加载 `data/editions/...json` 同一风格，`app.js` 的 `thumbsHtml` 原样使用 `src`，无需改前端）。参考 2026-10-29 期的做法。
+
 ## 本地预览
 
 ```bash
