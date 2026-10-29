@@ -453,44 +453,8 @@
   },
   "todos": [
     {
-      "text": "理解和思考文亮的 5.0 harness 设计",
+      "text": "今日重心：梳理 5.0 harness 设计与云端架构骨干沟通，下午推进主要功能迁移（含声纹相关）并做整体汇报；并行推进 AI 提效下一阶段与 Coro 研读，以及若干学习/工程截止项。",
       "priority": "high"
-    },
-    {
-      "text": "云端架构骨干人才 沟通 & check（和武汉骨干沟通）",
-      "priority": "high"
-    },
-    {
-      "text": "14:30 主要功能迁移情况梳理（待办：声纹相关；和聪哥、海老师做整体汇报）",
-      "priority": "high"
-    },
-    {
-      "text": "关于 AI 提效下一阶段的工作思考",
-      "priority": "mid"
-    },
-    {
-      "text": "Coro 核心思想理解和代码研读",
-      "priority": "mid"
-    },
-    {
-      "text": "飞书文档分享倡议：整理原团队知识库到新 Agent 知识库",
-      "priority": "low"
-    },
-    {
-      "text": "海外版本后续快速迭代如何保证质量",
-      "priority": "low"
-    },
-    {
-      "text": "1- Task 2.1.2 硬件 bring up（截止 10/31 14:00）",
-      "priority": "low"
-    },
-    {
-      "text": "2- AI Engineering 第一阶段 Phase 00 Setup & Tooling（已完成 7/12，截止 11/1）",
-      "priority": "low"
-    },
-    {
-      "text": "3- 安全架构第一课：找出信任边界（截止 11/1）",
-      "priority": "low"
     }
   ]
 }
