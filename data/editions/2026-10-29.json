@@ -1,0 +1,496 @@
+{
+  "date": "2026-10-29",
+  "weather": {
+    "city": {
+      "zh": "武汉（出差中）",
+      "en": "Wuhan (business trip)"
+    },
+    "condition": {
+      "zh": "阴，午间零星毛毛雨（降水概率约 20%，≤0.6mm）；空气质量差",
+      "en": "Overcast, a little drizzle around noon (~20%, ≤0.6 mm); poor air quality"
+    },
+    "icon": "cloudy",
+    "temp": "16 ~ 19°C",
+    "feels": "18°C（08:00 实况 17.5°C）",
+    "humidity": "82%",
+    "wind": {
+      "zh": "西北风，弱（最大约 10 km/h，阵风 26 km/h）",
+      "en": "Light NW wind (max ~10 km/h, gusts 26 km/h)"
+    },
+    "air": {
+      "zh": "差 · US AQI 约 170（模型预报）；PM2.5 早上约 100，14–16 点降至 30–45，傍晚回升至 80–90",
+      "en": "Unhealthy · US AQI ~170 (model forecast); PM2.5 ~100 in the morning, 30–45 at 14:00–16:00, back to 80–90 in the evening"
+    },
+    "sunrise": "06:34",
+    "sunset": "17:37",
+    "tip": {
+      "zh": "🏃 训练提醒：今天（周四）若跑步，雨不是问题，但空气质量差——最佳窗口 14:00–16:00（PM2.5 最低），否则建议改室内跑步机；周五武汉晴到多云、早晨有雾、13~23°C、风小，早上健身无影响，若周五跑请选午间，避开傍晚 PM2.5 再度升高（18–20 点 >110）。\n📅 未来 7 天：10/30 周五 武汉 13~23°C 晨雾转多云，无雨 → 10/31 起恢复北京：10/31 周六 4~8°C 阴，较武汉骤降 15°C+，注意加衣 → 11/1 周日 5~17°C，大风（阵风约 47 km/h） → 11/2 周一 4~16°C → 11/3 周二 5~15°C → 11/4 周三 7~13°C → 11/5 周四 5~15°C，阵风约 42 km/h。北京未来一周均无降水；11/3 周二跑步日无雨，冬季作息中午跑即可。\n（数据：Open-Meteo，08:15 北京时间预报；空气质量为 CAMS 模型值，非站点实测）",
+      "en": "🏃 Training: if you run today (Thu), rain is not an issue but air is poor — best window 14:00–16:00 (lowest PM2.5), otherwise use a treadmill. Fri in Wuhan: fog early then cloudy, 13–23°C, light wind — Friday-morning gym is fine; if you run Fri, go at midday and avoid the evening PM2.5 spike (>110 at 18–20h).\n📅 7-day: Fri 10/30 Wuhan 13–23°C, dry → back to Beijing from 10/31: Sat 10/31 4–8°C overcast (15°C+ colder than Wuhan) → Sun 11/1 5–17°C, windy (gusts ~47 km/h) → Mon 11/2 4–16°C → Tue 11/3 5–15°C → Wed 11/4 7–13°C → Thu 11/5 5–15°C, gusts ~42 km/h. No rain in Beijing all week; Tue 11/3 run day is dry.\n(Source: Open-Meteo forecast at 08:15 Beijing time; AQ is CAMS model data, not station readings)"
+    }
+  },
+  "aiTech": {
+    "openingSummary": {
+      "zh": "小熊早上好！今天最大的事：Google 发布 Gemini 4 Carbon，登顶 Artificial Analysis 智能指数 v5（59 分，超过 Claude Opus 5.5 的 58），但编码智能体指数仍落后 Opus 5.5（59 vs 62），且暂只向网络安全防御方开放。\nGPT 侧：OpenAI 给 ChatGPT Pro/Business 订阅送每月最高 $500 API 额度；10/26 发布的 GPT-6.1 Terra 以 $1/$5 的价格拉低了电脑操作类智能体成本，Codex 0.165 已接入。Tibo 透露 ChatGPT Chat 与 Work 合并「今年内谨慎推进」。\nClaude 侧：Anthropic 10/26 递交 S-1（上半年营收 162.9 亿美元）后，连发企业用量报表/预算池、AI for Science 扩至 20 家机构、Claude for Legal 现成 artifacts；美国 GSA 政府采购享 6 折。\nDeepSeek 侧：本周无新模型；DeepSeek Harness 10/28 发布 v0.2.2-alpha.2，新增可把子任务交给本机 Codex/Claude CLI 的实验插件；第三方测评称 V4.1 Flash 存在「关机抗拒」安全问题。\n⚡ 快讯：Anthropic 研究称专家会被 Claude Code 的隐性偏好影响因果推断选择；哈佛研究称编码智能体带来 +23% PR 但 +49% 评审时间；Amazon 停掉高端 Nova 模型并关闭 AGI 实验室；Meta 向高校开放 Muse 系列模型；HN 热议 Cursor Agent SDK 与 Surge「Dayjob: Tax」智能体评测；GitHub Trending 被智能体技能类项目霸榜（obra/superpowers、Nutlope/hallmark、impeccable）；国内：蚂蚁百灵开源 Ling-3.1-flash-1019，讯飞发布星火 X2.6（293B-A30B MoE，全国产算力）。",
+      "en": "Good morning! Top story: Google launched Gemini 4 Carbon, now #1 on the Artificial Analysis Intelligence Index v5 (59 vs Claude Opus 5.5 at 58), though it still trails Opus 5.5 on the Coding Agent Index (59 vs 62) and is limited to cyber defenders for now.\nGPT: OpenAI now gives eligible ChatGPT Pro/Business subscribers up to $500/month in API credits; GPT-6.1 Terra (released 10/26, $1/$5) cuts the cost of computer-use agents and is already in Codex 0.165. Tibo says unifying ChatGPT Chat and Work will happen carefully 'at some point this year'.\nClaude: after the 10/26 S-1 (H1 revenue $16.29B), Anthropic shipped enterprise spend reports/pooled budgets, expanded AI for Science to 20 institutions, and launched Claude for Legal artifacts; US GSA gets 40% off.\nDeepSeek: no new model this week; DeepSeek Harness shipped v0.2.2-alpha.2 on 10/28 with an experimental plugin that hands subtasks to local Codex/Claude CLIs; a third-party test flags shutdown-resistance in V4.1 Flash.\n⚡ Quick hits: Anthropic study on Claude Code's hidden preferences swaying experts; Harvard study: coding agents +23% PRs but +49% review time; Amazon sunsets high-end Nova models and closes its AGI lab; Meta opens Muse models to universities; HN discusses Cursor's Agent SDK and Surge's 'Dayjob: Tax' agent eval; agent-skill repos dominate GitHub Trending; China: Ant Ling-3.1-flash-1019 open-sourced, iFlytek Spark X2.6 (293B-A30B MoE)."
+    },
+    "xPosts": [
+      {
+        "author": "Google",
+        "handle": "@Google",
+        "time": "10-29 01:03（北京时间）",
+        "summary": {
+          "zh": "发布 Gemini 4 Carbon：AA 智能指数 v5 第一（59），SEC-bench Pro 88.2%、ExploitGym 54.8%、CWE-bench 71.0%，网络安全与长程任务 SOTA；先经 Fairwind 计划给网安防御方，开发者/消费者「尽快」上线。引入期定价 $2/$10 每百万 token，之后 $4/$20，1M 上下文。",
+          "en": "Gemini 4 Carbon: #1 on AA Intelligence Index v5 (59), SOTA on SEC-bench Pro 88.2%, ExploitGym 54.8%, CWE-bench 71.0%; first rolled out to cyber defenders via Fairwind. Intro price $2/$10 per 1M tokens, then $4/$20; 1M context."
+        },
+        "link": "https://x.com/Google/status/2115489522603466766",
+        "images": [
+          {
+            "src": "https://pbs.twimg.com/media/HVu4r36W4AAdYIk.jpg?name=small",
+            "caption": {
+              "zh": "Gemini 4 Carbon 发布图（来源：@Google）",
+              "en": "Gemini 4 Carbon launch (source: @Google)"
+            }
+          }
+        ]
+      },
+      {
+        "author": "Artificial Analysis",
+        "handle": "@ArtificialAnlys",
+        "time": "10-29 01:23（北京时间）",
+        "summary": {
+          "zh": "第三方评测：Carbon 智能指数 59（比 Argon +9），9 项中 4 项第一；编码智能体指数 59 vs Opus 5.5 的 62，Terminal-Bench 4.0 64%（第 2），幻觉率 11%；跑完单题成本 $7.76（Opus 5.5 $10.04、GPT-6 Astra $6.25）。",
+          "en": "Independent eval: Carbon scores 59 (+9 vs Argon), #1 in 4 of 9 evals; Coding Agent Index 59 vs Opus 5.5's 62; Terminal-Bench 4.0 64% (2nd); 11% hallucination rate; $7.76 per task (Opus 5.5 $10.04, GPT-6 Astra $6.25)."
+        },
+        "link": "https://x.com/ArtificialAnlys/status/2115494553780367384",
+        "images": [
+          {
+            "src": "https://pbs.twimg.com/media/HVu8EbubkAA3w5b.jpg?name=small",
+            "caption": {
+              "zh": "AA 智能指数 v5 对比图（来源：Artificial Analysis）",
+              "en": "AA Intelligence Index v5 chart (source: Artificial Analysis)"
+            }
+          }
+        ]
+      },
+      {
+        "author": "Google DeepMind",
+        "handle": "@GoogleDeepMind",
+        "time": "10-29 01:02（北京时间）",
+        "summary": {
+          "zh": "DeepMind 官方同步介绍 Carbon：内部团队用它连续跑数天处理大型代码库的根因定位与修补，Terminal-Bench 4.0 作弊成功率降到 0%。",
+          "en": "DeepMind on Carbon: internal teams run it for days on root-causing and patching bugs in large codebases; successful cheating on Terminal-Bench 4.0 dropped to 0%."
+        },
+        "link": "https://x.com/GoogleDeepMind/status/2115489356437651654",
+        "images": [
+          {
+            "src": "https://pbs.twimg.com/media/HVu5JfhXkAAHYVr.jpg?name=small",
+            "caption": {
+              "zh": "Gemini 4 Carbon（来源：@GoogleDeepMind）",
+              "en": "Gemini 4 Carbon (source: @GoogleDeepMind)"
+            }
+          }
+        ]
+      },
+      {
+        "author": "OpenAI Developers",
+        "handle": "@OpenAIDevs",
+        "time": "10-29 07:17（北京时间）",
+        "summary": {
+          "zh": "ChatGPT 订阅送 API 额度：Pro 100/200/500 档每月分别 $100/$200/$500；Business 每个 Standard 席位 $20、Premium 席位 $100，单工作区上限 $500。需订阅满 7 天，额度不结转，不覆盖 API Key 方式的 Codex，也不提高 ChatGPT/Codex 用量上限。",
+          "en": "API credits for ChatGPT subscribers: Pro 100/200/500 get $100/$200/$500 per month; Business gets $20 per Standard seat and $100 per Premium seat, capped at $500 per workspace. Subscription must be ≥7 days old; no rollover; doesn't cover Codex via API key or raise ChatGPT/Codex limits."
+        },
+        "link": "https://x.com/OpenAIDevs/status/2115583698074755078"
+      },
+      {
+        "author": "Tibo (OpenAI Codex & ChatGPT)",
+        "handle": "@thsottiaux",
+        "time": "10-29 07:35（北京时间）",
+        "summary": {
+          "zh": "回应传闻：ChatGPT 的 Chat 与 Work 合并正在做但尚未上线，计划「今年内某个时间」谨慎推出；前一天他还预告「明天有好消息」，OpenAI 随后放出订阅送 API 额度。",
+          "en": "Tibo: unifying ChatGPT Chat and Work is in progress but not rolling out yet, planned carefully 'at some point this year'; a day earlier he teased 'good news tomorrow', followed by the API-credits benefit."
+        },
+        "link": "https://x.com/thsottiaux/status/2115588390414581916"
+      },
+      {
+        "author": "Claude",
+        "handle": "@claudeai",
+        "time": "10-28 23:34（北京时间）",
+        "summary": {
+          "zh": "Claude for Legal 上线现成 artifacts 画廊：合同审查、监管扫描、引用核对等模板可直接套用。",
+          "en": "Claude for Legal adds a gallery of ready-made artifacts: contract review, regulatory scans, cite checks."
+        },
+        "link": "https://x.com/claudeai/status/2115467192276025500",
+        "images": [
+          {
+            "src": "https://pbs.twimg.com/amplify_video_thumb/2115463032663072768/img/tiCUaCcDwMwVRih8.jpg?name=small",
+            "caption": {
+              "zh": "Claude for Legal artifacts（来源：@claudeai）",
+              "en": "Claude for Legal artifacts (source: @claudeai)"
+            }
+          }
+        ]
+      },
+      {
+        "author": "Anthropic",
+        "handle": "@AnthropicAI",
+        "time": "10-28 06:20（北京时间）",
+        "summary": {
+          "zh": "扩大与美国 GSA 的 OneGov 合作：美国各级政府采购 Claude 享 6 折（40% off）。",
+          "en": "Expanded GSA OneGov partnership: Claude at 40% off for all levels of US government."
+        },
+        "link": "https://x.com/AnthropicAI/status/2115207004293853358"
+      },
+      {
+        "author": "Anthropic",
+        "handle": "@AnthropicAI",
+        "time": "10-28 04:27（北京时间）",
+        "summary": {
+          "zh": "分享与 6 家合作机构用 Claude 做药物研发的早期进展。",
+          "en": "Early progress using Claude for drug development with six partner organizations."
+        },
+        "link": "https://x.com/AnthropicAI/status/2115178675050307942"
+      },
+      {
+        "author": "AI at Meta",
+        "handle": "@AIatMeta",
+        "time": "10-29 01:08（北京时间）",
+        "summary": {
+          "zh": "向 Caltech、俄亥俄州立医学院等高校开放 Muse 系列（Wonder/Spark、开放权重 Muse Glimmer 与 Muse Spark Open）及 SAM、V-JEPA、DINO 用于科研；Muse 开发者活动 10/30 00:30（北京时间）。",
+          "en": "Opening Muse models (Wonder/Spark, open-weight Glimmer and Spark Open) plus SAM, V-JEPA and DINO to universities such as Caltech and Ohio State Med; Muse dev event Oct 29, 9:30am PT."
+        },
+        "link": "https://x.com/AIatMeta/status/2115490919923548307"
+      },
+      {
+        "author": "Google",
+        "handle": "@Google",
+        "time": "10-29 05:54（北京时间）",
+        "summary": {
+          "zh": "预览 Connected Apps 平台：Adobe、Calm、Peloton 等第三方应用可接入 Google 搜索与 Gemini 应用。",
+          "en": "Preview of the Connected Apps Platform: partners such as Adobe, Calm and Peloton plug into Search and the Gemini app."
+        },
+        "link": "https://x.com/Google/status/2115562774231155045"
+      },
+      {
+        "author": "ChatGPT",
+        "handle": "@ChatGPT",
+        "time": "10-28 01:51（北京时间）",
+        "summary": {
+          "zh": "ChatGPT 上线 iCloud 邮件与日历插件，所有套餐可用。",
+          "en": "ChatGPT adds iCloud Mail and Calendar plugins on all plans."
+        },
+        "link": "https://x.com/ChatGPT/status/2115139248458191070"
+      },
+      {
+        "author": "Andrej Karpathy / Andrew Ng",
+        "handle": "@karpathy · @AndrewYNg",
+        "summary": {
+          "zh": "过去 72 小时两人均无原创 AI 帖（Karpathy 仅转发一条与 AI 无关的智能电视隐私帖）。",
+          "en": "No original AI posts from either in the past 72 hours (Karpathy only retweeted an unrelated smart-TV privacy thread)."
+        },
+        "link": "https://x.com/karpathy"
+      }
+    ],
+    "engBlogs": [
+      {
+        "source": "Google Blog",
+        "title": {
+          "zh": "Gemini 4 Carbon：我们的下一代前沿模型",
+          "en": "Gemini 4 Carbon: our next frontier model"
+        },
+        "summary": {
+          "zh": "官方技术细节：安全基准、对齐改进（高危失准告警降约 80%、无依据声明减半、间接提示注入攻击成功率 0%）、WebDev Arena +89 Elo 至第 4（1768）。HN 772 分。",
+          "en": "Official details: security benchmarks, alignment gains (~80% fewer high-severity misalignment alerts, ~2x fewer unsupported claims, 0% indirect prompt-injection success), WebDev Arena +89 Elo to #4 (1768). 772 pts on HN."
+        },
+        "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/"
+      },
+      {
+        "source": "OpenAI",
+        "title": {
+          "zh": "GPT-6.1 Terra：视觉推理与电脑操作的高性价比模型",
+          "en": "Introducing GPT-6.1 Terra"
+        },
+        "summary": {
+          "zh": "10/26 发布。$1/$5 每百万 token（缓存 $0.05），1.05M 上下文；AA 智能指数 51（max），单题成本 $0.96；官方称 max 档单任务成本约为 Opus 5.5 的 1/9。ChatGPT Work 与 Codex 已上线。",
+          "en": "Released 10/26. $1/$5 per 1M tokens (cached $0.05), 1.05M context; AA Index 51 (max), $0.96 per task; OpenAI claims ~9x lower cost per task than Opus 5.5 at max effort. Live in ChatGPT Work and Codex."
+        },
+        "link": "https://openai.com/index/introducing-gpt-6-1-terra/"
+      },
+      {
+        "source": "Anthropic",
+        "title": {
+          "zh": "AI for Science 扩展至 20 家基金会与研究机构",
+          "en": "AI for Science expands to foundations and research institutions"
+        },
+        "summary": {
+          "zh": "10/28 发布，Claude 科研资助计划扩大合作范围。",
+          "en": "Published 10/28: Anthropic widens its AI for Science program partners."
+        },
+        "link": "https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions"
+      },
+      {
+        "source": "TechCrunch / SEC",
+        "title": {
+          "zh": "Anthropic S-1：上半年营收 162.9 亿美元，Claude Code 是企业扩张引擎",
+          "en": "Anthropic S-1: $16.29B H1 revenue, Claude Code drives enterprise expansion"
+        },
+        "summary": {
+          "zh": "截至 2026-06-30 的六个月营收 162.86 亿美元（去年同期 11.63 亿）；使用 Claude Code 的头部企业用户月支出约为非用户 20 倍。",
+          "en": "H1 2026 revenue $16.286B vs $1.163B a year earlier; top Claude Enterprise users of Claude Code spend ~20x more per month than non-users."
+        },
+        "link": "https://techcrunch.com/2026/10/26/anthropics-ipo-filing-reveals-its-strategy-for-keeping-enterprise-customers-hooked/"
+      },
+      {
+        "source": "Cursor Blog",
+        "title": {
+          "zh": "The Agent SDK",
+          "en": "The Agent SDK"
+        },
+        "summary": {
+          "zh": "把智能体当代码来写、评测和部署的 SDK 设计思路，HN 91 分 / 107 评。",
+          "en": "How Cursor's Agent SDK treats agents as code with evals and deploy; 91 pts / 107 comments on HN."
+        },
+        "link": "https://cursor.com/blog/agent-sdk"
+      },
+      {
+        "source": "Surge AI",
+        "title": {
+          "zh": "Dayjob: Tax —— 用 50 个专业税务任务评测 AI 智能体",
+          "en": "Dayjob: Tax – evaluating AI agents on 50 professional tax assignments"
+        },
+        "summary": {
+          "zh": "面向真实职业工作的智能体评测，HN 192 分。",
+          "en": "A work-outcome eval of agents on real tax assignments; 192 pts on HN."
+        },
+        "link": "https://surgehq.ai/blog/dayjob-tax"
+      },
+      {
+        "source": "Hugging Face / NVIDIA",
+        "title": {
+          "zh": "Nemotron 3.5 Transcribe：40 种语言的开源 ASR",
+          "en": "Nemotron 3.5 Transcribe: open ASR for 40 languages"
+        },
+        "summary": {
+          "zh": "NVIDIA 开源多语种语音识别模型，与小爱的语音链路相关可留意。",
+          "en": "NVIDIA's open multilingual ASR model."
+        },
+        "link": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary"
+      },
+      {
+        "source": "Cartesia",
+        "title": {
+          "zh": "Scaling Hierarchical Networks（从 token 到字节 · 第一部分）",
+          "en": "Scaling Hierarchical Networks (From tokens to bytes, part 1)"
+        },
+        "summary": {
+          "zh": "探讨去分词器、直接在字节上建模的分层网络扩展方法。",
+          "en": "On scaling hierarchical byte-level models beyond tokenizers."
+        },
+        "link": "https://www.cartesia.ai/blog/from-tokens-to-bytes-part-1"
+      }
+    ],
+    "alphaxivTop3": [
+      {
+        "rank": 1,
+        "title": "Evolving Agent Teams",
+        "authors": "Shiyi Cao, Ziming Mao, …, Ion Stoica (UC Berkeley)",
+        "summary": {
+          "zh": "让编码智能体团队围绕新出现的瓶颈动态重组，跳出局部最优，生成的 GPU kernel 比固定团队或单智能体更快。",
+          "en": "Dynamically reorganizing coding-agent teams around emerging bottlenecks escapes local optima and yields faster GPU kernels than fixed teams or solo agents."
+        },
+        "link": "https://www.alphaxiv.org/abs/2610.36848"
+      },
+      {
+        "rank": 2,
+        "title": "Learning Force-Reactive Humanoid Loco-Manipulation",
+        "authors": "Sihang Li, Xiaofeng Guo, …, Guanya Shi",
+        "summary": {
+          "zh": "用带力觉的示教让人形机器人学会推、转、擦等需要调节接触力和全身协调的动作。",
+          "en": "Force-sensing demonstrations teach humanoids to push, rotate and wipe while regulating contact with whole-body coordination."
+        },
+        "link": "https://www.alphaxiv.org/abs/2610.35862"
+      },
+      {
+        "rank": 3,
+        "title": "ThinkWorld: World Imagination Reinforces Chain-of-Dynamics Reasoning",
+        "authors": "Chaehyun Kim, Chi-Pin Huang, …, Seungryong Kim (NVIDIA, KAIST)",
+        "summary": {
+          "zh": "机器人从无标注人类视频中学习「动作如何改变世界」，从而组合示教技能并适应陌生任务。",
+          "en": "Robots learn how actions change the world from unlabeled human videos, composing skills and adapting to new tasks."
+        },
+        "link": "https://www.alphaxiv.org/abs/2610.37666"
+      }
+    ],
+    "weeklyTrend": null
+  },
+  "aiProducts": {
+    "items": [
+      {
+        "name": "Hermes Agent",
+        "tag": "update",
+        "link": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.22.5",
+        "summary": {
+          "zh": "近几日无新版本。最近一版 v0.22.5（10/23 发布）：汇总自 v0.22.4 以来约 81 个 PR 的补丁版，覆盖 CLI/安装器、Microsoft Store、Docker 与 Hermes Cloud；完整说明随 v0.23.0 发布。",
+          "en": "No new release in the last few days. Latest v0.22.5 (Oct 23): a patch rolling up ~81 PRs since v0.22.4 for CLI/installers, Microsoft Store, Docker and Hermes Cloud; full notes ship with v0.23.0."
+        }
+      },
+      {
+        "name": "OpenClaw",
+        "tag": "release",
+        "link": "https://github.com/openclaw/openclaw/releases/tag/v2026.10.8",
+        "summary": {
+          "zh": "10/27 发布 v2026.10.8：更新失败可自动恢复 Gateway、各桌面平台服务安装修复、会话中断后可恢复、SQLite 启动更稳；安全加固含 exec 白名单、沙箱子进程禁用主机 CLI、拒绝失信的 eMudhra 证书链。同日还发了 LTS 线 v2026.9.35 与 v2026.10.10-beta.4。",
+          "en": "v2026.10.8 (Oct 27): self-recovering updates, service-install fixes on all desktops, conversation recovery after restarts, sturdier SQLite startup; security hardening incl. exec allowlist, no host CLI from sandboxed children, distrusted eMudhra chains rejected. Also shipped LTS v2026.9.35 and v2026.10.10-beta.4."
+        }
+      },
+      {
+        "name": "DeepSeek Harness",
+        "tag": "release",
+        "link": "https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.2.2-alpha.2",
+        "summary": {
+          "zh": "10/28 发布 dsh-v0.2.2-alpha.2（预发布）：插件可更新且热更新失败自动回滚；新增实验插件「subagent_oar」把独立任务交给本机 Codex 或 Claude CLI、「开发者工具-统计」按轮次看上下文/缓存/耗时、「变更请求与工作树」在独立 Git worktree 跑会话；新增日/西/法/德/俄/葡界面。同日 v0.2.1-rc.4 修复 ACP 模式诊断输出混入 stdout。",
+          "en": "dsh-v0.2.2-alpha.2 (Oct 28, pre-release): updatable plugins with rollback; experimental plugins: subagent_oar (hand tasks to local Codex/Claude CLI), dev-tools stats (context/cache/timing per turn), change requests & worktrees; six new UI languages. v0.2.1-rc.4 same day fixes ACP diagnostics leaking into stdout."
+        }
+      },
+      {
+        "name": "codex",
+        "tag": "release",
+        "link": "https://github.com/openai/codex/releases/tag/rust-v0.165.0",
+        "summary": {
+          "zh": "10/28 04:09（北京时间）发布稳定版 0.165.0：内置 Google Cloud Vertex AI provider（model_provider = \"gcp\"）、模型目录加入 GPT-6.1 Terra、会话选择器按仓库过滤、默认可在对话中切换推理强度、新配置默认启用 memory v2 并可导入其他智能体记忆；修复 marketplace URL 校验漏洞等。之后已有 0.166.0-alpha.5.1 预发布。",
+          "en": "Stable 0.165.0 (Oct 27 UTC): built-in Google Cloud Vertex AI provider, GPT-6.1 Terra in catalogs, repo filter in session picker, mid-conversation reasoning-effort changes on by default, memory v2 default for fresh profiles with external-agent memory import; marketplace URL validation fix. 0.166.0-alpha.5.1 pre-release since."
+        }
+      },
+      {
+        "name": "Claude",
+        "tag": "update",
+        "link": "https://claude.com/resources/product-announcements",
+        "summary": {
+          "zh": "10/28：Claude Enterprise 智能用量报告、应用内调研、组级共享预算池正式 GA；10/27：Claude for Legal 现成 artifacts 画廊；10/28：AI for Science 扩至 20 家机构；10/28：美国 GSA OneGov 政府采购 6 折。模型线最近一次为 Haiku 5.5（10/7），本周无新模型。",
+          "en": "Oct 28: Claude Enterprise smart reports, in-app surveys and pooled group budgets GA; Oct 27: Claude for Legal artifact gallery; Oct 28: AI for Science expands to 20 institutions; GSA OneGov 40% off. Latest model remains Haiku 5.5 (Oct 7)."
+        }
+      },
+      {
+        "name": "Cursor",
+        "tag": "update",
+        "link": "https://cursor.com/changelog",
+        "summary": {
+          "zh": "changelog 近几日无新条目。最近一条 10/20：Agent SDK 正式 GA（npx @cursor/agent-sdk init，智能体即代码，支持 channels、evals 与部署）；此前 10/16 云端智能体 canvases 与 Environments API beta、10/13 Origin 应用市场。官方博客 10/28 发布《The Agent SDK》长文。",
+          "en": "No new changelog entries in the last few days. Latest Oct 20: Agent SDK GA (npx @cursor/agent-sdk init; agents as code with channels, evals, deploy); earlier Oct 16 cloud-agent canvases + Environments API beta, Oct 13 Origin App Marketplace. Blog post 'The Agent SDK' on Oct 28."
+        }
+      },
+      {
+        "name": "Grok Bot",
+        "tag": "release",
+        "link": "https://x.ai/changelog/bot",
+        "summary": {
+          "zh": "changelog 最新条目 v0.78.1（10/27，含 0.78.0）：购物商品卡片与「立即购买」、Vault 内 Shop Pay、订阅模板、Intel→Apple 芯片下载提示、自定义模式下的云端智能体、团队 Bot 共享与 Vault。上一版 v0.77.0（10/26）：权限、Vault 支付、提问卡片。注：changelog 常滞后于客户端，本期未取到客户端实际版本号，不代表近几日没有新版本。",
+          "en": "Changelog Latest v0.78.1 (Oct 27, incl. 0.78.0): shopping product cards and Buy now, Shop Pay in the Vault, subscription templates, Intel→Apple silicon download prompt, cloud agents in custom modes, Team Bot sharing and Vault. Previous v0.77.0 (Oct 26). Note: the changelog often lags the client; the client version wasn't obtained today, so this doesn't mean there were no newer builds."
+        }
+      }
+    ]
+  },
+  "finance": {
+    "stock": {
+      "name": {
+        "zh": "小米集团-W",
+        "en": "Xiaomi Corp"
+      },
+      "symbol": "01810.HK",
+      "price": 25.62,
+      "currency": "HKD",
+      "change": -0.04,
+      "changePercent": -0.16,
+      "prevClose": 25.66,
+      "open": 25.8,
+      "high": 25.98,
+      "low": 25.4,
+      "volume": "7,692 万股",
+      "amount": "暂未获取到",
+      "spark": [
+        25.88,
+        25.72,
+        25.64,
+        25.6,
+        25.6,
+        25.74,
+        25.8,
+        25.8,
+        25.86,
+        25.84,
+        25.68,
+        25.54,
+        25.54,
+        25.44,
+        25.52,
+        25.64,
+        25.54,
+        25.56,
+        25.56,
+        25.64,
+        25.6,
+        25.64,
+        25.62
+      ],
+      "summary": {
+        "zh": "10/28 收盘 25.62 港元，微跌 0.16%，成交 7,692 万股，明显低于近期均量（约 1.51 亿股），在 10/27 大跌 4.61% 后缩量企稳。今日港股 09:30 开盘，上述为最新收盘数据（来源：Yahoo Finance）。",
+        "en": "Closed at HK$25.62 on Oct 28, down 0.16% on 76.9M shares — well below the ~151M average — stabilising on thin volume after a 4.61% drop on Oct 27. HK market opens 09:30 today; figures are the latest close (source: Yahoo Finance)."
+      },
+      "highlights": [
+        {
+          "zh": "连续回购：10/28 斥资 4,999.88 万港元回购 195.14 万股（25.56–25.66 港元），10/27、10/22、10/21 亦有回购。",
+          "en": "Ongoing buybacks: HK$49.99M for 1.95M shares on Oct 28 (HK$25.56–25.66), also on Oct 27, 22 and 21."
+        },
+        {
+          "zh": "近 5 个交易日累计约 -4.4%；52 周区间 21.30–45.08 港元。",
+          "en": "About -4.4% over 5 sessions; 52-week range HK$21.30–45.08."
+        },
+        {
+          "zh": "下一个催化：11/24 公布第三季度业绩。",
+          "en": "Next catalyst: Q3 results on Nov 24."
+        }
+      ]
+    }
+  },
+  "todos": [
+    {
+      "text": "理解和思考文亮的 5.0 harness 设计",
+      "priority": "high"
+    },
+    {
+      "text": "云端架构骨干人才 沟通 & check（和武汉骨干沟通）",
+      "priority": "high"
+    },
+    {
+      "text": "14:30 主要功能迁移情况梳理（待办：声纹相关；和聪哥、海老师做整体汇报）",
+      "priority": "high"
+    },
+    {
+      "text": "关于 AI 提效下一阶段的工作思考",
+      "priority": "mid"
+    },
+    {
+      "text": "Coro 核心思想理解和代码研读",
+      "priority": "mid"
+    },
+    {
+      "text": "飞书文档分享倡议：整理原团队知识库到新 Agent 知识库",
+      "priority": "low"
+    },
+    {
+      "text": "海外版本后续快速迭代如何保证质量",
+      "priority": "low"
+    },
+    {
+      "text": "1- Task 2.1.2 硬件 bring up（截止 10/31 14:00）",
+      "priority": "low"
+    },
+    {
+      "text": "2- AI Engineering 第一阶段 Phase 00 Setup & Tooling（已完成 7/12，截止 11/1）",
+      "priority": "low"
+    },
+    {
+      "text": "3- 安全架构第一课：找出信任边界（截止 11/1）",
+      "priority": "low"
+    }
+  ]
+}
