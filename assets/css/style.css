@@ -488,6 +488,7 @@ main {
   font-size: 13px;
   color: var(--text-dim);
   line-height: 1.7;
+  white-space: pre-wrap;
 }
 
 .weather-icon {
