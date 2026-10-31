@@ -35,7 +35,7 @@ const fmtDate = (iso, options) =>
   new Intl.DateTimeFormat(localeOf(), options).format(new Date(`${iso}T00:00:00`));
 
 async function fetchJson(url) {
-  const res = await fetch(url);
+  const res = await fetch(url, { cache: 'no-store' });
   if (!res.ok) throw new Error(`HTTP ${res.status} for ${url}`);
   return res.json();
 }
@@ -233,7 +233,7 @@ function sectionWeather(w, openingText) {
         <div class="weather-stats">
           ${stats.map(([k, v]) => `<div class="wstat"><div class="k">${esc(k)}</div><div class="v">${esc(v)}</div></div>`).join('')}
         </div>
-        <div class="weather-tip">${esc(L(w.tip))}</div>
+        <div class="weather-tip">${esc(L(w.tip)).replace(/\n/g, "<br>")}</div>
       </div>
       <div class="card span-8 opening">
         <div class="opening-label">${ICONS.info}<span>${esc(t('openingLabel'))}</span></div>
