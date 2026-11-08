@@ -1,0 +1,346 @@
+{
+  "date": "2026-11-08",
+  "weather": {
+    "city": {
+      "zh": "北京",
+      "en": "Beijing"
+    },
+    "condition": {
+      "zh": "阴转雨雪（Open-Meteo 早间实况 code 3 / 今日 daily code 73）",
+      "en": "Overcast turning to rain/snow (Open-Meteo morning current code 3 / daily code 73)"
+    },
+    "icon": "snow",
+    "temp": "0 ~ 6°C",
+    "feels": "体感约 -1.3°C（08:15 实况约 2.1°C）",
+    "humidity": "94%",
+    "wind": {
+      "zh": "微风约 10.2 km/h（实况阵风约 23.8 km/h）；今日日最大风约 12.7 km/h、阵风约 31.3 km/h（偏强）",
+      "en": "Light breeze (~10.2 km/h, gusts ~23.8 km/h); day max ~12.7 km/h, gusts ~31.3 km/h (gusty)"
+    },
+    "air": {
+      "zh": "Open-Meteo 约 US AQI 99、PM2.5≈70.1 μg/m³（中等，PM2.5 偏高，以实况为准）",
+      "en": "Open-Meteo ~US AQI 99, PM2.5≈70.1 μg/m³ (Moderate, PM2.5 elevated—check live)"
+    },
+    "sunrise": "06:50",
+    "sunset": "17:05",
+    "tip": {
+      "zh": "🏠 今日北京阴转雨雪，气温约 0~6°C，早间偏冷（实况约 2.1°C、体感约 -1.3°C）；降水约 7.8mm（模型 code 73，雨雪可能），阵风偏强（日最大阵风约 31 km/h），空气中等（US AQI≈99、PM2.5≈70.1，颗粒物偏高），出门注意防滑保暖与口罩，敏感体质尽量缩短户外暴露。\n🏃 训练提醒：今天周日无固定训练日——但雨雪+阵风偏强+PM2.5 偏高叠加，周末户外跑步/亲子户外建议改室内或改期；若仍出门，注意防滑、防风保暖与口罩。周一晨练日晴、偏冷（约 -2~8°C，无降水）；周二冬中午跑日晴（约 -1~11°C，无降水，空气待观察）；周四可选跑日阴（约 1~11°C，无降水）；周五晨练/可选跑日阴（约 2~11°C，无降水）。\n📅 未来7天（北京，Open-Meteo；阴晴参考模型 weather_code，空气 Open-Meteo AQ）：\n• 11/8 周日 0~6°C 雨雪可能（降水约 7.8mm；阵风约 31 km/h）\n• 11/9 周一 -2~8°C 晴（周一晨练日，偏冷，空气待观察）\n• 11/10 周二 -1~11°C 晴（冬中午跑日，空气待观察）\n• 11/11 周三 -1~10°C 晴\n• 11/12 周四 1~11°C 阴（周四可选跑日）\n• 11/13 周五 2~11°C 阴（周五晨练/可选跑日）\n• 11/14 周六 3~9°C 阴\n• 11/15 周日 0~9°C 多云（阵风约 53 km/h，大风）\n（气温/降水/风：Open-Meteo 约 08:15 北京时间；空气：Open-Meteo Air Quality）",
+      "en": "🏠 Beijing today: overcast → rain/snow possible, ~0–6°C, chilly morning (~2.1°C / feels ~−1.3°C); precip ~7.8mm (code 73), gusty (~31 km/h) and moderate air with elevated PM2.5 (US AQI≈99, PM2.5≈70.1)—watch slippery ground, dress warm, consider a mask; minimize outdoor exposure if sensitive.\n🏃 Training: Sun has no fixed session—but rain/snow + gusts + elevated PM2.5 argue against weekend outdoor runs/family outdoor plans; prefer indoor or reschedule. If you go out: traction, windproof layers, mask. Mon morning-gym day is clear but cold (~−2–8°C, no precip). Tue winter noon-run day is clear (~−1–11°C, no precip; check air). Thu optional-run day overcast (~1–11°C, no precip). Fri morning-gym / optional-run day overcast (~2–11°C, no precip).\n📅 Next 7 days (Beijing, Open-Meteo):\n• Sun 11/8 0–6°C rain/snow possible (~7.8mm; gusts ~31 km/h)\n• Mon 11/9 −2–8°C clear (morning-gym day; cold; check air)\n• Tue 11/10 −1–11°C clear (winter noon-run day; check air)\n• Wed 11/11 −1–10°C clear\n• Thu 11/12 1–11°C overcast (optional-run day)\n• Fri 11/13 2–11°C overcast (morning-gym / optional-run day)\n• Sat 11/14 3–9°C overcast\n• Sun 11/15 0–9°C partly cloudy (gusts ~53 km/h—very windy)\n(Temps/precip/wind: Open-Meteo ~08:15 Asia/Shanghai; air: Open-Meteo AQ)"
+    }
+  },
+  "aiTech": {
+    "openingSummary": {
+      "zh": "过去约两日的新主线是「Claude Code 周末 repeatable hack」与「把前沿 Agent 记忆下放到消费产品」：Karpathy 把 Tristan Hume 的 YouTube 分级单做成 TristanTube（约 4.7 万条偏硬核视频 + 电视模式），自称用 Claude Code 三分钟一键生成；@AIatMeta 把 Muse Wonder 的 Active Memory / Active Focus 训进现有模型并推到 Muse 与 Meta AI——官方称关键信息遗忘约降 2.4 倍（正确使用关键上下文 76%→90%），Personal Superintelligence Index 38%→47%，意外受阻的日常任务完成度提升约 67%。昨日已详报的 Anthropic Agent Memory / dreaming、OpenAI BioBasicsBench、FMF jailbreak 框架、DeepMind 遗留 RSA 压测、GPT‑6 Cyber 与 Cursor Voice Chat 未见实质新进展，开篇降级带过；OpenAI 另发与 Hacktron 的安全合作（经 Daybreak Red 扩大前沿模型访问）。缺口：@AndrewYNg / @claudeai / @GoogleAI / @Meta 近 48h 无高信号原创；关注列表无 DeepSeek 一手 X。",
+      "en": "Over ~48h the new leads are a repeatable Claude Code weekend hack and shipping frontier agent-memory traits into consumer apps: Karpathy turned Tristan Hume’s YouTube tier list into TristanTube (~47K nerdy videos + TV mode), saying he one-shotted it with Claude Code in three minutes; @AIatMeta brought Muse Wonder’s Active Memory and Active Focus into specialized models for Muse and Meta AI—officially a ~2.4× drop in forgetting goal-critical info (critical-context use 76%→90%), Personal Superintelligence Index 38%→47%, and a 67% lift on everyday tasks that hit unexpected blockers. Yesterday’s headlines—Anthropic agent memory/dreaming, OpenAI BioBasicsBench, the FMF jailbreak framework, DeepMind’s legacy-RSA stress test, GPT‑6 Cyber, and Cursor Voice Chat—had no material follow-up and are noted only briefly. OpenAI also posted a Hacktron partnership expanding Daybreak Red access. Gaps: @AndrewYNg / @claudeai / @GoogleAI / @Meta quiet on high-signal originals; no DeepSeek primary X on the watchlist."
+    },
+    "xPosts": [
+      {
+        "author": "Andrej Karpathy",
+        "handle": "@karpathy",
+        "time": "11-08 01:07（北京时间）",
+        "summary": {
+          "zh": "Karpathy 把 Tristan Hume 的 2026 YouTube 频道分级单做成 TristanTube：约 4.7 万条偏硬核视频并带电视模式，自称用 Claude Code 三分钟一键生成（呼应本周初的 HackerTube）。",
+          "en": "Karpathy turned Tristan Hume’s 2026 YouTube channel tier list into TristanTube: ~47K nerdy videos plus TV mode, one-shotted with Claude Code in three minutes (a follow-on to this week’s HackerTube)."
+        },
+        "link": "https://x.com/karpathy/status/2119114537442189652",
+        "images": [
+          {
+            "src": "data/editions/2026-11-08/images/xpost-01.jpg",
+            "caption": {
+              "zh": "Karpathy 帖中的 Tristan Hume 分级文链接卡片（来源：@karpathy / thume.ca）",
+              "en": "Link card for Tristan Hume’s tier-list post (source: @karpathy / thume.ca)"
+            }
+          }
+        ]
+      },
+      {
+        "author": "AI at Meta",
+        "handle": "@AIatMeta",
+        "time": "11-07 02:14（北京时间）",
+        "summary": {
+          "zh": "Meta 把用 Muse Wonder 训练的专用模型推到 Muse 与 Meta AI：Active Memory 减少遗忘仍相关的目标信息，Active Focus 在约束变化时找替代路径；官方称关键信息遗忘约降 2.4 倍，受阻日常任务完成度提升约 67%。",
+          "en": "Meta shipped specialized models trained with Muse Wonder to Muse and Meta AI: Active Memory keeps still-relevant goal context, Active Focus finds alternatives when constraints change; official figures are a ~2.4× drop in forgetting critical info and a 67% lift on blocked everyday tasks."
+        },
+        "link": "https://x.com/AIatMeta/status/2118768974779634084",
+        "images": [
+          {
+            "src": "data/editions/2026-11-08/images/xpost-02.jpg",
+            "caption": {
+              "zh": "Muse / Meta AI 专用模型配图（来源：@AIatMeta）",
+              "en": "Specialized-model card image (source: @AIatMeta)"
+            }
+          }
+        ]
+      }
+    ],
+    "engBlogs": [
+      {
+        "source": "Meta AI Research",
+        "title": {
+          "zh": "把专用模型带给 Muse 与 Meta AI（Active Memory / Active Focus）",
+          "en": "Bringing Specialized Models to Muse and Meta AI (Active Memory / Active Focus)"
+        },
+        "summary": {
+          "zh": "11/6：并非新发 Muse Wonder，而是用其对现有产品模型做专用化。官方评测：Personal Superintelligence Index 38%→47%；正确使用关键上下文 76%→90%（与 X 所称「遗忘约降 2.4 倍」一致，即 24%→10%）；Active Focus 使遇意外阻碍的日常任务完成度提升约 67%。数字为 Meta 自报，未见独立复测。",
+          "en": "Nov 6: not a new Muse Wonder launch—existing product models specialized with it. Official evals: Personal Superintelligence Index 38%→47%; tasks correctly using critical context 76%→90% (matches the X claim of a ~2.4× drop in forgetting, i.e. 24%→10%); Active Focus improves completion of everyday tasks with unexpected issues by ~67%. Author-reported; no independent replication cited."
+        },
+        "link": "https://research.meta.ai/blog/specialized-models-for-muse-and-metaai"
+      },
+      {
+        "source": "OpenAI",
+        "title": {
+          "zh": "与 Hacktron 合作，在 OpenAI 系统中查找漏洞",
+          "en": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems"
+        },
+        "summary": {
+          "zh": "11/6 Security：与 Hacktron 联合选定高优先级测试范围，重点看系统与第三方服务的交互；同时经 Daybreak Red 扩大 Hacktron 对前沿模型的访问。属 GPT‑6 Cyber / 防御窗口叙事的后续合作，而非新模型发版。",
+          "en": "Nov 6 Security: OpenAI and Hacktron will jointly pick high-priority test areas, focusing on how systems interact with third-party services, and expand Hacktron’s frontier-model access via Daybreak Red. A follow-on to the GPT‑6 Cyber / defender-window arc—not a new model launch."
+        },
+        "link": "https://openai.com/index/partnering-with-hacktron"
+      },
+      {
+        "source": "Google DeepMind",
+        "title": {
+          "zh": "人机协作 Agent 加速遗留 RSA 密码分析（补充到两篇技术 PDF）",
+          "en": "Human-guided agents accelerate legacy RSA cryptanalysis (two technical PDFs now located)"
+        },
+        "summary": {
+          "zh": "11/6 X 长文《Advancing the frontier of cryptanalysis》：人机协作 Agent 在遗留 1024-bit RSA 上发现两类弱点——签名填充在攻击者控制约一半及以上签名块时不再提供保护（沙盒复现已解基准密钥，CPU 时间约降 3.5 倍）；短指纹场景理论算法约快 1600 倍；批量分解每个额外 1024-bit 密钥均成本约降 30 倍。现代 2048-bit+ 仍安全。deepmind.google 独立博文路径仍未解析到；今日补到两篇 Google Storage 技术 PDF。",
+          "en": "Nov 6 X article *Advancing the frontier of cryptanalysis*: human-guided agents found two weaknesses in legacy 1024-bit RSA—padding adds no protection once an attacker controls roughly half or more of the signed block (sandbox reproduction on an already-solved benchmark key used ~3.5× less CPU); a new algorithm is theoretically ~1,600× faster in the short-fingerprint case; batch factorization cuts average cost per extra 1024-bit key by ~30×. Modern 2048-bit+ remains safe. No stable deepmind.google blog path; two Google Storage technical PDFs were located today."
+        },
+        "link": "https://storage.googleapis.com/deepmind-media/papers/Faster_Affine_Root_and_a_1024bit%20Computation.pdf"
+      }
+    ],
+    "alphaxivTop3": [
+      {
+        "rank": 1,
+        "title": "FrontierPhysics: Evaluating Agents for End-to-End Physics Research",
+        "authors": "Bingran You, Wenjun Ke, Bo Liu, Wenbo Chen, Xuandong Zhao et al. (BenchFlow / UC Berkeley / Caltech / Harvard et al.)",
+        "summary": {
+          "zh": "（Agent/科学评测优先；采集时页面约 #2 Trending）42 位物理学家基于自身研究出 56 题、覆盖 9 个方向；22 模型共 26 种配置，没有任何配置在 168 次 rollout 中通过超过 46 次。页面图示 Claude Opus 5.5（Claude Code）Pass@1 约 27.4%，GPT‑6 Astra 约 23.2%。作者对 GPT‑6 Astra xhigh 失败轨迹的人工标注显示，主因是推理不够严谨与缺乏专家直觉，而非物理知识或执行错误。",
+          "en": "(Agent/science-eval pick; ~#2 Trending at collection) 56 tasks from 42 physicists’ own research across nine domains; none of 26 configs over 22 models passed more than 46 of 168 rollouts. Page chart: Claude Opus 5.5 (Claude Code) Pass@1 ~27.4%, GPT‑6 Astra ~23.2%. Manual review of GPT‑6 Astra xhigh failures tags weak rigor and missing expert intuition ahead of physics-knowledge or execution errors."
+        },
+        "link": "https://www.alphaxiv.org/abs/2611.06910"
+      },
+      {
+        "rank": 2,
+        "title": "Adversarial Speculative Reasoning Improves Long Horizon Agents",
+        "authors": "Hongyin Luo, Wei Fang, Daniel Suit, Dana Wensberg, Jack O'Brien (Subconscious / MIT / Princeton / Northeastern)",
+        "summary": {
+          "zh": "（长程 Agent 优先；采集时约 #6 Trending）把推测解码从加速器改成「关键推理的精度分配」：训练 draft 在决策点被拒绝，让目标模型在噪声最低的窗口起点重写关键 token；只训练托管参数的约 0.06%（DeepSeek‑V4.1‑Flash）到 0.28%（GLM‑5.3）。GLM 在 DeepSWE 上 60.6%→67.6%（+7.0pp，差分 95% CI 2.6–11.4）；DeepSeek‑V4.1‑Flash 为 67.8%→71.8%（+4.0pp，CI −1.3–7.3，统计上未确立）。",
+          "en": "(Long-horizon agent pick; ~#6 Trending) Recasts speculative decoding as a precision allocator: train the draft to be rejected at decision points so the target rewrites critical tokens at the lowest-noise slot; only ~0.06% (DeepSeek‑V4.1‑Flash) to 0.28% (GLM‑5.3) of hosted parameters are trained. GLM DeepSWE 60.6%→67.6% (+7.0pp, 95% CI 2.6–11.4); DeepSeek‑V4.1‑Flash 67.8%→71.8% (+4.0pp, CI −1.3–7.3, not statistically established)."
+        },
+        "link": "https://www.alphaxiv.org/abs/2611.05345"
+      },
+      {
+        "rank": 3,
+        "title": "CUA-Master: Scaling Computer-use Agents through Open-World Recursive Improvements",
+        "authors": "Cheng Yang, Kaituo Feng, Wenqi Shao, Jiaqi Wang, Xiangyu Yue et al. (Qwen / MMLab / CUHK / Tsinghua / HKUST GZ / Explore Academy / Jingdong)",
+        "summary": {
+          "zh": "（Computer-Use Agent 优先；采集时约 #9 Trending）双循环：外环用开放世界语料与模型弱点指导下一轮数据，内环从教学视频挖工作流并合成可验证任务；失败时快照回滚、保留有效前缀。作者自报 CUA-Master-27B：OSWorld Verified 80.2、OSWorld 2.0 36.9、WeaveBench 43.9、Agents’ Last Exam 25.0。",
+          "en": "(CUA pick; ~#9 Trending) Nested loops: an outer world–data–model flywheel steers the next data round from open-world corpora and model weaknesses; an inner loop mines tutorial-video workflows into verifiable tasks, with snapshot-rollback retries that keep a valid prefix. Author-reported CUA-Master-27B scores: OSWorld Verified 80.2, OSWorld 2.0 36.9, WeaveBench 43.9, Agents’ Last Exam 25.0."
+        },
+        "link": "https://www.alphaxiv.org/abs/2611.03126"
+      }
+    ],
+    "weeklyTrend": {
+      "title": {
+        "zh": "本周趋势总结（约 11/02–11/08）",
+        "en": "Weekly trend summary (~Nov 2–Nov 8)"
+      },
+      "summary": {
+        "zh": "相对上周的 GPT‑6.1 Terra / 用量档位 / Gemini 4 Carbon 与 Genie 4，本周主线换成「安全专用智能体 + Agent 记忆产品化 + 科学/日常评测 + Claude Code 能周末交付」。OpenAI 以 GPT‑6 Cyber、FMF jailbreak 框架和 Hacktron 合作把网络防御做成可对外的能力与评测语言；Anthropic 用 agent memory / dreaming 讲跨会话学习，Meta 则把 Active Memory / Active Focus 推进 Muse 与 Meta AI。科学侧从 Vault 颗粒、可验证推理 FlashProve、LifeVal，走到 BioBasicsBench 与 FrontierPhysics。产品/工程上，Karpathy 用 Claude Code 连做 HackerTube 与 TristanTube，Cursor 上线 Voice Chat 与 Live Apps。缺口：关注列表仍无 DeepSeek 一手 X，Gemini 应用侧本周几乎静音。",
+        "en": "Versus last week’s GPT‑6.1 Terra / usage tiers / Gemini 4 Carbon and Genie 4, this week’s arc was cyber-specialized agents, productized agent memory, science/everyday evals, and Claude Code as a weekend shipping stack. OpenAI turned defense into an external capability and scoring language via GPT‑6 Cyber, the FMF jailbreak framework, and a Hacktron partnership; Anthropic detailed cross-session learning with agent memory/dreaming, while Meta shipped Active Memory/Active Focus into Muse and Meta AI. On the science side the week ran from vault particles, FlashProve, and LifeVal to BioBasicsBench and FrontierPhysics. Product/engineering-wise, Karpathy used Claude Code for both HackerTube and TristanTube, and Cursor shipped Voice Chat and Live Apps. Gap: still no DeepSeek primary X on the watchlist, and Gemini’s consumer surface was largely quiet this week."
+      },
+      "points": [
+        {
+          "label": {
+            "zh": "安全智能体成为可对外的能力与评测语言",
+            "en": "Cyber agents became an external capability and scoring language"
+          },
+          "text": {
+            "zh": "11/6 GPT‑6 Cyber（ExploitGym 相对上代约 +51%，经 Daybreak Red 放量，11/12 还有 Cyber livestream）之后，同周还有 Linux 本地提权流水线叙事、FMF 网络向 jailbreak 评级框架、与 Hacktron 联合测第三方交互，以及 DeepMind 用 Agent 压测遗留 1024-bit RSA（现代 2048+ 仍安全）。Tibo 则把终态说成「人人可用的超安全基础设施」，但到达前会有动荡。",
+            "en": "After GPT‑6 Cyber on Nov 6 (about +51% vs the prior generation on ExploitGym, Daybreak Red access, with a Nov 12 Cyber livestream), the same week brought the Linux local-privilege-escalation pipeline narrative, the FMF cyber jailbreak rating framework, a Hacktron partnership on third-party integrations, and DeepMind agents stress-testing legacy 1024-bit RSA (modern 2048+ still safe). Tibo framed the end-state as hypersecure infrastructure for everyone—after some turbulence."
+          }
+        },
+        {
+          "label": {
+            "zh": "Agent 记忆从研究帖走进产品模型",
+            "en": "Agent memory moved from research posts into product models"
+          },
+          "text": {
+            "zh": "Anthropic 工程博客把跨会话记忆拆成组件，并用离线「dreaming」整理日志、纠错与建 wiki（强调告诉模型记忆用途而非写法）。周末 @AIatMeta 把 Muse Wonder 的 Active Memory / Active Focus 下放到 Muse 与 Meta AI：区分仍相关与已过时的上下文，并在计划受阻时换路。记忆不再只是 chatbot 的聊天记录，而成了长程 Agent 的产品卖点。",
+            "en": "Anthropic’s Engineering post unpacked cross-session memory and offline “dreaming” (log consolidation, corrections, wikis)—tell the model what memory is for, not how to write it. Over the weekend @AIatMeta brought Muse Wonder’s Active Memory and Active Focus into Muse and Meta AI: separate still-relevant from stale context, and reroute when a plan stalls. Memory is no longer just chat history; it is a product claim for long-horizon agents."
+          }
+        },
+        {
+          "label": {
+            "zh": "科学与日常任务开始有可复用的 Agent 尺子",
+            "en": "Science and everyday work got reusable agent yardsticks"
+          },
+          "text": {
+            "zh": "OpenAI 先发 LifeVal（由用户反馈塑造的日常助理基准），再与 Ligo 推出 BioBasicsBench（100 项湿实验日常分析；GPT‑6 Astra xhigh 均分约 66.7% vs GPT‑5.6 Sol 43.8%）。Anthropic 用 Claude 协助解析细菌/噬菌体来源 Vault 颗粒，并讨论 AI 写/拟合科学模型。论文侧 FrontierPhysics 用物理学家自己的课题做端到端评测，显示即便 Claude Opus 5.5 也远未「可发表」。",
+            "en": "OpenAI shipped LifeVal (an everyday-assistant bench shaped by user feedback) and, with Ligo, BioBasicsBench (100 wet-lab routine tasks; GPT‑6 Astra xhigh mean reward ~66.7% vs 43.8% for GPT‑5.6 Sol). Anthropic used Claude on the first 3D structure of a bacterial/phage vault particle and on writing/fitting scientific models. On the paper side, FrontierPhysics turns physicists’ own projects into end-to-end tasks and shows even Claude Opus 5.5 is far from “publishable.”"
+          }
+        },
+        {
+          "label": {
+            "zh": "Claude Code 与计算机使用把「周末能上线」变成常态",
+            "en": "Claude Code and computer-use made weekend shipping feel normal"
+          },
+          "text": {
+            "zh": "Karpathy 周一用 Claude Opus 5.5 / Claude Code 约两小时做出 HackerTube，周日又用 Claude Code 三分钟一键做出 TristanTube。中间还有 OpenAI 的物理世界工程（CAD/PCB/仿真）、Images 2.6，以及 Cursor 的 Build Live Apps 与 Voice Chat。alphaXiv 热榜也从 harness 搜索（HarnessFlow / Meta²）滑向 CUA-Master 这类计算机使用论文——模型和套件都在比谁更能把长程任务做完。",
+            "en": "Karpathy spent ~two hours with Claude Opus 5.5 / Claude Code on HackerTube early in the week, then one-shotted TristanTube with Claude Code in three minutes on Sunday. In between, OpenAI showed physical-world engineering (CAD/PCB/simulation) and Images 2.6, and Cursor shipped Build Live Apps plus Voice Chat. alphaXiv’s hotter agent papers also slid from harness search (HarnessFlow / Meta²) toward computer-use work such as CUA-Master—models and harnesses alike are being judged on finishing long jobs."
+          }
+        },
+        {
+          "label": {
+            "zh": "诚实缺口",
+            "en": "Honest gaps"
+          },
+          "text": {
+            "zh": "关注列表仍无 DeepSeek 官方一手 X（仅能从论文如 Adversarial Speculative Reasoning 里看到 DeepSeek‑V4.1‑Flash 被当作目标模型）。@AndrewYNg 本周仅 11/5 预热 AI Dev NYC，之后静默；@claudeai 在 Personal Finance（11/5）后近 48h 无新帖；@GoogleAI / Gemini 应用侧相对上周 Carbon、Genie 4、Drops 几乎无新高信号；@karpathy 也是周末才再出现。数条本周数字（ExploitGym +51%、遗忘 2.4 倍、多项论文分数）均为官方或作者自报。",
+            "en": "The watchlist still has no DeepSeek official primary X (DeepSeek‑V4.1‑Flash appears only as a target model in papers such as Adversarial Speculative Reasoning). @AndrewYNg was quiet after the Nov 5 AI Dev NYC preview; @claudeai posted nothing high-signal in the latest 48h after Personal Finance (Nov 5); @GoogleAI / the Gemini app surface had little new versus last week’s Carbon, Genie 4, and Drops; and @karpathy reappeared only over the weekend. Several weekly figures (ExploitGym +51%, the 2.4× forgetting drop, multiple paper scores) are official or author-reported."
+          }
+        }
+      ]
+    }
+  },
+  "aiProducts": {
+    "items": [
+      {
+        "name": "Hermes Agent",
+        "tag": "update",
+        "link": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.23.0",
+        "summary": {
+          "zh": "自 11/5 起无更新标签。最近稳定版仍为 v0.23.0「The Hearth Release」（2026-11-05）：Desktop 工作区可在浏览器由本机 gateway 打开；会话统一由单一 gateway 托管；插件目录扩至 1000+、可自更新；付费 MCP 工具可标价与限额；终端内联图片与对话 rewind。",
+          "en": "No newer tag since Nov 5. Latest stable still v0.23.0 “The Hearth Release” (2026-11-05): Desktop workspace opens in-browser via your gateway; one gateway owns each session; plugin catalog 1000+ with self-updates; priced/limited paid MCP tools; inline terminal images + conversation rewind."
+        }
+      },
+      {
+        "name": "OpenClaw",
+        "tag": "update",
+        "link": "https://github.com/openclaw/openclaw/releases/tag/v2026.11.1",
+        "summary": {
+          "zh": "自 11/5 起无更新稳定版。最近稳定版仍为 v2026.11.1（2026-11-05）：更安全的 Mac 设置写入、频道回复更稳（Telegram/Discord/webhook）、中断后会话可续、更新恢复与 Windows Gateway 修复。预发布线仍见 v2026.11.5-beta.1（11/4）。",
+          "en": "No newer stable since Nov 5. Latest stable still v2026.11.1 (2026-11-05): safer Mac settings writes, more reliable channel replies (Telegram/Discord/webhook), better interrupt recovery, updater/Windows Gateway fixes. Prerelease line still shows v2026.11.5-beta.1 (Nov 4)."
+        }
+      },
+      {
+        "name": "DeepSeek Harness",
+        "tag": "update",
+        "link": "https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.2.2-rc.1",
+        "summary": {
+          "zh": "自 11/4 起无更新标签。实验线仍为 dsh-v0.2.2-rc.1（2026-11-04）：0.2.2 首个 RC——手机/平板适配、引用插入、历史导出 Markdown、实验性 subagent_oar（交给本机 Codex/Claude CLI）、变更请求与工作树审查等。",
+          "en": "No newer tag since Nov 4. Experimental line still dsh-v0.2.2-rc.1 (2026-11-04): first 0.2.2 RC with mobile/tablet polish, quote-to-input, Markdown history export, experimental subagent_oar (hand off to local Codex/Claude CLI), change-request/worktree review."
+        }
+      },
+      {
+        "name": "codex",
+        "tag": "update",
+        "link": "https://github.com/openai/codex/releases/tag/rust-v0.167.0",
+        "summary": {
+          "zh": "自 11/6 起无更新稳定版。最近稳定版仍为 rust-v0.167.0 / 0.167.0（2026-11-06）：`codex agents --no-daemon` 打开 agent command center（未读结果标记）、终端会话选择器可切换后端并保留草稿、本地图片附件预览、Sign in another way 下的 API key / GCP Vertex 向导等。预发布线已推到 rust-v0.169.0-alpha.3（2026-11-07T19:31:41Z，约北京时间 11/8 03:31，说明极简）。",
+          "en": "No newer stable since Nov 6. Latest stable still rust-v0.167.0 / 0.167.0 (2026-11-06): `codex agents --no-daemon` agent command center (unread markers), switch backends in terminal session picker keeping drafts, local image attachment preview, API key / GCP Vertex setup under “Sign in another way.” Prerelease advanced to rust-v0.169.0-alpha.3 (2026-11-07T19:31:41Z / ~03:31 Nov 8 Asia/Shanghai, minimal notes)."
+        }
+      },
+      {
+        "name": "Claude",
+        "tag": "update",
+        "link": "https://www.anthropic.com/research/components-of-agent-memory",
+        "summary": {
+          "zh": "11/8 无新产品发版。最近一手：11/6 Engineering《The components of agent memory》（dreaming 跨会话日志整理、纠错与 wiki；昨日已报）；同日 Claude 帮助中心记 Enterprise 可用项目标签按成本代码追踪支出（beta）。产品侧 11/5 Personal Finance 美国 beta（Pro/Max/Ultra，只读账户连接）与 Enterprise 安全/管理控件仍近。勿将历史 Opus 大版本当今日新发版；Usage Policy 更新将于 11/12 生效（非今日产品发版）。",
+          "en": "No new product ship on Nov 8. Latest primaries: Nov 6 Engineering *The components of agent memory* (dreaming—cross-session log consolidation, corrections, wikis; covered yesterday); same-day Claude Help Center notes Enterprise project tags to track spend by cost code (beta). Latest consumer product primary remains Nov 5 Personal Finance US beta (Pro/Max/Ultra—read-only) plus Enterprise security/admin controls. Do not treat historical Opus major releases as today’s ship; Usage Policy update effective Nov 12 (not a same-day product launch)."
+        }
+      },
+      {
+        "name": "Cursor",
+        "tag": "update",
+        "link": "https://cursor.com/changelog/voice-chat",
+        "summary": {
+          "zh": "自 11/6 起 changelog 无更新条目。最近仍为 2026-11-06 Voice Chat with Agents——与 agent 实时语音通话（Agents Window / IDE / Web / iOS），由 Grok Voice 驱动；可边聊边让 coding agent 干活并听进度。另有 11/5 Build Live Apps（Cloud Agent 脚手架 Web 应用、Postgres、Cursor SSO 并部署分享）。",
+          "en": "No newer changelog entry since Nov 6. Latest still 2026-11-06 Voice Chat with Agents—realtime voice calls with agents (Agents Window / IDE / Web / iOS) powered by Grok Voice; keep talking while the coding agent works and hear progress. Also Nov 5 Build Live Apps (Cloud Agent scaffolds web app, Postgres, Cursor SSO, deploy + share)."
+        }
+      },
+      {
+        "name": "Grok Bot",
+        "tag": "update",
+        "link": "https://x.ai/changelog/bot",
+        "summary": {
+          "zh": "官方 changelog 今日可访问，Latest 仍为 v0.78.1（2026-10-27）——购物卡片、「立即购买」、Vault Shop Pay、订阅模板、自定义模式下的云端智能体、团队 Bot Vault。Homebrew cask 与 OpenNavo 显示 Mac 客户端已到 0.79.3（cask generated_date 2026-11-07），此前 0.79.2（约 2026-11-05），均高于页面 Latest；官方未公布 0.79.x 说明。changelog 常滞后客户端，故对照写出两端版本，而不宣称近期无客户端更新。",
+          "en": "Official changelog reachable today; Latest still v0.78.1 (2026-10-27)—shopping cards, Buy now, Shop Pay in Vault, subscription templates, cloud agents in custom modes, Team Bot Vault. Homebrew cask and OpenNavo show the Mac client at 0.79.3 (cask generated_date 2026-11-07), after 0.79.2 (~2026-11-05), both above page Latest; no official 0.79.x notes published. Changelog often lags—report both ends rather than claiming no recent client builds."
+        }
+      }
+    ]
+  },
+  "finance": {
+    "stock": {
+      "name": {
+        "zh": "小米集团-W",
+        "en": "Xiaomi Corp"
+      },
+      "symbol": "01810.HK",
+      "currency": "HKD",
+      "price": 30.38,
+      "change": -0.92,
+      "changePercent": -2.94,
+      "prevClose": 31.3,
+      "open": 31.0,
+      "high": 31.74,
+      "low": 30.22,
+      "volume": "约 3.039 亿股",
+      "amount": "约 94.21 亿港元",
+      "spark": [
+        23.94,
+        23.66,
+        25.96,
+        24.52,
+        25.04,
+        26.38,
+        27.08,
+        26.66,
+        27.06,
+        26.8,
+        25.8,
+        26.8,
+        26.9,
+        25.66,
+        25.62,
+        25.68,
+        26.48,
+        28.1,
+        28.6,
+        28.76,
+        31.3,
+        30.38
+      ],
+      "summary": {
+        "zh": "今日周日港股休市；报价为周五收盘：30.380 港元，跌 2.94%（-0.920），成交约 3.039 亿股、金额约 94.21 亿港元；日内 30.22–31.74，开盘 31.00。数据源：腾讯港股串（时间戳 2026/11/06 16:08）+ 日 K（与新浪一致）。52 周区间约 21.30–44.62 港元。",
+        "en": "Sun HK market closed; quote is Fri close: HK$30.380, −2.94% (−0.920) on ~303.9M shares / ~HK$9.42B; range 30.22–31.74, open 31.00. Source: Tencent HK quote (timestamp 2026/11/06 16:08) + daily K (matches Sina). 52-week ~HK$21.30–44.62."
+      },
+      "highlights": [
+        {
+          "zh": "周五高开低走收跌近 3%，回吐周四大涨部分涨幅；短线波动仍大。",
+          "en": "Fri opened higher then closed nearly −3%, giving back part of Thu’s surge; short-term volatility remains elevated."
+        },
+        {
+          "zh": "周日休市，无新报价；下周一开盘前仍以周五收盘为参考。",
+          "en": "Sun closed—no new print; use Fri close as reference into Mon open."
+        },
+        {
+          "zh": "数据源：腾讯港股串（2026/11/06 16:08）+ 日 K 收盘序列；与新浪 30.380、−2.94% 一致。下一财报催化仍留意 11/24 第三季度业绩。",
+          "en": "Source: Tencent HK quote (2026/11/06 16:08) + daily closes; matches Sina HK$30.380 (−2.94%). Next earnings catalyst remains Q3 results on Nov 24."
+        }
+      ]
+    }
+  },
+  "todos": [
+    {
+      "text": {
+        "zh": "今日重心（周日去敏）：家庭陪学与课业辅导为主；穿插设备端硬件联调、技术文章日更与面试题准备；通识阅读并行。",
+        "en": "Sunday focus (sanitized): family study/homework support as primary; interleaved device-side hardware bring-up, daily tech reading, and interview prep; parallel general reading."
+      },
+      "priority": "high"
+    }
+  ]
+}
