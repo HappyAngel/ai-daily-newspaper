@@ -1,0 +1,295 @@
+{
+  "date": "2026-11-09",
+  "weather": {
+    "city": {
+      "zh": "北京",
+      "en": "Beijing"
+    },
+    "condition": {
+      "zh": "晴（Open-Meteo 早间实况 code 0 / 今日 daily code 0）",
+      "en": "Clear (Open-Meteo morning current code 0 / daily code 0)"
+    },
+    "icon": "clear",
+    "temp": "-1 ~ 9°C",
+    "feels": "体感约 -2.5°C（08:15 实况约 0.4°C）",
+    "humidity": "78%",
+    "wind": {
+      "zh": "微风约 2.1 km/h（实况阵风约 3.6 km/h）；今日日最大阵风约 20.9 km/h",
+      "en": "Light breeze (~2.1 km/h, gusts ~3.6 km/h); day max gusts ~20.9 km/h"
+    },
+    "air": {
+      "zh": "Open-Meteo 约 US AQI 153、PM2.5≈111.5 μg/m³、PM10≈117.6（不健康——颗粒物偏高，以实况为准）",
+      "en": "Open-Meteo ~US AQI 153, PM2.5≈111.5 μg/m³, PM10≈117.6 (Unhealthy—elevated particulates; check live)"
+    },
+    "sunrise": "06:52",
+    "sunset": "17:04",
+    "tip": {
+      "zh": "🏠 今日北京晴，气温约 -1~9°C，早间偏冷（实况约 0.4°C、体感约 -2.5°C）；无降水，风力不大（实况风约 2.1 km/h，日最大阵风约 21 km/h）。空气较差：Open-Meteo 约 US AQI 153（不健康），PM2.5≈111.5 μg/m³、PM10≈117.6——晨练与通勤尽量减少户外暴露，敏感体质建议口罩/改室内。\n🏃 训练提醒：今天周一晨练日——偏冷 + 空气不健康（AQI≈153），点名提醒：优先室内力量/有氧，若仍户外请缩短暴露、保暖与口罩；不要拉长室外跑步。周二冬中午跑日预报晴、约 -1~11°C、无降水，空气仍待观察；周四可选跑日晴（约 1~11°C）；周五晨练/可选跑日晴（约 2~11°C）。周日阵风或达约 49 km/h，下周一可能有小雪（约 0.6mm）。\n📅 未来7天（北京，Open-Meteo；阴晴参考 weather_code，空气 Open-Meteo AQ）：\n• 11/9 周一 -1~9°C 晴（周一晨练日；偏冷；US AQI≈153 不健康）\n• 11/10 周二 -1~11°C 晴（冬中午跑日，空气待观察）\n• 11/11 周三 0~10°C 晴\n• 11/12 周四 1~11°C 晴（周四可选跑日）\n• 11/13 周五 2~11°C 晴（周五晨练/可选跑日）\n• 11/14 周六 2~12°C 阴\n• 11/15 周日 5~11°C 阴（阵风约 49 km/h，大风）\n• 11/16 周一 1~6°C 雪可能（降水约 0.6mm）\n（气温/降水/风：Open-Meteo 约 08:15 北京时间；空气：Open-Meteo AQ）",
+      "en": "🏠 Beijing today: clear, about −1–9°C, chilly morning (~0.4°C / feels ~−2.5°C); no precip, light wind (current ~2.1 km/h; day max gusts ~21 km/h). Air is poor: Open-Meteo ~US AQI 153 (Unhealthy), PM2.5≈111.5 μg/m³, PM10≈117.6—minimize outdoor exposure for morning training/commute; mask or stay indoors if sensitive.\n🏃 Training: Mon morning-gym day—cold + unhealthy air (AQI≈153): prefer indoor strength/cardio; if outdoors, keep it short, dress warm, wear a mask—don’t turn it into a long outdoor run. Tue winter noon-run day looks clear (~−1–11°C, no precip; recheck air). Thu optional-run day clear (~1–11°C). Fri morning-gym / optional-run day clear (~2–11°C). Sun may gust ~49 km/h; next Mon possible light snow (~0.6mm).\n📅 Next 7 days (Beijing, Open-Meteo):\n• Mon 11/9 −1–9°C clear (morning-gym day; cold; US AQI≈153 Unhealthy)\n• Tue 11/10 −1–11°C clear (winter noon-run day; check air)\n• Wed 11/11 0–10°C clear\n• Thu 11/12 1–11°C clear (optional-run day)\n• Fri 11/13 2–11°C clear (morning-gym / optional-run day)\n• Sat 11/14 2–12°C overcast\n• Sun 11/15 5–11°C overcast (gusts ~49 km/h—very windy)\n• Mon 11/16 1–6°C snow possible (~0.6mm)\n(Temps/precip/wind: Open-Meteo ~08:15 Asia/Shanghai; air: Open-Meteo AQ)"
+    }
+  },
+  "aiTech": {
+    "openingSummary": {
+      "zh": "过去约两日的新主线是「Codex/ChatGPT 用量档位澄清」与「Agent 编码栈对比仍在升温」：@thsottiaux（Tibo）连续发帖说明所有 Pro 档均无 5 小时限额、相对 Plus 约 10×/20×/50× 用量（Pro 500 含 ultrafast），并称 Pro 与 Business 100 用量已翻倍，同时明确 GPT 6.1 Terra 不宜对标 Claude Opus 5.5——主战场仍在更高阶模型；社区还热议是否加「Pro 50」。周末 Karpathy 用 Claude Code 三分钟 one-shot 做出 TristanTube（约 4.7 万条硬核视频+TV 模式）的叙事仍在延续。研究侧 alphaXiv 热榜出现短上下文 Agent（《You don't need long context》）、潜空间 swarm（SwarmEvolve）与 Agentic RL targeted guidance；工程博客上 DeepMind 有 Gemini Omni 1.2 Flash 与 Antigravity 化学信息学 Agent 技能。缺口：@OpenAI / @AnthropicAI / @claudeai / @GoogleAI / @GoogleDeepMind / @AIatMeta / @Meta / @AndrewYNg 近 48h 无高信号原创；关注列表仍无 DeepSeek 一手 X。",
+      "en": "Over ~48h the new leads are Codex/ChatGPT usage-tier clarifications and a still-hot agent coding-stack matchup: @thsottiaux (Tibo) said all Pro plans have no 5-hour limits, map to ~10×/20×/50× vs Plus (Pro 500 unlocks ultrafast), claimed Pro and Business 100 usage were doubled, and stressed GPT 6.1 Terra is not meant to duel Claude Opus 5.5—OpenAI’s big-league models sit elsewhere; he also floated a “Pro 50” tier. Karpathy’s weekend Claude Code three-minute TristanTube one-shot (~47K nerdy videos + TV mode) still echoes. On the research side, alphaXiv highlights short-context agents (*You don't need long context*), latent swarm evolution (SwarmEvolve), and Agentic RL targeted guidance; DeepMind’s eng surface shows Gemini Omni 1.2 Flash and Antigravity cheminformatics skills. Gaps: @OpenAI / @AnthropicAI / @claudeai / @GoogleAI / @GoogleDeepMind / @AIatMeta / @Meta / @AndrewYNg quiet on high-signal originals; still no DeepSeek primary X on the watchlist."
+    },
+    "xPosts": [
+      {
+        "author": "Tibo",
+        "handle": "@thsottiaux",
+        "time": "11-08 13:09（北京时间）",
+        "summary": {
+          "zh": "Tibo 澄清：所有 Pro 档均无 5 小时限额；相对 Plus，Pro 100/200/500 约为 10×/20×/50× 用量，且 Pro 500 含 ultrafast——直接回应 ChatGPT/Codex 配额讨论。",
+          "en": "Tibo clarifies: all Pro plans have no 5-hour limits; vs Plus, Pro 100/200/500 are ~10×/20×/50× usage, with Pro 500 unlocking ultrafast—answering ChatGPT/Codex quota chatter head-on."
+        },
+        "link": "https://x.com/thsottiaux/status/2119296267545419987"
+      },
+      {
+        "author": "Tibo",
+        "handle": "@thsottiaux",
+        "time": "11-08 13:40（北京时间）",
+        "summary": {
+          "zh": "Tibo：把 GPT 6.1 Terra 拿去对标 Claude Opus 5.5 很离谱——Terra 不错但不在「大联盟」竞争位，OpenAI 另有主战模型。",
+          "en": "Tibo: lining GPT 6.1 Terra up against Claude Opus 5.5 is wild—Terra is strong but not the big-league matchup; OpenAI has other models for that."
+        },
+        "link": "https://x.com/thsottiaux/status/2119304055126425939"
+      },
+      {
+        "author": "Tibo",
+        "handle": "@thsottiaux",
+        "time": "11-08 13:45（北京时间）",
+        "summary": {
+          "zh": "Tibo 追问社区要不要再加一档「Pro 50」；同日早些时候还称 Pro 与 Business 100 用量已翻倍，互动极高。",
+          "en": "Tibo asks whether a “Pro 50” tier would make sense; earlier the same day he also said Pro and Business 100 usage were doubled—both posts drew heavy engagement."
+        },
+        "link": "https://x.com/thsottiaux/status/2119305294291612140"
+      },
+      {
+        "author": "Andrej Karpathy",
+        "handle": "@karpathy",
+        "time": "11-08 01:07（北京时间）",
+        "summary": {
+          "zh": "（周末叙事延续）Karpathy 把 Tristan Hume 的 YouTube 分级单做成 TristanTube：约 4.7 万条偏硬核视频并带电视模式，自称用 Claude Code 三分钟一键生成。",
+          "en": "(Weekend carryover) Karpathy turned Tristan Hume’s YouTube tier list into TristanTube: ~47K nerdy videos plus TV mode, one-shotted with Claude Code in three minutes."
+        },
+        "link": "https://x.com/karpathy/status/2119114537442189652",
+        "images": [
+          {
+            "src": "data/editions/2026-11-09/images/xpost-01.jpg",
+            "caption": {
+              "zh": "Karpathy 帖中的 Tristan Hume 分级文链接卡片（来源：@karpathy / thume.ca；已镜像入仓）",
+              "en": "Link card for Tristan Hume’s tier-list post (source: @karpathy / thume.ca; mirrored in-repo)"
+            }
+          }
+        ]
+      }
+    ],
+    "engBlogs": [
+      {
+        "source": "Google DeepMind",
+        "title": {
+          "zh": "Gemini Omni 1.2 Flash：更长视频片段与更低成本",
+          "en": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips"
+        },
+        "summary": {
+          "zh": "约 11/5：原生约 15 秒视频生成、更好参考一致性与多轮编辑，标称成本降约 30%；落地 Gemini API / Google Vids 等。属视频生成产品线更新，非新基座大模型发版。",
+          "en": "Around Nov 5: native ~15s video clips, better reference adherence and multi-turn editing, ~30% lower cost; rolling to Gemini API / Google Vids and more. A video-gen product update—not a new frontier base-model launch."
+        },
+        "link": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips"
+      },
+      {
+        "source": "Google DeepMind",
+        "title": {
+          "zh": "用 Google Antigravity 做 Agentic 化学信息学",
+          "en": "Agentic cheminformatics with Google Antigravity"
+        },
+        "summary": {
+          "zh": "约 11/3：为 Antigravity 增加 Cheminformatics Skills（RDKit / ChEMBL / PubChem），Agent 可在约一小时内完成文献化合物检索、匹配分子对分析并提案刚性大环与合成路线——把领域工具包直接做成 Agent 技能。",
+          "en": "Around Nov 3: Cheminformatics Skills for Antigravity (RDKit / ChEMBL / PubChem) let an agent curate literature compounds, run MMPA, and propose rigidified macrocycles with routes in ~an hour—domain toolkits shipped as agent skills."
+        },
+        "link": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity"
+      },
+      {
+        "source": "OpenAI",
+        "title": {
+          "zh": "Images 2.6：更快出图、GIF 与 API 精细编辑",
+          "en": "Introducing Images 2.6"
+        },
+        "summary": {
+          "zh": "11/4：ChatGPT / Codex / API 上线 Images 2.6（Flare / Sunburst）；生成约快 50%，支持 GIF、image markup 与 SVG 导出。与本周 Codex/ChatGPT 用量讨论同属产品面更新。",
+          "en": "Nov 4: Images 2.6 in ChatGPT / Codex / API (Flare / Sunburst); ~50% faster generation plus GIFs, image markup, and SVG export. Same product surface as this week’s Codex/ChatGPT usage discussion."
+        },
+        "link": "https://openai.com/index/introducing-images-2-6"
+      }
+    ],
+    "alphaxivTop3": [
+      {
+        "rank": 1,
+        "title": "You don't need long context",
+        "authors": "Peter Belcak, Saurav Muralidharan, Pavlo Molchanov et al. (NVIDIA)",
+        "summary": {
+          "zh": "（Agent/Claude/GPT 优先）用会话压缩与选择性读文档，让 Agent 在短上下文下接近全历史基线；文中以 Claude Opus 4.5 / GPT 5.6 Sol 等在 SWE-bench 等上的 SAC 表现论证「不必堆超长上下文」，并提出可解释自然语言状态的 SSSM 方向。",
+          "en": "(Agent/Claude/GPT pick) Compaction + selective reading keeps short-context agents near full-history baselines; argues Claude Opus 4.5 / GPT 5.6 Sol hold up under SAC on SWE/Terminal-style benches—and sketches SSSMs with natural-language state."
+        },
+        "link": "https://www.alphaxiv.org/abs/2611.05306"
+      },
+      {
+        "rank": 2,
+        "title": "SwarmEvolve: Latent Agent Swarms for Evolutionary Discovery and Optimization",
+        "authors": "Qile Jiang, George Em Karniadakis",
+        "summary": {
+          "zh": "（Agent 优先）数百小 LLM Agent 在潜空间推理、经 KV cache 通信，无需长文本 CoT；作者称单卡可在数分钟内做数学/科学程序演化搜索，强调速度与多样性。",
+          "en": "(Agent pick) Hundreds of small LLM agents reason in latent space and communicate via KV-cache transfer (no long text CoT); authors report evolutionary math/science program search in minutes on one GPU, stressing speed and diversity."
+        },
+        "link": "https://www.alphaxiv.org/abs/2611.08483"
+      },
+      {
+        "rank": 3,
+        "title": "Stabilizing On-Policy Targeted Guidance in Agentic Reinforcement Learning",
+        "authors": "Kevin Frans, Alexander M Rush, Sergey Levine",
+        "summary": {
+          "zh": "（Agentic RL / Coding Agent）用按轮文本反馈的 on-policy self-distillation（targeted guidance）教编码 Agent 新工具与风格行为，同时稳住熵、避免拖垮基线 RL 表现。",
+          "en": "(Agentic RL / coding-agent pick) Per-turn textual feedback via on-policy self-distillation (targeted guidance) teaches new tools/styles without collapsing baseline RL—focus on stable entropy through training."
+        },
+        "link": "https://www.alphaxiv.org/abs/2611.05266"
+      }
+    ]
+  },
+  "aiProducts": {
+    "items": [
+      {
+        "name": "Hermes Agent",
+        "tag": "update",
+        "link": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.23.0",
+        "summary": {
+          "zh": "自 11/5 起无更新标签。最近稳定版仍为 v0.23.0「The Hearth Release」（2026-11-05）：Desktop 工作区可在浏览器由本机 gateway 打开；会话统一由单一 gateway 托管；插件目录扩至 1000+、可自更新；付费 MCP 工具可标价与限额；终端内联图片与对话 rewind。",
+          "en": "No newer tag since Nov 5. Latest stable still v0.23.0 “The Hearth Release” (2026-11-05): Desktop workspace opens in-browser via your gateway; one gateway owns each session; plugin catalog 1000+ with self-updates; priced/limited paid MCP tools; inline terminal images + conversation rewind."
+        }
+      },
+      {
+        "name": "OpenClaw",
+        "tag": "release",
+        "link": "https://github.com/openclaw/openclaw/releases/tag/v2026.11.2",
+        "summary": {
+          "zh": "新稳定版 v2026.11.2（GitHub published_at 2026-11-08T19:31:04Z，约北京时间 11/9 03:31）：强化隐私与信任边界（配置密钥/对话/工具错误/频道载荷不进诊断日志；落实 provider 与导航信任边界；热 CLI 回合后释放 MCP grants）；账户安全投递（重试与定时投递保留发送方与账户身份、WhatsApp 身份查找恢复、Teams 路由与白名单跨重载保留）；Gateway 可用性（降低诊断占用、插件清理/异常 Telegram 表不堵 Gateway、关机取消频道启动、schema-lease 冲突恢复）；更安全的更新与恢复；原生客户端与安装/状态正确性修复。预发布线仍见 v2026.11.5-beta.1（11/4）。",
+          "en": "New stable v2026.11.2 (GitHub published_at 2026-11-08T19:31:04Z / ~03:31 Nov 9 Asia/Shanghai): tighter privacy/trust boundaries (keep secrets, conversation content, tool errors, channel payloads out of diagnostic logs; enforce provider/navigation trust; release MCP grants after warm CLI turns); account-safe delivery (preserve sender/account identity across durable retries and scheduled delivery; WhatsApp identity lookup recovery; Teams routing/allowlist across reloads); Gateway availability (less diagnostic load; don’t block on plugin cleanup or pathological Telegram tables; cancel channel startup on shutdown; recover schema-lease conflicts); safer recovery/updates; native-client and install/state correctness fixes. Prerelease line still shows v2026.11.5-beta.1 (Nov 4)."
+        }
+      },
+      {
+        "name": "DeepSeek Harness",
+        "tag": "update",
+        "link": "https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.2.2-rc.1",
+        "summary": {
+          "zh": "自 11/4 起无更新标签。实验线仍为 dsh-v0.2.2-rc.1（2026-11-04）：0.2.2 首个 RC——手机/平板适配、引用插入、历史导出 Markdown、实验性 subagent_oar（交给本机 Codex/Claude CLI）、变更请求与工作树审查等。",
+          "en": "No newer tag since Nov 4. Experimental line still dsh-v0.2.2-rc.1 (2026-11-04): first 0.2.2 RC with mobile/tablet polish, quote-to-input, Markdown history export, experimental subagent_oar (hand off to local Codex/Claude CLI), change-request/worktree review."
+        }
+      },
+      {
+        "name": "codex",
+        "tag": "update",
+        "link": "https://github.com/openai/codex/releases/tag/rust-v0.167.0",
+        "summary": {
+          "zh": "自 11/6 起无更新稳定版。最近稳定版仍为 rust-v0.167.0 / 0.167.0（2026-11-06）：`codex agents --no-daemon` 打开 agent command center（未读结果标记）、终端会话选择器可切换后端并保留草稿、本地图片附件预览、Sign in another way 下的 API key / GCP Vertex 向导等。预发布线仍为 rust-v0.169.0-alpha.3（约北京时间 11/8 03:31）；自昨日以来预发布未再前进。",
+          "en": "No newer stable since Nov 6. Latest stable still rust-v0.167.0 / 0.167.0 (2026-11-06): `codex agents --no-daemon` agent command center (unread markers), switch backends in terminal session picker keeping drafts, local image attachment preview, API key / GCP Vertex setup under “Sign in another way.” Prerelease still rust-v0.169.0-alpha.3 (~03:31 Nov 8 Asia/Shanghai); no further prerelease advance since yesterday."
+        }
+      },
+      {
+        "name": "Claude",
+        "tag": "update",
+        "link": "https://www.anthropic.com/research/components-of-agent-memory",
+        "summary": {
+          "zh": "11/9 无新产品发版。最近一手：11/6 Research《The components of agent memory》（dreaming 跨会话日志整理、纠错与 wiki）；产品侧最近仍为 11/5 Personal Finance 美国 beta（Pro/Max/Ultra，只读账户连接）与 Enterprise 安全/管理控件。勿将历史 Opus 大版本当今日新发版；Usage Policy 更新将于 11/12 生效（非今日产品发版）。",
+          "en": "No new product ship on Nov 9. Latest primaries: Nov 6 Research *The components of agent memory* (dreaming—cross-session log consolidation, corrections, wikis); latest consumer product primary remains Nov 5 Personal Finance US beta (Pro/Max/Ultra—read-only) plus Enterprise security/admin controls. Do not treat historical Opus major releases as today’s ship; Usage Policy update effective Nov 12 (not a same-day product launch)."
+        }
+      },
+      {
+        "name": "Cursor",
+        "tag": "update",
+        "link": "https://cursor.com/changelog/voice-chat",
+        "summary": {
+          "zh": "自 11/6 起 changelog 无更新条目。最近仍为 2026-11-06 Voice Chat with Agents——与 agent 实时语音通话（Agents Window / IDE / Web / iOS），由 Grok Voice 驱动；可边聊边让 coding agent 干活并听进度。另有 11/5 Build Live Apps（Cloud Agent 脚手架 Web 应用、Postgres、Cursor SSO 并部署分享）。",
+          "en": "No newer changelog entry since Nov 6. Latest still 2026-11-06 Voice Chat with Agents—realtime voice calls with agents (Agents Window / IDE / Web / iOS) powered by Grok Voice; keep talking while the coding agent works and hear progress. Also Nov 5 Build Live Apps (Cloud Agent scaffolds web app, Postgres, Cursor SSO, deploy + share)."
+        }
+      },
+      {
+        "name": "Grok Bot",
+        "tag": "update",
+        "link": "https://x.ai/changelog/bot",
+        "summary": {
+          "zh": "官方 changelog 今日可访问，Latest 仍为 v0.78.1（2026-10-27）——购物卡片、「立即购买」、Vault Shop Pay、订阅模板、自定义模式下的云端智能体、团队 Bot Vault。Homebrew cask 与更新接口显示 Mac 客户端仍为 0.79.3（高于页面 Latest）；官方未公布 0.79.x 说明。changelog 常滞后客户端，故对照写出两端版本，而不宣称近期无客户端更新。",
+          "en": "Official changelog reachable today; Latest still v0.78.1 (2026-10-27)—shopping cards, Buy now, Shop Pay in Vault, subscription templates, cloud agents in custom modes, Team Bot Vault. Homebrew cask and update feed still show the Mac client at 0.79.3 (above page Latest); no official 0.79.x notes published. Changelog often lags—report both ends rather than claiming no recent client builds."
+        }
+      }
+    ]
+  },
+  "finance": {
+    "stock": {
+      "name": {
+        "zh": "小米集团-W",
+        "en": "Xiaomi Corp"
+      },
+      "symbol": "01810.HK",
+      "currency": "HKD",
+      "price": 30.38,
+      "change": -0.92,
+      "changePercent": -2.94,
+      "prevClose": 31.3,
+      "open": 31.0,
+      "high": 31.74,
+      "low": 30.22,
+      "volume": "约 3.039 亿股",
+      "amount": "约 94.21 亿港元",
+      "spark": [
+        23.94,
+        23.66,
+        25.96,
+        24.52,
+        25.04,
+        26.38,
+        27.08,
+        26.66,
+        27.06,
+        26.8,
+        25.8,
+        26.8,
+        26.9,
+        25.66,
+        25.62,
+        25.68,
+        26.48,
+        28.1,
+        28.6,
+        28.76,
+        31.3,
+        30.38
+      ],
+      "summary": {
+        "zh": "今日周一开市前采集；港股尚未开盘。报价仍为上周五收盘：30.380 港元，跌 2.94%（-0.920），成交约 3.039 亿股、金额约 94.21 亿港元；日内 30.22–31.74，开盘 31.00。数据源：腾讯/新浪港股串（时间戳 2026/11/06 16:08）。52 周区间约 21.30–44.62 港元。",
+        "en": "Mon pre-open collection; HK market not yet open. Quote remains Fri close: HK$30.380, −2.94% (−0.920) on ~303.9M shares / ~HK$9.42B; range 30.22–31.74, open 31.00. Source: Tencent/Sina HK quote (timestamp 2026/11/06 16:08). 52-week ~HK$21.30–44.62."
+      },
+      "highlights": [
+        {
+          "zh": "周五高开低走收跌近 3%，回吐周四大涨部分涨幅；短线波动仍大。",
+          "en": "Fri opened higher then closed nearly −3%, giving back part of Thu’s surge; short-term volatility remains elevated."
+        },
+        {
+          "zh": "周一早盘前无新成交价；开盘后请以实时行情为准。",
+          "en": "No new print before Mon open; use the live tape after the open."
+        },
+        {
+          "zh": "数据源：腾讯/新浪港股串（2026/11/06 16:08）；Stooq/Yahoo 本机暂不可用。下一财报催化仍留意 11/24 第三季度业绩。",
+          "en": "Source: Tencent/Sina HK quote (2026/11/06 16:08); Stooq/Yahoo unavailable on this box. Next earnings catalyst remains Q3 results on Nov 24."
+        }
+      ]
+    }
+  },
+  "todos": [
+    {
+      "text": {
+        "zh": "今日重心（周一去敏）：推进生产架构细节拆解与上线规划、理清版本依赖与安全基线，并更新架构 benchmark；穿插安全架构 / AI Engineering / harness 学习与硬件 bring-up。",
+        "en": "Monday focus (sanitized): production architecture breakdown and release planning, dependency/security baseline work, architecture benchmark update; plus security / AI engineering / harness learning and hardware bring-up."
+      },
+      "priority": "high"
+    }
+  ]
+}
