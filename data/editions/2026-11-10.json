@@ -1,0 +1,397 @@
+{
+  "date": "2026-11-10",
+  "weather": {
+    "city": {
+      "zh": "北京",
+      "en": "Beijing"
+    },
+    "condition": {
+      "zh": "晴（Open-Meteo 早间实况 code 0 / 今日 daily code 0）",
+      "en": "Clear (Open-Meteo morning current code 0 / daily code 0)"
+    },
+    "icon": "clear",
+    "temp": "0 ~ 12°C",
+    "feels": "体感约 -1.6°C（08:15 实况约 1.4°C）",
+    "humidity": "75%",
+    "wind": {
+      "zh": "微风约 3.2 km/h（实况阵风约 7.9 km/h）；今日日最大阵风约 12.6 km/h",
+      "en": "Light breeze (~3.2 km/h, gusts ~7.9 km/h); day max gusts ~12.6 km/h"
+    },
+    "air": {
+      "zh": "Open-Meteo 约 US AQI 180、PM2.5≈123.4 μg/m³、PM10≈129.9（不健康——颗粒物偏高，以实况为准）",
+      "en": "Open-Meteo ~US AQI 180, PM2.5≈123.4 μg/m³, PM10≈129.9 (Unhealthy—elevated particulates; check live)"
+    },
+    "sunrise": "06:53",
+    "sunset": "17:03",
+    "tip": {
+      "zh": "🏠 今日北京晴，气温约 0~12°C，早间偏冷（实况约 1.4°C、体感约 -1.6°C）；无降水，风力不大（实况风约 3.2 km/h，日最大阵风约 12.6 km/h）。空气较差：Open-Meteo 约 US AQI 180（不健康），PM2.5≈123.4 μg/m³、PM10≈129.9——晨练与通勤尽量减少户外暴露，敏感体质建议口罩/改室内。\n🏃 训练提醒：今天周二冬中午跑日——天气本身尚可（中午预报约 8.7°C、体感约 6.2°C，无降水、风力不大），但空气不健康（早间 US AQI≈180，中午预报仍约 185、PM2.5≈69.6 μg/m³）。点名提醒：优先改室内跑步机/力量有氧；若仍户外请缩短距离、避开交通干道并戴口罩，不要拉长室外跑。周三空气或进一步转差（上午预报 US AQI 或超 220，非常不健康）；周四可选跑日晴（约 1~12°C）但空气仍差，勿因无降水就加长户外跑；周五晨练/可选跑日有雾（约 0~12°C）。周日阵风或达约 40 km/h；下周二阵风或达约 61 km/h。\n📅 未来7天（北京，Open-Meteo；阴晴参考 weather_code，空气 Open-Meteo AQ）：\n• 11/10 周二 0~12°C 晴（冬中午跑日；US AQI≈180 不健康——点名冲突）\n• 11/11 周三 0~11°C 晴（空气或更差，上午预报 US AQI 或超 220）\n• 11/12 周四 1~12°C 晴（周四可选跑日；空气仍偏差，注意防护）\n• 11/13 周五 0~12°C 雾（周五晨练/可选跑日）\n• 11/14 周六 3~12°C 阴\n• 11/15 周日 5~12°C 阴（阵风约 40 km/h）\n• 11/16 周一 2~8°C 阴（周一晨练日；今日预报无降水）\n• 11/17 周二 0~9°C 阴（阵风或达约 61 km/h，大风）\n（气温/降水/风：Open-Meteo 约 08:15 北京时间；空气：Open-Meteo AQ）",
+      "en": "🏠 Beijing today: clear, about 0–12°C, chilly morning (~1.4°C / feels ~−1.6°C); no precip, light wind (current ~3.2 km/h; day max gusts ~12.6 km/h). Air is poor: Open-Meteo ~US AQI 180 (Unhealthy), PM2.5≈123.4 μg/m³, PM10≈129.9—minimize outdoor exposure for commute; mask or stay indoors if sensitive.\n🏃 Training: Tue winter noon-run day—conditions themselves are workable (noon ~8.7°C / feels ~6.2°C, no precip, light wind), but air is unhealthy (morning US AQI≈180; noon still ~185, PM2.5≈69.6 μg/m³). Named conflict: prefer treadmill/indoor cardio; if you still go outside, shorten the run, avoid busy roads, wear a mask—don’t turn it into a long outdoor run. Wed air may worsen (morning US AQI possibly >220, Very Unhealthy). Thu optional-run day is clear (~1–12°C) but air stays poor. Fri morning-gym / optional-run day looks foggy (~0–12°C). Sun may gust ~40 km/h; next Tue may gust ~61 km/h.\n📅 Next 7 days (Beijing, Open-Meteo):\n• Tue 11/10 0–12°C clear (winter noon-run day; US AQI≈180 Unhealthy—named conflict)\n• Wed 11/11 0–11°C clear (air may worsen; morning US AQI possibly >220)\n• Thu 11/12 1–12°C clear (optional-run day; air still poor)\n• Fri 11/13 0–12°C fog (morning-gym / optional-run day)\n• Sat 11/14 3–12°C overcast\n• Sun 11/15 5–12°C overcast (gusts ~40 km/h)\n• Mon 11/16 2–8°C overcast (morning-gym day; no precip in today’s forecast)\n• Tue 11/17 0–9°C overcast (gusts possibly ~61 km/h—very windy)\n(Temps/precip/wind: Open-Meteo ~08:15 Asia/Shanghai; air: Open-Meteo AQ)"
+    }
+  },
+  "aiTech": {
+    "openingSummary": {
+      "zh": "过去约一日的新主线是「Claude Fable 5.2 / Mythos 5.2 发布」与「小模型扛日常 Agent 步骤、研究侧安全熔断」：@claudeai 与 @AnthropicAI 宣布 Claude Fable 5.2 与 Mythos 5.2（同一底座；Fable 带更强安全护栏、面向所有付费用户与主流云，Mythos 需经生命科学/网络安全验证项目申请）。官方评测称 FrontierCode 2.0 在 Xhigh 努力档约 49.1%，高于 Opus 5.5（45.5%）、GPT-6 Astra（42.8%）与 Gemini 4 Carbon（41.1%，Medium）；API 定价降至每百万 token $8 输入 / $40 输出（可选 fast mode $16/$80），并建议大多数编码与知识工作仍从 Opus 5.5 起步。@OpenAI 介绍 Control Room：把研究侧含 agentic sampling 的推理负载接入中央熔断，决策后约 35 秒内停掉模型输出。@AIatMeta 发布面向日常 agent 步骤的小模型 Muse Ember（1M 上下文，$0.10/$0.50），称在 Artificial Analysis Intelligence Index 上接近 Claude Haiku 5.5、单价约三分之一，并高于 GPT-6 Luna 各推理档。研究侧 alphaXiv 热榜的 Agent 向论文包括 SwarmEvolve、Video-Coder 与 FlashState。缺口：@karpathy / @AndrewYNg / @GoogleAI / @GoogleDeepMind / @Meta 近 48h 无高信号原创；关注列表仍无 DeepSeek 一手 X；DeepMind 工程博客今日未见新帖。",
+      "en": "Over about a day the new leads are the Claude Fable 5.2 / Mythos 5.2 launch and a pairing of cheap everyday-agent models with research-side kill switches: @claudeai and @AnthropicAI introduced Claude Fable 5.2 and Mythos 5.2 (same underlying model; Fable ships stronger safeguards to all paid users and major clouds, while Mythos is gated behind Life Sciences / Cyber verification). Official benches put FrontierCode 2.0 at about 49.1% at Xhigh effort, ahead of Opus 5.5 (45.5%), GPT-6 Astra (42.8%), and Gemini 4 Carbon (41.1% Medium); API pricing drops to $8/$40 per million input/output tokens (optional fast mode $16/$80), and Anthropic still recommends Opus 5.5 as the daily driver for most coding and knowledge work. @OpenAI described Control Room, which ties research inference—including agentic sampling—into a central halt path that stops model output within about 35 seconds of an intervene decision. @AIatMeta launched Muse Ember, a small model for everyday agent steps (1M context, $0.10/$0.50) that it says matches Claude Haiku 5.5 on the Artificial Analysis Intelligence Index at roughly one-third the cost per task and beats GPT-6 Luna across Luna’s reasoning settings. On the research side, alphaXiv’s hot list highlights agent papers SwarmEvolve, Video-Coder, and FlashState. Gaps: @karpathy / @AndrewYNg / @GoogleAI / @GoogleDeepMind / @Meta quiet on high-signal originals in ~48h; still no DeepSeek primary X on the watchlist; no new DeepMind eng post today."
+    },
+    "xPosts": [
+      {
+        "author": "Claude",
+        "handle": "@claudeai",
+        "time": "11-10 02:57（北京时间）",
+        "summary": {
+          "zh": "Claude 宣布 Claude Fable 5.2 与 Claude Mythos 5.2：面向最难的技术挑战，编码、推理与视觉均有提升；同帖视频介绍发布。",
+          "en": "Claude introduces Claude Fable 5.2 and Claude Mythos 5.2 for the hardest technical challenges, with gains in coding, reasoning, and vision—backed by a launch video."
+        },
+        "link": "https://x.com/claudeai/status/2119867114450268322",
+        "images": [
+          {
+            "src": "data/editions/2026-11-10/images/xpost-01.jpg",
+            "caption": {
+              "zh": "Claude Fable 5.2 / Mythos 5.2 发布视频封面（来源：@claudeai；已镜像入仓）",
+              "en": "Launch-video still for Claude Fable 5.2 / Mythos 5.2 (source: @claudeai; mirrored in-repo)"
+            }
+          }
+        ]
+      },
+      {
+        "author": "Anthropic",
+        "handle": "@AnthropicAI",
+        "time": "11-10 03:00（北京时间）",
+        "summary": {
+          "zh": "Anthropic 官方转发确认：Claude Fable 5.2 与 Claude Mythos 5.2 现已可用。",
+          "en": "Anthropic’s official account confirms Claude Fable 5.2 and Claude Mythos 5.2 are available now."
+        },
+        "link": "https://x.com/AnthropicAI/status/2119867707546071125",
+        "images": [
+          {
+            "src": "data/editions/2026-11-10/images/claude-fable-og.jpg",
+            "caption": {
+              "zh": "Anthropic 发布页分享图（来源：anthropic.com；已镜像入仓）",
+              "en": "Share image from Anthropic’s launch page (source: anthropic.com; mirrored in-repo)"
+            }
+          }
+        ]
+      },
+      {
+        "author": "Claude",
+        "handle": "@claudeai",
+        "time": "11-10 02:58（北京时间）",
+        "summary": {
+          "zh": "官方评测：FrontierCode 2.0 上 Fable 5.2 在 High 努力档与 Opus 5.5 Max 大致持平、单任务成本约一半；Xhigh 档称目前已测公开发布模型中最高。Claude 应用与 Claude Code 默认 Medium。",
+          "en": "Official bench note: on FrontierCode 2.0, Fable 5.2 at High effort roughly matches Opus 5.5 at Max for about half the cost per task; at Xhigh it posted the highest score among released models they tested. Medium is the default in Claude apps and Claude Code."
+        },
+        "link": "https://x.com/claudeai/status/2119867122683953298",
+        "images": [
+          {
+            "src": "data/editions/2026-11-10/images/xpost-02.jpg",
+            "caption": {
+              "zh": "Fable 5.2 FrontierCode 2.0 等官方对比图之一（来源：@claudeai；已镜像入仓）",
+              "en": "One of the official Fable 5.2 FrontierCode 2.0 comparison charts (source: @claudeai; mirrored in-repo)"
+            }
+          },
+          {
+            "src": "data/editions/2026-11-10/images/xpost-02b.png",
+            "caption": {
+              "zh": "Fable 5.2 官方评测图（来源：@claudeai；已镜像入仓）",
+              "en": "Official Fable 5.2 evaluation chart (source: @claudeai; mirrored in-repo)"
+            }
+          },
+          {
+            "src": "data/editions/2026-11-10/images/xpost-02c.png",
+            "caption": {
+              "zh": "Fable 5.2 官方评测图（来源：@claudeai；已镜像入仓）",
+              "en": "Official Fable 5.2 evaluation chart (source: @claudeai; mirrored in-repo)"
+            }
+          },
+          {
+            "src": "data/editions/2026-11-10/images/xpost-02d.png",
+            "caption": {
+              "zh": "Fable 5.2 官方评测图（来源：@claudeai；已镜像入仓）",
+              "en": "Official Fable 5.2 evaluation chart (source: @claudeai; mirrored in-repo)"
+            }
+          }
+        ]
+      },
+      {
+        "author": "OpenAI",
+        "handle": "@OpenAI",
+        "time": "11-10 06:01（北京时间）",
+        "summary": {
+          "zh": "OpenAI 介绍 Control Room：集中跟踪研究基础设施上的模型负载（含训练/评测中的 agentic sampling），并与错位监测联动，决策干预后约 35 秒内停止模型输出。",
+          "en": "OpenAI introduces Control Room, a central system that tracks research inference workloads—including agentic sampling for training and evaluation—and, with misalignment monitors, halts model output within about 35 seconds of an intervene decision."
+        },
+        "link": "https://x.com/OpenAI/status/2119913172039868579"
+      },
+      {
+        "author": "AI at Meta",
+        "handle": "@AIatMeta",
+        "time": "11-10 02:04（北京时间）",
+        "summary": {
+          "zh": "Meta 发布最小、最省的 Muse Ember：面向日常 agent 步骤（跨应用工作流、顺序调工具、跑测试与定向改代码），1M 上下文，原生理解文本/图像/音频/视频；API 约 $0.10 / $0.50（缓存输入 $0.004）。称 AA Intelligence Index 接近 Claude Haiku 5.5、单价约三分之一，并高于 GPT-6 Luna。",
+          "en": "Meta introduces Muse Ember, its smallest and most efficient model for everyday agent work—cross-app workflows, sequenced tool calls, tests, and targeted code fixes—with a 1M-token context and native text/image/audio/video understanding. API pricing is about $0.10 / $0.50 ($0.004 cached input). Meta says it matches Claude Haiku 5.5 on the AA Intelligence Index at roughly one-third the cost per task and beats GPT-6 Luna."
+        },
+        "link": "https://x.com/AIatMeta/status/2119853591703998787",
+        "images": [
+          {
+            "src": "data/editions/2026-11-10/images/xpost-03.jpg",
+            "caption": {
+              "zh": "Muse Ember 发布视觉（来源：@AIatMeta；已镜像入仓）",
+              "en": "Muse Ember launch visual (source: @AIatMeta; mirrored in-repo)"
+            }
+          },
+          {
+            "src": "data/editions/2026-11-10/images/xpost-03b.jpg",
+            "caption": {
+              "zh": "Muse Ember 与 Claude Haiku 5.5 / GPT-6 Luna 的对比图（来源：@AIatMeta；已镜像入仓）",
+              "en": "Muse Ember comparison vs Claude Haiku 5.5 / GPT-6 Luna (source: @AIatMeta; mirrored in-repo)"
+            }
+          },
+          {
+            "src": "data/editions/2026-11-10/images/xpost-03c.png",
+            "caption": {
+              "zh": "Muse Ember 官方能力/价位图（来源：@AIatMeta；已镜像入仓）",
+              "en": "Official Muse Ember capability/pricing graphic (source: @AIatMeta; mirrored in-repo)"
+            }
+          }
+        ]
+      }
+    ],
+    "engBlogs": [
+      {
+        "source": "Anthropic",
+        "title": {
+          "zh": "Claude Fable 5.2 与 Mythos 5.2：面向最难技术工作的升级",
+          "en": "Introducing Claude Fable 5.2 and Claude Mythos 5.2"
+        },
+        "summary": {
+          "zh": "11/9（北京时间约 11/10 凌晨）发布。Fable 与 Mythos 为同一底座；Fable 面向所有付费计划、Claude Platform 及 AWS / Google Cloud / Azure，API $8/$40，可选 fast mode（最高约 2.5× 出字）$16/$80。官方表：FrontierCode 2.0 Xhigh 49.1%（Fable 5.1 32.4%，Opus 5.5 45.5%，GPT-6 Astra 42.8%，Gemini 4 Carbon 41.1% Medium）；FrontierSWE v2 69.9%；HLE（带工具）74.2%；RoboDojo Sim 64.9%。并称 1000 个 Fable agent 用 30 小时形式化费马大定理（同设置下 Opus 5.5 在 18 小时仅完成约 26%）。日常编码仍建议先用 Opus 5.5。",
+          "en": "Published Nov 9 (about early Nov 10 Asia/Shanghai). Fable and Mythos share one underlying model; Fable is on all paid plans, the Claude Platform, and AWS / Google Cloud / Azure at $8/$40, with optional fast mode (up to ~2.5× generation) at $16/$80. Official table: FrontierCode 2.0 Xhigh 49.1% (Fable 5.1 32.4%, Opus 5.5 45.5%, GPT-6 Astra 42.8%, Gemini 4 Carbon 41.1% Medium); FrontierSWE v2 69.9%; HLE with tools 74.2%; RoboDojo Sim 64.9%. Anthropic also says 1,000 Fable agents formalized Fermat’s Last Theorem in 30 hours (Opus 5.5 completed about 26% in 18 hours in the same setup). Opus 5.5 remains the recommended daily driver for most coding."
+        },
+        "link": "https://www.anthropic.com/claude-fable-and-mythos-5-2"
+      },
+      {
+        "source": "OpenAI",
+        "title": {
+          "zh": "Control Room：跟踪并紧急停止研究侧模型负载",
+          "en": "Control Room: track and stop model workloads across research infrastructure"
+        },
+        "summary": {
+          "zh": "约 11/9–11/10：OpenAI 介绍已部署在研究基础设施上的中央控制系统，覆盖含 agentic sampling 的训练/评测与数据处理等推理负载；与错位监测联动，决定干预后约 35 秒内停止模型输出，并设计成自身故障时也能切断输出。属安全工程基础设施，而非新基座模型发版。",
+          "en": "Around Nov 9–10: OpenAI describes a central control system already deployed on its research stack. It covers research inference—including agentic sampling for training and evaluation plus data processing—works with misalignment monitors, aims to halt output within about 35 seconds of an intervene decision, and is designed to fail closed if Control Room itself goes down. Safety infrastructure, not a new frontier-model launch."
+        },
+        "link": "https://openai.com/index/control-room/"
+      },
+      {
+        "source": "Meta Superintelligence Labs",
+        "title": {
+          "zh": "Muse Ember：最小、最省、面向日常 Agent 步骤",
+          "en": "Introducing Our Smallest, Most Efficient Model: Muse Ember"
+        },
+        "summary": {
+          "zh": "约 11/9：Muse Ember（API `muse-ember-1.0`）定价 $0.10 / $0.50（缓存输入 $0.004），1M 上下文、最长约 512K 输出。官方引用 AA：Intelligence Index 接近 Haiku 5.5、单任务成本约 $0.14（对比 Spark 1.3 约 $2.39）；AutomationBench-AA max 37.8%（Luna 20.2%，Haiku 5.5 13.9%）；Coding Agent Index-AA 46（Haiku 37，Luna 31）。FrontierCode 2.0-AA 上 Ember 27.2%，低于 Haiku 5.5 的 34.9%。亦登陆 Google Cloud，并与 Muse Wonder / Spark 1.3 一起组成产品组合。",
+          "en": "Around Nov 9: Muse Ember (`muse-ember-1.0`) is $0.10 / $0.50 ($0.004 cached input) with a 1M context and up to ~512K output. Meta cites AA figures: Intelligence Index near Haiku 5.5 and about $0.14 per AA task (vs ~$2.39 for Spark 1.3); AutomationBench-AA max 37.8% (Luna 20.2%, Haiku 5.5 13.9%); Coding Agent Index-AA 46 (Haiku 37, Luna 31). On FrontierCode 2.0-AA, Ember is 27.2% vs Haiku 5.5’s 34.9%. It also landed on Google Cloud alongside Muse Wonder and Spark 1.3."
+        },
+        "link": "https://research.meta.ai/blog/muse-ember"
+      }
+    ],
+    "alphaxivTop3": [
+      {
+        "rank": 1,
+        "title": "SwarmEvolve: Latent Agent Swarms for Evolutionary Discovery and Optimization",
+        "authors": "Qile Jiang, George Em Karniadakis",
+        "summary": {
+          "zh": "（Agent 优先；alphaXiv 热榜约第 8）数百小 LLM Agent 在潜空间推理、经 KV cache 通信，无需长文本 CoT；作者称单卡可在数分钟内做数学/科学程序演化搜索，强调速度与多样性。",
+          "en": "(Agent pick; ~#8 on alphaXiv’s trending list) Hundreds of small LLM agents reason in latent space and communicate via KV-cache transfer (no long text CoT); authors report evolutionary math/science program search in minutes on one GPU, stressing speed and diversity."
+        },
+        "link": "https://www.alphaxiv.org/abs/2611.08483"
+      },
+      {
+        "rank": 2,
+        "title": "Video-Coder: Reinforcing Agentic Coding for Video Generation",
+        "authors": "Chaoyang Wang, Sicheng Gao, Junan Hu, Kunyang Li, Dongyang Chen et al.",
+        "summary": {
+          "zh": "（Agentic coding 优先；热榜约第 9）训练一个写代码的视频生成 Agent：自动编写并执行代码以搭建动态 3D 场景草稿，再引导视频生成；结合 SFT 与 harness/执行反馈，并开源数据、模型与代码。",
+          "en": "(Agentic-coding pick; ~#9 on the trending list) Trains a code-driven video-generation agent that writes and runs code to build a dynamic 3D scene draft, then steers a video generator; trained with SFT plus harness/execution feedback, with data, models, and code released."
+        },
+        "link": "https://www.alphaxiv.org/abs/2611.09894"
+      },
+      {
+        "rank": 3,
+        "title": "FlashState: Unlocking Flexible Hybrid State Management for Agentic LLM Serving",
+        "authors": "Chenxi Li, Weili Xu, Tianyi Zhang, Jue Wang, Zhongzhu Zhou, Chenfeng Xu",
+        "summary": {
+          "zh": "（Agent serving / coding-agent 优先；热榜约第 10）针对混合模型服务提出 Agentic Hybrid State Management，让请求能在精确的历史端点恢复，减少重复 prefill；文中以 coding-agent 负载（GLM-5.3-Flash、Nemotron 3 Super、Qwen3.8-Flash-Next）说明吞吐收益。",
+          "en": "(Agent-serving / coding-agent pick; ~#10 on the trending list) Frames Agentic Hybrid State Management so hybrid-model servers can resume requests at exact prior endpoints and cut repeated prefill; reports gains on coding-agent workloads with GLM-5.3-Flash, Nemotron 3 Super, and Qwen3.8-Flash-Next."
+        },
+        "link": "https://www.alphaxiv.org/abs/2611.flashstate"
+      }
+    ]
+  },
+  "aiProducts": {
+    "items": [
+      {
+        "name": "Hermes Agent",
+        "tag": "update",
+        "link": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.23.0",
+        "summary": {
+          "zh": "自 11/5 起无更新标签。最近稳定版仍为 v0.23.0「The Hearth Release」（2026-11-05）：Desktop 工作区可在浏览器由本机 gateway 打开；会话统一由单一 gateway 托管；插件目录扩至 1000+、可自更新；付费 MCP 工具可标价与限额；终端内联图片与对话 rewind。",
+          "en": "No newer tag since Nov 5. Latest stable still v0.23.0 “The Hearth Release” (2026-11-05): Desktop workspace opens in-browser via your gateway; one gateway owns each session; plugin catalog 1000+ with self-updates; priced/limited paid MCP tools; inline terminal images + conversation rewind."
+        }
+      },
+      {
+        "name": "OpenClaw",
+        "tag": "update",
+        "link": "https://github.com/openclaw/openclaw/releases/tag/v2026.11.2",
+        "summary": {
+          "zh": "自 11/8 起无更新稳定版。最近稳定版仍为 v2026.11.2（GitHub published_at 2026-11-08T19:31:04Z，约北京时间 11/9 03:31）：强化隐私与信任边界、账户安全投递、Gateway 可用性，以及更安全的更新与恢复。预发布线仍见 v2026.11.5-beta.1（11/4）。",
+          "en": "No newer stable since Nov 8. Latest stable still v2026.11.2 (GitHub published_at 2026-11-08T19:31:04Z / ~03:31 Nov 9 Asia/Shanghai): tighter privacy/trust boundaries, account-safe delivery, Gateway availability, and safer recovery/updates. Prerelease line still shows v2026.11.5-beta.1 (Nov 4)."
+        }
+      },
+      {
+        "name": "DeepSeek Harness",
+        "tag": "update",
+        "link": "https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.2.2-rc.1",
+        "summary": {
+          "zh": "自 11/4 起无更新标签。实验线仍为 dsh-v0.2.2-rc.1（2026-11-04）：0.2.2 首个 RC——手机/平板适配、引用插入、历史导出 Markdown、实验性 subagent_oar（交给本机 Codex/Claude CLI）、变更请求与工作树审查等。近几日未见 DeepSeek 官方新模型发版；V5 时间表仍为二手传闻、公司未证实。",
+          "en": "No newer tag since Nov 4. Experimental line still dsh-v0.2.2-rc.1 (2026-11-04): first 0.2.2 RC with mobile/tablet polish, quote-to-input, Markdown history export, experimental subagent_oar (hand off to local Codex/Claude CLI), change-request/worktree review. No official DeepSeek model launch in recent days; V5 timing remains second-hand rumor and unverified by the company."
+        }
+      },
+      {
+        "name": "codex",
+        "tag": "update",
+        "link": "https://github.com/openai/codex/releases/tag/rust-v0.167.0",
+        "summary": {
+          "zh": "自 11/6 起无更新稳定版。最近稳定版仍为 rust-v0.167.0 / 0.167.0（2026-11-06）：`codex agents --no-daemon` 打开 agent command center（未读结果标记）、终端会话选择器可切换后端并保留草稿、本地图片附件预览、Sign in another way 下的 API key / GCP Vertex 向导等。预发布线昨夜前进到 rust-v0.169.0-alpha.7（GitHub published_at 2026-11-09T21:55:10Z，约北京时间 11/10 05:55）；另有 rust-v0.169.0-alpha.6 与 rust-v0.167.0-alpha.4.1。这些预发布说明正文为空，仅有版本号。",
+          "en": "No newer stable since Nov 6. Latest stable still rust-v0.167.0 / 0.167.0 (2026-11-06): `codex agents --no-daemon` agent command center (unread markers), switch backends in terminal session picker keeping drafts, local image attachment preview, API key / GCP Vertex setup under “Sign in another way.” The prerelease line moved overnight to rust-v0.169.0-alpha.7 (GitHub published_at 2026-11-09T21:55:10Z / ~05:55 Nov 10 Asia/Shanghai), plus rust-v0.169.0-alpha.6 and rust-v0.167.0-alpha.4.1. Those prerelease notes are empty except for the version numbers."
+        }
+      },
+      {
+        "name": "Claude",
+        "tag": "release",
+        "link": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+        "summary": {
+          "zh": "新品：Claude Fable 5.2 与 Claude Mythos 5.2（Anthropic 新闻页标注 2026-11-09；北京时间约 11/10 凌晨）。同一底座；Fable 带更强安全护栏，现已登陆所有付费计划、Claude Platform 及 AWS / Google Cloud / Azure，开发者模型名 `claude-fable-5-2`；Mythos 需生命科学/网络安全验证项目申请。定价 $8/$40（较此前 $10/$50 下降），可选 fast mode $16/$80（最高约 2.5× 出字）。官方评测（最高努力档，除非另注）：FrontierCode 2.0 Xhigh 49.1% vs Opus 5.5 45.5% / GPT-6 Astra 42.8% / Gemini 4 Carbon 41.1%（Medium）；FrontierSWE v2 69.9%；HLE（带工具）74.2%；OSWorld 2.1（offline partial）89.3%；RoboDojo Sim 64.9%；RLI High 41.3%。官方建议大多数编码与知识工作仍从 Opus 5.5 起步，再按任务复杂度上调到 Fable/Mythos 或下调到 Sonnet/Haiku 5.5。",
+          "en": "New: Claude Fable 5.2 and Claude Mythos 5.2 (dated Nov 9, 2026 on Anthropic News; early Nov 10 Asia/Shanghai). Same underlying model; Fable’s stronger safeguards allow availability on all paid plans, the Claude Platform, and AWS / Google Cloud / Azure as `claude-fable-5-2`; Mythos access is via Life Sciences / Cyber verification. Pricing is $8/$40 (down from $10/$50), with optional fast mode at $16/$80 (up to ~2.5× generation). Official benches (highest available effort unless noted): FrontierCode 2.0 Xhigh 49.1% vs Opus 5.5 45.5% / GPT-6 Astra 42.8% / Gemini 4 Carbon 41.1% (Medium); FrontierSWE v2 69.9%; HLE with tools 74.2%; OSWorld 2.1 offline partial 89.3%; RoboDojo Sim 64.9%; RLI High 41.3%. Anthropic still recommends starting with Opus 5.5 for most coding and knowledge work, then moving up to Fable/Mythos or down to Sonnet/Haiku 5.5."
+        },
+        "images": [
+          {
+            "src": "data/editions/2026-11-10/images/claude-fable-og.jpg",
+            "caption": {
+              "zh": "Anthropic 发布页分享图（来源：anthropic.com；已镜像入仓）",
+              "en": "Share image from the Anthropic launch page (source: anthropic.com; mirrored in-repo)"
+            }
+          },
+          {
+            "src": "data/editions/2026-11-10/images/claude-overview.png",
+            "caption": {
+              "zh": "Fable 5.2 / Mythos 5.2 官方能力总览图（来源：@claudeai；已镜像入仓）",
+              "en": "Official Fable 5.2 / Mythos 5.2 capability overview (source: @claudeai; mirrored in-repo)"
+            }
+          },
+          {
+            "src": "data/editions/2026-11-10/images/xpost-02.jpg",
+            "caption": {
+              "zh": "FrontierCode 2.0 等官方评测图（来源：@claudeai；已镜像入仓）",
+              "en": "Official FrontierCode 2.0 and related evaluation charts (source: @claudeai; mirrored in-repo)"
+            }
+          },
+          {
+            "src": "data/editions/2026-11-10/images/claude-fermat.png",
+            "caption": {
+              "zh": "1000 个 Fable agent 形式化费马大定理的官方对比图（来源：@claudeai；已镜像入仓）",
+              "en": "Official chart of 1,000 Fable agents formalizing Fermat’s Last Theorem (source: @claudeai; mirrored in-repo)"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Cursor",
+        "tag": "update",
+        "link": "https://cursor.com/changelog/voice-chat",
+        "summary": {
+          "zh": "自 11/6 起 changelog 无更新条目。页面置顶仍为 2026-11-06 Voice Chat with Agents——与 agent 实时语音通话（Agents Window / IDE / Web / iOS），由 Grok Voice 驱动；可边聊边让 coding agent 干活并听进度。另有 11/5 Build Live Apps（Cloud Agent 脚手架 Web 应用、Postgres、Cursor SSO 并部署分享）。",
+          "en": "No newer changelog entry since Nov 6. Latest still 2026-11-06 Voice Chat with Agents—realtime voice calls with agents (Agents Window / IDE / Web / iOS) powered by Grok Voice; keep talking while the coding agent works and hear progress. Also Nov 5 Build Live Apps (Cloud Agent scaffolds web app, Postgres, Cursor SSO, deploy + share)."
+        }
+      },
+      {
+        "name": "Grok Bot",
+        "tag": "update",
+        "link": "https://x.ai/changelog/bot",
+        "summary": {
+          "zh": "官方 changelog 今日可访问，页面 Latest 仍为 v0.78.1（2026-10-27）——购物卡片、「立即购买」、Vault Shop Pay、订阅模板、自定义模式下的云端智能体、团队 Bot Vault。Homebrew cask grok-bot 显示 Mac 客户端仍为 0.79.3（高于页面 Latest）；官方未公布 0.79.x 功能说明。changelog 常滞后客户端，故对照写出两端版本，而不宣称近期无客户端更新。",
+          "en": "Official changelog reachable today; page Latest still v0.78.1 (2026-10-27)—shopping cards, Buy now, Shop Pay in Vault, subscription templates, cloud agents in custom modes, Team Bot Vault. Homebrew cask grok-bot still shows the Mac client at 0.79.3 (above page Latest); no official 0.79.x notes published. Changelog often lags—report both ends rather than claiming no recent client builds."
+        }
+      }
+    ]
+  },
+  "finance": {
+    "stock": {
+      "name": {
+        "zh": "小米集团-W",
+        "en": "Xiaomi Corp"
+      },
+      "symbol": "01810.HK",
+      "currency": "HKD",
+      "price": 30.1,
+      "change": -0.28,
+      "changePercent": -0.92,
+      "prevClose": 30.38,
+      "open": 30.98,
+      "high": 31.06,
+      "low": 29.94,
+      "volume": "约 1.298 亿股",
+      "amount": "约 39.38 亿港元",
+      "spark": [
+        23.66,
+        25.96,
+        24.52,
+        25.04,
+        26.38,
+        27.08,
+        26.66,
+        27.06,
+        26.8,
+        25.8,
+        26.8,
+        26.9,
+        25.66,
+        25.62,
+        25.68,
+        26.48,
+        28.1,
+        28.6,
+        28.76,
+        31.3,
+        30.38,
+        30.1
+      ],
+      "summary": {
+        "zh": "今日周二开市前采集（约 08:28 北京时间）；港股常规 09:30 开盘，此刻尚无今日成交价。报价仍为周一收盘：30.100 港元，跌 0.92%（-0.280），成交约 1.298 亿股、金额约 39.38 亿港元；日内 29.94–31.06，开盘 30.98。数据源：新浪/腾讯港股串（时间戳 2026/11/09 16:08）。52 周区间约 21.30–44.62 港元。",
+        "en": "Tue pre-open collection (~08:28 Asia/Shanghai); HK cash market is not yet open (regular open 09:30), so there is no Tuesday print. Quote remains Mon close: HK$30.100, −0.92% (−0.280) on ~129.8M shares / ~HK$3.938B; range 29.94–31.06, open 30.98. Source: Sina/Tencent HK quote (timestamp 2026/11/09 16:08). 52-week ~HK$21.30–44.62."
+      },
+      "highlights": [
+        {
+          "zh": "周一低开后收跌 0.92% 至 30.10，成交约 1.30 亿股，较周五约 3.04 亿股明显缩量。",
+          "en": "Monday closed −0.92% at 30.10 on about 130M shares, a clear drop in volume from Friday’s ~304M."
+        },
+        {
+          "zh": "周二早盘前无新成交价；开盘后请以实时行情为准。",
+          "en": "No new print before Tue open; use the live tape after 09:30."
+        },
+        {
+          "zh": "数据源：新浪/腾讯港股串（2026/11/09 16:08）；Stooq/Yahoo 本机暂不可用。下一财报催化仍留意 11/24 第三季度业绩。",
+          "en": "Source: Sina/Tencent HK quote (2026/11/09 16:08); Stooq/Yahoo unavailable on this box. Next earnings catalyst remains Q3 results on Nov 24."
+        }
+      ]
+    }
+  },
+  "todos": [
+    {
+      "text": {
+        "zh": "今日重心（周二去敏）：继续生产架构细节拆解与上线规划（含端云流式/事件接口与兼容梳理），整理安全基线作为后续安全架构工作的输入，并阅读消化 5.0 harness 设计；穿插知识库迁移、安全架构与 AI Engineering / harness 学习，以及硬件 bring-up。",
+        "en": "Tuesday focus (sanitized): continue production-architecture breakdown and release planning (device–cloud streaming/event interfaces and compatibility), document the security baseline as input for upcoming security-architecture work, and review the 5.0 harness design; plus knowledge-base migration, security / AI engineering / harness learning, and hardware bring-up."
+      },
+      "priority": "high"
+    }
+  ]
+}
