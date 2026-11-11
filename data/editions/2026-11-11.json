@@ -1,0 +1,389 @@
+{
+  "date": "2026-11-11",
+  "weather": {
+    "city": {
+      "zh": "北京",
+      "en": "Beijing"
+    },
+    "condition": {
+      "zh": "晴（Open-Meteo 早间实况 code 0 / 今日 daily code 0）",
+      "en": "Clear (Open-Meteo morning current code 0 / daily code 0)"
+    },
+    "icon": "clear",
+    "temp": "0 ~ 11°C",
+    "feels": "体感约 -1.0°C（08:15 实况约 2.0°C）",
+    "humidity": "75%",
+    "wind": {
+      "zh": "微风约 3.6 km/h（实况阵风约 8.3 km/h）；今日日最大阵风约 12.2 km/h",
+      "en": "Light breeze (~3.6 km/h, gusts ~8.3 km/h); day max gusts ~12.2 km/h"
+    },
+    "air": {
+      "zh": "Open-Meteo 约 US AQI 207、PM2.5≈216.1 μg/m³、PM10≈216.5（非常不健康——颗粒物很高，以实况为准）",
+      "en": "Open-Meteo ~US AQI 207, PM2.5≈216.1 μg/m³, PM10≈216.5 (Very Unhealthy—very high particulates; check live)"
+    },
+    "sunrise": "06:54",
+    "sunset": "17:02",
+    "tip": {
+      "zh": "🏠 今日北京晴，气温约 0~11°C，早间偏冷（实况约 2.0°C、体感约 -1.0°C）；无降水，风力不大（实况风约 3.6 km/h，日最大阵风约 12.2 km/h）。空气很差：Open-Meteo 约 US AQI 207（非常不健康），PM2.5≈216.1 μg/m³、PM10≈216.5；今日预报最高约 247，中午仍约 218、PM2.5≈96.6 μg/m³。今天不是训练日，但通勤请减少户外暴露，敏感体质建议口罩/改室内。\n🏃 训练提醒：周三无固定训练。周四可选跑日虽晴（约 2~12°C，无降水、风力不大），但空气或进一步转差（上午预报 US AQI≈269，当天最高或约 278，非常不健康）——点名提醒：不要安排长距离户外跑，优先改室内跑步机/力量有氧。周五晨练为室内健身，空气影响较小；若把周五当作可选跑日，空气仍差（上午预报 US AQI≈268），同样不宜拉长户外跑。下周二（11/17）冬中午跑日预报小雨约 1.2 mm、阵风约 31 km/h，届时再核降水。周日阵风或达约 36 km/h；下下周三（11/18）阵风或达约 45 km/h。\n📅 未来7天（北京，Open-Meteo；阴晴参考 weather_code，空气 Open-Meteo AQ，空气预报仅至 11/15）：\n• 11/11 周三 0~11°C 晴（US AQI≈207 非常不健康）\n• 11/12 周四 2~12°C 晴（周四可选跑日；空气更差，US AQI 或约 269–278——点名冲突）\n• 11/13 周五 2~12°C 晴（周五晨练/可选跑日；空气仍非常不健康）\n• 11/14 周六 3~13°C 阴（空气预报仍差，US AQI 或约 280+）\n• 11/15 周日 5~11°C 阴（阵风约 36 km/h；空气或仍偏差）\n• 11/16 周一 4~7°C 阴（周一晨练日；今日预报无降水；空气未给出）\n• 11/17 周二 1~5°C 小雨约 1.2 mm（冬中午跑日；阵风约 31 km/h——留意降水）\n• 11/18 周三 -1~8°C 晴间多云（阵风或达约 45 km/h）\n（气温/降水/风：Open-Meteo 约 08:15 北京时间；空气：Open-Meteo AQ，预报窗口至 11/15）",
+      "en": "🏠 Beijing today: clear, about 0–11°C, chilly morning (~2.0°C / feels ~−1.0°C); no precip, light wind (current ~3.6 km/h; day max gusts ~12.2 km/h). Air is very poor: Open-Meteo ~US AQI 207 (Very Unhealthy), PM2.5≈216.1 μg/m³, PM10≈216.5; today’s forecast peaks around 247, and noon is still ~218 with PM2.5≈96.6 μg/m³. Not a training day, but minimize outdoor exposure on the commute; mask or stay indoors if sensitive.\n🏃 Training: no fixed session on Wednesday. Thursday’s optional-run day is clear (~2–12°C, no precip, light wind) but air may worsen (morning US AQI≈269, daily max perhaps ~278, Very Unhealthy)—named conflict: skip a long outdoor run; prefer treadmill/indoor cardio. Friday morning gym is indoors so air matters less; if you use Friday as the optional run, air stays very unhealthy (morning US AQI≈268), so don’t stretch an outdoor run. Next Tue (11/17) winter noon-run day may see light rain (~1.2 mm) and gusts ~31 km/h—recheck closer to the day. Sunday may gust ~36 km/h; the following Wednesday (11/18) may gust ~45 km/h.\n📅 Next 7 days (Beijing, Open-Meteo; sky from weather_code, air from Open-Meteo AQ through 11/15 only):\n• 11/11 Wed 0–11°C clear (US AQI≈207 Very Unhealthy)\n• 11/12 Thu 2–12°C clear (optional-run day; air worse, US AQI perhaps 269–278—named conflict)\n• 11/13 Fri 2–12°C clear (morning gym / optional-run; air still Very Unhealthy)\n• 11/14 Sat 3–13°C overcast (air forecast still poor, US AQI perhaps 280+)\n• 11/15 Sun 5–11°C overcast (gusts ~36 km/h; air may stay poor)\n• 11/16 Mon 4–7°C overcast (morning gym; no precip in today’s forecast; no AQ forecast)\n• 11/17 Tue 1–5°C light rain ~1.2 mm (winter noon-run; gusts ~31 km/h—watch precip)\n• 11/18 Wed −1–8°C mainly clear (gusts perhaps ~45 km/h)\n(Temp/precip/wind: Open-Meteo ~08:15 Asia/Shanghai; air: Open-Meteo AQ, forecast window through 15 Nov)"
+    }
+  },
+  "aiTech": {
+    "openingSummary": {
+      "zh": "过去约一日的新主线是「Gemini 4 Carbon 全面开放」与「Claude 把白板/表格/数据做成可协作产物」：@GoogleAI 与 @GoogleDeepMind 宣布 Gemini 4 Carbon 向开发者、企业、科学家与消费者开放，官方称其是面向网络安全与长周期 agent 工作流的最强模型；独立工作流基准上称 CursorBench 4.0、Perplexity WANDR、Zapier AutomationBench 第一，且任务成本不到下一名外部模型的一半。API 导入价与 Gemini 4 Argon 相同（每百万 token $2 输入 / $10 输出），介绍期至 11/30，之后 $4/$20；并在 Google Antigravity 预览 /swarm（一条提示拉起可追踪的 agent 团队）。与 Artificial Analysis 合作的新基准 Multimodal Knowledge Agent（MKA）上，官方称 Carbon 质量第 2、任务均成本不到第一名的 1/6。@claudeai 开始推送 Claude Whiteboards、Claude Sheets（付费计划 beta）与 Claude Data（原 Dashboards，现已 GA），并升级 interactive connectors，可在对话旁打开 Adobe / Atlassian / Box 等完整工具。@OpenAI 推出 ChatGPT 商家能力公测（Business Hub / Business Agent）；周四将举办 Cyber at the Frontier 直播。DeepMind 工程侧同日还有 AlphaProof Code（用 agent 形式化验证 Signal 协议实现，生成逾 600 万行 Lean）以及 Gemini Robotics 2.5。产品栏：Hermes Agent 新稳定版 v0.23.1、OpenClaw v2026.11.3、codex 稳定版前进到 rust-v0.167.1（说明几乎为空）。缺口：@karpathy / @AndrewYNg / @Meta 近 48h 无高信号原创；关注列表仍无 DeepSeek 一手 X；DeepSeek 近几日无官方新模型发版；OpenAI 商家介绍页从本机抓取返回 403，条目以官方跳转 URL 与 X 帖为准。",
+      "en": "Over about a day the new leads are Gemini 4 Carbon’s general availability and Claude shipping collaborative Whiteboards, Sheets, and Data: @GoogleAI and @GoogleDeepMind made Gemini 4 Carbon available to developers, enterprises, scientists, and consumers, calling it their strongest model for cybersecurity and long-horizon agent workflows. Official copy says it ranks #1 on CursorBench 4.0, Perplexity’s WANDR, and Zapier’s AutomationBench at more than 2× lower cost per task than the next-best external model. API intro pricing matches Gemini 4 Argon ($2/$10 per million input/output tokens) through 30 Nov, then $4/$20; Google Antigravity is previewing /swarm, which turns one prompt into a tracked team of agents. On the new Multimodal Knowledge Agent (MKA) benchmark with Artificial Analysis, Google says Carbon ranks #2 in quality at more than 6× lower average cost per task than the top model. @claudeai started rolling out Claude Whiteboards and Claude Sheets (beta on paid plans) plus Claude Data (formerly Dashboards, now GA), and upgraded interactive connectors so a full Adobe, Atlassian, or Box app can open beside the chat. @OpenAI put Businesses in ChatGPT into beta (Business Hub / Business Agent) and teed up a Thursday Cyber at the Frontier keynote. On the research-engineering side, DeepMind also published AlphaProof Code (agents formally verified the Signal protocol implementation, generating over 6 million lines of Lean) and Gemini Robotics 2.5. In the product column: Hermes Agent shipped stable v0.23.1, OpenClaw v2026.11.3, and Codex’s stable line moved to rust-v0.167.1 (almost empty notes). Gaps: @karpathy / @AndrewYNg / @Meta quiet on high-signal originals in ~48h; still no DeepSeek primary X on the watchlist; no official DeepSeek model launch in recent days; the OpenAI businesses article returned 403 from this box, so that item uses the official redirect URL plus the X post."
+    },
+    "xPosts": [
+      {
+        "author": "Claude",
+        "handle": "@claudeai",
+        "time": "11-11 01:26（北京时间）",
+        "summary": {
+          "zh": "Claude 开始推送 Whiteboards、Sheets 与 Data：可在白板上把计划铺开、在表格里搭出可继续共建的追踪表，并用数据讲故事；付费计划逐步上线。",
+          "en": "Claude starts rolling out Whiteboards, Sheets, and Data: lay a plan on a board, get a working shared tracker in a sheet, and tell a story with your data, coming to paid plans."
+        },
+        "link": "https://x.com/claudeai/status/2120206365759094857",
+        "images": [
+          {
+            "src": "data/editions/2026-11-11/images/xpost-01.png",
+            "caption": {
+              "zh": "Claude Whiteboards / Sheets / Data 发布视频封面（来源：@claudeai；已镜像入仓）",
+              "en": "Launch-video still for Claude Whiteboards, Sheets, and Data (source: @claudeai; mirrored in-repo)"
+            }
+          }
+        ]
+      },
+      {
+        "author": "Google AI",
+        "handle": "@GoogleAI",
+        "time": "11-11 00:12（北京时间）",
+        "summary": {
+          "zh": "Google 宣布最强前沿模型 Gemini 4 Carbon 现已开放，面向复杂、长周期的 agent 工作流（知识工作、软件工程与网页等）；@GoogleDeepMind 同步介绍开建与 MKA 基准。",
+          "en": "Google says its strongest frontier model, Gemini 4 Carbon, is now available for complex, long-horizon agentic workflows across knowledge work, software engineering, and the web; @GoogleDeepMind posted a companion “start building” thread and the MKA benchmark."
+        },
+        "link": "https://x.com/GoogleAI/status/2120187753329791341",
+        "images": [
+          {
+            "src": "data/editions/2026-11-11/images/xpost-02.jpg",
+            "caption": {
+              "zh": "Gemini 4 Carbon 现已开放的发布视频封面（来源：@GoogleAI；已镜像入仓）",
+              "en": "Launch-video still for Gemini 4 Carbon’s availability (source: @GoogleAI; mirrored in-repo)"
+            }
+          }
+        ]
+      },
+      {
+        "author": "OpenAI",
+        "handle": "@OpenAI",
+        "time": "11-11 02:06（北京时间）",
+        "summary": {
+          "zh": "ChatGPT 商家能力进入公测：认领商家资料、管理信息并查看互动洞察；符合条件的商家还可搭建 Business Agent，用商家提供的信息回答顾客问题。",
+          "en": "Businesses in ChatGPT enters beta: claim your business, manage your information, and see engagement insights; eligible businesses can also build a Business Agent that answers customer questions from information they provide."
+        },
+        "link": "https://x.com/OpenAI/status/2120216592395174382",
+        "images": [
+          {
+            "src": "data/editions/2026-11-11/images/xpost-03.jpg",
+            "caption": {
+              "zh": "ChatGPT 商家能力 / Business Agent 发布视频封面（来源：@OpenAI；已镜像入仓）",
+              "en": "Launch-video still for Businesses in ChatGPT / Business Agent (source: @OpenAI; mirrored in-repo)"
+            }
+          },
+          {
+            "src": "data/editions/2026-11-11/images/openai-business-hub.jpg",
+            "caption": {
+              "zh": "ChatGPT Business Hub 产品示意图（来源：@OpenAI；已镜像入仓）",
+              "en": "Product still for ChatGPT Business Hub (source: @OpenAI; mirrored in-repo)"
+            }
+          }
+        ]
+      },
+      {
+        "author": "Google DeepMind",
+        "handle": "@GoogleDeepMind",
+        "time": "11-10 23:00（北京时间）",
+        "summary": {
+          "zh": "Gemini Robotics 2.5 发布：称可学习数百项日常技能（叠衣服、分拣汽车零件等）；概念验证中 Apollo 2 在装配分拣上称达 96% 准确率。",
+          "en": "Gemini Robotics 2.5 is out, said to learn hundreds of everyday skills—from folding laundry to sorting car parts; a proof of concept with Apollo 2 reportedly reached 96% accuracy on assembly-line sorting."
+        },
+        "link": "https://x.com/GoogleDeepMind/status/2120169787896525104",
+        "images": [
+          {
+            "src": "data/editions/2026-11-11/images/xpost-04-robotics.jpg",
+            "caption": {
+              "zh": "Gemini Robotics 2.5 官方分享图（来源：deepmind.google；已镜像入仓）",
+              "en": "Official share image for Gemini Robotics 2.5 (source: deepmind.google; mirrored in-repo)"
+            }
+          }
+        ]
+      },
+      {
+        "author": "OpenAI",
+        "handle": "@OpenAI",
+        "time": "11-11 01:10（北京时间）",
+        "summary": {
+          "zh": "OpenAI 将于周四举办 Cyber at the Frontier 直播，介绍把自身防守经验做成客户可用工具的最新网络安全发布。",
+          "en": "On Thursday, OpenAI will host Cyber at the Frontier, a live keynote for its latest cyber announcements, turning lessons from defending OpenAI into tools for customers."
+        },
+        "link": "https://x.com/OpenAI/status/2120202353907486826",
+        "images": [
+          {
+            "src": "data/editions/2026-11-11/images/xpost-05.jpg",
+            "caption": {
+              "zh": "Cyber at the Frontier 预告视频封面（来源：@OpenAI；已镜像入仓）",
+              "en": "Preview still for the Cyber at the Frontier keynote (source: @OpenAI; mirrored in-repo)"
+            }
+          }
+        ]
+      }
+    ],
+    "engBlogs": [
+      {
+        "source": "Google",
+        "title": {
+          "zh": "Gemini 4 Carbon 现已开放：长周期 agent 工作流与介绍价 $2/$10",
+          "en": "Gemini 4 Carbon is now available"
+        },
+        "summary": {
+          "zh": "11/10（北京时间约 11/11 凌晨）由 Koray Kavukcuoglu 发布。Carbon 面向开发者、企业、科学家与消费者；官方称在 CursorBench 4.0、Perplexity WANDR、Zapier AutomationBench 获第一，任务成本不到下一名外部模型的一半。与 Artificial Analysis 合作的 MKA 基准上称质量第 2、任务均成本不到第一名的 1/6。API 介绍价与 Gemini 4 Argon 相同（$2/$10），介绍期至 2026-11-30，之后 $4/$20；Google AI Ultra 用户可在 Antigravity、Gemini 应用与 Search 的 AI Mode 使用。Antigravity 预览 /swarm。",
+          "en": "Published Nov 10 (about early Nov 11 Asia/Shanghai) by Koray Kavukcuoglu. Carbon is available to developers, enterprises, scientists, and consumers. Official copy ranks it #1 on CursorBench 4.0, Perplexity’s WANDR, and Zapier’s AutomationBench at more than 2× lower cost per task than the next-best external model. On the MKA benchmark with Artificial Analysis, Google says it ranks #2 in quality at more than 6× lower average cost per task than the top model. Intro API pricing matches Gemini 4 Argon at $2/$10 through 30 Nov 2026, then $4/$20; Google AI Ultra subscribers get it in Antigravity, the Gemini app, and AI Mode in Search. Antigravity is previewing /swarm."
+        },
+        "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available",
+        "images": [
+          {
+            "src": "data/editions/2026-11-11/images/gemini-4-carbon-keyart.jpg",
+            "caption": {
+              "zh": "Gemini 4 Carbon 官方主视觉（来源：blog.google；已镜像入仓）",
+              "en": "Official key art for Gemini 4 Carbon (source: blog.google; mirrored in-repo)"
+            }
+          },
+          {
+            "src": "data/editions/2026-11-11/images/mka-quality-vs-cost.jpg",
+            "caption": {
+              "zh": "MKA 基准质量–成本图（来源：Google / Artificial Analysis 博文附图；已镜像入仓）",
+              "en": "MKA quality-vs-cost chart (source: Google / Artificial Analysis blog figure; mirrored in-repo)"
+            }
+          }
+        ]
+      },
+      {
+        "source": "Anthropic / Claude",
+        "title": {
+          "zh": "Claude Whiteboards、Sheets 与 Data：把协作白板、表格和数据故事做进对话",
+          "en": "Claude Whiteboards, Claude Sheets, and Claude Data"
+        },
+        "summary": {
+          "zh": "与 X 帖同步（约 11/11 01:26 北京时间）。Whiteboards 与 Sheets 在付费计划以 beta 上线，Dashboards 更名为 Claude Data 并 GA；可连接 Snowflake、Salesforce 等，数据故事/认证查询/直播分享为 beta。interactive connectors 可在对话旁或全屏打开 Adobe、Atlassian、Box、Notion 等完整应用。Team 默认开启三项；Enterprise 默认关闭 Whiteboards/Sheets，Data 将于 11/19 默认开启。",
+          "en": "Timed with the X thread (~01:26 Nov 11 Asia/Shanghai). Whiteboards and Sheets are in beta on paid plans; Dashboards is generally available as Claude Data. Data can connect to tools such as Snowflake and Salesforce, with data stories, certified queries, and live sharing in beta. Interactive connectors can open a full Adobe, Atlassian, Box, or Notion app beside the chat or full screen. On Team all three are on by default; on Enterprise, Whiteboards and Sheets are off by default, and Data turns on by default on 19 Nov."
+        },
+        "link": "https://claude.com/resources/articles/sheets-whiteboards-data"
+      },
+      {
+        "source": "Google DeepMind",
+        "title": {
+          "zh": "AlphaProof Code：用 agent 形式化验证 Signal 协议的实现代码",
+          "en": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth"
+        },
+        "summary": {
+          "zh": "11/10 发布。DeepMind 称这是首次以该深度用 AI 形式化验证已广泛部署的密码协议实现，也是该协议实现首次被任何方法验证到这一层。框架由人类与模型共同写出规范，再由 Gemini Carbon agent 完成证明，生成逾 600 万行 Lean；人类只需复核约 1% 的代码。全过程约四周。把两处已修复的真实漏洞重新植入隔离版本后，系统均给出「不安全」的机器可检查证明。",
+          "en": "Published Nov 10. DeepMind says this is the first time AI has formally verified a widely deployed cryptographic-protocol implementation at this depth—and the first time this implementation has been verified that far by any method. Humans and models co-wrote the specs; Gemini Carbon agents produced the proofs (over 6 million lines of Lean), with experts reviewing about 1% of the codebase. The process took about four weeks. When two previously fixed real bugs were reintroduced in an isolated copy, the system produced machine-checked proofs that those versions were insecure."
+        },
+        "link": "https://deepmind.google/blog/introducing-alphaproof-code",
+        "images": [
+          {
+            "src": "data/editions/2026-11-11/images/alphaproof-code-og.jpg",
+            "caption": {
+              "zh": "AlphaProof Code 文章分享图（来源：deepmind.google；已镜像入仓）",
+              "en": "Share image for the AlphaProof Code post (source: deepmind.google; mirrored in-repo)"
+            }
+          }
+        ]
+      }
+    ],
+    "alphaxivTop3": [
+      {
+        "rank": 1,
+        "title": "Embodied First Exam",
+        "authors": "Kangrui Wang, Qineng Wang, Changhe Chen, Pingyue Zhang, Chi Gui et al.",
+        "summary": {
+          "zh": "（Agent 优先；alphaXiv 热榜约第 1）面向「用编码 agent 控制机器人」的评测：允许 agent 自选直接控制、写代码控制等路径，补上现有基准偏视动策略学习、难以检验编码 agent 在物理约束下可靠性的缺口。",
+          "en": "(Agent pick; ~#1 on alphaXiv’s trending list) A unified, agent-native robotics exam: coding agents may choose their own control path (direct control, code-to-control, etc.), filling a gap left by benchmarks built around visuomotor policy learning."
+        },
+        "link": "https://www.alphaxiv.org/abs/2611.12177"
+      },
+      {
+        "rank": 2,
+        "title": "Sage-Taiyi: A Metacognitive Architecture for Scientific Discovery",
+        "authors": "Weida Wang, Benteng Chen, Yigeng Jiang, Shuchen Pu, Weiping Shen et al.",
+        "summary": {
+          "zh": "（alphaXiv 热榜约第 2）元认知式科学发现架构：显式监控证据、假设与未决问题，再据此调整下一步研究目标与可复用推理方法；在涵盖 10 个学科、50 篇论文、265 项任务的 Taiyi-Bench 上评估。",
+          "en": "(~#2 on alphaXiv’s trending list) A metacognition-inspired architecture that monitors evidence, assumptions, and open questions, then adapts what to investigate next and which reusable reasoning methods to use; evaluated on Taiyi-Bench (265 tasks from 50 papers across 10 disciplines)."
+        },
+        "link": "https://www.alphaxiv.org/abs/2611.12762"
+      },
+      {
+        "rank": 3,
+        "title": "System Optimizations for Cost-Efficient Agent Harnesses",
+        "authors": "Jongseok Park, Jiaxiang Yu, Eric Zhou, Tony Hong, Sunga Kim et al.",
+        "summary": {
+          "zh": "（Agent / harness 优先；alphaXiv 热榜约第 5）指出任务准确率主要取决于所用 LLM，而 harness 侧（系统提示、工具等）对成本影响更大，同一模型与任务上最高可降本约 2.6 倍，并据此讨论 harness 侧的成本优化机会。",
+          "en": "(Agent/harness pick; ~#5 on alphaXiv’s trending list) Argues that task accuracy depends mostly on the LLM, while harness-side choices (system prompts, tools) move cost more—up to about 2.6× lower cost on the same model and task—and explores those harness-side optimizations."
+        },
+        "link": "https://www.alphaxiv.org/abs/2611.12122"
+      }
+    ]
+  },
+  "aiProducts": {
+    "items": [
+      {
+        "name": "Hermes Agent",
+        "tag": "update",
+        "link": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.23.1",
+        "summary": {
+          "zh": "新稳定版 v0.23.1（GitHub published_at 2026-11-10T01:42:15Z，约北京时间 11/10 09:42，昨日早报之后）。补丁版：把自 v0.23.0 以来约 618 个已合并 PR 打成稳定标签。明确修复插件目录：11/9 站点发布的 `plugin-catalog.json` 超过客户端 2 MiB 上限，安装会静默回退到随包目录；本版把上限提到 16 MiB。完整精选说明要等到 v0.24.0。Desktop 安装包不随本标签更新。",
+          "en": "New stable v0.23.1 (GitHub published_at 2026-11-10T01:42:15Z / ~09:42 Nov 10 Asia/Shanghai, after yesterday’s brief). Patch release rolling up ~618 PRs since v0.23.0. The stated fix: after the Nov 9 catalog deploy, `plugin-catalog.json` exceeded the 2 MiB client cap, so installs silently fell back to the bundled catalog; this build raises the cap to 16 MiB. Full curated notes are deferred to v0.24.0. The Desktop installer build is unchanged in this tag."
+        }
+      },
+      {
+        "name": "OpenClaw",
+        "tag": "update",
+        "link": "https://github.com/openclaw/openclaw/releases/tag/v2026.11.3",
+        "summary": {
+          "zh": "新稳定版 v2026.11.3（GitHub published_at 2026-11-10T18:53:07Z，约北京时间 11/11 02:53）。要点：私有子 agent 结果不进入流式聊天回复、取消子任务后父任务可改派、未应答工具失败改为可见、卡住的供应商认证会在截止时取消、沙箱图片预览限制在允许目录、以及更快的 Gateway 启动。同日另发 gateway-only 的 extended-stable v2026.9.37（九月维护线+关键修复，非当前主线）。",
+          "en": "New stable v2026.11.3 (GitHub published_at 2026-11-10T18:53:07Z / ~02:53 Nov 11 Asia/Shanghai). Highlights: keep private subagent completions out of streamed chat, let a parent hand off after cancelling a child, surface unanswered tool failures, stop stalled provider auth at the deadline, keep sandboxed image previews inside allowed folders, and speed up Gateway startup. The same day also published gateway-only extended-stable v2026.9.37 (September maintenance line plus critical fixes—not the current mainline)."
+        }
+      },
+      {
+        "name": "DeepSeek Harness",
+        "tag": "update",
+        "link": "https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.2.2-rc.1",
+        "summary": {
+          "zh": "自 11/4 起无更新标签。实验线仍为 dsh-v0.2.2-rc.1（2026-11-04）：0.2.2 首个 RC——手机/平板适配、引用插入、历史导出 Markdown、实验性 subagent_oar（交给本机 Codex/Claude CLI）、变更请求与工作树审查等。近几日未见 DeepSeek 官方新模型发版；V5 时间表仍为二手传闻、公司未证实。",
+          "en": "No newer tag since Nov 4. Experimental line still dsh-v0.2.2-rc.1 (2026-11-04): first 0.2.2 RC with mobile/tablet polish, quote-to-input, Markdown history export, experimental subagent_oar (hand off to local Codex/Claude CLI), change-request/worktree review. No official DeepSeek model launch in recent days; V5 timing remains second-hand rumor and unverified by the company."
+        }
+      },
+      {
+        "name": "codex",
+        "tag": "update",
+        "link": "https://github.com/openai/codex/releases/tag/rust-v0.167.1",
+        "summary": {
+          "zh": "新稳定版 rust-v0.167.1 / 0.167.1（GitHub published_at 2026-11-10T21:32:01Z，约北京时间 11/11 05:32）。Release notes 几乎为空，只指向与 rust-v0.167.0 的 compare 链接，没有功能说明。上一稳定版 0.167.0（11/6）仍是目前有文字说明的版本（agent command center 等）。预发布线前进到 rust-v0.169.0-alpha.9（11/10 22:09 UTC），说明同样只有版本号。",
+          "en": "New stable rust-v0.167.1 / 0.167.1 (GitHub published_at 2026-11-10T21:32:01Z / ~05:32 Nov 11 Asia/Shanghai). The notes are almost empty—only a compare link to rust-v0.167.0, with no feature list. The previous stable, 0.167.0 (Nov 6), remains the last release with written notes (agent command center and so on). The prerelease line moved to rust-v0.169.0-alpha.9 (11/10 22:09 UTC), also notes-only-as-a-version-number."
+        }
+      },
+      {
+        "name": "Claude",
+        "tag": "release",
+        "link": "https://claude.com/resources/articles/sheets-whiteboards-data",
+        "summary": {
+          "zh": "今日新产品：Claude Whiteboards 与 Claude Sheets（付费计划 beta），Claude Data（原 Dashboards）GA；并可在对话旁打开 Adobe / Atlassian / Box / Notion 等完整工具（interactive connectors）。模型侧仍以昨夜的 Claude Fable 5.2 / Mythos 5.2 为最新（API $8/$40，可选 fast mode $16/$80；官方 FrontierCode 2.0 Xhigh 约 49.1%）。日常编码官方仍建议先从 Opus 5.5 起步。",
+          "en": "New today: Claude Whiteboards and Claude Sheets (beta on paid plans), Claude Data (formerly Dashboards) generally available, plus interactive connectors that open a full Adobe, Atlassian, Box, or Notion app beside the chat. On the model side, last night’s Claude Fable 5.2 / Mythos 5.2 remains the latest ($8/$40, optional fast mode $16/$80; official FrontierCode 2.0 Xhigh about 49.1%). Anthropic still recommends starting with Opus 5.5 for most coding."
+        },
+        "images": [
+          {
+            "src": "data/editions/2026-11-11/images/claude-sheets-whiteboards.jpg",
+            "caption": {
+              "zh": "Claude Whiteboards 与 Sheets 产品示意图（来源：@claudeai；已镜像入仓）",
+              "en": "Product still for Claude Whiteboards and Sheets (source: @claudeai; mirrored in-repo)"
+            }
+          },
+          {
+            "src": "data/editions/2026-11-11/images/claude-data.jpg",
+            "caption": {
+              "zh": "Claude Data（原 Dashboards）现已 GA 的示意图（来源：@claudeai；已镜像入仓）",
+              "en": "Product still for Claude Data (formerly Dashboards), now GA (source: @claudeai; mirrored in-repo)"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Cursor",
+        "tag": "update",
+        "link": "https://cursor.com/changelog/voice-chat",
+        "summary": {
+          "zh": "自 11/6 起 changelog 无更新条目。页面置顶仍为 2026-11-06 Voice Chat with Agents——与 agent 实时语音通话（Agents Window / IDE / Web / iOS），由 Grok Voice 驱动；可边聊边让 coding agent 干活并听进度。另有 11/5 Build Live Apps（Cloud Agent 脚手架 Web 应用、Postgres、Cursor SSO 并部署分享）。",
+          "en": "No newer changelog entry since Nov 6. Latest still 2026-11-06 Voice Chat with Agents—realtime voice calls with agents (Agents Window / IDE / Web / iOS) powered by Grok Voice; keep talking while the coding agent works and hear progress. Also Nov 5 Build Live Apps (Cloud Agent scaffolds web app, Postgres, Cursor SSO, deploy + share)."
+        }
+      },
+      {
+        "name": "Grok Bot",
+        "tag": "update",
+        "link": "https://x.ai/changelog/bot",
+        "summary": {
+          "zh": "官方 changelog 今日可访问，页面 Latest 现为 v0.79.3（2026-11-06）——共享 Pages 可切换并记住深浅色主题；同一 Slack 工作区的成员可直接私信 Team Bot 并新开对话；页面抓取失败时改由 Bot 直接读取；以及通话卡片、1Password 断开、Always allow 等修复。前一笔 v0.79.2（11/5）含新应用图标与礼物采购询问流程。Homebrew cask grok-bot 显示 Mac 客户端已到 0.79.4（高于页面 Latest）；官方未公布 0.79.4 功能说明。changelog 常滞后客户端，故对照写出两端版本。",
+          "en": "Official changelog reachable today; page Latest is now v0.79.3 (2026-11-06)—shared Pages can switch and remember light/dark theme; people in a shared Slack workspace can message a Team Bot and start a new conversation; if the usual page fetch fails the Bot reads the page directly; plus call-card, 1Password-disconnect, and Always-allow fixes. The prior entry, v0.79.2 (Nov 5), includes the new app icon and a gift-request flow. Homebrew cask grok-bot shows the Mac client at 0.79.4 (above page Latest); no official 0.79.4 notes. Changelog often lags—report both ends."
+        }
+      }
+    ]
+  },
+  "finance": {
+    "stock": {
+      "name": {
+        "zh": "小米集团-W",
+        "en": "Xiaomi Corp"
+      },
+      "symbol": "01810.HK",
+      "currency": "HKD",
+      "price": 30.6,
+      "change": 0.5,
+      "changePercent": 1.66,
+      "prevClose": 30.1,
+      "open": 29.96,
+      "high": 31.04,
+      "low": 29.68,
+      "volume": "约 1.034 亿股",
+      "amount": "约 31.55 亿港元",
+      "spark": [
+        25.96,
+        24.52,
+        25.04,
+        26.38,
+        27.08,
+        26.66,
+        27.06,
+        26.8,
+        25.8,
+        26.8,
+        26.9,
+        25.66,
+        25.62,
+        25.68,
+        26.48,
+        28.1,
+        28.6,
+        28.76,
+        31.3,
+        30.38,
+        30.1,
+        30.6
+      ],
+      "summary": {
+        "zh": "今日周三开市前采集（约 08:25 北京时间）；港股常规 09:30 开盘，此刻尚无今日成交价。报价仍为周二收盘：30.600 港元，涨 1.66%（+0.500），成交约 1.034 亿股、金额约 31.55 亿港元；日内 29.68–31.04，开盘 29.96。数据源：新浪/腾讯港股串（时间戳 2026/11/10 16:08），K 线收盘与之一致。52 周区间约 21.30–44.62 港元。",
+        "en": "Wed pre-open collection (~08:25 Asia/Shanghai); HK cash market is not yet open (regular open 09:30), so there is no Wednesday print. Quote remains Tue close: HK$30.600, +1.66% (+0.500) on ~103.4M shares / ~HK$3.155B; range 29.68–31.04, open 29.96. Source: Sina/Tencent HK quote (timestamp 2026/11/10 16:08), matching the kline close. 52-week ~HK$21.30–44.62."
+      },
+      "highlights": [
+        {
+          "zh": "周二低开后收涨 1.66% 至 30.60，成交约 1.03 亿股，较周一约 1.30 亿股再缩量。",
+          "en": "Tuesday closed +1.66% at 30.60 on about 103M shares, a further drop in volume from Monday’s ~130M."
+        },
+        {
+          "zh": "周三早盘前无新成交价；开盘后请以实时行情为准。",
+          "en": "No new print before Wed open; use the live tape after 09:30."
+        },
+        {
+          "zh": "数据源：新浪/腾讯港股串（2026/11/10 16:08）及腾讯日 K。下一财报催化仍留意 11/24 第三季度业绩。",
+          "en": "Source: Sina/Tencent HK quote (2026/11/10 16:08) and Tencent daily kline. Next earnings catalyst remains Q3 results on Nov 24."
+        }
+      ]
+    }
+  },
+  "todos": [
+    {
+      "text": {
+        "zh": "今日重心（周三去敏）：整理小爱 Plus 安全基线，作为后续安全架构工作的输入；了解 durable harness 与相关开源验收实践；并继续安全架构（信任边界）、harness 工程 / RSI、AI Engineering 工具链学习，以及硬件 bring-up。",
+        "en": "Wednesday focus (sanitized): document the Xiaoai Plus security baseline as input for upcoming security-architecture work; look at durable harnesses and related open-source acceptance practice; and continue security architecture (trust boundaries), harness engineering / RSI, AI Engineering tooling, and hardware bring-up."
+      },
+      "priority": "high"
+    }
+  ]
+}
