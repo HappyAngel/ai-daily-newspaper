@@ -205,7 +205,59 @@ function sectionHead(icon, title, sub, tone = 'warm') {
   </div>`;
 }
 
-function sectionWeather(w, openingText) {
+
+function resolveOpening(raw) {
+  if (raw == null || raw === '') return { kind: 'empty' };
+  let val = raw;
+  if (typeof raw === 'object' && (Object.prototype.hasOwnProperty.call(raw, 'zh') || Object.prototype.hasOwnProperty.call(raw, 'en'))) {
+    val = raw[state.lang] || raw.zh || raw.en || '';
+  }
+  if (typeof val === 'string') {
+    return { kind: 'legacy', paragraphs: val.split('\n').filter(Boolean) };
+  }
+  if (typeof val === 'object' && val) {
+    const important = val.important || null;
+    return {
+      kind: 'structured',
+      greeting: val.greeting || '',
+      lead: val.lead || '',
+      important: important,
+      sections: Array.isArray(val.sections) ? val.sections : [],
+    };
+  }
+  return { kind: 'legacy', paragraphs: [String(val)] };
+}
+
+function openingHtml(raw) {
+  const o = resolveOpening(raw);
+  if (o.kind === 'empty') return '';
+  if (o.kind === 'legacy') {
+    return o.paragraphs.map((p) => `<p>${esc(p)}</p>`).join('');
+  }
+  const important = o.important ? (() => {
+    const title = L(o.important.title) || t('openingImportant');
+    const items = o.important.items || [];
+    const body = L(o.important.body);
+    const list = items.length
+      ? `<ul>${items.map((it) => `<li>${esc(L(it))}</li>`).join('')}</ul>`
+      : (body ? `<p>${esc(body)}</p>` : '');
+    if (!list) return '';
+    return `<div class="opening-important"><h3>${esc(title)}</h3>${list}</div>`;
+  })() : '';
+  const sections = o.sections.map((s) => {
+    const title = L(s && s.title);
+    const body = L(s && s.body);
+    if (!title && !body) return '';
+    return `<div class="opening-block">${title ? `<h3>${esc(title)}</h3>` : ''}${body ? `<p>${esc(body)}</p>` : ''}</div>`;
+  }).join('');
+  return `
+        ${o.greeting ? `<p class="opening-greet">${esc(L(o.greeting))}</p>` : ''}
+        ${o.lead ? `<p class="opening-lead">${esc(L(o.lead))}</p>` : ''}
+        ${important}
+        ${sections}`;
+}
+
+function sectionWeather(w, openingRaw) {
   const labels = {
     feels: t('weatherFeels'),
     wind: t('weatherWind'),
@@ -238,7 +290,7 @@ function sectionWeather(w, openingText) {
       </div>
       <div class="card span-8 opening">
         <div class="opening-label">${ICONS.info}<span>${esc(t('openingLabel'))}</span></div>
-        ${String(openingText || '').split('\n').filter(Boolean).map((p) => `<p>${esc(p)}</p>`).join('')}
+        ${openingHtml(openingRaw)}
       </div>
     </div>
   </section>`;
@@ -366,40 +418,90 @@ function fmtPct(n) {
   return `${num.toFixed(1)}%`;
 }
 
+function fmtValue(n) {
+  if (n == null || n === '') return '—';
+  const num = Number(n);
+  if (Number.isNaN(num)) return String(n);
+  if (Math.abs(num) >= 100) return num.toFixed(0);
+  if (Math.abs(num) >= 10) return num.toFixed(1);
+  return num.toFixed(2);
+}
+
+function valueOf(row) {
+  if (row == null) return 0;
+  if (row.value != null && row.value !== '') {
+    const v = Number(row.value);
+    if (!Number.isNaN(v)) return v;
+  }
+  const score = Number(row.score);
+  const cost = Number(row.cost);
+  if (!Number.isNaN(score) && !Number.isNaN(cost) && cost > 0) return score / cost;
+  return 0;
+}
+
 function sectionModels(models) {
   const cb = models && models.cursorBench;
   if (!cb) return '';
-  const rows = cb.leaderboard || [];
-  const total = cb.total || (cb.snapshot || []).length || rows.length;
-  const maxScore = Math.max(1, ...rows.map((r) => Number(r.score) || 0));
+  const officialRows = cb.officialLeaderboard || [];
+  const valueRows = (cb.leaderboard || []).slice();
+  const hasSplit = officialRows.length > 0;
+  const total = cb.total || (cb.snapshot || []).length || valueRows.length || officialRows.length;
   const kind = cb.changeKind || (cb.changed ? 'updated' : 'unchanged');
   const badgeKey = kind === 'added' ? 'modelsFirst' : kind === 'updated' ? 'modelsUpdated' : 'modelsNoChange';
   const badgeCls = kind === 'added' ? 'first' : kind === 'updated' ? 'updated' : 'unchanged';
   const images = cb.images || [];
   const gid = images.length ? addGallery(images) : null;
-  const showing = t('modelsShowing').replace('{n}', String(rows.length)).replace('{t}', String(total));
-  return `
-  <section class="section" id="sec-models">
-    ${sectionHead(ICONS.cube, t('sectionModels'), t('sectionModelsSub'), 'cool')}
-    <div class="card cb-card">
-      <div class="cb-meta">
-        <span class="cb-title">CursorBench ${esc(cb.version || '')}</span>
-        ${cb.asOf ? `<span class="cb-meta-item">${esc(t('modelsAsOf'))} ${esc(cb.asOf)}</span>` : ''}
-        <span class="cb-badge ${badgeCls}">${esc(t(badgeKey))}</span>
-        ${cb.source ? `<a class="product-link cb-official"${hrefAttr(cb.source)}>${esc(t('modelsOfficial'))} ${ICONS.ext}</a>` : ''}
-      </div>
-      ${L(cb.changeSummary) ? `<p class="cb-change">${esc(L(cb.changeSummary))}</p>` : ''}
-      ${L(cb.summary) ? `<p class="cb-summary">${esc(L(cb.summary))}</p>` : ''}
-      <div class="cb-table-wrap">
-        <table class="cb-table">
+
+  const valueTable = (rows) => {
+    const maxVal = Math.max(1, ...rows.map((r) => valueOf(r)));
+    return `<div class="cb-table-wrap">
+        <table class="cb-table cb-table-value">
+          <thead>
+            <tr>
+              <th>${esc(t('modelsRank'))}</th>
+              <th>${esc(t('modelsModel'))}</th>
+              <th>${esc(t('modelsValue'))}</th>
+              <th class="cb-num">${esc(t('modelsScore'))}</th>
+              <th class="cb-num">${esc(t('modelsCost'))}</th>
+              <th class="cb-num cb-optional">${esc(t('modelsOfficialRank'))}</th>
+            </tr>
+          </thead>
+          <tbody>
+            ${rows.map((r) => {
+              const val = valueOf(r);
+              const pct = Math.max(0, Math.min(100, val / maxVal * 100));
+              const rankCls = r.rank === 1 ? 'r1' : r.rank === 2 ? 'r2' : r.rank === 3 ? 'r3' : '';
+              const official = r.officialRank != null ? r.officialRank : r.rank;
+              return `<tr>
+                <td class="cb-rank ${rankCls}">${esc(r.rank)}</td>
+                <td class="cb-model">${esc(r.model)}</td>
+                <td class="cb-score-cell">
+                  <div class="cb-score-row">
+                    <span class="cb-score-val cb-value-val">${esc(fmtValue(val))}</span>
+                    <span class="cb-bar" aria-hidden="true"><i style="width:${pct.toFixed(1)}%"></i></span>
+                  </div>
+                </td>
+                <td class="cb-num">${esc(fmtPct(r.score))}</td>
+                <td class="cb-num">${esc(fmtMoney(r.cost))}</td>
+                <td class="cb-num cb-optional">${esc(official)}</td>
+              </tr>`;
+            }).join('')}
+          </tbody>
+        </table>
+      </div>`;
+  };
+
+  const officialTable = (rows) => {
+    const maxScore = Math.max(1, ...rows.map((r) => Number(r.score) || 0));
+    return `<div class="cb-table-wrap">
+        <table class="cb-table cb-table-official">
           <thead>
             <tr>
               <th>${esc(t('modelsRank'))}</th>
               <th>${esc(t('modelsModel'))}</th>
               <th>${esc(t('modelsScore'))}</th>
               <th class="cb-num">${esc(t('modelsCost'))}</th>
-              <th class="cb-num">${esc(t('modelsTokens'))}</th>
-              <th class="cb-num">${esc(t('modelsSteps'))}</th>
+              <th class="cb-num cb-optional">${esc(t('modelsValue'))}</th>
             </tr>
           </thead>
           <tbody>
@@ -416,14 +518,46 @@ function sectionModels(models) {
                   </div>
                 </td>
                 <td class="cb-num">${esc(fmtMoney(r.cost))}</td>
-                <td class="cb-num">${esc(fmtNum(r.tokens))}</td>
-                <td class="cb-num">${esc(fmtNum(r.steps))}</td>
+                <td class="cb-num cb-optional">${esc(fmtValue(valueOf(r)))}</td>
               </tr>`;
             }).join('')}
           </tbody>
         </table>
+      </div>`;
+  };
+
+  const valueBlock = valueRows.length ? `
+      <div class="cb-subhead">
+        <h3>${esc(t('modelsValueTitle'))}</h3>
+        <span>${esc(t('modelsValueHint'))}</span>
       </div>
-      <div class="cb-foot"><span>${esc(showing)}</span></div>
+      ${valueTable(valueRows)}
+      <div class="cb-foot"><span>${esc(t('modelsShowing').replace('{n}', String(valueRows.length)).replace('{t}', String(total)))}</span></div>` : '';
+
+  const officialBlock = officialRows.length ? `
+      <div class="cb-subhead cb-subhead-next">
+        <h3>${esc(t('modelsOfficialTitle'))}</h3>
+      </div>
+      ${officialTable(officialRows)}
+      <div class="cb-foot"><span>${esc(t('modelsShowingOfficial').replace('{n}', String(officialRows.length)))}</span></div>` : '';
+
+  // Backward compatible: old editions only have a score-sorted leaderboard.
+  const fallback = (!hasSplit && valueRows.length) ? officialTable(valueRows) +
+      `<div class="cb-foot"><span>${esc(t('modelsShowingOfficial').replace('{n}', String(valueRows.length)))}</span></div>` : '';
+
+  return `
+  <section class="section" id="sec-models">
+    ${sectionHead(ICONS.cube, t('sectionModels'), t('sectionModelsSub'), 'cool')}
+    <div class="card cb-card">
+      <div class="cb-meta">
+        <span class="cb-title">CursorBench ${esc(cb.version || '')}</span>
+        ${cb.asOf ? `<span class="cb-meta-item">${esc(t('modelsAsOf'))} ${esc(cb.asOf)}</span>` : ''}
+        <span class="cb-badge ${badgeCls}">${esc(t(badgeKey))}</span>
+        ${cb.source ? `<a class="product-link cb-official"${hrefAttr(cb.source)}>${esc(t('modelsOfficial'))} ${ICONS.ext}</a>` : ''}
+      </div>
+      ${L(cb.changeSummary) ? `<p class="cb-change">${esc(L(cb.changeSummary))}</p>` : ''}
+      ${L(cb.summary) ? `<p class="cb-summary">${esc(L(cb.summary))}</p>` : ''}
+      ${hasSplit ? valueBlock + officialBlock : fallback}
       ${gid ? thumbsHtml(gid, images) : ''}
     </div>
   </section>`;
@@ -527,7 +661,7 @@ function renderEdition() {
   renderMetaBar();
   $('#content').innerHTML = [
     e.sample ? `<div class="sample-notice">${ICONS.info}<span>${esc(t('sampleNotice'))}</span></div>` : '',
-    sectionWeather(e.weather || {}, L((e.aiTech || {}).openingSummary)),
+    sectionWeather(e.weather || {}, (e.aiTech || {}).openingSummary),
     sectionAiTech(e.aiTech || {}),
     sectionProducts(e.aiProducts || {}),
     sectionModels(e.models || {}),

@@ -529,6 +529,76 @@ main {
   margin-bottom: 0;
 }
 
+.opening-greet {
+  font-size: 16px;
+  font-weight: 650;
+  color: #f2f5fb;
+  margin-bottom: 8px;
+  line-height: 1.7;
+}
+
+.opening-lead {
+  font-size: 15px;
+  line-height: 1.8;
+  color: #dbe1ee;
+  margin-bottom: 14px;
+}
+
+.opening-important {
+  margin: 0 0 6px;
+  padding: 14px 16px 12px;
+  border-radius: 14px;
+  background: linear-gradient(180deg, rgba(255, 180, 84, 0.12), rgba(255, 180, 84, 0.04));
+  border: 1px solid rgba(255, 180, 84, 0.22);
+}
+
+.opening-important h3 {
+  margin: 0 0 8px;
+  font-size: 11.5px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--amber);
+}
+
+.opening-important ul {
+  margin: 0;
+  padding: 0 0 0 18px;
+}
+
+.opening-important li {
+  font-size: 14.5px;
+  line-height: 1.7;
+  color: #eef2fa;
+  margin-bottom: 6px;
+}
+
+.opening-important li:last-child {
+  margin-bottom: 0;
+}
+
+.opening-block {
+  margin-top: 16px;
+  padding-top: 14px;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.opening-block h3 {
+  margin: 0 0 6px;
+  font-size: 13.5px;
+  font-weight: 700;
+  color: #f4f7ff;
+  letter-spacing: 0.01em;
+}
+
+.opening-block p,
+.opening-block p:last-child {
+  margin: 0;
+  font-size: 14.5px;
+  line-height: 1.75;
+  color: var(--text-dim);
+}
+
 /* ---------------- X ?? ---------------- */
 
 .xpost {
@@ -1026,6 +1096,37 @@ main {
   margin-top: 14px;
   font-size: 12px;
   color: var(--text-faint);
+}
+
+.cb-subhead {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 18px;
+}
+
+.cb-subhead-next {
+  margin-top: 28px;
+  padding-top: 18px;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.cb-subhead h3 {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 700;
+  color: #f4f7ff;
+}
+
+.cb-subhead span {
+  font-size: 12px;
+  color: var(--text-faint);
+}
+
+.cb-value-val {
+  width: 52px;
+  color: #cabaff;
 }
 
 /* ---------------- ?? ---------------- */
@@ -1556,10 +1657,8 @@ footer {
   .fin-stats { grid-template-columns: repeat(2, 1fr); }
   .weather-stats { grid-template-columns: repeat(2, 1fr); }
   .prio { display: none; }
-  .cb-table th:nth-child(5),
-  .cb-table td:nth-child(5),
-  .cb-table th:nth-child(6),
-  .cb-table td:nth-child(6) { display: none; }
+  .cb-table th.cb-optional,
+  .cb-table td.cb-optional { display: none; }
 }
 
 /* ---------------- ?????????????????? ---------------- */

@@ -30,8 +30,74 @@
   },
   "aiTech": {
     "openingSummary": {
-      "zh": "小熊早上好！今天最大的产品消息：DeepMind 发布 AlphaGenome 2，把基因组模型推进到按细胞类型解读 DNA；Google 推出 Gemini Decisions API，正式加入决策模型赛道。今晚还有 OpenAI 网络安全直播，细节待会后核实。\n\nAlphaGenome 2 于 11/11 晚（北京时间约 23:03）由 @GoogleDeepMind 宣布。它按特定细胞类型或状态，预测 DNA 序列及其变异如何影响基因表达等分子读出。官方称相对前代，能识别出近两倍会改变细胞中基因表达的变异；在 TenK10K（28 种原代免疫细胞）上，因果变异召回为 30% 对 16%，方向性基因效应为 43% 对 23%。训练数据含逾 1.07 亿条单细胞图谱、覆盖 68 种组织。即日起非商业研究可通过 AlphaGenome API 使用，商业研究为私人预览；官方明确仅供研究，尚未用于临床诊断。\n\nGoogle 同日推出 Gemini Decisions API：一次前向可处理最多约 1000 个封闭式问题（是否 / 选择 / 量表），输入覆盖文本、图像、音视频和 PDF，返回校准概率。开发者文档已上线；Simon Willison 同日记录其定价为每百万输入 token 10 美分、输出免费，与 OpenAI 的 GPT-6 Luna 决策模型同价，并称目前三家决策模型里它是唯一原生覆盖音视频与 PDF 的。\n\n今晚 18:00（北京时间，对应 10:00 PT）OpenAI 将举办 Cyber at the Frontier 直播，介绍把自身防守经验做成客户可用工具的最新网络安全发布；发布会尚未开始。OpenAI 产品侧 @thsottiaux 在周四前写道 “Thursday is feeling codexy”，并提到 “banked reset”；今早稳定版 rust-v0.167.2 已发布，默认在 Google Cloud Vertex AI 上增量推送工具更新。\n\n产品栏：DeepSeek Harness 实验线前进到 dsh-v0.2.2-rc.2（Git Worktree 审阅、具名多层 SubAgent / 按会话开启的 AgentTeam）；codex 新稳定版 0.167.2。Hermes Agent 仍为昨日的 v0.23.1，OpenClaw 仍为 v2026.11.3；Cursor changelog 自 11/6 无新条目。Grok Bot 官方 changelog 页今日被 Cloudflare 拦截，未能核对 Latest 条文；Homebrew 与更新接口现报 Mac 客户端 1.0.1，较昨日所见的 0.79.4 有版本号跃迁，官方尚未公布 1.0.1 功能说明。\n\n缺口：@karpathy、@AndrewYNg、@AnthropicAI 与 @Meta 近 24–48 小时无高信号原创；关注列表仍无 DeepSeek 一手 X，近几日也无官方新模型发版。Anthropic 11/10 的 IPO 路演未作为技术条目。OpenAI 直播结果需今晚后再核。",
-      "en": "Good morning! Biggest product news today: DeepMind released AlphaGenome 2, taking genome models to cell-type-specific DNA reading, and Google shipped the Gemini Decisions API, entering the decision-model race. OpenAI’s cybersecurity livestream is still ahead this evening; details after it airs.\n\nAlphaGenome 2 was announced late on Nov 11 (~23:03 Asia/Shanghai) by @GoogleDeepMind. It predicts how a DNA sequence and its variants affect molecular readouts such as gene expression in a chosen cell type or state. Officially it identifies nearly twice as many variants that change expression in cells versus the prior model; on TenK10K (28 primary immune cell types) causal-variant recall is 30% vs 16%, and directional gene effects 43% vs 23%. Training includes more than 107 million single-cell profiles across 68 tissues. It is available now for non-commercial research via the AlphaGenome API, with commercial research in private preview. Officially it is research-only and not validated for clinical or diagnostic use.\n\nGoogle also launched the Gemini Decisions API: one forward pass can score up to about 1,000 closed questions (yes/no, choice, or rubric) over text, images, audio, video, and PDFs, returning calibrated probabilities. Developer docs are live. Simon Willison recorded the same day that it is priced at $0.10 per million input tokens with free output, matching OpenAI’s GPT-6 Luna decision model, and is so far the only one of the three decision models with native audio, video, and PDF support.\n\nTonight at 18:00 Asia/Shanghai (10:00 PT) OpenAI hosts the Cyber at the Frontier livestream on turning its own defense experience into tools customers can use; the event has not started. OpenAI product lead @thsottiaux wrote ahead of Thursday that “Thursday is feeling codexy,” and mentioned a “banked reset.” Stable rust-v0.167.2 shipped this morning, sending tool updates incrementally by default on Google Cloud Vertex AI.\n\nIn the product column: DeepSeek Harness’s experimental line moved to dsh-v0.2.2-rc.2 (Git Worktree review, named multi-level SubAgents / session-scoped AgentTeam); Codex has a new stable 0.167.2. Hermes Agent remains yesterday’s v0.23.1, OpenClaw remains v2026.11.3, and Cursor’s changelog has had no new entry since Nov 6. The official Grok Bot changelog page was blocked by Cloudflare today, so Latest notes could not be checked; Homebrew and the update API now report the Mac client at 1.0.1, a version jump from yesterday’s observed 0.79.4, with no official 1.0.1 feature notes.\n\nGaps: @karpathy, @AndrewYNg, @AnthropicAI, and @Meta had no high-signal original posts in about 24–48 hours; the follow list still has no first-party DeepSeek account, and DeepSeek has not officially shipped a new model in recent days. Anthropic’s Nov 10 IPO roadshow is not treated as a tech item. OpenAI livestream results need a later check."
+      "zh": {
+        "greeting": "小熊早上好！",
+        "lead": "今天最大的产品消息：DeepMind 发布 AlphaGenome 2，把基因组模型推进到按细胞类型解读 DNA；Google 推出 Gemini Decisions API，正式加入决策模型赛道。今晚还有 OpenAI 网络安全直播，细节待会后核实。",
+        "important": {
+          "title": "重要消息",
+          "items": [
+            "DeepMind 发布 AlphaGenome 2，按特定细胞类型预测 DNA 及其变异对基因表达等分子读出的影响；非商业研究即日起可通过 AlphaGenome API 使用，官方明确仅供研究、尚未用于临床诊断。",
+            "Google 推出 Gemini Decisions API，一次前向可处理最多约 1000 个封闭式问题，定价为每百万输入 token 10 美分、输出免费，与 OpenAI 的 GPT-6 Luna 决策模型同价。",
+            "今晚 18:00（北京时间，对应 10:00 PT）OpenAI 举办 Cyber at the Frontier 网络安全直播，介绍把自身防守经验做成客户可用工具的最新发布；细节待会后核实。"
+          ]
+        },
+        "sections": [
+          {
+            "title": "AlphaGenome 2",
+            "body": "于 11/11 晚（北京时间约 23:03）由 @GoogleDeepMind 宣布。官方称相对前代，能识别出近两倍会改变细胞中基因表达的变异；在 TenK10K（28 种原代免疫细胞）上，因果变异召回为 30% 对 16%，方向性基因效应为 43% 对 23%。训练数据含逾 1.07 亿条单细胞图谱、覆盖 68 种组织。商业研究为私人预览。"
+          },
+          {
+            "title": "Gemini Decisions API",
+            "body": "输入覆盖文本、图像、音视频和 PDF，返回校准概率。开发者文档已上线；Simon Willison 同日记录其定价，并称目前三家决策模型里它是唯一原生覆盖音视频与 PDF 的。"
+          },
+          {
+            "title": "OpenAI 与 Codex",
+            "body": "产品侧 @thsottiaux 在周四前写道 “Thursday is feeling codexy”，并提到 “banked reset”；今早稳定版 rust-v0.167.2 已发布，默认在 Google Cloud Vertex AI 上增量推送工具更新。"
+          },
+          {
+            "title": "产品栏",
+            "body": "DeepSeek Harness 实验线前进到 dsh-v0.2.2-rc.2（Git Worktree 审阅、具名多层 SubAgent / 按会话开启的 AgentTeam）；codex 新稳定版 0.167.2。Hermes Agent 仍为昨日的 v0.23.1，OpenClaw 仍为 v2026.11.3；Cursor changelog 自 11/6 无新条目。Grok Bot 官方 changelog 页今日被 Cloudflare 拦截，未能核对 Latest 条文；Homebrew 与更新接口现报 Mac 客户端 1.0.1，较昨日所见的 0.79.4 有版本号跃迁，官方尚未公布 1.0.1 功能说明。"
+          },
+          {
+            "title": "缺口",
+            "body": "@karpathy、@AndrewYNg、@AnthropicAI 与 @Meta 近 24–48 小时无高信号原创；关注列表仍无 DeepSeek 一手 X，近几日也无官方新模型发版。Anthropic 11/10 的 IPO 路演未作为技术条目。OpenAI 直播结果需今晚后再核。"
+          }
+        ]
+      },
+      "en": {
+        "greeting": "Good morning!",
+        "lead": "Biggest product news today: DeepMind released AlphaGenome 2, taking genome models to cell-type-specific DNA reading, and Google shipped the Gemini Decisions API, entering the decision-model race. OpenAI’s cybersecurity livestream is still ahead this evening; details after it airs.",
+        "important": {
+          "title": "Headlines",
+          "items": [
+            "DeepMind released AlphaGenome 2, which predicts how a DNA sequence and its variants affect molecular readouts such as gene expression in a chosen cell type; it is available now for non-commercial research via the AlphaGenome API, and is officially research-only, not validated for clinical or diagnostic use.",
+            "Google launched the Gemini Decisions API: one forward pass can score up to about 1,000 closed questions, priced at $0.10 per million input tokens with free output, matching OpenAI’s GPT-6 Luna decision model.",
+            "Tonight at 18:00 Asia/Shanghai (10:00 PT) OpenAI hosts the Cyber at the Frontier livestream on turning its own defense experience into tools customers can use; details after it airs."
+          ]
+        },
+        "sections": [
+          {
+            "title": "AlphaGenome 2",
+            "body": "Announced late on Nov 11 (~23:03 Asia/Shanghai) by @GoogleDeepMind. Officially it identifies nearly twice as many variants that change expression in cells versus the prior model; on TenK10K (28 primary immune cell types) causal-variant recall is 30% vs 16%, and directional gene effects 43% vs 23%. Training includes more than 107 million single-cell profiles across 68 tissues. Commercial research is in private preview."
+          },
+          {
+            "title": "Gemini Decisions API",
+            "body": "It accepts text, images, audio, video, and PDFs, and returns calibrated probabilities. Developer docs are live. Simon Willison recorded the same-day pricing and noted it is so far the only one of the three decision models with native audio, video, and PDF support."
+          },
+          {
+            "title": "OpenAI and Codex",
+            "body": "OpenAI product lead @thsottiaux wrote ahead of Thursday that “Thursday is feeling codexy,” and mentioned a “banked reset.” Stable rust-v0.167.2 shipped this morning, sending tool updates incrementally by default on Google Cloud Vertex AI."
+          },
+          {
+            "title": "Product column",
+            "body": "DeepSeek Harness’s experimental line moved to dsh-v0.2.2-rc.2 (Git Worktree review, named multi-level SubAgents / session-scoped AgentTeam); Codex has a new stable 0.167.2. Hermes Agent remains yesterday’s v0.23.1, OpenClaw remains v2026.11.3, and Cursor’s changelog has had no new entry since Nov 6. The official Grok Bot changelog page was blocked by Cloudflare today, so Latest notes could not be checked; Homebrew and the update API now report the Mac client at 1.0.1, a version jump from yesterday’s observed 0.79.4, with no official 1.0.1 feature notes."
+          },
+          {
+            "title": "Gaps",
+            "body": "@karpathy, @AndrewYNg, @AnthropicAI, and @Meta had no high-signal original posts in about 24–48 hours; the follow list still has no first-party DeepSeek account, and DeepSeek has not officially shipped a new model in recent days. Anthropic’s Nov 10 IPO roadshow is not treated as a tech item. OpenAI livestream results need a later check."
+          }
+        ]
+      }
     },
     "xPosts": [
       {
@@ -283,93 +349,113 @@
       "changed": true,
       "changeKind": "added",
       "changeSummary": {
-        "zh": "本期起增设「模型」板块，专门跟踪 Cursor 官方 CursorBench 更新。",
-        "en": "This issue adds a Models section that tracks Cursor’s official CursorBench leaderboard."
+        "zh": "本期「模型」板块改为按得分÷单任务成本展示性价比前 10，并附官方得分前 10 对照。",
+        "en": "This edition now ranks models by score ÷ cost per task (top 10 by value), and still shows the official top 10 by score."
       },
       "summary": {
-        "zh": "当前为 CursorBench 4.0，共 89 个模型配置。Gemini 4 Carbon High 以 60.4%、单任务约 $9.22 领跑，同系 Medium（60.1%）和 Low（58.6%）分列第 2、第 4。Claude Fable 5.2 Max 以 60.0% 紧随其后，但单任务成本高达 $32.79；Opus 5.5 High 在同样 56.0% 的分数下成本仅 $3.97，性价比更突出。DeepSeek V4.1 Flash 1017 Max 以 $0.98、47.7% 排在第 25。",
-        "en": "CursorBench is currently on version 4.0, with 89 model configurations. Gemini 4 Carbon High leads at 60.4% and about $9.22 per task; Carbon Medium (60.1%) and Low (58.6%) sit 2nd and 4th. Claude Fable 5.2 Max is close behind at 60.0%, but costs $32.79 per task. Opus 5.5 High reaches 56.0% at only $3.97, a sharper cost-quality tradeoff. DeepSeek V4.1 Flash 1017 Max lands 25th at 47.7% and $0.98."
+        "zh": "按得分÷单任务成本，性价比最高的是极低成本配置：GPT-5.6 Luna Low（16.0% / $0.03，约 533 分/$）和 Haiku 5.5 Low（30.9% / $0.08）。在分数更可用的区间，Haiku 5.5 High（42.3% / $0.32）和 DeepSeek V4.1 Flash 1017 系列（约 45–48 分、成本低于 $1）更均衡。官方得分仍由 Gemini 4 Carbon High 以 60.4%、$9.22 领跑；Fable 5.2 Max 虽有 60.0%，但单任务 $32.79，性价比在全部 89 个配置中垫底。",
+        "en": "Ranked by score ÷ cost per task, the highest-value configs are the cheapest ones: GPT-5.6 Luna Low (16.0% / $0.03, about 533 pts/$) and Haiku 5.5 Low (30.9% / $0.08). In a more usable score range, Haiku 5.5 High (42.3% / $0.32) and the DeepSeek V4.1 Flash 1017 series (about 45–48 points, under $1) are more balanced. The official scoreboard is still led by Gemini 4 Carbon High at 60.4% and $9.22; Fable 5.2 Max also hits 60.0%, but at $32.79 per task it has the lowest value among all 89 configurations."
       },
       "leaderboard": [
         {
           "rank": 1,
-          "model": "Gemini 4 Carbon High",
-          "score": 60.4,
-          "cost": 9.22,
-          "tokens": 39960,
-          "steps": 71
+          "officialRank": 89,
+          "model": "GPT-5.6 Luna Low",
+          "score": 16.0,
+          "cost": 0.03,
+          "tokens": 3288,
+          "steps": 18,
+          "value": 533.33
         },
         {
           "rank": 2,
-          "model": "Gemini 4 Carbon Medium",
-          "score": 60.1,
-          "cost": 8.49,
-          "tokens": 37067,
-          "steps": 67
+          "officialRank": 75,
+          "model": "Haiku 5.5 Low",
+          "score": 30.9,
+          "cost": 0.08,
+          "tokens": 23382,
+          "steps": 25,
+          "value": 386.25
         },
         {
           "rank": 3,
-          "model": "Fable 5.2 Max",
-          "score": 60.0,
-          "cost": 32.79,
-          "tokens": 352794,
-          "steps": 218
+          "officialRank": 88,
+          "model": "GPT-5.6 Luna Medium",
+          "score": 22.2,
+          "cost": 0.08,
+          "tokens": 7642,
+          "steps": 32,
+          "value": 277.5
         },
         {
           "rank": 4,
-          "model": "Gemini 4 Carbon Low",
-          "score": 58.6,
-          "cost": 11.89,
-          "tokens": 42663,
-          "steps": 124
+          "officialRank": 57,
+          "model": "Haiku 5.5 Medium",
+          "score": 36.9,
+          "cost": 0.17,
+          "tokens": 42659,
+          "steps": 39,
+          "value": 217.06
         },
         {
           "rank": 5,
-          "model": "Opus 5.5 Max",
-          "score": 57.8,
-          "cost": 13.43,
-          "tokens": 218363,
-          "steps": 185
+          "officialRank": 83,
+          "model": "GLM 5.3 Flash Low",
+          "score": 26.9,
+          "cost": 0.15,
+          "tokens": 17831,
+          "steps": 58,
+          "value": 179.33
         },
         {
           "rank": 6,
-          "model": "Fable 5.2 High",
-          "score": 56.9,
-          "cost": 9.7,
-          "tokens": 99259,
-          "steps": 69
+          "officialRank": 42,
+          "model": "Haiku 5.5 High",
+          "score": 42.3,
+          "cost": 0.32,
+          "tokens": 77057,
+          "steps": 59,
+          "value": 132.19
         },
         {
           "rank": 7,
-          "model": "Fable 5.2 Extra High",
-          "score": 56.3,
-          "cost": 15.48,
-          "tokens": 161251,
-          "steps": 108
+          "officialRank": 74,
+          "model": "GLM 5.3 Flash High",
+          "score": 31.1,
+          "cost": 0.25,
+          "tokens": 35104,
+          "steps": 84,
+          "value": 124.4
         },
         {
           "rank": 8,
-          "model": "Opus 5.5 Extra High",
-          "score": 56.0,
-          "cost": 6.98,
-          "tokens": 101083,
-          "steps": 109
+          "officialRank": 78,
+          "model": "GPT-5.6 Luna High",
+          "score": 29.4,
+          "cost": 0.25,
+          "tokens": 23368,
+          "steps": 64,
+          "value": 117.6
         },
         {
           "rank": 9,
-          "model": "Opus 5.5 High",
-          "score": 56.0,
-          "cost": 3.97,
-          "tokens": 53078,
-          "steps": 68
+          "officialRank": 61,
+          "model": "Sonnet 5.5 Low",
+          "score": 35.8,
+          "cost": 0.37,
+          "tokens": 11668,
+          "steps": 18,
+          "value": 96.76
         },
         {
           "rank": 10,
-          "model": "Sonnet 5.5 Max",
-          "score": 55.5,
-          "cost": 7.05,
-          "tokens": 271920,
-          "steps": 170
+          "officialRank": 58,
+          "model": "GLM 5.3 Flash Max",
+          "score": 36.8,
+          "cost": 0.39,
+          "tokens": 56410,
+          "steps": 118,
+          "value": 94.36
         }
       ],
       "snapshot": [
@@ -379,7 +465,8 @@
           "score": 60.4,
           "cost": 9.22,
           "tokens": 39960,
-          "steps": 71
+          "steps": 71,
+          "value": 6.55
         },
         {
           "rank": 2,
@@ -387,7 +474,8 @@
           "score": 60.1,
           "cost": 8.49,
           "tokens": 37067,
-          "steps": 67
+          "steps": 67,
+          "value": 7.08
         },
         {
           "rank": 3,
@@ -395,7 +483,8 @@
           "score": 60.0,
           "cost": 32.79,
           "tokens": 352794,
-          "steps": 218
+          "steps": 218,
+          "value": 1.83
         },
         {
           "rank": 4,
@@ -403,7 +492,8 @@
           "score": 58.6,
           "cost": 11.89,
           "tokens": 42663,
-          "steps": 124
+          "steps": 124,
+          "value": 4.93
         },
         {
           "rank": 5,
@@ -411,7 +501,8 @@
           "score": 57.8,
           "cost": 13.43,
           "tokens": 218363,
-          "steps": 185
+          "steps": 185,
+          "value": 4.3
         },
         {
           "rank": 6,
@@ -419,7 +510,8 @@
           "score": 56.9,
           "cost": 9.7,
           "tokens": 99259,
-          "steps": 69
+          "steps": 69,
+          "value": 5.87
         },
         {
           "rank": 7,
@@ -427,7 +519,8 @@
           "score": 56.3,
           "cost": 15.48,
           "tokens": 161251,
-          "steps": 108
+          "steps": 108,
+          "value": 3.64
         },
         {
           "rank": 8,
@@ -435,7 +528,8 @@
           "score": 56.0,
           "cost": 6.98,
           "tokens": 101083,
-          "steps": 109
+          "steps": 109,
+          "value": 8.02
         },
         {
           "rank": 9,
@@ -443,7 +537,8 @@
           "score": 56.0,
           "cost": 3.97,
           "tokens": 53078,
-          "steps": 68
+          "steps": 68,
+          "value": 14.11
         },
         {
           "rank": 10,
@@ -451,7 +546,8 @@
           "score": 55.5,
           "cost": 7.05,
           "tokens": 271920,
-          "steps": 170
+          "steps": 170,
+          "value": 7.87
         },
         {
           "rank": 11,
@@ -459,7 +555,8 @@
           "score": 54.8,
           "cost": 4.66,
           "tokens": 44103,
-          "steps": 35
+          "steps": 35,
+          "value": 11.76
         },
         {
           "rank": 12,
@@ -467,7 +564,8 @@
           "score": 53.2,
           "cost": 3.94,
           "tokens": 36616,
-          "steps": 30
+          "steps": 30,
+          "value": 13.5
         },
         {
           "rank": 13,
@@ -475,7 +573,8 @@
           "score": 53.1,
           "cost": 2.81,
           "tokens": 100158,
-          "steps": 78
+          "steps": 78,
+          "value": 18.9
         },
         {
           "rank": 14,
@@ -483,7 +582,8 @@
           "score": 52.9,
           "cost": 4.57,
           "tokens": 109500,
-          "steps": 118
+          "steps": 118,
+          "value": 11.58
         },
         {
           "rank": 15,
@@ -491,7 +591,8 @@
           "score": 52.8,
           "cost": 4.39,
           "tokens": 103600,
-          "steps": 115
+          "steps": 115,
+          "value": 12.03
         },
         {
           "rank": 16,
@@ -499,7 +600,8 @@
           "score": 52.5,
           "cost": 2.91,
           "tokens": 37954,
-          "steps": 54
+          "steps": 54,
+          "value": 18.04
         },
         {
           "rank": 17,
@@ -507,7 +609,8 @@
           "score": 51.8,
           "cost": 17.28,
           "tokens": 117236,
-          "steps": 128
+          "steps": 128,
+          "value": 3.0
         },
         {
           "rank": 18,
@@ -515,7 +618,8 @@
           "score": 51.6,
           "cost": 13.01,
           "tokens": 87294,
-          "steps": 101
+          "steps": 101,
+          "value": 3.97
         },
         {
           "rank": 19,
@@ -523,7 +627,8 @@
           "score": 50.6,
           "cost": 4.09,
           "tokens": 94200,
-          "steps": 110
+          "steps": 110,
+          "value": 12.37
         },
         {
           "rank": 20,
@@ -531,7 +636,8 @@
           "score": 50.4,
           "cost": 5.25,
           "tokens": 49692,
-          "steps": 114
+          "steps": 114,
+          "value": 9.6
         },
         {
           "rank": 21,
@@ -539,7 +645,8 @@
           "score": 49.2,
           "cost": 9.08,
           "tokens": 58438,
-          "steps": 77
+          "steps": 77,
+          "value": 5.42
         },
         {
           "rank": 22,
@@ -547,7 +654,8 @@
           "score": 48.4,
           "cost": 1.12,
           "tokens": 325934,
-          "steps": 163
+          "steps": 163,
+          "value": 43.21
         },
         {
           "rank": 23,
@@ -555,7 +663,8 @@
           "score": 48.2,
           "cost": 4.24,
           "tokens": 39564,
-          "steps": 96
+          "steps": 96,
+          "value": 11.37
         },
         {
           "rank": 24,
@@ -563,7 +672,8 @@
           "score": 47.8,
           "cost": 1.2,
           "tokens": 37391,
-          "steps": 41
+          "steps": 41,
+          "value": 39.83
         },
         {
           "rank": 25,
@@ -571,7 +681,8 @@
           "score": 47.7,
           "cost": 0.98,
           "tokens": 537047,
-          "steps": 187
+          "steps": 187,
+          "value": 48.67
         },
         {
           "rank": 26,
@@ -579,7 +690,8 @@
           "score": 46.8,
           "cost": 7.05,
           "tokens": 45411,
-          "steps": 63
+          "steps": 63,
+          "value": 6.64
         },
         {
           "rank": 27,
@@ -587,7 +699,8 @@
           "score": 46.6,
           "cost": 11.95,
           "tokens": 85384,
-          "steps": 106
+          "steps": 106,
+          "value": 3.9
         },
         {
           "rank": 28,
@@ -595,7 +708,8 @@
           "score": 46.3,
           "cost": 6.01,
           "tokens": 70141,
-          "steps": 88
+          "steps": 88,
+          "value": 7.7
         },
         {
           "rank": 29,
@@ -603,7 +717,8 @@
           "score": 46.3,
           "cost": 0.8,
           "tokens": 398255,
-          "steps": 189
+          "steps": 189,
+          "value": 57.87
         },
         {
           "rank": 30,
@@ -611,7 +726,8 @@
           "score": 46.1,
           "cost": 11.43,
           "tokens": 80094,
-          "steps": 103
+          "steps": 103,
+          "value": 4.03
         },
         {
           "rank": 31,
@@ -619,7 +735,8 @@
           "score": 46.1,
           "cost": 3.51,
           "tokens": 33612,
-          "steps": 84
+          "steps": 84,
+          "value": 13.13
         },
         {
           "rank": 32,
@@ -627,7 +744,8 @@
           "score": 45.6,
           "cost": 0.77,
           "tokens": 385196,
-          "steps": 186
+          "steps": 186,
+          "value": 59.22
         },
         {
           "rank": 33,
@@ -635,7 +753,8 @@
           "score": 45.2,
           "cost": 2.82,
           "tokens": 27124,
-          "steps": 75
+          "steps": 75,
+          "value": 16.03
         },
         {
           "rank": 34,
@@ -643,7 +762,8 @@
           "score": 45.1,
           "cost": 5.44,
           "tokens": 34795,
-          "steps": 51
+          "steps": 51,
+          "value": 8.29
         },
         {
           "rank": 35,
@@ -651,7 +771,8 @@
           "score": 44.9,
           "cost": 0.6,
           "tokens": 290651,
-          "steps": 161
+          "steps": 161,
+          "value": 74.83
         },
         {
           "rank": 36,
@@ -659,7 +780,8 @@
           "score": 44.7,
           "cost": 9.0,
           "tokens": 61405,
-          "steps": 86
+          "steps": 86,
+          "value": 4.97
         },
         {
           "rank": 37,
@@ -667,7 +789,8 @@
           "score": 44.3,
           "cost": 0.56,
           "tokens": 143813,
-          "steps": 93
+          "steps": 93,
+          "value": 79.11
         },
         {
           "rank": 38,
@@ -675,7 +798,8 @@
           "score": 43.9,
           "cost": 4.69,
           "tokens": 56382,
-          "steps": 71
+          "steps": 71,
+          "value": 9.36
         },
         {
           "rank": 39,
@@ -683,7 +807,8 @@
           "score": 43.7,
           "cost": 1.17,
           "tokens": 15811,
-          "steps": 28
+          "steps": 28,
+          "value": 37.35
         },
         {
           "rank": 40,
@@ -691,7 +816,8 @@
           "score": 43.3,
           "cost": 6.94,
           "tokens": 45272,
-          "steps": 72
+          "steps": 72,
+          "value": 6.24
         },
         {
           "rank": 41,
@@ -699,7 +825,8 @@
           "score": 42.6,
           "cost": 5.05,
           "tokens": 96387,
-          "steps": 166
+          "steps": 166,
+          "value": 8.44
         },
         {
           "rank": 42,
@@ -707,7 +834,8 @@
           "score": 42.3,
           "cost": 0.32,
           "tokens": 77057,
-          "steps": 59
+          "steps": 59,
+          "value": 132.19
         },
         {
           "rank": 43,
@@ -715,7 +843,8 @@
           "score": 41.7,
           "cost": 8.23,
           "tokens": 42944,
-          "steps": 99
+          "steps": 99,
+          "value": 5.07
         },
         {
           "rank": 44,
@@ -723,7 +852,8 @@
           "score": 41.7,
           "cost": 1.91,
           "tokens": 18880,
-          "steps": 56
+          "steps": 56,
+          "value": 21.83
         },
         {
           "rank": 45,
@@ -731,7 +861,8 @@
           "score": 41.6,
           "cost": 3.49,
           "tokens": 36683,
-          "steps": 60
+          "steps": 60,
+          "value": 11.92
         },
         {
           "rank": 46,
@@ -739,7 +870,8 @@
           "score": 41.6,
           "cost": 2.64,
           "tokens": 52005,
-          "steps": 98
+          "steps": 98,
+          "value": 15.76
         },
         {
           "rank": 47,
@@ -747,7 +879,8 @@
           "score": 41.4,
           "cost": 6.1,
           "tokens": 49814,
-          "steps": 56
+          "steps": 56,
+          "value": 6.79
         },
         {
           "rank": 48,
@@ -755,7 +888,8 @@
           "score": 41.3,
           "cost": 5.14,
           "tokens": 60814,
-          "steps": 107
+          "steps": 107,
+          "value": 8.04
         },
         {
           "rank": 49,
@@ -763,7 +897,8 @@
           "score": 40.7,
           "cost": 4.87,
           "tokens": 31995,
-          "steps": 57
+          "steps": 57,
+          "value": 8.36
         },
         {
           "rank": 50,
@@ -771,7 +906,8 @@
           "score": 40.4,
           "cost": 5.2,
           "tokens": 41387,
-          "steps": 48
+          "steps": 48,
+          "value": 7.77
         },
         {
           "rank": 51,
@@ -779,7 +915,8 @@
           "score": 39.6,
           "cost": 4.7,
           "tokens": 162565,
-          "steps": 324
+          "steps": 324,
+          "value": 8.43
         },
         {
           "rank": 52,
@@ -787,7 +924,8 @@
           "score": 39.2,
           "cost": 0.52,
           "tokens": 16036,
-          "steps": 22
+          "steps": 22,
+          "value": 75.38
         },
         {
           "rank": 53,
@@ -795,7 +933,8 @@
           "score": 38.0,
           "cost": 3.24,
           "tokens": 60031,
-          "steps": 114
+          "steps": 114,
+          "value": 11.73
         },
         {
           "rank": 54,
@@ -803,7 +942,8 @@
           "score": 37.7,
           "cost": 4.4,
           "tokens": 24729,
-          "steps": 55
+          "steps": 55,
+          "value": 8.57
         },
         {
           "rank": 55,
@@ -811,7 +951,8 @@
           "score": 37.5,
           "cost": 2.1,
           "tokens": 40891,
-          "steps": 83
+          "steps": 83,
+          "value": 17.86
         },
         {
           "rank": 56,
@@ -819,7 +960,8 @@
           "score": 37.3,
           "cost": 4.06,
           "tokens": 128364,
-          "steps": 290
+          "steps": 290,
+          "value": 9.19
         },
         {
           "rank": 57,
@@ -827,7 +969,8 @@
           "score": 36.9,
           "cost": 0.17,
           "tokens": 42659,
-          "steps": 39
+          "steps": 39,
+          "value": 217.06
         },
         {
           "rank": 58,
@@ -835,7 +978,8 @@
           "score": 36.8,
           "cost": 0.39,
           "tokens": 56410,
-          "steps": 118
+          "steps": 118,
+          "value": 94.36
         },
         {
           "rank": 59,
@@ -843,7 +987,8 @@
           "score": 36.1,
           "cost": 3.48,
           "tokens": 24893,
-          "steps": 40
+          "steps": 40,
+          "value": 10.37
         },
         {
           "rank": 60,
@@ -851,7 +996,8 @@
           "score": 35.9,
           "cost": 1.03,
           "tokens": 87284,
-          "steps": 208
+          "steps": 208,
+          "value": 34.85
         },
         {
           "rank": 61,
@@ -859,7 +1005,8 @@
           "score": 35.8,
           "cost": 0.37,
           "tokens": 11668,
-          "steps": 18
+          "steps": 18,
+          "value": 96.76
         },
         {
           "rank": 62,
@@ -867,7 +1014,8 @@
           "score": 35.7,
           "cost": 2.85,
           "tokens": 16174,
-          "steps": 41
+          "steps": 41,
+          "value": 12.53
         },
         {
           "rank": 63,
@@ -875,7 +1023,8 @@
           "score": 34.2,
           "cost": 0.84,
           "tokens": 9761,
-          "steps": 33
+          "steps": 33,
+          "value": 40.71
         },
         {
           "rank": 64,
@@ -883,7 +1032,8 @@
           "score": 34.1,
           "cost": 7.17,
           "tokens": 149257,
-          "steps": 140
+          "steps": 140,
+          "value": 4.76
         },
         {
           "rank": 65,
@@ -891,7 +1041,8 @@
           "score": 33.6,
           "cost": 1.81,
           "tokens": 23436,
-          "steps": 43
+          "steps": 43,
+          "value": 18.56
         },
         {
           "rank": 66,
@@ -899,7 +1050,8 @@
           "score": 33.4,
           "cost": 2.25,
           "tokens": 16307,
-          "steps": 32
+          "steps": 32,
+          "value": 14.84
         },
         {
           "rank": 67,
@@ -907,7 +1059,8 @@
           "score": 33.4,
           "cost": 1.66,
           "tokens": 30654,
-          "steps": 69
+          "steps": 69,
+          "value": 20.12
         },
         {
           "rank": 68,
@@ -915,7 +1068,8 @@
           "score": 33.3,
           "cost": 2.04,
           "tokens": 31983,
-          "steps": 81
+          "steps": 81,
+          "value": 16.32
         },
         {
           "rank": 69,
@@ -923,7 +1077,8 @@
           "score": 33.1,
           "cost": 1.58,
           "tokens": 15677,
-          "steps": 40
+          "steps": 40,
+          "value": 20.95
         },
         {
           "rank": 70,
@@ -931,7 +1086,8 @@
           "score": 33.0,
           "cost": 0.44,
           "tokens": 40598,
-          "steps": 98
+          "steps": 98,
+          "value": 75.0
         },
         {
           "rank": 71,
@@ -939,7 +1095,8 @@
           "score": 32.6,
           "cost": 1.49,
           "tokens": 27255,
-          "steps": 64
+          "steps": 64,
+          "value": 21.88
         },
         {
           "rank": 72,
@@ -947,7 +1104,8 @@
           "score": 32.0,
           "cost": 4.55,
           "tokens": 83373,
-          "steps": 102
+          "steps": 102,
+          "value": 7.03
         },
         {
           "rank": 73,
@@ -955,7 +1113,8 @@
           "score": 31.1,
           "cost": 1.77,
           "tokens": 10111,
-          "steps": 32
+          "steps": 32,
+          "value": 17.57
         },
         {
           "rank": 74,
@@ -963,7 +1122,8 @@
           "score": 31.1,
           "cost": 0.25,
           "tokens": 35104,
-          "steps": 84
+          "steps": 84,
+          "value": 124.4
         },
         {
           "rank": 75,
@@ -971,7 +1131,8 @@
           "score": 30.9,
           "cost": 0.08,
           "tokens": 23382,
-          "steps": 25
+          "steps": 25,
+          "value": 386.25
         },
         {
           "rank": 76,
@@ -979,7 +1140,8 @@
           "score": 30.8,
           "cost": 3.48,
           "tokens": 61146,
-          "steps": 85
+          "steps": 85,
+          "value": 8.85
         },
         {
           "rank": 77,
@@ -987,7 +1149,8 @@
           "score": 30.7,
           "cost": 1.11,
           "tokens": 13162,
-          "steps": 33
+          "steps": 33,
+          "value": 27.66
         },
         {
           "rank": 78,
@@ -995,7 +1158,8 @@
           "score": 29.4,
           "cost": 0.25,
           "tokens": 23368,
-          "steps": 64
+          "steps": 64,
+          "value": 117.6
         },
         {
           "rank": 79,
@@ -1003,7 +1167,8 @@
           "score": 29.3,
           "cost": 0.93,
           "tokens": 17483,
-          "steps": 47
+          "steps": 47,
+          "value": 31.51
         },
         {
           "rank": 80,
@@ -1011,7 +1176,8 @@
           "score": 28.0,
           "cost": 2.31,
           "tokens": 39114,
-          "steps": 65
+          "steps": 65,
+          "value": 12.12
         },
         {
           "rank": 81,
@@ -1019,7 +1185,8 @@
           "score": 27.7,
           "cost": 0.68,
           "tokens": 17347,
-          "steps": 41
+          "steps": 41,
+          "value": 40.74
         },
         {
           "rank": 82,
@@ -1027,7 +1194,8 @@
           "score": 27.6,
           "cost": 0.64,
           "tokens": 7307,
-          "steps": 25
+          "steps": 25,
+          "value": 43.12
         },
         {
           "rank": 83,
@@ -1035,7 +1203,8 @@
           "score": 26.9,
           "cost": 0.15,
           "tokens": 17831,
-          "steps": 58
+          "steps": 58,
+          "value": 179.33
         },
         {
           "rank": 84,
@@ -1043,7 +1212,8 @@
           "score": 25.2,
           "cost": 0.52,
           "tokens": 5914,
-          "steps": 23
+          "steps": 23,
+          "value": 48.46
         },
         {
           "rank": 85,
@@ -1051,7 +1221,8 @@
           "score": 24.6,
           "cost": 0.87,
           "tokens": 4885,
-          "steps": 21
+          "steps": 21,
+          "value": 28.28
         },
         {
           "rank": 86,
@@ -1059,7 +1230,8 @@
           "score": 24.3,
           "cost": 0.56,
           "tokens": 10620,
-          "steps": 34
+          "steps": 34,
+          "value": 43.39
         },
         {
           "rank": 87,
@@ -1067,7 +1239,8 @@
           "score": 24.1,
           "cost": 1.39,
           "tokens": 23772,
-          "steps": 46
+          "steps": 46,
+          "value": 17.34
         },
         {
           "rank": 88,
@@ -1075,7 +1248,8 @@
           "score": 22.2,
           "cost": 0.08,
           "tokens": 7642,
-          "steps": 32
+          "steps": 32,
+          "value": 277.5
         },
         {
           "rank": 89,
@@ -1083,7 +1257,102 @@
           "score": 16.0,
           "cost": 0.03,
           "tokens": 3288,
-          "steps": 18
+          "steps": 18,
+          "value": 533.33
+        }
+      ],
+      "sort": "value",
+      "valueMetric": "score / cost",
+      "officialLeaderboard": [
+        {
+          "rank": 1,
+          "model": "Gemini 4 Carbon High",
+          "score": 60.4,
+          "cost": 9.22,
+          "tokens": 39960,
+          "steps": 71,
+          "value": 6.55
+        },
+        {
+          "rank": 2,
+          "model": "Gemini 4 Carbon Medium",
+          "score": 60.1,
+          "cost": 8.49,
+          "tokens": 37067,
+          "steps": 67,
+          "value": 7.08
+        },
+        {
+          "rank": 3,
+          "model": "Fable 5.2 Max",
+          "score": 60.0,
+          "cost": 32.79,
+          "tokens": 352794,
+          "steps": 218,
+          "value": 1.83
+        },
+        {
+          "rank": 4,
+          "model": "Gemini 4 Carbon Low",
+          "score": 58.6,
+          "cost": 11.89,
+          "tokens": 42663,
+          "steps": 124,
+          "value": 4.93
+        },
+        {
+          "rank": 5,
+          "model": "Opus 5.5 Max",
+          "score": 57.8,
+          "cost": 13.43,
+          "tokens": 218363,
+          "steps": 185,
+          "value": 4.3
+        },
+        {
+          "rank": 6,
+          "model": "Fable 5.2 High",
+          "score": 56.9,
+          "cost": 9.7,
+          "tokens": 99259,
+          "steps": 69,
+          "value": 5.87
+        },
+        {
+          "rank": 7,
+          "model": "Fable 5.2 Extra High",
+          "score": 56.3,
+          "cost": 15.48,
+          "tokens": 161251,
+          "steps": 108,
+          "value": 3.64
+        },
+        {
+          "rank": 8,
+          "model": "Opus 5.5 Extra High",
+          "score": 56.0,
+          "cost": 6.98,
+          "tokens": 101083,
+          "steps": 109,
+          "value": 8.02
+        },
+        {
+          "rank": 9,
+          "model": "Opus 5.5 High",
+          "score": 56.0,
+          "cost": 3.97,
+          "tokens": 53078,
+          "steps": 68,
+          "value": 14.11
+        },
+        {
+          "rank": 10,
+          "model": "Sonnet 5.5 Max",
+          "score": 55.5,
+          "cost": 7.05,
+          "tokens": 271920,
+          "steps": 170,
+          "value": 7.87
         }
       ]
     }
