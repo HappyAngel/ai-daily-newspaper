@@ -58,6 +58,7 @@ const ICONS = {
   right: svg('<polyline points="9 18 15 12 9 6"/>'),
   ext: svg('<path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/>'),
   info: svg('<circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/>'),
+  cube: svg('<path d="M12 3 4 7v10l8 4 8-4V7l-8-4z"/><path d="M12 12 4 7M12 12l8-5M12 12v10"/>'),
 };
 
 const WEATHER_ICONS = {
@@ -343,6 +344,91 @@ function sectionProducts(prods) {
   </section>`;
 }
 
+
+function fmtNum(n) {
+  if (n == null || n === '') return '—';
+  const num = Number(n);
+  if (Number.isNaN(num)) return String(n);
+  return num.toLocaleString(localeOf());
+}
+
+function fmtMoney(n) {
+  if (n == null || n === '') return '—';
+  const num = Number(n);
+  if (Number.isNaN(num)) return String(n);
+  return `$${num.toFixed(2)}`;
+}
+
+function fmtPct(n) {
+  if (n == null || n === '') return '—';
+  const num = Number(n);
+  if (Number.isNaN(num)) return String(n);
+  return `${num.toFixed(1)}%`;
+}
+
+function sectionModels(models) {
+  const cb = models && models.cursorBench;
+  if (!cb) return '';
+  const rows = cb.leaderboard || [];
+  const total = cb.total || (cb.snapshot || []).length || rows.length;
+  const maxScore = Math.max(1, ...rows.map((r) => Number(r.score) || 0));
+  const kind = cb.changeKind || (cb.changed ? 'updated' : 'unchanged');
+  const badgeKey = kind === 'added' ? 'modelsFirst' : kind === 'updated' ? 'modelsUpdated' : 'modelsNoChange';
+  const badgeCls = kind === 'added' ? 'first' : kind === 'updated' ? 'updated' : 'unchanged';
+  const images = cb.images || [];
+  const gid = images.length ? addGallery(images) : null;
+  const showing = t('modelsShowing').replace('{n}', String(rows.length)).replace('{t}', String(total));
+  return `
+  <section class="section" id="sec-models">
+    ${sectionHead(ICONS.cube, t('sectionModels'), t('sectionModelsSub'), 'cool')}
+    <div class="card cb-card">
+      <div class="cb-meta">
+        <span class="cb-title">CursorBench ${esc(cb.version || '')}</span>
+        ${cb.asOf ? `<span class="cb-meta-item">${esc(t('modelsAsOf'))} ${esc(cb.asOf)}</span>` : ''}
+        <span class="cb-badge ${badgeCls}">${esc(t(badgeKey))}</span>
+        ${cb.source ? `<a class="product-link cb-official"${hrefAttr(cb.source)}>${esc(t('modelsOfficial'))} ${ICONS.ext}</a>` : ''}
+      </div>
+      ${L(cb.changeSummary) ? `<p class="cb-change">${esc(L(cb.changeSummary))}</p>` : ''}
+      ${L(cb.summary) ? `<p class="cb-summary">${esc(L(cb.summary))}</p>` : ''}
+      <div class="cb-table-wrap">
+        <table class="cb-table">
+          <thead>
+            <tr>
+              <th>${esc(t('modelsRank'))}</th>
+              <th>${esc(t('modelsModel'))}</th>
+              <th>${esc(t('modelsScore'))}</th>
+              <th class="cb-num">${esc(t('modelsCost'))}</th>
+              <th class="cb-num">${esc(t('modelsTokens'))}</th>
+              <th class="cb-num">${esc(t('modelsSteps'))}</th>
+            </tr>
+          </thead>
+          <tbody>
+            ${rows.map((r) => {
+              const pct = Math.max(0, Math.min(100, (Number(r.score) || 0) / maxScore * 100));
+              const rankCls = r.rank === 1 ? 'r1' : r.rank === 2 ? 'r2' : r.rank === 3 ? 'r3' : '';
+              return `<tr>
+                <td class="cb-rank ${rankCls}">${esc(r.rank)}</td>
+                <td class="cb-model">${esc(r.model)}</td>
+                <td class="cb-score-cell">
+                  <div class="cb-score-row">
+                    <span class="cb-score-val">${esc(fmtPct(r.score))}</span>
+                    <span class="cb-bar" aria-hidden="true"><i style="width:${pct.toFixed(1)}%"></i></span>
+                  </div>
+                </td>
+                <td class="cb-num">${esc(fmtMoney(r.cost))}</td>
+                <td class="cb-num">${esc(fmtNum(r.tokens))}</td>
+                <td class="cb-num">${esc(fmtNum(r.steps))}</td>
+              </tr>`;
+            }).join('')}
+          </tbody>
+        </table>
+      </div>
+      <div class="cb-foot"><span>${esc(showing)}</span></div>
+      ${gid ? thumbsHtml(gid, images) : ''}
+    </div>
+  </section>`;
+}
+
 function sparklineSvg(values, w = 660, h = 130) {
   if (!values || values.length < 2) return '';
   const pad = 8;
@@ -444,6 +530,7 @@ function renderEdition() {
     sectionWeather(e.weather || {}, L((e.aiTech || {}).openingSummary)),
     sectionAiTech(e.aiTech || {}),
     sectionProducts(e.aiProducts || {}),
+    sectionModels(e.models || {}),
     sectionFinanceTodos(e.finance || {}),
   ].join('');
   renderTodosInto(e.date);
