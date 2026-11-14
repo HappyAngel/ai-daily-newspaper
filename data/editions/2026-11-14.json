@@ -1,0 +1,1500 @@
+{
+  "date": "2026-11-14",
+  "weather": {
+    "city": {
+      "zh": "北京",
+      "en": "Beijing"
+    },
+    "condition": {
+      "zh": "阴（Open-Meteo 早间实况 code 2 / 今日 daily code 3）",
+      "en": "Overcast (Open-Meteo morning current code 2 / daily code 3)"
+    },
+    "icon": "cloudy",
+    "temp": "4 ~ 13°C",
+    "feels": "体感约 2.9°C（08:15 实况约 5.4°C）",
+    "humidity": "82%",
+    "wind": {
+      "zh": "微风约 5.4 km/h；今日日最大阵风约 13.3 km/h",
+      "en": "Light breeze (~5.4 km/h); day max gusts ~13.3 km/h"
+    },
+    "air": {
+      "zh": "Open-Meteo 约 US AQI 285、PM2.5≈232.8 μg/m³、PM10≈234.2（非常不健康——颗粒物很高，以实况为准）",
+      "en": "Open-Meteo ~US AQI 285, PM2.5≈232.8 μg/m³, PM10≈234.2 (Very Unhealthy—very high particulates; check live)"
+    },
+    "sunrise": "06:57",
+    "sunset": "16:59",
+    "tip": {
+      "zh": "🏠 今日北京阴（早间实况少云 code 2，今日 daily code 3），气温约 4~13°C，早间偏冷（08:15 实况约 5.4°C、体感约 2.9°C），湿度约 82%；无降水，风力不大（实况约 5.4 km/h，日最大阵风约 13.3 km/h）。日出 06:57，日落 16:59。空气很差：Open-Meteo 约 US AQI 285（非常不健康），PM2.5≈232.8 μg/m³、PM10≈234.2；今日约 285–290。\n🏃 训练提醒：今天是周六，不是固定晨练或跑步日。若出门陪伴孩子，空气非常不健康（实况 US AQI≈285）——宜减少长时间户外停留。下周一（11/16）为晨练日，预报阴、降水量 0.0 mm，但降水概率约 33%，气温约 4~7°C；空气或好转至不健康（US AQI 约 180–213，上午约 185–187），晨练为室内健身，空气影响较小。下周二（11/17）为冬中午跑日，预报毛毛雨约 1.8 mm（降水概率约 32%），日最大阵风约 22.0 km/h，上午空气仍非常不健康（US AQI 约 235–258）——点名提醒：降水与空气都不宜勉强户外长跑，优先改室内。下周四（11/19）为下一可选跑日，预报晴、最低约 -2°C，日最大阵风约 36.7 km/h（大风点名），空气预报未给出。下周五（11/20）为晨练日，室内健身为主，但日最大阵风约 44.6 km/h，出门时留意大风。\n📅 未来7天（北京，Open-Meteo；阴晴参考 weather_code，空气 Open-Meteo AQ，空气预报仅至 11/18）：\n• 11/14 周六 4~13°C 阴（空气非常不健康，US AQI 约 285–290）\n• 11/15 周日 5~12°C 阴（日最大阵风约 33.1 km/h；空气仍偏差，US AQI 约 220–292，上午约 271–285）\n• 11/16 周一 4~7°C 阴（周一晨练日；降水量 0.0 mm，降水概率约 33%；空气或好转至不健康，US AQI 约 180–213）\n• 11/17 周二 2~6°C 毛毛雨约 1.8 mm（冬中午跑日；降水概率约 32%，日最大阵风约 22.0 km/h，空气仍非常不健康——点名冲突）\n• 11/18 周三 -1~5°C 阴（日最大阵风约 53.3 km/h，大风点名；空气 US AQI 约 138–258，上午约 166–188）\n• 11/19 周四 -2~8°C 晴（下一可选跑日；最低约 -2°C；日最大阵风约 36.7 km/h，大风点名；空气未给出）\n• 11/20 周五 -1~5°C 大部晴（下一周五晨练日；日最大阵风约 44.6 km/h，大风点名；空气未给出）\n• 11/21 周六 -2~4°C 晴（日最大阵风约 34.9 km/h；空气未给出）\n（气温/降水/风：Open-Meteo 约 08:15 北京时间；空气：Open-Meteo AQ，预报窗口至 11/18）",
+      "en": "🏠 Beijing today: overcast (morning current code 2 / partly cloudy; daily code 3), about 4–13°C, chilly morning (~5.4°C at 08:15, feels ~2.9°C), humidity ~82%; no precip, modest wind (current ~5.4 km/h; day max gusts ~13.3 km/h). Sunrise 06:57, sunset 16:59. Air is poor: Open-Meteo ~US AQI 285 (Very Unhealthy), PM2.5≈232.8 μg/m³, PM10≈234.2; today’s range about 285–290.\n🏃 Training: Saturday is not a scheduled gym or run day. If you are out with the kids, the air is Very Unhealthy (current US AQI≈285) — keep long outdoor time short. Next Monday (11/16) is a gym morning: overcast, 0.0 mm of precip but about a 33% chance of rain, about 4–7°C; air may ease to Unhealthy (US AQI ~180–213, morning ~185–187). The gym session is indoors, so air matters less. Next Tuesday (11/17) is the winter midday run: drizzle ~1.8 mm (about 32% chance), day max gusts ~22.0 km/h, and morning air still Very Unhealthy (US AQI ~235–258) — conflict flagged: do not force a long outdoor run; prefer indoor. Next Thursday (11/19) is the next optional run day: clear, low about −2°C, day max gusts ~36.7 km/h (wind flagged); no air forecast. Next Friday (11/20) is a gym morning (indoors), but day max gusts ~44.6 km/h — watch the wind if you go out.\n📅 Next 7 days (Beijing, Open-Meteo; conditions from weather_code; air from Open-Meteo AQ, air forecast only through 11/18):\n• 11/14 Sat 4–13°C overcast (air Very Unhealthy, US AQI ~285–290)\n• 11/15 Sun 5–12°C overcast (day max gusts ~33.1 km/h; air still poor, US AQI ~220–292, morning ~271–285)\n• 11/16 Mon 4–7°C overcast (Monday gym; 0.0 mm, precip chance ~33%; air may ease to Unhealthy, US AQI ~180–213)\n• 11/17 Tue 2–6°C drizzle ~1.8 mm (winter midday run; precip chance ~32%, day max gusts ~22.0 km/h, air still Very Unhealthy — conflict flagged)\n• 11/18 Wed −1–5°C overcast (day max gusts ~53.3 km/h, strong wind flagged; US AQI ~138–258, morning ~166–188)\n• 11/19 Thu −2–8°C clear (next optional run day; low about −2°C; day max gusts ~36.7 km/h, wind flagged; no air forecast)\n• 11/20 Fri −1–5°C mainly clear (next Friday gym morning; day max gusts ~44.6 km/h, strong wind flagged; no air forecast)\n• 11/21 Sat −2–4°C clear (day max gusts ~34.9 km/h; no air forecast)\n(Temp/precip/wind: Open-Meteo ~08:15 Asia/Shanghai; air: Open-Meteo AQ, forecast window through 11/18)"
+    }
+  },
+  "aiTech": {
+    "openingSummary": {
+      "zh": {
+        "greeting": "小熊早上好！",
+        "lead": "今天最大的产品消息：OpenAI 推出 ChatGPT Wallet，在 dots 上开始代理支付；codex 稳定版同日连发 0.168.0 与 0.169.0；CursorBench 新上榜 Gemini 4 Hydrogen Extra High，进入官方得分第 6。",
+        "important": {
+          "title": "重要消息",
+          "items": [
+            "OpenAI 于 11/13 发布 ChatGPT Wallet：与 Amex、Mastercard、Visa 合作的代理支付。用户添加一次卡片，每次核对商品、总额与所用卡并用生物识别批准；网络侧下发支付 token，不把真实卡号交给商家或智能体。今日起在 dots 向美国 ChatGPT Pro（18 岁以上、符合条件的美国发卡）滚动上线，并发布商家 playbook。",
+            "codex 稳定版在昨日早报之后连发 0.168.0（约北京时间 11/13 11:54）与 0.169.0（约 16:37）。0.168 加入模型提供方选择、可选侧边对话、录音附件与 GIF 生成；0.169 让可选终端工作区支持多个侧边对话标签、可搜索历史任务，并增加折叠回合细节、终端内配置自定义提供方，以及可选的 Cloud 连接。实验线最新为 0.171.0-alpha.4。",
+            "CursorBench 4.0 新上榜 Gemini 4 Hydrogen Extra High：57.8% / $5.86，进入官方得分第 6，与 Opus 5.5 Max 同分；Sonnet 5.5 Max（55.5%）跌出官方前 10。GitHub Copilot 亦于 11/13 宣布 Hydrogen 对 Pro 到 Enterprise 等计划全面可用，按提供方定价计量。"
+          ]
+        },
+        "sections": [
+          {
+            "title": "ChatGPT Wallet 怎么付",
+            "body": "每次下单都要本人批准并留下记录。批准后由支付网络提供一次性 token，真实卡号不共享；现有奖励与符合条件的争议保护仍适用。官方还提到，后续或可按额度、品类或时段预先授权。商家需避免误拦智能体，并与风控、支付服务商一起减少误拒。目前仅限美国 Pro 的早期阶段。"
+          },
+          {
+            "title": "Google：钱包接入、气象数据与积分",
+            "body": "Gemini 应用新增 Google Wallet 连接（美国用户），官方称只能读账户，不能划转或投资。DeepMind 同日开源 WeatherNext 3 背后的 PARDIG（全球降水，约每 15 分钟，并提供 1999–2026 历史档案）与 SatWeave（五颗地球同步卫星拼成的云与风暴图，约每 60 分钟），数据在 Cloud Storage 和 Earth Engine。Google AI Pro / Ultra 用户也可在 AI Studio 内领取开发者云积分。"
+          },
+          {
+            "title": "产品栏",
+            "body": "DeepSeek Harness 新实验版 dsh-v0.2.2-rc.3，可导入 DeepSeek 历史会话并修复 Windows 更新问题。Hermes 稳定版仍为 v0.23.1，11/13 仅有 canary。OpenClaw 无新标签；Cursor changelog 自 11/6 无新条目。Grok Bot 官方 changelog Latest 仍为 11/11 的 v1.0.1，但 Homebrew cask 已报 1.0.3，高于 changelog，故不以「近几日无新版本」表述。"
+          },
+          {
+            "title": "缺口",
+            "body": "@karpathy、@AndrewYNg、@OpenAI、@claudeai 与 @Meta 近 24–48 小时无高信号原创；ChatGPT Wallet 官方页抓图未成功，该条未配图。关注列表仍无 DeepSeek 一手 X。Anthropic 今日无新产品稿，与 Jamie Dimon 的炉边谈话偏公司/路演，未作为技术条目展开。"
+          }
+        ]
+      },
+      "en": {
+        "greeting": "Good morning!",
+        "lead": "Biggest product news today: OpenAI launched ChatGPT Wallet, starting agentic payments in dots; Codex shipped two stable releases, 0.168.0 and 0.169.0, on the same day; and CursorBench added Gemini 4 Hydrogen Extra High, which enters the official scoreboard at #6.",
+        "important": {
+          "title": "Headlines",
+          "items": [
+            "On Nov 13 OpenAI introduced ChatGPT Wallet, an agentic payments product built with American Express, Mastercard, and Visa. Users add a card once, then review the items, total, and selected card and approve each purchase with a check such as Face ID or a fingerprint; the network issues a payment token, so the real card number is not shared with the business or the agent. It starts rolling out today in dots for ChatGPT Pro subscribers in the US (18+, eligible US-issued cards), alongside a Commerce Partner Playbook for businesses.",
+            "After yesterday’s brief, Codex published two stables: rust-v0.168.0 (2026-11-13T03:54:29Z, about 11:54 Asia/Shanghai) and rust-v0.169.0 (2026-11-13T08:37:05Z, about 16:37). 0.168 adds model-provider selection, an optional side conversation (features.tui_workspace), attaching recordings, and GIF generation. 0.169 lets the opt-in terminal workspace hold multiple side-chat tabs, search older tasks by name or directory, collapse turn details, configure custom providers in the terminal, and optionally talk to Cloud. The experimental line is now at 0.171.0-alpha.4.",
+            "CursorBench 4.0 adds Gemini 4 Hydrogen Extra High at 57.8% / $5.86, entering the official scoreboard at #6, tied with Opus 5.5 Max; Sonnet 5.5 Max (55.5%) drops out of the official top 10. GitHub Copilot also announced Hydrogen as generally available on Nov 13 for plans from Pro through Enterprise, billed at provider list pricing, with a gradual rollout."
+          ]
+        },
+        "sections": [
+          {
+            "title": "How ChatGPT Wallet pays",
+            "body": "Users add a card once and personally approve every order, leaving a record of authorization. After approval, the payment network supplies a one-time payment token (a stand-in for the card number, security code, and expiration date); the real card number is not shared with the business or the agent, and existing rewards and eligible dispute protections still apply. OpenAI also says that, later, users should be able to pre-approve purchases within limits, categories, or time windows so the agent can buy on its own inside those bounds. Businesses need to avoid CDN or firewall rules that block agents (the post mentions Web Bot Auth) and work with risk and payment providers to cut false declines. This is an early phase limited to US Pro users."
+          },
+          {
+            "title": "Google: Wallet, weather data, and credits",
+            "body": "Personal Intelligence in the Gemini app now includes Google Wallet: US users can connect it so replies can draw on their spending habits. Officially, Gemini can only read the accounts; it cannot move, manage, or invest money. The same day, Google DeepMind released two foundational datasets behind WeatherNext 3: PARDIG, an AI precipitation dataset (officially about every 15 minutes, with precipitation-detection skill up more than 30%, plus a 1999–2026 historical archive), and SatWeave, a mosaic of five geostationary satellites into a global view of clouds and storms (updated about every 60 minutes). The data is on Google Cloud Storage, and PARDIG’s historical catalogs are also on Earth Engine. Separately, Google AI Pro and Ultra subscribers can claim Google Developer Program Cloud credits inside AI Studio and start calling the Gemini API there."
+          },
+          {
+            "title": "Product notes",
+            "body": "DeepSeek Harness has a new experimental tag, dsh-v0.2.2-rc.3 (2026-11-13T07:56:55Z, about 15:57 Asia/Shanghai): an experimental plugin to import past DeepSeek App or web chats into a workspace and keep talking, plus a fix for Windows desktop in-app updates that could fail and not reopen automatically. Hermes Agent’s latest stable is still v0.23.1 (Nov 10); a canary, v0.23.1+canary.20261113T064447Z, also shipped on Nov 13 and is not a new stable. OpenClaw’s latest prerelease is still v2026.11.5-beta.2, and stable remains v2026.11.3. Cursor’s changelog still has no new entry since Voice Chat with Agents on Nov 6. Grok Bot’s official changelog Latest is still v1.0.1 from Nov 11 (meetings and shared connectors); the Homebrew cask grok-bot now reports 1.0.3, ahead of the changelog, so this is not written as “no recent new version.” The official page does not yet list what 1.0.3 changes."
+          },
+          {
+            "title": "Gaps",
+            "body": "@karpathy, @AndrewYNg, @OpenAI, @claudeai, and @Meta had no high-signal original posts in the last 24–48 hours. The ChatGPT Wallet official post could be extracted, but a page screenshot did not come through, so that item has no image. The follow list still has no first-party DeepSeek account on X. Anthropic’s newsroom had no new product post today; @AnthropicAI also previewed a fireside chat with JPMorgan CEO Jamie Dimon (more company / IPO roadshow than a tech item, so it is not expanded here)."
+          }
+        ]
+      }
+    },
+    "xPosts": [
+      {
+        "author": "Anthropic",
+        "handle": "@AnthropicAI",
+        "time": "11-14 03:00（北京时间）",
+        "summary": {
+          "zh": "在工程博客给出安全评测的 10 条建议：评测决定模型能否部署、该建哪些防护，以及训练与研究该往哪投入。",
+          "en": "On the Engineering Blog, Anthropic offers 10 recommendations for designing, running, and reporting safety evaluations — which decide whether a model is ready to deploy, which safeguards to build, and where to focus training and research."
+        },
+        "link": "https://x.com/AnthropicAI/status/2121317227618340990",
+        "images": [
+          {
+            "src": "data/editions/2026-11-14/images/xpost-01-anthropic-safety.jpg",
+            "caption": {
+              "zh": "Anthropic 安全评测博文配图（来源：@AnthropicAI 卡片图；已镜像入仓）",
+              "en": "Card image from Anthropic’s safety-evaluations post (source: @AnthropicAI; mirrored in-repo)"
+            }
+          }
+        ]
+      },
+      {
+        "author": "Google",
+        "handle": "@Google",
+        "time": "11-14 01:27（北京时间）",
+        "summary": {
+          "zh": "Gemini 应用的 Personal Intelligence 新增 Google Wallet：美国用户可连接钱包，让回复更好地结合个人消费习惯；随后补充称只能读账户，不能划转、管理或投资资金。",
+          "en": "Personal Intelligence in the Gemini app now includes Google Wallet, so US users can connect it for more tailored replies around personal spending. A follow-up says Gemini can only read the accounts; it cannot move, manage, or invest money."
+        },
+        "link": "https://x.com/Google/status/2121293823837921433",
+        "images": [
+          {
+            "src": "data/editions/2026-11-14/images/blog-gemini-wallet.jpg",
+            "caption": {
+              "zh": "Google Wallet 接入 Gemini 的官方博文配图（来源：blog.google；已镜像入仓）",
+              "en": "Official art from the Google Wallet × Gemini blog post (source: blog.google; mirrored in-repo)"
+            }
+          }
+        ]
+      },
+      {
+        "author": "Google DeepMind",
+        "handle": "@GoogleDeepMind",
+        "time": "11-13 21:12（北京时间）",
+        "summary": {
+          "zh": "开源 WeatherNext 3 背后的基础数据集：PARDIG 约每 15 分钟估计全球降水，SatWeave 把多颗地球同步卫星拼成约每 60 分钟更新的全球云与风暴图，供气候与水文应用使用。",
+          "en": "Releases the foundational datasets behind WeatherNext 3: PARDIG estimates global rainfall about every 15 minutes, and SatWeave combines geostationary satellites into a live view of clouds and storms about every 60 minutes, for climate and hydrology work."
+        },
+        "link": "https://x.com/GoogleDeepMind/status/2121229774865527097",
+        "images": [
+          {
+            "src": "data/editions/2026-11-14/images/xpost-02-deepmind-datasets.jpg",
+            "caption": {
+              "zh": "PARDIG / SatWeave 发布帖画面（来源：@GoogleDeepMind；已镜像入仓）",
+              "en": "Image from the PARDIG / SatWeave announcement (source: @GoogleDeepMind; mirrored in-repo)"
+            }
+          }
+        ]
+      },
+      {
+        "author": "Google",
+        "handle": "@Google",
+        "time": "11-13 08:30（北京时间）",
+        "summary": {
+          "zh": "随 Gemini 4 Hydrogen 对所有人上线，汇总社区在 Gemini 应用、Antigravity 与 AI Studio 里做出的互动 3D 场景，并展开一组作品线程。",
+          "en": "With Gemini 4 Hydrogen live for everyone, Google highlights interactive 3D “what if” builds from the community across the Gemini app, Antigravity, and AI Studio, and threads more examples."
+        },
+        "link": "https://x.com/Google/status/2121037830797271522",
+        "images": [
+          {
+            "src": "data/editions/2026-11-14/images/xpost-03-google-hydrogen.jpg",
+            "caption": {
+              "zh": "Hydrogen 社区作品线程配图（来源：@Google；已镜像入仓）",
+              "en": "Thumbnail from Google’s Hydrogen community-builds thread (source: @Google; mirrored in-repo)"
+            }
+          }
+        ]
+      },
+      {
+        "author": "Tibo",
+        "handle": "@thsottiaux",
+        "time": "11-13 10:09（北京时间）",
+        "summary": {
+          "zh": "公开征求 Codex 改进意见，并特意强调「尽量别只提模型」——把讨论焦点放在产品与工作流，而不是换一个更强的模型。",
+          "en": "Asks how Codex can be improved, and specifically says “try not to say model,” steering the discussion toward the product and workflow rather than a stronger model."
+        },
+        "link": "https://x.com/thsottiaux/status/2121062974161092792"
+      }
+    ],
+    "engBlogs": [
+      {
+        "source": "OpenAI",
+        "title": {
+          "zh": "ChatGPT Wallet：给智能体一套可被批准的支付方式",
+          "en": "Introducing ChatGPT Wallet: trusted agentic payments"
+        },
+        "summary": {
+          "zh": "11/13 产品稿：与 Amex、Mastercard、Visa 合作，让智能体在用户批准后完成购买。用户添加一次卡片，每次核对商品、总额与所用卡并用生物识别批准；网络侧下发支付 token，不把真实卡号交给商家或智能体，现有奖励与符合条件的争议保护仍适用。今日起在 dots 向美国 ChatGPT Pro（18 岁以上、符合条件的美国发卡）滚动上线，并发布 Commerce Partner Playbook，帮助商家避免误拦智能体、减少风控误拒。",
+          "en": "Nov 13 product post: with Amex, Mastercard, and Visa, agents can complete purchases after the user approves. Users add a card once, review the items, total, and card, and approve with a biometric check; the network issues a payment token, so the real card number is not shared with the business or the agent, and existing rewards and eligible dispute protections still apply. It starts rolling out today in dots for ChatGPT Pro subscribers in the US (18+, eligible US-issued cards), with a Commerce Partner Playbook so businesses can avoid blocking agents and cutting down false declines."
+        },
+        "link": "https://openai.com/index/introducing-chatgpt-wallet"
+      },
+      {
+        "source": "Google DeepMind",
+        "title": {
+          "zh": "开源 WeatherNext 3 背后的气象数据集：PARDIG 与 SatWeave",
+          "en": "Opening the datasets behind our AI weather models"
+        },
+        "summary": {
+          "zh": "WeatherNext 团队 11/13 发文：释放 SatWeave（五颗地球同步卫星拼成的全球云与风暴图，约每 60 分钟）与 PARDIG（AI 全球降水数据集，约每 15 分钟，官方称探测技巧提高逾 30%，并提供 1999–2026 历史档案）。二者是 WeatherNext 3 的关键训练与观测输入，现已在 Google Cloud Storage 开放，PARDIG 历史目录也可在 Earth Engine 使用。",
+          "en": "The WeatherNext team on Nov 13 released SatWeave (a mosaic of five geostationary satellites into a global view of clouds and storms, about every 60 minutes) and PARDIG (an AI global precipitation dataset, about every 15 minutes, with precipitation-detection skill officially up more than 30%, plus a 1999–2026 historical archive). Both were key to WeatherNext 3 and are now on Google Cloud Storage; PARDIG’s historical catalogs are also on Earth Engine."
+        },
+        "link": "https://deepmind.google/blog/opening-the-datasets-behind-our-ai-weather-models",
+        "images": [
+          {
+            "src": "data/editions/2026-11-14/images/blog-deepmind-datasets.jpg",
+            "caption": {
+              "zh": "DeepMind 开源气象数据集博文首屏（来源：deepmind.google；已镜像入仓）",
+              "en": "Lead of DeepMind’s weather-datasets post (source: deepmind.google; mirrored in-repo)"
+            }
+          }
+        ]
+      },
+      {
+        "source": "Anthropic",
+        "title": {
+          "zh": "如何设计、运行并报告可靠的安全评测",
+          "en": "Building strong safety evaluations"
+        },
+        "summary": {
+          "zh": "Anthropic 工程博客给出 10 条建议，覆盖安全评测的设计、执行与报告：评测用于判断模型是否可部署、该建哪些防护，以及训练与研究应聚焦何处。条目来自官方研究页，与 @AnthropicAI 11/14 凌晨的推送为同一篇。",
+          "en": "Anthropic’s Engineering Blog offers 10 recommendations for designing, running, and reporting safety evaluations, which inform whether a model is ready to deploy, which safeguards to build, and where to focus training and research. This is the same official research post linked from @AnthropicAI early on Nov 14 (Asia/Shanghai)."
+        },
+        "link": "https://www.anthropic.com/research/building-strong-safety-evaluations",
+        "images": [
+          {
+            "src": "data/editions/2026-11-14/images/blog-anthropic-safety.jpg",
+            "caption": {
+              "zh": "Building strong safety evaluations 官方配图（来源：anthropic.com；已镜像入仓）",
+              "en": "Official art for Building strong safety evaluations (source: anthropic.com; mirrored in-repo)"
+            }
+          }
+        ]
+      },
+      {
+        "source": "GitHub Changelog",
+        "title": {
+          "zh": "GitHub Copilot 上线 Gemini 4 Hydrogen",
+          "en": "Gemini 4 Hydrogen in GitHub Copilot"
+        },
+        "summary": {
+          "zh": "11/13 changelog：Hydrogen 作为 Google 最新的 Flash 档模型，在 Copilot 对 Pro、Pro+、Max、Business 与 Enterprise 用户全面可用，面向快速智能体编码、工具使用与多步工作流，并称指令遵循优于 Gemini 3.8 Flash。按提供方列表价计入用量计费；可在 VS Code、Copilot CLI、coding agent、github.com 与移动端等选择。企业管理员可在模型策略中管理访问，滚动上线。",
+          "en": "Nov 13 changelog: Hydrogen, Google’s latest Flash-tier model, is generally available in Copilot for Pro, Pro+, Max, Business, and Enterprise users, aimed at fast agentic coding, tool use, and multistep workflows, with improved instruction following over Gemini 3.8 Flash. It is billed at provider list pricing under usage-based billing, and can be picked in VS Code, Copilot CLI, the coding agent, github.com, mobile, and more. Enterprise admins can manage access in the model policy. Rollout is gradual."
+        },
+        "link": "https://github.blog/changelog/2026-11-13-gemini-4-hydrogen-in-github-copilot",
+        "images": [
+          {
+            "src": "data/editions/2026-11-14/images/blog-copilot-hydrogen.jpg",
+            "caption": {
+              "zh": "Copilot 模型选择器中的 Gemini 4 Hydrogen（来源：github.blog；已镜像入仓）",
+              "en": "Gemini 4 Hydrogen in the Copilot model picker (source: github.blog; mirrored in-repo)"
+            }
+          }
+        ]
+      }
+    ],
+    "alphaxivTop3": [
+      {
+        "rank": 1,
+        "title": "Unbundling Multimodal Vision Encoding",
+        "authors": "Ellis Brown, Chris Hoang, Shengyi Qian, Shang-Wen Li, Mike Lewis, Marjan Ghazvininejad, Luke Zettlemoyer, Lucas Beyer, Mengye Ren, Jakob Verbeek, Saining Xie, Hu Xu et al.",
+        "summary": {
+          "zh": "（热榜第 1，新上榜）把多模态模型里视觉编码器的三项设计拆开对照：上游预训练带来的视觉先验、专用视觉容量，以及融合前放置。在统一数据与算力下从头训练后发现：视觉先验并非必要，联合从头训练的编码器可与预训练编码器相当；真正关键的是专用视觉容量，无编码器方案即使把骨干做大仍落后，但这些容量不必放在融合之前。",
+          "en": "(New #1 on alphaXiv’s trending list.) A controlled study that unbundles three choices in multimodal vision encoding: the visual prior from upstream pretraining, dedicated vision capacity, and whether that capacity sits before fusion. Trained from scratch on common data at matched compute, a jointly trained encoder matches a pretrained one — the visual prior is not necessary. Dedicated vision capacity is what matters; encoder-free models still trail even with a larger backbone, but that capacity need not precede fusion."
+        },
+        "link": "https://www.alphaxiv.org/abs/2611.17334",
+        "images": [
+          {
+            "src": "data/editions/2026-11-14/images/paper-unbundling.jpg",
+            "caption": {
+              "zh": "Unbundling Multimodal Vision Encoding 热榜卡片（来源：alphaXiv；已镜像入仓）",
+              "en": "Trending card for Unbundling Multimodal Vision Encoding (source: alphaXiv; mirrored in-repo)"
+            }
+          }
+        ]
+      },
+      {
+        "rank": 2,
+        "title": "Ropedia Xperience 2: A Gold Standard for Scaling Physical AI Environments and Behaviors",
+        "authors": "Hao Li, Fangzhou Hong, Zhaoxi Chen, Hui En Pang, Kairui Hu, Mingze Sun, Runmao Yao, Xinhao Ji, Xiyuan Zheng, Xuanli Chen, Yalun Dai, Yap Kim Hui et al.",
+        "summary": {
+          "zh": "（热榜第 2，新上榜；具身/智能体相关）指出 GPT-6 Astra、Claude Fable 5.1 等基础模型已能从视觉直接控制机器人，但在长程、富接触的真实任务上仍脆。论文提出规模化的物理 AI 环境与行为「金标准」，强调需要可监督任务如何完成的人类行为示范，以及相应的环境资源。",
+          "en": "(New #2; embodiment / agent-relevant.) Foundation models such as GPT-6 Astra and Claude Fable 5.1 can already control robots from visual observations, but remain brittle on long-horizon, contact-rich real-world tasks. The paper proposes a gold-standard resource for scaling physical-AI environments and behaviors, arguing that progress needs demonstrations of how humans perform tasks plus the matching environments."
+        },
+        "link": "https://www.alphaxiv.org/abs/2611.17060",
+        "images": [
+          {
+            "src": "data/editions/2026-11-14/images/paper-ropedia.jpg",
+            "caption": {
+              "zh": "Ropedia Xperience 2 热榜卡片（来源：alphaXiv；已镜像入仓）",
+              "en": "Trending card for Ropedia Xperience 2 (source: alphaXiv; mirrored in-repo)"
+            }
+          }
+        ]
+      },
+      {
+        "rank": 3,
+        "title": "Latent Feedback Is a Compute and Data Amplifier: Scaling Law for Latent Feedback Transformers on Repeated Data",
+        "authors": "Benhao Huang, Chaitanya Dwivedi, Xuezhe Ma, Alexander Moreno, Hector Liu",
+        "summary": {
+          "zh": "（热榜第 3，新上榜）高质量数据耗尽后，常见做法是多轮重复训练，但每一轮的收益递减。本文研究潜空间反馈（把当前 token 顶层状态送入下一 token 输入）作为一种把算力花在重复数据上的方式，并给出在重复数据上的缩放律，称其可放大算力与数据效率。",
+          "en": "(New #3.) When high-quality data runs out, a common practice is to train for several epochs, but each repeat is worth less than the last. The paper studies latent feedback — feeding each token’s top-layer state into the next token’s input — as another way to spend that compute on repeated data, and reports a scaling law in which latent feedback acts as a compute and data amplifier."
+        },
+        "link": "https://www.alphaxiv.org/abs/2611.latent-feedback-transformers-scaling-law",
+        "images": [
+          {
+            "src": "data/editions/2026-11-14/images/paper-latent-feedback.jpg",
+            "caption": {
+              "zh": "Latent Feedback Transformers 热榜卡片（来源：alphaXiv；已镜像入仓）",
+              "en": "Trending card for the latent-feedback scaling-law paper (source: alphaXiv; mirrored in-repo)"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "aiProducts": {
+    "items": [
+      {
+        "name": "Hermes Agent",
+        "tag": "update",
+        "link": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.23.1",
+        "summary": {
+          "zh": "稳定版自昨日早报之后无新标签，最新仍为 v0.23.1（GitHub published_at 2026-11-10T01:42:15Z）。11/13 另发布 canary v0.23.1+canary.20261113T064447Z（published_at 2026-11-13T08:06:48Z，约北京时间 16:07），提供桌面安装包下载，不是新的稳定版。",
+          "en": "No new stable tag since yesterday’s brief. Latest stable remains v0.23.1 (GitHub published_at 2026-11-10T01:42:15Z). A canary, v0.23.1+canary.20261113T064447Z, was also published on Nov 13 (2026-11-13T08:06:48Z, about 16:07 Asia/Shanghai) with desktop installers; it is not a new stable release."
+        }
+      },
+      {
+        "name": "OpenClaw",
+        "tag": "update",
+        "link": "https://github.com/openclaw/openclaw/releases/tag/v2026.11.5-beta.2",
+        "summary": {
+          "zh": "自昨日早报之后无新标签。最新预发布仍为 v2026.11.5-beta.2（2026-11-12T00:43:25Z）：长对话双向分页历史，以及 macOS 应用在配置保存失败或关闭 Tailscale 暴露时仍保留已存密钥与 Gateway 认证。主线稳定版仍为 v2026.11.3。",
+          "en": "No new tag since yesterday’s brief. Latest prerelease remains v2026.11.5-beta.2 (2026-11-12T00:43:25Z), with paged history in both directions for large conversations, and the macOS app keeping saved secrets and Gateway authentication when a config save fails or Tailscale exposure is turned off. Mainline stable remains v2026.11.3."
+        }
+      },
+      {
+        "name": "DeepSeek Harness",
+        "tag": "update",
+        "link": "https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.2.2-rc.3",
+        "summary": {
+          "zh": "新实验标签 dsh-v0.2.2-rc.3（GitHub published_at 2026-11-13T07:56:55Z，约北京时间 11/13 15:57，晚于昨日早报采集）。新增实验性「DeepSeek 会话导入」插件，支持把 DeepSeek App 或网页版的历史会话导入工作区并继续对话；并修复 Windows 桌面版应用内更新可能失败、无法自动重新打开的问题。此前最新仍为 dsh-v0.2.2-rc.2。",
+          "en": "New experimental tag dsh-v0.2.2-rc.3 (GitHub published_at 2026-11-13T07:56:55Z, about 15:57 Asia/Shanghai on Nov 13, after yesterday’s collection). It adds an experimental DeepSeek chat-import plugin for bringing past conversations from the DeepSeek App or web into a workspace and continuing them, and fixes Windows desktop in-app updates that could fail and not reopen automatically. The prior latest was dsh-v0.2.2-rc.2."
+        }
+      },
+      {
+        "name": "codex",
+        "tag": "update",
+        "link": "https://github.com/openai/codex/releases/tag/rust-v0.169.0",
+        "summary": {
+          "zh": "稳定版在昨日早报之后连发两档：rust-v0.168.0 / 0.168.0（2026-11-13T03:54:29Z）与 rust-v0.169.0 / 0.169.0（2026-11-13T08:37:05Z）。0.168 可在 Sessions 里浏览并选择默认模型提供方，开启 features.tui_workspace 后可在主对话旁开侧边会话，并支持给具备音频能力的模型附加录音，以及可选的 GIF 生成。0.169 让可选终端工作区支持多个侧边对话标签（可在重启后打开已保存的本地侧边会话），可按名称、提示预览或工作目录搜索历史任务，全屏记录可折叠已完成回合细节，并可在终端添加或编辑自定义模型提供方；在 macOS / Linux 上还可选连接 Cloud。实验线最新为 rust-v0.171.0-alpha.4（发布说明仅标版本号）。",
+          "en": "Two stables landed after yesterday’s brief: rust-v0.168.0 / 0.168.0 (2026-11-13T03:54:29Z) and rust-v0.169.0 / 0.169.0 (2026-11-13T08:37:05Z). 0.168 lets you browse model providers under Sessions and set the default for new chats, opens an optional side conversation with features.tui_workspace, supports attaching recordings when using an audio-capable model, and adds optional GIF generation. 0.169 gives the opt-in terminal workspace multiple side-chat tabs (and can reopen saved local side chats after restart), search older tasks by name, prompt preview, or working directory, collapse completed turn details in the full-screen transcript, and add or edit custom model providers in the terminal; on macOS and Linux it can also optionally connect to Cloud. The experimental line is now rust-v0.171.0-alpha.4 (notes name the version only)."
+        }
+      },
+      {
+        "name": "Claude",
+        "tag": "update",
+        "link": "https://claude.com/resources/articles/claude-meetings",
+        "summary": {
+          "zh": "自昨日早报之后，Anthropic 新闻页与可核对的产品稿无新条目。仍以 11/12 的 Claude Meetings（Team / Enterprise beta，先支持 Google Meet）以及同日进入私人预览的自托管 Claude Managed Agents 为最近产品动态。@AnthropicAI 今日推送的是安全评测工程博客，已写入技术动态。",
+          "en": "No new product post on Anthropic’s newsroom or a verifiable changelog since yesterday’s brief. The latest product news remains Claude Meetings from Nov 12 (beta on Team and Enterprise, starting with Google Meet) and self-hosted Claude Managed Agents entering private beta the same day. @AnthropicAI’s post today is the safety-evaluations engineering blog, covered in the tech section."
+        }
+      },
+      {
+        "name": "Cursor",
+        "tag": "update",
+        "link": "https://cursor.com/changelog/voice-chat",
+        "summary": {
+          "zh": "自 11/6 起 changelog 仍无更新条目。页面置顶仍为 2026-11-06 Voice Chat with Agents——与 agent 实时语音通话，由 Grok Voice 驱动，可在 Agents 窗口、IDE、Web 与 iOS 使用。",
+          "en": "Still no new changelog entry since Nov 6. The page still leads with Voice Chat with Agents (2026-11-06): a realtime voice call with the agent, powered by Grok Voice, in the Agents Window, the IDE, on the web, and on iOS."
+        }
+      },
+      {
+        "name": "Grok Bot",
+        "tag": "update",
+        "link": "https://x.ai/changelog/bot",
+        "summary": {
+          "zh": "官方 changelog Latest 仍为 v1.0.1（2026-11-11，条目亦包含 1.0.0）：Team / Enterprise / Ultra 计划下，Bot 可从链接加入 Google Meet、Zoom 或 Microsoft Teams，在会议聊天中回复并会后发送摘要，并支持共享登录连接器等。Homebrew cask grok-bot 今日已报 1.0.3（下载地址指向 darwin-arm64 的 1.0.3 安装包），高于 changelog Latest。按对照规则，不以「近几日无新版本」表述；1.0.3 的功能说明官方 changelog 尚未列出，故不编造。",
+          "en": "The official changelog Latest is still v1.0.1 (2026-11-11, and the entry also includes 1.0.0): on Team, Enterprise, and Ultra plans, a Bot can join Google Meet, Zoom, or Microsoft Teams from a link, reply in meeting chat, and send a summary afterward, and it supports shared-login connectors. The Homebrew cask grok-bot now reports 1.0.3 (the download points at the darwin-arm64 1.0.3 package), ahead of changelog Latest. Under the client-vs-changelog rule, this is not written as “no recent new version.” The official changelog does not yet list what 1.0.3 changes, so those features are not invented here."
+        }
+      }
+    ]
+  },
+  "models": {
+    "cursorBench": {
+      "version": "4.0",
+      "source": "https://cursor.com/cursorbench",
+      "asOf": "2026-11-14",
+      "total": 91,
+      "changed": true,
+      "changeKind": "updated",
+      "sort": "value",
+      "valueMetric": "score / cost",
+      "changeSummary": {
+        "zh": "CursorBench 4.0 新上榜 Gemini 4 Hydrogen Extra High：57.8% / $5.86（约 9.86 分/$），进入官方得分第 6，与 Opus 5.5 Max 同分。其后配置的官方名次整体下移一位，Sonnet 5.5 Max（55.5%）跌出官方前 10；官方第 9–10 现为同分的 Opus 5.5 Extra High 与 Opus 5.5 High（均为 56.0%）。其余已有配置的得分与成本较昨日不变；性价比前 10 的成员未变，仅官方名次随总榜插入下移。榜上配置由 90 增至 91。页面上部分 steps 以整数显示，与昨日小数不完全相同，不作分数变化解读。",
+        "en": "CursorBench 4.0 adds Gemini 4 Hydrogen Extra High at 57.8% / $5.86 (about 9.86 pts/$), entering the official scoreboard at #6, tied with Opus 5.5 Max. Official ranks below that shift down by one, and Sonnet 5.5 Max (55.5%) drops out of the official top 10; official #9–10 are now the tied Opus 5.5 Extra High and Opus 5.5 High (both 56.0%). Scores and costs for the other existing configs are unchanged versus yesterday; the value top 10 is the same set of models, with official ranks only moving because of the new entry. The board grows from 90 to 91 configs. Some step counts now display as integers on the official page, unlike yesterday’s decimals, and are not treated as score changes."
+      },
+      "summary": {
+        "zh": "按得分÷单任务成本，性价比最高的仍是极低成本配置：GPT-5.6 Luna Low（16.0% / $0.03，约 533 分/$）和 Haiku 5.5 Low（30.9% / $0.08）。Gemini 4 Hydrogen Low（27.9% / $0.28，约 99.64 分/$）仍在性价比第 9。在分数更可用的区间，Haiku 5.5 High（42.3% / $0.32）和新上榜的 Hydrogen Extra High（57.8% / $5.86，官方第 6，约 9.86 分/$）更均衡。官方得分仍由 Gemini 4 Carbon High（60.4% / $9.22）和 Carbon Medium（60.1%）领跑，随后是 Fable 5.2 Max（60.0%）；Hydrogen Extra High 与 Opus 5.5 Max 一同进入官方前 6。",
+        "en": "Ranked by score ÷ cost per task, the highest-value configs remain the cheapest ones: GPT-5.6 Luna Low (16.0% / $0.03, about 533 pts/$) and Haiku 5.5 Low (30.9% / $0.08). Gemini 4 Hydrogen Low (27.9% / $0.28, about 99.64 pts/$) stays at value #9. In a more usable score range, Haiku 5.5 High (42.3% / $0.32) and the newly listed Hydrogen Extra High (57.8% / $5.86, official #6, about 9.86 pts/$) are more balanced. The official scoreboard is still led by Gemini 4 Carbon High (60.4% / $9.22) and Carbon Medium (60.1%), then Fable 5.2 Max (60.0%); Hydrogen Extra High joins Opus 5.5 Max in the official top 6."
+      },
+      "leaderboard": [
+        {
+          "rank": 1,
+          "officialRank": 91,
+          "model": "GPT-5.6 Luna Low",
+          "score": 16,
+          "cost": 0.03,
+          "tokens": 3288,
+          "steps": 18,
+          "value": 533.33
+        },
+        {
+          "rank": 2,
+          "officialRank": 76,
+          "model": "Haiku 5.5 Low",
+          "score": 30.9,
+          "cost": 0.08,
+          "tokens": 23382,
+          "steps": 25,
+          "value": 386.25
+        },
+        {
+          "rank": 3,
+          "officialRank": 90,
+          "model": "GPT-5.6 Luna Medium",
+          "score": 22.2,
+          "cost": 0.08,
+          "tokens": 7642,
+          "steps": 32,
+          "value": 277.5
+        },
+        {
+          "rank": 4,
+          "officialRank": 58,
+          "model": "Haiku 5.5 Medium",
+          "score": 36.9,
+          "cost": 0.17,
+          "tokens": 42659,
+          "steps": 39,
+          "value": 217.06
+        },
+        {
+          "rank": 5,
+          "officialRank": 85,
+          "model": "GLM 5.3 Flash Low",
+          "score": 26.9,
+          "cost": 0.15,
+          "tokens": 17831,
+          "steps": 58,
+          "value": 179.33
+        },
+        {
+          "rank": 6,
+          "officialRank": 45,
+          "model": "Haiku 5.5 High",
+          "score": 42.3,
+          "cost": 0.32,
+          "tokens": 77057,
+          "steps": 59,
+          "value": 132.19
+        },
+        {
+          "rank": 7,
+          "officialRank": 75,
+          "model": "GLM 5.3 Flash High",
+          "score": 31.1,
+          "cost": 0.25,
+          "tokens": 35104,
+          "steps": 84,
+          "value": 124.4
+        },
+        {
+          "rank": 8,
+          "officialRank": 79,
+          "model": "GPT-5.6 Luna High",
+          "score": 29.4,
+          "cost": 0.25,
+          "tokens": 23368,
+          "steps": 64,
+          "value": 117.6
+        },
+        {
+          "rank": 9,
+          "officialRank": 82,
+          "model": "Gemini 4 Hydrogen Low",
+          "score": 27.9,
+          "cost": 0.28,
+          "tokens": 8975,
+          "steps": 19,
+          "value": 99.64
+        },
+        {
+          "rank": 10,
+          "officialRank": 62,
+          "model": "Sonnet 5.5 Low",
+          "score": 35.8,
+          "cost": 0.37,
+          "tokens": 11668,
+          "steps": 18,
+          "value": 96.76
+        }
+      ],
+      "officialLeaderboard": [
+        {
+          "rank": 1,
+          "model": "Gemini 4 Carbon High",
+          "score": 60.4,
+          "cost": 9.22,
+          "tokens": 39960,
+          "steps": 71,
+          "value": 6.55
+        },
+        {
+          "rank": 2,
+          "model": "Gemini 4 Carbon Medium",
+          "score": 60.1,
+          "cost": 8.49,
+          "tokens": 37067,
+          "steps": 67,
+          "value": 7.08
+        },
+        {
+          "rank": 3,
+          "model": "Fable 5.2 Max",
+          "score": 60,
+          "cost": 32.79,
+          "tokens": 352794,
+          "steps": 218,
+          "value": 1.83
+        },
+        {
+          "rank": 4,
+          "model": "Gemini 4 Carbon Low",
+          "score": 58.6,
+          "cost": 11.89,
+          "tokens": 42663,
+          "steps": 124,
+          "value": 4.93
+        },
+        {
+          "rank": 5,
+          "model": "Opus 5.5 Max",
+          "score": 57.8,
+          "cost": 13.43,
+          "tokens": 218363,
+          "steps": 185,
+          "value": 4.3
+        },
+        {
+          "rank": 6,
+          "model": "Gemini 4 Hydrogen Extra High",
+          "score": 57.8,
+          "cost": 5.86,
+          "tokens": 164610,
+          "steps": 88,
+          "value": 9.86
+        },
+        {
+          "rank": 7,
+          "model": "Fable 5.2 High",
+          "score": 56.9,
+          "cost": 9.7,
+          "tokens": 99259,
+          "steps": 69,
+          "value": 5.87
+        },
+        {
+          "rank": 8,
+          "model": "Fable 5.2 Extra High",
+          "score": 56.3,
+          "cost": 15.48,
+          "tokens": 161251,
+          "steps": 108,
+          "value": 3.64
+        },
+        {
+          "rank": 9,
+          "model": "Opus 5.5 Extra High",
+          "score": 56,
+          "cost": 6.98,
+          "tokens": 101083,
+          "steps": 109,
+          "value": 8.02
+        },
+        {
+          "rank": 10,
+          "model": "Opus 5.5 High",
+          "score": 56,
+          "cost": 3.97,
+          "tokens": 53078,
+          "steps": 68,
+          "value": 14.11
+        }
+      ],
+      "snapshot": [
+        {
+          "rank": 1,
+          "model": "Gemini 4 Carbon High",
+          "score": 60.4,
+          "cost": 9.22,
+          "tokens": 39960,
+          "steps": 71,
+          "value": 6.55
+        },
+        {
+          "rank": 2,
+          "model": "Gemini 4 Carbon Medium",
+          "score": 60.1,
+          "cost": 8.49,
+          "tokens": 37067,
+          "steps": 67,
+          "value": 7.08
+        },
+        {
+          "rank": 3,
+          "model": "Fable 5.2 Max",
+          "score": 60,
+          "cost": 32.79,
+          "tokens": 352794,
+          "steps": 218,
+          "value": 1.83
+        },
+        {
+          "rank": 4,
+          "model": "Gemini 4 Carbon Low",
+          "score": 58.6,
+          "cost": 11.89,
+          "tokens": 42663,
+          "steps": 124,
+          "value": 4.93
+        },
+        {
+          "rank": 5,
+          "model": "Opus 5.5 Max",
+          "score": 57.8,
+          "cost": 13.43,
+          "tokens": 218363,
+          "steps": 185,
+          "value": 4.3
+        },
+        {
+          "rank": 6,
+          "model": "Gemini 4 Hydrogen Extra High",
+          "score": 57.8,
+          "cost": 5.86,
+          "tokens": 164610,
+          "steps": 88,
+          "value": 9.86
+        },
+        {
+          "rank": 7,
+          "model": "Fable 5.2 High",
+          "score": 56.9,
+          "cost": 9.7,
+          "tokens": 99259,
+          "steps": 69,
+          "value": 5.87
+        },
+        {
+          "rank": 8,
+          "model": "Fable 5.2 Extra High",
+          "score": 56.3,
+          "cost": 15.48,
+          "tokens": 161251,
+          "steps": 108,
+          "value": 3.64
+        },
+        {
+          "rank": 9,
+          "model": "Opus 5.5 Extra High",
+          "score": 56,
+          "cost": 6.98,
+          "tokens": 101083,
+          "steps": 109,
+          "value": 8.02
+        },
+        {
+          "rank": 10,
+          "model": "Opus 5.5 High",
+          "score": 56,
+          "cost": 3.97,
+          "tokens": 53078,
+          "steps": 68,
+          "value": 14.11
+        },
+        {
+          "rank": 11,
+          "model": "Sonnet 5.5 Max",
+          "score": 55.5,
+          "cost": 7.05,
+          "tokens": 271920,
+          "steps": 170,
+          "value": 7.87
+        },
+        {
+          "rank": 12,
+          "model": "Fable 5.2 Medium",
+          "score": 54.8,
+          "cost": 4.66,
+          "tokens": 44103,
+          "steps": 35,
+          "value": 11.76
+        },
+        {
+          "rank": 13,
+          "model": "Gemini 4 Hydrogen High",
+          "score": 54.3,
+          "cost": 5.59,
+          "tokens": 88682,
+          "steps": 59,
+          "value": 9.71
+        },
+        {
+          "rank": 14,
+          "model": "Fable 5.2 Low",
+          "score": 53.2,
+          "cost": 3.94,
+          "tokens": 36616,
+          "steps": 30,
+          "value": 13.5
+        },
+        {
+          "rank": 15,
+          "model": "Sonnet 5.5 Extra High",
+          "score": 53.1,
+          "cost": 2.81,
+          "tokens": 100158,
+          "steps": 78,
+          "value": 18.9
+        },
+        {
+          "rank": 16,
+          "model": "Gemini 4 Argon High",
+          "score": 52.9,
+          "cost": 4.57,
+          "tokens": 109500,
+          "steps": 118,
+          "value": 11.58
+        },
+        {
+          "rank": 17,
+          "model": "Gemini 4 Argon Medium",
+          "score": 52.8,
+          "cost": 4.39,
+          "tokens": 103600,
+          "steps": 115,
+          "value": 12.03
+        },
+        {
+          "rank": 18,
+          "model": "Opus 5.5 Medium",
+          "score": 52.5,
+          "cost": 2.91,
+          "tokens": 37954,
+          "steps": 54,
+          "value": 18.04
+        },
+        {
+          "rank": 19,
+          "model": "Fable 5.1 Max",
+          "score": 51.8,
+          "cost": 17.28,
+          "tokens": 117236,
+          "steps": 128,
+          "value": 3.0
+        },
+        {
+          "rank": 20,
+          "model": "Fable 5.1 Extra High",
+          "score": 51.6,
+          "cost": 13.01,
+          "tokens": 87294,
+          "steps": 101,
+          "value": 3.97
+        },
+        {
+          "rank": 21,
+          "model": "Gemini 4 Argon Low",
+          "score": 50.6,
+          "cost": 4.09,
+          "tokens": 94200,
+          "steps": 110,
+          "value": 12.37
+        },
+        {
+          "rank": 22,
+          "model": "Muse Wonder Max",
+          "score": 50.4,
+          "cost": 5.25,
+          "tokens": 49692,
+          "steps": 114,
+          "value": 9.6
+        },
+        {
+          "rank": 23,
+          "model": "Fable 5.1 High",
+          "score": 49.2,
+          "cost": 9.08,
+          "tokens": 58438,
+          "steps": 77,
+          "value": 5.42
+        },
+        {
+          "rank": 24,
+          "model": "Haiku 5.5 Max",
+          "score": 48.4,
+          "cost": 1.12,
+          "tokens": 325934,
+          "steps": 163,
+          "value": 43.21
+        },
+        {
+          "rank": 25,
+          "model": "Muse Wonder Extra High",
+          "score": 48.2,
+          "cost": 4.24,
+          "tokens": 39564,
+          "steps": 96,
+          "value": 11.37
+        },
+        {
+          "rank": 26,
+          "model": "Sonnet 5.5 High",
+          "score": 47.8,
+          "cost": 1.2,
+          "tokens": 37391,
+          "steps": 41,
+          "value": 39.83
+        },
+        {
+          "rank": 27,
+          "model": "DeepSeek V4.1 Flash 1017 Max",
+          "score": 47.7,
+          "cost": 0.98,
+          "tokens": 537047,
+          "steps": 187,
+          "value": 48.67
+        },
+        {
+          "rank": 28,
+          "model": "Fable 5.1 Medium",
+          "score": 46.8,
+          "cost": 7.05,
+          "tokens": 45411,
+          "steps": 63,
+          "value": 6.64
+        },
+        {
+          "rank": 29,
+          "model": "Gemini 4 Hydrogen Medium",
+          "score": 46.7,
+          "cost": 1.76,
+          "tokens": 36781,
+          "steps": 38,
+          "value": 26.53
+        },
+        {
+          "rank": 30,
+          "model": "Opus 5 Max",
+          "score": 46.6,
+          "cost": 11.95,
+          "tokens": 85384,
+          "steps": 106,
+          "value": 3.9
+        },
+        {
+          "rank": 31,
+          "model": "Grok 4.7 Extra High",
+          "score": 46.3,
+          "cost": 6.01,
+          "tokens": 70141,
+          "steps": 88,
+          "value": 7.7
+        },
+        {
+          "rank": 32,
+          "model": "DeepSeek V4.1 Flash 1017 Medium",
+          "score": 46.3,
+          "cost": 0.8,
+          "tokens": 398255,
+          "steps": 189,
+          "value": 57.88
+        },
+        {
+          "rank": 33,
+          "model": "Opus 5 Extra High",
+          "score": 46.1,
+          "cost": 11.43,
+          "tokens": 80094,
+          "steps": 103,
+          "value": 4.03
+        },
+        {
+          "rank": 34,
+          "model": "Muse Wonder High",
+          "score": 46.1,
+          "cost": 3.51,
+          "tokens": 33612,
+          "steps": 84,
+          "value": 13.13
+        },
+        {
+          "rank": 35,
+          "model": "DeepSeek V4.1 Flash 1017 High",
+          "score": 45.6,
+          "cost": 0.77,
+          "tokens": 385196,
+          "steps": 186,
+          "value": 59.22
+        },
+        {
+          "rank": 36,
+          "model": "Muse Wonder Medium",
+          "score": 45.2,
+          "cost": 2.82,
+          "tokens": 27124,
+          "steps": 75,
+          "value": 16.03
+        },
+        {
+          "rank": 37,
+          "model": "Fable 5.1 Low",
+          "score": 45.1,
+          "cost": 5.44,
+          "tokens": 34795,
+          "steps": 51,
+          "value": 8.29
+        },
+        {
+          "rank": 38,
+          "model": "DeepSeek V4.1 Flash 1017 Low",
+          "score": 44.9,
+          "cost": 0.6,
+          "tokens": 290651,
+          "steps": 161,
+          "value": 74.83
+        },
+        {
+          "rank": 39,
+          "model": "Opus 5 High",
+          "score": 44.7,
+          "cost": 9,
+          "tokens": 61405,
+          "steps": 86,
+          "value": 4.97
+        },
+        {
+          "rank": 40,
+          "model": "Haiku 5.5 Extra High",
+          "score": 44.3,
+          "cost": 0.56,
+          "tokens": 143813,
+          "steps": 93,
+          "value": 79.11
+        },
+        {
+          "rank": 41,
+          "model": "Grok 4.7 High",
+          "score": 43.9,
+          "cost": 4.69,
+          "tokens": 56382,
+          "steps": 71,
+          "value": 9.36
+        },
+        {
+          "rank": 42,
+          "model": "Opus 5.5 Low",
+          "score": 43.7,
+          "cost": 1.17,
+          "tokens": 15811,
+          "steps": 28,
+          "value": 37.35
+        },
+        {
+          "rank": 43,
+          "model": "Opus 5 Medium",
+          "score": 43.3,
+          "cost": 6.94,
+          "tokens": 45272,
+          "steps": 72,
+          "value": 6.24
+        },
+        {
+          "rank": 44,
+          "model": "GLM 5.3 Max",
+          "score": 42.6,
+          "cost": 5.05,
+          "tokens": 96387,
+          "steps": 166,
+          "value": 8.44
+        },
+        {
+          "rank": 45,
+          "model": "Haiku 5.5 High",
+          "score": 42.3,
+          "cost": 0.32,
+          "tokens": 77057,
+          "steps": 59,
+          "value": 132.19
+        },
+        {
+          "rank": 46,
+          "model": "GPT-5.6 Sol Max",
+          "score": 41.7,
+          "cost": 8.23,
+          "tokens": 42944,
+          "steps": 99,
+          "value": 5.07
+        },
+        {
+          "rank": 47,
+          "model": "Muse Wonder Low",
+          "score": 41.7,
+          "cost": 1.91,
+          "tokens": 18880,
+          "steps": 56,
+          "value": 21.83
+        },
+        {
+          "rank": 48,
+          "model": "Grok 4.7 Medium",
+          "score": 41.6,
+          "cost": 3.49,
+          "tokens": 36683,
+          "steps": 60,
+          "value": 11.92
+        },
+        {
+          "rank": 49,
+          "model": "Muse Spark 1.3 Max",
+          "score": 41.6,
+          "cost": 2.64,
+          "tokens": 52005,
+          "steps": 98,
+          "value": 15.76
+        },
+        {
+          "rank": 50,
+          "model": "Grok 4.6 Extra High",
+          "score": 41.4,
+          "cost": 6.1,
+          "tokens": 49814,
+          "steps": 56,
+          "value": 6.79
+        },
+        {
+          "rank": 51,
+          "model": "GPT-5.6 Terra Max",
+          "score": 41.3,
+          "cost": 5.14,
+          "tokens": 60814,
+          "steps": 107,
+          "value": 8.04
+        },
+        {
+          "rank": 52,
+          "model": "Opus 5 Low",
+          "score": 40.7,
+          "cost": 4.87,
+          "tokens": 31995,
+          "steps": 57,
+          "value": 8.36
+        },
+        {
+          "rank": 53,
+          "model": "Grok 4.6 High",
+          "score": 40.4,
+          "cost": 5.2,
+          "tokens": 41387,
+          "steps": 48,
+          "value": 7.77
+        },
+        {
+          "rank": 54,
+          "model": "Sonnet 5.5 Medium",
+          "score": 39.2,
+          "cost": 0.52,
+          "tokens": 16036,
+          "steps": 22,
+          "value": 75.38
+        },
+        {
+          "rank": 55,
+          "model": "GLM 5.3 High",
+          "score": 38,
+          "cost": 3.24,
+          "tokens": 60031,
+          "steps": 114,
+          "value": 11.73
+        },
+        {
+          "rank": 56,
+          "model": "GPT-5.6 Sol Extra High",
+          "score": 37.7,
+          "cost": 4.4,
+          "tokens": 24729,
+          "steps": 55,
+          "value": 8.57
+        },
+        {
+          "rank": 57,
+          "model": "Muse Spark 1.3 Extra High",
+          "score": 37.5,
+          "cost": 2.1,
+          "tokens": 40891,
+          "steps": 83,
+          "value": 17.86
+        },
+        {
+          "rank": 58,
+          "model": "Haiku 5.5 Medium",
+          "score": 36.9,
+          "cost": 0.17,
+          "tokens": 42659,
+          "steps": 39,
+          "value": 217.06
+        },
+        {
+          "rank": 59,
+          "model": "GLM 5.3 Flash Max",
+          "score": 36.8,
+          "cost": 0.39,
+          "tokens": 56410,
+          "steps": 118,
+          "value": 94.36
+        },
+        {
+          "rank": 60,
+          "model": "Grok 4.6 Medium",
+          "score": 36.1,
+          "cost": 3.48,
+          "tokens": 24893,
+          "steps": 40,
+          "value": 10.37
+        },
+        {
+          "rank": 61,
+          "model": "GPT-5.6 Luna Max",
+          "score": 35.9,
+          "cost": 1.03,
+          "tokens": 87284,
+          "steps": 208,
+          "value": 34.85
+        },
+        {
+          "rank": 62,
+          "model": "Sonnet 5.5 Low",
+          "score": 35.8,
+          "cost": 0.37,
+          "tokens": 11668,
+          "steps": 18,
+          "value": 96.76
+        },
+        {
+          "rank": 63,
+          "model": "GPT-5.6 Sol High",
+          "score": 35.7,
+          "cost": 2.85,
+          "tokens": 16174,
+          "steps": 41,
+          "value": 12.53
+        },
+        {
+          "rank": 64,
+          "model": "Muse Wonder Minimal",
+          "score": 34.2,
+          "cost": 0.84,
+          "tokens": 9761,
+          "steps": 33,
+          "value": 40.71
+        },
+        {
+          "rank": 65,
+          "model": "Sonnet 5 Max",
+          "score": 34.1,
+          "cost": 7.17,
+          "tokens": 149257,
+          "steps": 140,
+          "value": 4.76
+        },
+        {
+          "rank": 66,
+          "model": "GPT-5.6 Terra Extra High",
+          "score": 33.6,
+          "cost": 1.81,
+          "tokens": 23436,
+          "steps": 43,
+          "value": 18.56
+        },
+        {
+          "rank": 67,
+          "model": "Grok 4.6 Low",
+          "score": 33.4,
+          "cost": 2.25,
+          "tokens": 16307,
+          "steps": 32,
+          "value": 14.84
+        },
+        {
+          "rank": 68,
+          "model": "Muse Spark 1.3 High",
+          "score": 33.4,
+          "cost": 1.66,
+          "tokens": 30654,
+          "steps": 69,
+          "value": 20.12
+        },
+        {
+          "rank": 69,
+          "model": "GLM 5.3 Low",
+          "score": 33.3,
+          "cost": 2.04,
+          "tokens": 31983,
+          "steps": 81,
+          "value": 16.32
+        },
+        {
+          "rank": 70,
+          "model": "Grok 4.7 Low",
+          "score": 33.1,
+          "cost": 1.58,
+          "tokens": 15677,
+          "steps": 40,
+          "value": 20.95
+        },
+        {
+          "rank": 71,
+          "model": "GPT-5.6 Luna Extra High",
+          "score": 33,
+          "cost": 0.44,
+          "tokens": 40598,
+          "steps": 98,
+          "value": 75.0
+        },
+        {
+          "rank": 72,
+          "model": "Muse Spark 1.3 Medium",
+          "score": 32.6,
+          "cost": 1.49,
+          "tokens": 27255,
+          "steps": 64,
+          "value": 21.88
+        },
+        {
+          "rank": 73,
+          "model": "Sonnet 5 Extra High",
+          "score": 32,
+          "cost": 4.55,
+          "tokens": 83373,
+          "steps": 102,
+          "value": 7.03
+        },
+        {
+          "rank": 74,
+          "model": "GPT-5.6 Sol Medium",
+          "score": 31.1,
+          "cost": 1.77,
+          "tokens": 10111,
+          "steps": 32,
+          "value": 17.57
+        },
+        {
+          "rank": 75,
+          "model": "GLM 5.3 Flash High",
+          "score": 31.1,
+          "cost": 0.25,
+          "tokens": 35104,
+          "steps": 84,
+          "value": 124.4
+        },
+        {
+          "rank": 76,
+          "model": "Haiku 5.5 Low",
+          "score": 30.9,
+          "cost": 0.08,
+          "tokens": 23382,
+          "steps": 25,
+          "value": 386.25
+        },
+        {
+          "rank": 77,
+          "model": "Sonnet 5 High",
+          "score": 30.8,
+          "cost": 3.48,
+          "tokens": 61146,
+          "steps": 85,
+          "value": 8.85
+        },
+        {
+          "rank": 78,
+          "model": "GPT-5.6 Terra High",
+          "score": 30.7,
+          "cost": 1.11,
+          "tokens": 13162,
+          "steps": 33,
+          "value": 27.66
+        },
+        {
+          "rank": 79,
+          "model": "GPT-5.6 Luna High",
+          "score": 29.4,
+          "cost": 0.25,
+          "tokens": 23368,
+          "steps": 64,
+          "value": 117.6
+        },
+        {
+          "rank": 80,
+          "model": "Muse Spark 1.3 Low",
+          "score": 29.3,
+          "cost": 0.93,
+          "tokens": 17483,
+          "steps": 47,
+          "value": 31.51
+        },
+        {
+          "rank": 81,
+          "model": "Sonnet 5 Medium",
+          "score": 28,
+          "cost": 2.31,
+          "tokens": 39114,
+          "steps": 65,
+          "value": 12.12
+        },
+        {
+          "rank": 82,
+          "model": "Gemini 4 Hydrogen Low",
+          "score": 27.9,
+          "cost": 0.28,
+          "tokens": 8975,
+          "steps": 19,
+          "value": 99.64
+        },
+        {
+          "rank": 83,
+          "model": "Composer 2.5",
+          "score": 27.7,
+          "cost": 0.68,
+          "tokens": 17347,
+          "steps": 41,
+          "value": 40.74
+        },
+        {
+          "rank": 84,
+          "model": "GPT-5.6 Terra Medium",
+          "score": 27.6,
+          "cost": 0.64,
+          "tokens": 7307,
+          "steps": 25,
+          "value": 43.13
+        },
+        {
+          "rank": 85,
+          "model": "GLM 5.3 Flash Low",
+          "score": 26.9,
+          "cost": 0.15,
+          "tokens": 17831,
+          "steps": 58,
+          "value": 179.33
+        },
+        {
+          "rank": 86,
+          "model": "GPT-5.6 Terra Low",
+          "score": 25.2,
+          "cost": 0.52,
+          "tokens": 5914,
+          "steps": 23,
+          "value": 48.46
+        },
+        {
+          "rank": 87,
+          "model": "GPT-5.6 Sol Low",
+          "score": 24.6,
+          "cost": 0.87,
+          "tokens": 4885,
+          "steps": 21,
+          "value": 28.28
+        },
+        {
+          "rank": 88,
+          "model": "Muse Spark 1.3 Minimal",
+          "score": 24.3,
+          "cost": 0.56,
+          "tokens": 10620,
+          "steps": 34,
+          "value": 43.39
+        },
+        {
+          "rank": 89,
+          "model": "Sonnet 5 Low",
+          "score": 24.1,
+          "cost": 1.39,
+          "tokens": 23772,
+          "steps": 46,
+          "value": 17.34
+        },
+        {
+          "rank": 90,
+          "model": "GPT-5.6 Luna Medium",
+          "score": 22.2,
+          "cost": 0.08,
+          "tokens": 7642,
+          "steps": 32,
+          "value": 277.5
+        },
+        {
+          "rank": 91,
+          "model": "GPT-5.6 Luna Low",
+          "score": 16,
+          "cost": 0.03,
+          "tokens": 3288,
+          "steps": 18,
+          "value": 533.33
+        }
+      ],
+      "images": [
+        {
+          "src": "data/editions/2026-11-14/images/models-cursorbench.jpg",
+          "caption": {
+            "zh": "CursorBench 4.0 官方页截图（采集当日；已镜像入仓）",
+            "en": "Screenshot of the official CursorBench 4.0 page (captured today; mirrored in-repo)"
+          }
+        }
+      ]
+    }
+  },
+  "finance": {
+    "stock": {
+      "name": {
+        "zh": "小米集团-W",
+        "en": "Xiaomi Corp"
+      },
+      "symbol": "01810.HK",
+      "currency": "HKD",
+      "price": 28.86,
+      "change": -1.12,
+      "changePercent": -3.74,
+      "prevClose": 29.98,
+      "open": 29.74,
+      "high": 29.8,
+      "low": 28.8,
+      "volume": "约 1.092 亿股",
+      "amount": "约 31.86 亿港元",
+      "spark": [
+        26.38,
+        27.08,
+        26.66,
+        27.06,
+        26.8,
+        25.8,
+        26.8,
+        26.9,
+        25.66,
+        25.62,
+        25.68,
+        26.48,
+        28.1,
+        28.6,
+        28.76,
+        31.3,
+        30.38,
+        30.1,
+        30.6,
+        30.1,
+        29.98,
+        28.86
+      ],
+      "summary": {
+        "zh": "今日周六休市，无新成交价。报价为周五收盘：28.860 港元，跌 3.74%（-1.120），成交约 1.092 亿股、金额约 31.86 亿港元；日内 28.80–29.80，开盘 29.74。数据源：腾讯港股串（时间戳 2026/11/13 16:08:19）及日 K。公司周五回购 172.50 万股，均价 28.889 港元。",
+        "en": "Saturday collection; the HK cash market is closed, so there is no new print. The quote is Friday’s close: HK$28.860, down 3.74% (−1.120), on about 109.2M shares and about HK$3.186 billion; the session ranged 28.80–29.80 after opening at 29.74. Source: Tencent HK quote (timestamp 2026/11/13 16:08:19) and daily bars. The company bought back 1.725 million shares on Friday at an average HK$28.889."
+      },
+      "highlights": [
+        {
+          "zh": "周五收跌 3.74% 至 28.86，失守周四收盘 29.98；成交约 1.092 亿股，与周四约 1.096 亿股接近。",
+          "en": "Friday closed −3.74% at 28.86, giving back Thursday’s 29.98 close, on about 109.2M shares, close to Thursday’s ~109.6M."
+        },
+        {
+          "zh": "日内高点 29.80，低点 28.80，开盘 29.74，几乎录得当日低点收盘。",
+          "en": "The session ranged 28.80–29.80 after opening at 29.74, and closed near the day’s low."
+        },
+        {
+          "zh": "公司周五回购 172.50 万股，均价 28.889 港元，略高于周四的 167.00 万股。",
+          "en": "The company bought back 1.725 million shares on Friday at an average HK$28.889, a bit more than Thursday’s 1.67 million."
+        }
+      ]
+    }
+  },
+  "todos": [
+    {
+      "text": {
+        "zh": "今日重心（周六去敏）：周末以陪伴两个孩子的学习为主（英语、语文与兴趣练习，并检查课内记事）。工作上继续 harness 与 RSI 学习、思考下一阶段 AI 提效，并抽时间读技术文章；硬件 bring-up 也可周末抽空推进。另有架构与研发面试题准备。",
+        "en": "Saturday focus (sanitized): the weekend is mainly family study time with both children (English, Chinese, and interest practice, plus checking school notes). On the work side, continue harness and RSI study, think through the next stage of AI leverage, and set aside time for technical reading; hardware bring-up can also get a weekend slot. There is also interview-question prep for architecture and engineering roles."
+      },
+      "priority": "high"
+    }
+  ]
+}
