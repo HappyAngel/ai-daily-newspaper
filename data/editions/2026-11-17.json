@@ -1,0 +1,1516 @@
+{
+  "date": "2026-11-17",
+  "weather": {
+    "city": {
+      "zh": "北京",
+      "en": "Beijing"
+    },
+    "condition": {
+      "zh": "阴（Open-Meteo 早间实况 code 2 / 今日 daily code 3）",
+      "en": "Overcast (Open-Meteo morning current code 2 / daily code 3)"
+    },
+    "icon": "cloud",
+    "temp": "2.6 ~ 7.9°C",
+    "feels": "体感约 0.2°C（08:15 实况约 3.3°C）",
+    "humidity": "75%",
+    "wind": {
+      "zh": "实况约 5.9 km/h，阵风约 13.7 km/h；今日日最大阵风约 36.4 km/h",
+      "en": "About 5.9 km/h now, gusts ~13.7 km/h; day max gusts ~36.4 km/h"
+    },
+    "air": {
+      "zh": "Open-Meteo 约 US AQI 197、PM2.5≈221.2 μg/m³、PM10≈224.4（不健康 Unhealthy——以实况为准；今日区间约 172–219）",
+      "en": "Open-Meteo ~US AQI 197, PM2.5≈221.2 μg/m³, PM10≈224.4 (Unhealthy—check live; today’s range about 172–219)"
+    },
+    "sunrise": "07:01",
+    "sunset": "16:57",
+    "tip": {
+      "zh": "🏠 今日北京阴（早间实况少云到阴 code 2，今日 daily code 3），气温约 2.6~7.9°C，早间偏冷（08:15 实况约 3.3°C、体感约 0.2°C），湿度约 75%；预报无明显降水（0.0 mm，降水概率约 24%），午间气温约 5.9~7.2°C。风力早晨较弱（实况约 5.9 km/h，阵风约 13.7 km/h），但日最大阵风约 36.4 km/h。日出 07:01，日落 16:57。空气偏差：Open-Meteo 约 US AQI 197（不健康 Unhealthy），PM2.5≈221.2 μg/m³、PM10≈224.4；今日约 172–219，上午约 197–213（上午可到非常不健康）。\n🏃 训练提醒：今天是周二冬中午跑日。午间本身风力不大，但日最大阵风约 36.4 km/h，空气已到不健康并可能到非常不健康（实况 US AQI≈197，上午约 197–213）——点名提醒：大风与空气都不宜勉强户外长跑，优先改室内。下周四（11/19）为下一可选跑日，预报少云、最低约 -1.4°C，日最大阵风约 50.8 km/h（大风点名），空气不健康（US AQI 约 158–202，上午约 198–202）——点名提醒：大风、偏冷与空气都不宜勉强户外长跑。下周五（11/20）为晨练日，室内健身为主；日最大阵风约 37.4 km/h，上午空气约 US AQI 123–151，出门仍留意风和空气。\n📅 未来7天（北京，Open-Meteo；阴晴参考 weather_code，空气 Open-Meteo AQ，空气预报仅至 11/21）：\n• 11/17 周二 2.6~7.9°C 阴（冬中午跑日；降水概率约 24%，日最大阵风约 36.4 km/h，空气不健康到非常不健康——点名冲突）\n• 11/18 周三 0.2~6.3°C 少云（日最大阵风约 40.3 km/h，大风点名；空气 US AQI 约 106–212，上午约 139–164）\n• 11/19 周四 -1.4~6.1°C 少云（下一可选跑日；最低约 -1.4°C；日最大阵风约 50.8 km/h，大风点名；空气不健康，US AQI 约 158–202——点名冲突）\n• 11/20 周五 -1.7~7.1°C 阴（下一周五晨练日；日最大阵风约 37.4 km/h；上午空气 US AQI 约 123–151，全日约 123–167）\n• 11/21 周六 -1.8~4.5°C 晴（日最大阵风约 25.2 km/h；空气 US AQI 约 92–147，上午约 95–121）\n• 11/22 周日 -2.1~5.3°C 阴（日最大阵风约 20.5 km/h；空气未给出）\n• 11/23 周一 -1.6~10.5°C 晴（下一周一晨练日；日最大阵风约 59.4 km/h，大风点名；空气未给出）\n（气温/降水/风：Open-Meteo 约 08:15 北京时间；空气：Open-Meteo AQ，预报窗口至 11/21）",
+      "en": "🏠 Beijing today: overcast (morning current mostly cloudy/overcast, code 2; daily code 3), about 2.6–7.9°C, chilly morning (~3.3°C at 08:15, feels ~0.2°C), humidity ~75%; no meaningful precip (0.0 mm, pop ~24%), midday about 5.9–7.2°C. Light wind this morning (current ~5.9 km/h, gusts ~13.7 km/h), but day max gusts ~36.4 km/h. Sunrise 07:01, sunset 16:57. Air is poor: Open-Meteo ~US AQI 197 (Unhealthy), PM2.5≈221.2 μg/m³, PM10≈224.4; today’s range about 172–219, morning about 197–213 (morning may reach Very Unhealthy).\n🏃 Training: today is the winter midday run. Midday wind itself is not strong, but day max gusts are ~36.4 km/h and air is already Unhealthy and may reach Very Unhealthy (live US AQI≈197, morning about 197–213)—flag: wind and air both argue against forcing an outdoor long run; prefer indoors. Next optional run day is Thursday 11/19: partly cloudy, low about -1.4°C, day max gusts ~50.8 km/h (high-wind flag), air Unhealthy (US AQI about 158–202, morning about 198–202)—flag: wind, cold, and air all argue against forcing an outdoor long run. Next Friday 11/20 is a gym morning, mainly indoor; day max gusts ~37.4 km/h, morning air about US AQI 123–151, still watch wind and air when heading out.\n📅 Next 7 days (Beijing, Open-Meteo; conditions from weather_code, air from Open-Meteo AQ, air forecast only through 11/21):\n• 11/17 Tue 2.6–7.9°C overcast (winter midday run; pop ~24%, day max gusts ~36.4 km/h, air Unhealthy to Very Unhealthy—flagged conflict)\n• 11/18 Wed 0.2–6.3°C partly cloudy (day max gusts ~40.3 km/h, high-wind flag; air US AQI about 106–212, morning about 139–164)\n• 11/19 Thu -1.4–6.1°C partly cloudy (next optional run day; low about -1.4°C; day max gusts ~50.8 km/h, high-wind flag; air Unhealthy, US AQI about 158–202—flagged conflict)\n• 11/20 Fri -1.7–7.1°C overcast (next Friday gym day; day max gusts ~37.4 km/h; morning air US AQI about 123–151, day about 123–167)\n• 11/21 Sat -1.8–4.5°C clear (day max gusts ~25.2 km/h; air US AQI about 92–147, morning about 95–121)\n• 11/22 Sun -2.1–5.3°C overcast (day max gusts ~20.5 km/h; no air forecast)\n• 11/23 Mon -1.6–10.5°C clear (next Monday gym day; day max gusts ~59.4 km/h, high-wind flag; no air forecast)\n(Temps/precip/wind: Open-Meteo ~08:15 Asia/Shanghai; air: Open-Meteo AQ, forecast window through 11/21)"
+    }
+  },
+  "aiTech": {
+    "openingSummary": {
+      "zh": {
+        "greeting": "小熊早上好！",
+        "lead": "今天最大的产品消息：OpenAI 扩展科研人员项目，向全球最多 20 万科研人员免费开放前沿模型，申请于 11 月 23 日开启，并发布对 1800 余名科学家的使用研究报告。产品侧，Hermes Agent 推出稳定版 v0.23.2，OpenClaw 正式发布 v2026.11.4。",
+        "important": {
+          "title": "重要消息",
+          "items": [
+            "OpenAI 于北京时间昨晚至凌晨更新：11 月 23 日开放申请，下轮发放 5 万个名额，每份资助覆盖申请者及最多两名合作者的 ChatGPT Plus，默认不以项目数据训练模型。同期报告覆盖 1,819 名科学家，受访者估计若没有 AI、要达到同等质量，耗时约为现在的 1.9 倍。",
+            "Hermes Agent 于今天 04:59 发布稳定版 v0.23.2，把自 v0.23.1 以来约 1,989 个已合并 PR 纳入稳定通道；完整整理的说明将随 v0.24.0 发布。OpenClaw 稳定版 v2026.11.4 已于昨天下午挂上 GitHub Releases，修复重连丢消息、设置重载丢回复等问题；beta.4 的 Releases 页也已挂出。",
+            "OpenAI 还为医疗团队推出更强的计算机使用代理，并新增 20 余个医疗插件；同时与 Apollo Research、METR、Transluce、Goodfire 签署首批嵌入式评估协议，向外部专家开放内部模型与系统的深度访问。"
+          ]
+        },
+        "sections": [
+          {
+            "title": "研究报告与医疗代理",
+            "body": "试点已有 2 万名科研人员、33 个国家加入；98% 受访者认为 AI 会加速其所在领域的发现，68% 曾用 ChatGPT 做研究构思。分类由自动分类器完成，研究团队不阅读原始消息。医疗侧以合成数据演示：代理可在病历系统中查阅记录并起草预授权材料，交由人工审阅。"
+          },
+          {
+            "title": "DeepMind：Antigravity 纳入 Carbon",
+            "body": "官方账号称，面向 1 万名科学家的 Google Antigravity 项目现纳入 Gemini 4 Carbon 免费使用权。线程举例包括：在数周内证明 Signal 密码代码的安全性、从实验记录中发现湿实验误差，以及检索到 40 倍更多相关蛋白序列。所附链接指向 11 月 10 日 Carbon 上市博文，未见单独新项目页。"
+          },
+          {
+            "title": "产品栏",
+            "body": "DeepSeek Harness 仍为 rc.3。codex 稳定版仍为 0.169.0，实验线已到 alpha.10，发布说明仅标版本号；@thsottiaux 称容量错误或已修复，以推文为准。Claude 与 Cursor changelog 无新条目。Grok Bot changelog 仍为 v1.0.1，cask 仍报 1.1.0。CursorBench 4.0 较昨日无更新。"
+          },
+          {
+            "title": "缺口",
+            "body": "@karpathy、@AndrewYNg、@AnthropicAI、@claudeai、@AIatMeta 与 @Meta 近 48 小时无高信号原创；关注列表无 DeepSeek 一手 X。OpenAI 新闻页今日抓取 403，改以官方 RSS 与已核对文章为准。Grok 1.1.0 与 Codex 实验标签不编造未写明的功能。"
+          }
+        ]
+      },
+      "en": {
+        "greeting": "Good morning!",
+        "lead": "Biggest product news today: OpenAI is expanding its researcher program to give up to 200,000 scientists worldwide free access to its frontier models, with applications opening November 23, and it published a study of how more than 1,800 scientists used the program. On the product desk, Hermes Agent shipped stable v0.23.2, and OpenClaw formally released v2026.11.4.",
+        "important": {
+          "title": "Headlines",
+          "items": [
+            "Overnight in Asia/Shanghai, OpenAI said applications open November 23, with 50,000 grants in the next round, each covering ChatGPT Plus for the recipient and up to two collaborators; program data is not used for training by default. The companion report covers 1,819 scientists; surveyed participants estimated that reaching the same quality without AI would have taken about 1.9 times as long.",
+            "Hermes Agent published stable v0.23.2 at 04:59 Asia/Shanghai, rolling about 1,989 merged PRs since v0.23.1 into the stable channel; full curated notes will ship with v0.24.0. OpenClaw’s stable v2026.11.4 landed on GitHub Releases yesterday afternoon, with fixes for dropped messages after reconnects and lost replies after settings reloads; the beta.4 Releases page is also up.",
+            "OpenAI also advanced computer-use agents for healthcare teams and added 20+ healthcare plugins, and signed first-phase embedded-assessment agreements with Apollo Research, METR, Transluce, and Goodfire, giving outside experts deep access to internal models and systems."
+          ]
+        },
+        "sections": [
+          {
+            "title": "The study and healthcare agents",
+            "body": "The pilot has enrolled 20,000 researchers in 33 countries; 98% of survey respondents expected AI to accelerate discovery in their field, and 68% had used ChatGPT to develop research ideas. Automated classifiers labeled activity types; the research team did not read the underlying messages. On the healthcare side, a synthetic-data demo shows an agent reviewing records and drafting prior-authorization materials for a human to review."
+          },
+          {
+            "title": "DeepMind: Carbon in Antigravity",
+            "body": "The official account said the Google Antigravity program for 10,000 scientists now includes free access to Gemini 4 Carbon. The thread cites proving the security of Signal’s cryptographic code in weeks, spotting wet-lab errors from lab notebooks, and finding 40 times more related protein sequences. The attached link points to the November 10 Carbon availability post, not a separate new program page."
+          },
+          {
+            "title": "Product desk",
+            "body": "DeepSeek Harness remains rc.3. Codex stable remains 0.169.0; the experimental line has reached alpha.10, with notes that name the version only. @thsottiaux said capacity errors may have been fixed; that is treated as a tweet. Claude and the Cursor changelog have no new entries. Grok Bot’s changelog is still v1.0.1, and the cask still reports 1.1.0. CursorBench 4.0 is unchanged versus yesterday."
+          },
+          {
+            "title": "Gaps",
+            "body": "@karpathy, @AndrewYNg, @AnthropicAI, @claudeai, @AIatMeta, and @Meta had no high-signal originals in the past 48 hours, and there were no first-hand DeepSeek posts on X. OpenAI’s news page returned 403 today, so this follows the official RSS and checked articles. Features are not invented for Grok Bot 1.1.0 or Codex prerelease tags."
+          }
+        ]
+      }
+    },
+    "xPosts": [
+      {
+        "author": "OpenAI",
+        "handle": "@OpenAI",
+        "time": "11-17 01:13（北京时间）",
+        "summary": {
+          "zh": "宣布扩展「ChatGPT for Academic Researchers」：向全球最多 20 万名科研人员免费开放前沿模型并提供培训；11 月 23 日开放申请，默认不以项目数据训练模型。",
+          "en": "Announces an expansion of ChatGPT for Academic Researchers: free frontier-model access and training for up to 200,000 scientists worldwide; applications open November 23, and program data is not used for training by default."
+        },
+        "link": "https://x.com/OpenAI/status/2122377585523126615",
+        "images": [
+          {
+            "src": "data/editions/2026-11-17/images/openai-academic-researchers.jpg",
+            "caption": {
+              "zh": "OpenAI 科研人员项目博文题图（来源：官方页；已镜像入仓）",
+              "en": "Hero image from OpenAI’s academic-researchers post (official page; mirrored in-repo)"
+            }
+          }
+        ]
+      },
+      {
+        "author": "OpenAI",
+        "handle": "@OpenAI",
+        "time": "11-17 01:23（北京时间）",
+        "summary": {
+          "zh": "发布《Science at the Frontier》：在对 1800 余名「ChatGPT for Academic Researchers」参与者的研究中，科学家报告用 AI 后科研效率接近翻倍。",
+          "en": "Publishes Science at the Frontier: in a study of more than 1,800 ChatGPT for Academic Researchers participants, scientists reported nearly doubling their productivity with AI."
+        },
+        "link": "https://x.com/OpenAI/status/2122380010287960095",
+        "images": [
+          {
+            "src": "data/editions/2026-11-17/images/openai-science-frontier.jpg",
+            "caption": {
+              "zh": "OpenAI 研究报告题图（来源：官方页；已镜像入仓）",
+              "en": "Hero image from OpenAI’s science report (official page; mirrored in-repo)"
+            }
+          }
+        ]
+      },
+      {
+        "author": "OpenAI",
+        "handle": "@OpenAI",
+        "time": "11-17 07:03（北京时间）",
+        "summary": {
+          "zh": "称 ChatGPT for Healthcare 推进更强的计算机使用代理、更扎实的临床回答，并新增 20 余个医疗插件；Abridge、Ambience、Cigna、CVS Health 等用于预授权、转诊、出院与随访。",
+          "en": "Says ChatGPT for Healthcare is advancing more capable computer-use agents, stronger clinical answers, and 20+ new healthcare plugins, with Abridge, Ambience, Cigna, and CVS Health cited for prior authorizations, referrals, discharge planning, and outreach."
+        },
+        "link": "https://x.com/OpenAI/status/2122465625109090646",
+        "images": [
+          {
+            "src": "data/editions/2026-11-17/images/openai-healthcare-computer-use.jpg",
+            "caption": {
+              "zh": "OpenAI 医疗计算机使用代理博文题图（来源：官方页；已镜像入仓）",
+              "en": "Hero image from OpenAI’s healthcare computer-use post (official page; mirrored in-repo)"
+            }
+          }
+        ]
+      },
+      {
+        "author": "OpenAI",
+        "handle": "@OpenAI",
+        "time": "11-17 00:03（北京时间）",
+        "summary": {
+          "zh": "宣布与 Apollo Research、METR、Transluce、Goodfire 开展嵌入式评估，让外部专家深入访问其内部模型与系统，以核查对齐并测试防护措施。",
+          "en": "Announces embedded assessments with Apollo Research, METR, Transluce, and Goodfire, giving outside experts deep access to internal models and systems to investigate alignment and test safeguards."
+        },
+        "link": "https://x.com/OpenAI/status/2122359930628063248",
+        "images": [
+          {
+            "src": "data/editions/2026-11-17/images/openai-embedded-assessments.jpg",
+            "caption": {
+              "zh": "OpenAI 嵌入式评估博文题图（来源：官方页；已镜像入仓）",
+              "en": "Hero image from OpenAI’s embedded-assessments post (official page; mirrored in-repo)"
+            }
+          }
+        ]
+      },
+      {
+        "author": "Google DeepMind",
+        "handle": "@GoogleDeepMind",
+        "time": "11-17 00:31（北京时间）",
+        "summary": {
+          "zh": "称面向 1 万名科学家的 Google Antigravity 项目现纳入 Gemini 4 Carbon 免费使用权，并举例其在证明 Signal 密码代码、发现湿实验误差和检索相关蛋白序列上的实验室用途。",
+          "en": "Says the Google Antigravity program for 10,000 scientists now includes free access to Gemini 4 Carbon, and cites lab uses such as proving Signal’s cryptographic code, spotting wet-lab errors, and finding related protein sequences."
+        },
+        "link": "https://x.com/GoogleDeepMind/status/2122366992376107167",
+        "images": [
+          {
+            "src": "data/editions/2026-11-17/images/xpost-deepmind-carbon.jpg",
+            "caption": {
+              "zh": "DeepMind 关于 Carbon 实验室用途的配图（来源：官方帖；已镜像入仓）",
+              "en": "Image from DeepMind’s post on Carbon in the lab (official post; mirrored in-repo)"
+            }
+          }
+        ]
+      },
+      {
+        "author": "Tibo",
+        "handle": "@thsottiaux",
+        "time": "11-16 13:55（北京时间）",
+        "summary": {
+          "zh": "称 Codex 团队可能已经修好了近期困扰用户的「model at capacity」错误，并附上界面截图。这是推文而非版本说明。",
+          "en": "Says the Codex team might have fixed the “model at capacity” errors that had been pestering users, and attaches a screenshot. This is a tweet, not a release note."
+        },
+        "link": "https://x.com/thsottiaux/status/2122206990101536852",
+        "images": [
+          {
+            "src": "data/editions/2026-11-17/images/xpost-tibo-capacity.jpg",
+            "caption": {
+              "zh": "Tibo 所附 Codex 容量错误相关截图（来源：原帖；已镜像入仓）",
+              "en": "Screenshot attached to Tibo’s Codex capacity post (original post; mirrored in-repo)"
+            }
+          }
+        ]
+      }
+    ],
+    "engBlogs": [
+      {
+        "source": "OpenAI",
+        "title": {
+          "zh": "向科学家更广泛开放 AI",
+          "en": "Broadening access to AI for scientists"
+        },
+        "summary": {
+          "zh": "OpenAI 于 11 月 16 日宣布扩展「ChatGPT for Academic Researchers」。项目 7 月试点，已有 2 万名科研人员、33 个国家加入；下一轮 11 月 23 日开放申请，将发放 5 万个名额，每份资助覆盖申请者及最多两名合作者的 ChatGPT Plus，并可获得前沿模型使用培训。默认不以项目数据训练模型。已在等待名单且符合条件者，会在开放申请前收到激活说明邮件。",
+          "en": "On November 16, OpenAI announced an expansion of ChatGPT for Academic Researchers. The July pilot has enrolled 20,000 researchers in 33 countries. Applications for the next round open November 23, with 50,000 grants, each covering ChatGPT Plus for the recipient and up to two collaborators, plus training on using frontier models in research. By default, program data is not used to train models. Eligible people already on the waitlist will be emailed instructions before applications open."
+        },
+        "link": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
+        "images": [
+          {
+            "src": "data/editions/2026-11-17/images/openai-academic-researchers.jpg",
+            "caption": {
+              "zh": "OpenAI 科研人员项目题图（来源：官方页；已镜像入仓）",
+              "en": "Hero image from OpenAI’s academic-researchers post (official page; mirrored in-repo)"
+            }
+          }
+        ]
+      },
+      {
+        "source": "OpenAI",
+        "title": {
+          "zh": "前沿的科学：科学家如何使用 ChatGPT",
+          "en": "Science at the Frontier: How scientists use ChatGPT"
+        },
+        "summary": {
+          "zh": "OpenAI 经济研究团队研究了暑期试点中 1,819 名科学家的约 58 万条科研相关消息，并调查 251 人。受访者估计，若没有 AI、要达到同等质量，耗时约为现在的 1.9 倍；98% 认为 AI 会加速其所在领域的发现；68% 曾用 ChatGPT 做研究构思。为保护隐私，活动类型由自动分类器标注，研究团队不阅读原始消息或模型回复。默认不以该项目数据训练模型。",
+          "en": "OpenAI’s Economic Research team studied about 580,000 scientific messages from 1,819 scientists in the summer pilot and surveyed 251 participants. Surveyed scientists estimated that the same work at the same quality would have taken 1.9 times as long without AI; 98% expected AI to accelerate discovery in their field, and 68% had used ChatGPT to develop research ideas. To protect privacy, automated classifiers labeled activity types; the research team did not read the underlying messages or model replies. By default, program data is not used for training."
+        },
+        "link": "https://openai.com/index/science-at-the-frontier",
+        "images": [
+          {
+            "src": "data/editions/2026-11-17/images/openai-science-frontier.jpg",
+            "caption": {
+              "zh": "OpenAI 研究报告题图（来源：官方页；已镜像入仓）",
+              "en": "Hero image from OpenAI’s science report (official page; mirrored in-repo)"
+            }
+          }
+        ]
+      },
+      {
+        "source": "OpenAI",
+        "title": {
+          "zh": "首批嵌入式评估",
+          "en": "Our first phase of embedded assessments"
+        },
+        "summary": {
+          "zh": "OpenAI 宣布与 Apollo Research、METR、Transluce、Goodfire 签署首批嵌入式评估协议，让独立评估方在较长周期内深入访问其内部模型与系统，以评估对齐和防护措施，并为安全案例提供补充。按评估需要，评估方可获得与内部研究相近的资源，包括模型检查点、源代码、训练与评估数据、监控系统、技术文档，以及与相关研究者、工程师的讨论。官方称这也支撑其在白宫超级智能协议下接受独立评估的承诺。",
+          "en": "OpenAI has signed first-phase embedded-assessment agreements with Apollo Research, METR, Transluce, and Goodfire, giving independent assessors deep access to internal models and systems over an extended period to evaluate alignment and safeguards, complementing its safety cases. Depending on what an evaluation needs, assessors may receive resources similar to those internal researchers use, including model checkpoints, source code, training and evaluation data, monitoring systems, technical documentation, and discussions with the researchers and engineers involved. The company says this also supports its commitments under the White House Accord on Super Intelligence to independent assessments of its safety controls."
+        },
+        "link": "https://openai.com/index/our-first-phase-of-embedded-assessments",
+        "images": [
+          {
+            "src": "data/editions/2026-11-17/images/openai-embedded-assessments.jpg",
+            "caption": {
+              "zh": "OpenAI 嵌入式评估题图（来源：官方页；已镜像入仓）",
+              "en": "Hero image from OpenAI’s embedded-assessments post (official page; mirrored in-repo)"
+            }
+          }
+        ]
+      }
+    ],
+    "alphaxivTop3": [
+      {
+        "rank": 1,
+        "title": "Unbundling Multimodal Vision Encoding",
+        "authors": "Ellis Brown, Chris Hoang, Shengyi Qian, Shang-Wen Li, Mike Lewis, Marjan Ghazvininejad, Luke Zettlemoyer, Lucas Beyer, Mengye Ren, Jakob Verbeek, Saining Xie, Hu Xu et al.",
+        "summary": {
+          "zh": "（热榜第 1，较昨日仍居首位）把多模态模型里视觉编码器的三项设计拆开对照：上游预训练带来的视觉先验、专用视觉容量，以及融合前放置。在统一数据与算力下从头训练后发现：视觉先验并非必要，联合从头训练的编码器可与预训练编码器相当。",
+          "en": "(Still #1 versus yesterday.) The authors unbundle three design choices in vision encoders for multimodal models: a visual prior from upstream pretraining, dedicated vision capacity, and placing that capacity before fusion. In a controlled from-scratch comparison at matched data and compute, the visual prior is not necessary; a jointly trained-from-scratch encoder is on par with a pretrained one."
+        },
+        "link": "https://www.alphaxiv.org/abs/2611.17334",
+        "images": [
+          {
+            "src": "data/editions/2026-11-17/images/alphaxiv-01-unbundling.png",
+            "caption": {
+              "zh": "alphaXiv 热榜第 1 论文题图（已镜像入仓）",
+              "en": "Thumbnail for the #1 trending alphaXiv paper (mirrored in-repo)"
+            }
+          }
+        ]
+      },
+      {
+        "rank": 2,
+        "title": "Training Reasoning Models in Simulation to Natively Use Real Robots",
+        "authors": "Jiaming Tang, Zhuoyang Zhang, Junxian Guo, Fangzhou Zhao, Yilong Zhao, Zekai Li, Xingyang Li, Yuyang Zhao, Song Bian, Zhijian Liu, Song Han",
+        "summary": {
+          "zh": "（热榜第 2，新上榜）指出机器人使用代理（RUA）的强结果目前主要来自 GPT-6 Astra、Claude Fable 5.2 等专有前沿模型。作者展示：一个开源权重的 27B 推理模型可以完全在仿真中、不依赖演示，用强化学习学会原生操作真实机器人；它像计算机使用代理一样观察环境、做思维链，并直接输出下一末端位姿，无需额外 harness。训练框架称为 PEAR，方法称为 RURL。仿真中在 LIBERO 与 RoboDojo 训练后，技能可迁移到未见过的机器人、真实世界和新指令；在真实双臂机器人上成功率为 60%，基座模型一次都未成功。",
+          "en": "(New at #2.) The authors argue that strong robot-use agents (RUAs) have so far come mainly from frontier proprietary models such as GPT-6 Astra and Claude Fable 5.2. They show an open-weight 27B reasoning model can be trained with reinforcement learning, entirely in simulation and without demonstrations, to use real robots natively: like a computer-use agent, it observes the environment, reasons in a chain of thought, and outputs the next end-effector pose, without a harness. They introduce PEAR and robot-use RL (RURL). After training on LIBERO and RoboDojo in simulation, skills transfer to an unseen robot, the real world, and novel instructions; the model succeeds in 60% of trials on a real dual-arm robot, versus none for the base model."
+        },
+        "link": "https://www.alphaxiv.org/abs/2611.18562",
+        "images": [
+          {
+            "src": "data/editions/2026-11-17/images/alphaxiv-02-rua-sim.png",
+            "caption": {
+              "zh": "alphaXiv 热榜第 2 论文题图（已镜像入仓）",
+              "en": "Thumbnail for the #2 trending alphaXiv paper (mirrored in-repo)"
+            }
+          }
+        ]
+      },
+      {
+        "rank": 3,
+        "title": "Weight-Space Reading",
+        "authors": "Şuayp Talha Kocabay",
+        "summary": {
+          "zh": "（热榜第 3，新上榜；昨日第 3 的 SLAM Dunk 今日降至第 4，昨日第 2 的 Latent Feedback 降至第 8）询问语言模型能否在不运行网络的情况下，预测一次权重编辑会如何改变行为，并称之为 weight-space reading。在预注册的三轮测试中，sandbox 阅读代理检查 Qwen3.8-27B、Qwen3.5-9B 与 Muse-Glimmer-30B 的权重。仅给权重和 Python sandbox 时，27B 对其自身非破坏性细微编辑的行为效应预测平衡准确率为 0.730，高于只给文字描述时的 0.578；零样本、且不做一次前向计算，就能恢复约三分之二的真实行为变化（文字描述组约为四分之一）。作者称交叉对照并未给出确定的「自我阅读」优势。",
+          "en": "(New at #3; yesterday’s #3, SLAM Dunk, falls to #4, and yesterday’s #2, Latent Feedback, falls to #8.) The paper asks whether a language model can predict what a weight edit will do to a network’s behavior without running the network, and calls this weight-space reading. In three pre-registered rounds, sandboxed reader agents inspect the weights of Qwen3.8-27B, Qwen3.5-9B, and Muse-Glimmer-30B. Given only the weights and a Python sandbox, 27B predicts the behavioral effects of subtle, non-destructive edits to its own weights at 0.730 balanced accuracy, versus 0.578 when given a text description of the same edits, and recovers about two thirds of the real behavior changes versus about a quarter—zero-shot and without a forward pass. The author finds no conclusive self-reading advantage in a crossed contrast."
+        },
+        "link": "https://www.alphaxiv.org/abs/2611.weight-space-reading-language-models",
+        "images": [
+          {
+            "src": "data/editions/2026-11-17/images/alphaxiv-03-weight-space.png",
+            "caption": {
+              "zh": "alphaXiv 热榜第 3 论文题图（已镜像入仓）",
+              "en": "Thumbnail for the #3 trending alphaXiv paper (mirrored in-repo)"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "aiProducts": {
+    "items": [
+      {
+        "name": "Hermes Agent",
+        "tag": "update",
+        "link": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.23.2",
+        "summary": {
+          "zh": "稳定版更新为 v0.23.2（published_at 2026-11-16T20:59:18Z，约北京时间今日 04:59）。发行说明称这是补丁版，把自 v0.23.1 以来约 1,989 个已合并 PR、7,918 个非合并提交纳入 CLI、安装包、Microsoft Store、Docker 与 Hermes Cloud 的稳定通道；完整整理的发行说明将随 v0.24.0 发布。说明列出了该窗口内若干能力（如可在网关重启后继续的 durable subagents、按会话的 prompt-cache 时钟、Gemini 4 Carbon 的 Interactions API 等），但同时写明这些内容「故意不在此完整记载」，故今日不把该清单写成正式功能介绍。发布候选还修复了桌面端发送、流式回复与重连后重复显示等问题。",
+          "en": "Stable is now v0.23.2 (published_at 2026-11-16T20:59:18Z, about 04:59 Asia/Shanghai today). The notes call it a patch that rolls about 1,989 merged PRs and 7,918 non-merge commits since v0.23.1 into the stable channel for the CLI, installers, the Microsoft Store app, Docker, and Hermes Cloud. Full curated notes will ship with v0.24.0. The text lists several capabilities from this window (such as durable subagents that survive a gateway restart, a per-session prompt-cache clock, and the Gemini Interactions API for Gemini 4 Carbon), but also says they are “undocumented here on purpose,” so today’s brief does not treat that list as a formal feature write-up. The release candidate also fixes desktop sending, streamed replies, and duplicate display after reconnects."
+        }
+      },
+      {
+        "name": "OpenClaw",
+        "tag": "update",
+        "link": "https://github.com/openclaw/openclaw/releases/tag/v2026.11.4",
+        "summary": {
+          "zh": "稳定版 v2026.11.4 已于 2026-11-16T04:17:42Z（约北京时间昨天下午 12:17）挂上 GitHub Releases，昨天早报采集时尚未见到此页。官方说明称这是补丁版：修复重连后漏掉缓冲的 Signal 消息、设置重载后丢失回复，以及记忆与配置恢复副本损坏；并新增委托变更审批，以及允许策略插件在图像进入模型前先检查。规模为 125 个源 PR、90 位贡献者。完整说明见 https://docs.openclaw.ai/releases/2026.11.4 。此前仅有标签的预发布 v2026.11.5-beta.4（Telegram 交互组件及多项可靠性修复），今日 Releases 页也已挂出。主线在 beta.4 之后仍有提交，尚无更新标签。",
+          "en": "Stable v2026.11.4 landed on the GitHub Releases page at 2026-11-16T04:17:42Z (about 12:17 Asia/Shanghai yesterday); it was not there during yesterday morning’s collection. The notes call it a patch: fixes for dropped buffered Signal messages after a reconnect, lost replies after a settings reload, and damaged memory and configuration recovery copies, plus a delegated change-approval setting and a way for policy plugins to inspect images before they reach a model. Scale: 125 source PRs and 90 contributors. Full notes: https://docs.openclaw.ai/releases/2026.11.4 . The earlier prerelease v2026.11.5-beta.4 (Telegram widgets and reliability fixes) now also has a Releases page. Main has more commits after beta.4, with no newer tag yet."
+        }
+      },
+      {
+        "name": "DeepSeek Harness",
+        "tag": "update",
+        "link": "https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.2.2-rc.3",
+        "summary": {
+          "zh": "仍为日前所见的实验标签 dsh-v0.2.2-rc.3（2026-11-13T07:56:55Z），无更新标签。该版本新增实验性「DeepSeek 会话导入」插件，并修复 Windows 桌面版应用内更新可能失败、无法自动重新打开的问题。",
+          "en": "Still the experimental tag seen previously, dsh-v0.2.2-rc.3 (2026-11-13T07:56:55Z), with no newer tag. That release adds an experimental DeepSeek chat-import plugin and fixes Windows desktop in-app updates that could fail and not reopen automatically."
+        }
+      },
+      {
+        "name": "codex",
+        "tag": "update",
+        "link": "https://github.com/openai/codex/releases/tag/rust-v0.169.0",
+        "summary": {
+          "zh": "稳定版仍为 rust-v0.169.0 / 0.169.0（2026-11-13T08:37:05Z），无更新稳定版。实验线由昨日的 0.171.0-alpha.7 推进到 rust-v0.171.0-alpha.10（2026-11-16T23:32:43Z，约北京时间今日 07:32），中间还曾出现 alpha.8 与 alpha.9；这些实验标签的发布说明仅标版本号，故不编造功能。@thsottiaux 昨日称「model at capacity」错误或已修复，以推文为准，不写入版本说明。",
+          "en": "Stable remains rust-v0.169.0 / 0.169.0 (2026-11-13T08:37:05Z), with no newer stable. The experimental line moved from yesterday’s 0.171.0-alpha.7 to rust-v0.171.0-alpha.10 (2026-11-16T23:32:43Z, about 07:32 Asia/Shanghai today), with alpha.8 and alpha.9 in between. Those prerelease notes name the version only, so no features are invented here. @thsottiaux said yesterday that “model at capacity” errors may have been fixed; that is treated as a tweet, not a release note."
+        }
+      },
+      {
+        "name": "Claude",
+        "tag": "update",
+        "link": "https://www.anthropic.com/news",
+        "summary": {
+          "zh": "自昨日早报之后，Anthropic 新闻页与可核对的 changelog 无新条目。新闻页置顶日期虽显示 11 月 17 日，但最近产品稿仍为 11/9 的 Claude Fable 5.2 / Mythos 5.2，以及此前 11/12 的 Claude Meetings 与自托管 Managed Agents。今日无新的 Claude 或 Anthropic 官方 X 原创。",
+          "en": "No new product post on Anthropic’s newsroom or a verifiable changelog since yesterday’s brief. The news page shows today’s date, but the latest product posts remain Claude Fable 5.2 and Mythos 5.2 from November 9, along with Claude Meetings and self-hosted Managed Agents from November 12. There was no new official Claude or Anthropic original on X today."
+        }
+      },
+      {
+        "name": "Cursor",
+        "tag": "update",
+        "link": "https://cursor.com/changelog/voice-chat",
+        "summary": {
+          "zh": "自 11/6 起 changelog 仍无更新条目。页面置顶仍为 2026-11-06 Voice Chat with Agents——与 agent 实时语音通话，由 Grok Voice 驱动，可在 Agents 窗口、IDE、Web 与 iOS 使用。",
+          "en": "Still no new changelog entry since November 6. The page still leads with Voice Chat with Agents (2026-11-06): a realtime voice call with the agent, powered by Grok Voice, in the Agents Window, the IDE, on the web, and on iOS."
+        }
+      },
+      {
+        "name": "Grok Bot",
+        "tag": "update",
+        "link": "https://x.ai/changelog/bot",
+        "summary": {
+          "zh": "官方 changelog Latest 仍为 v1.0.1（2026-11-11，条目亦包含 1.0.0）：Team / Enterprise / Ultra 计划下，Bot 可从链接加入 Google Meet、Zoom 或 Microsoft Teams，在会议聊天中回复并会后发送摘要，并支持共享登录连接器等。Homebrew cask grok-bot 仍报 1.1.0（与昨日相同），下载地址指向 darwin-arm64 的 1.1.0 安装包，高于 changelog。按客户端与 changelog 对照规则，不以「近几日无新版本」表述；1.1.0 的功能说明官方尚未列出，故不编造。",
+          "en": "The official changelog Latest is still v1.0.1 from November 11 (the entry also includes 1.0.0): on Team / Enterprise / Ultra plans, the Bot can join Google Meet, Zoom, or Microsoft Teams from a link, reply in meeting chat, send a recap afterward, and use shared-login connectors. The Homebrew cask grok-bot still reports 1.1.0 (same as yesterday), with a darwin-arm64 1.1.0 package, ahead of the changelog. Per the client-versus-changelog rule, this is not described as “no new version in recent days”; 1.1.0’s features have not been listed officially, so none are invented here."
+        }
+      }
+    ]
+  },
+  "models": {
+    "cursorBench": {
+      "version": "4.0",
+      "source": "https://cursor.com/cursorbench",
+      "asOf": "2026-11-17",
+      "total": 91,
+      "changed": false,
+      "changeKind": "unchanged",
+      "sort": "value",
+      "valueMetric": "score / cost",
+      "changeSummary": {
+        "zh": "较昨日无更新。CursorBench 4.0 仍为 91 个配置；官方得分前 10 与性价比前 10 的成员、名次、得分与成本均与昨日相同。今日对照官方页复核，顶部仍为 Gemini 4 Carbon High（60.4% / $9.22）、Carbon Medium（60.1%）与 Fable 5.2 Max（60.0%）。",
+        "en": "No update versus yesterday. CursorBench 4.0 still lists 91 configs; the official top 10 and the value top 10 are unchanged in membership, rank, score, and cost. A fresh check of the official page still leads with Gemini 4 Carbon High (60.4% / $9.22), Carbon Medium (60.1%), and Fable 5.2 Max (60.0%)."
+      },
+      "summary": {
+        "zh": "按得分÷单任务成本，性价比最高的仍是极低成本配置：GPT-5.6 Luna Low（16.0% / $0.03，约 533 分/$）和 Haiku 5.5 Low（30.9% / $0.08）。Gemini 4 Hydrogen Low（27.9% / $0.28，约 99.64 分/$）仍在性价比第 9。在分数更可用的区间，Haiku 5.5 High（42.3% / $0.32）和 Hydrogen Extra High（57.8% / $5.86，官方第 6，约 9.86 分/$）更均衡。官方得分仍由 Gemini 4 Carbon High（60.4% / $9.22）和 Carbon Medium（60.1%）领跑，随后是 Fable 5.2 Max（60.0%）；Hydrogen Extra High 与 Opus 5.5 Max 一同位于官方前 6。较昨日无更新。",
+        "en": "Ranked by score ÷ cost per task, the highest-value configs remain the cheapest ones: GPT-5.6 Luna Low (16.0% / $0.03, about 533 pts/$) and Haiku 5.5 Low (30.9% / $0.08). Gemini 4 Hydrogen Low (27.9% / $0.28, about 99.64 pts/$) stays at value #9. In a more usable score range, Haiku 5.5 High (42.3% / $0.32) and Hydrogen Extra High (57.8% / $5.86, official #6, about 9.86 pts/$) are more balanced. The official scoreboard is still led by Gemini 4 Carbon High (60.4% / $9.22) and Carbon Medium (60.1%), then Fable 5.2 Max (60.0%); Hydrogen Extra High remains with Opus 5.5 Max in the official top 6. No change versus yesterday."
+      },
+      "leaderboard": [
+        {
+          "rank": 1,
+          "officialRank": 91,
+          "model": "GPT-5.6 Luna Low",
+          "score": 16.0,
+          "cost": 0.03,
+          "tokens": 3288,
+          "steps": 18,
+          "value": 533.33
+        },
+        {
+          "rank": 2,
+          "officialRank": 76,
+          "model": "Haiku 5.5 Low",
+          "score": 30.9,
+          "cost": 0.08,
+          "tokens": 23382,
+          "steps": 25,
+          "value": 386.25
+        },
+        {
+          "rank": 3,
+          "officialRank": 90,
+          "model": "GPT-5.6 Luna Medium",
+          "score": 22.2,
+          "cost": 0.08,
+          "tokens": 7642,
+          "steps": 32,
+          "value": 277.5
+        },
+        {
+          "rank": 4,
+          "officialRank": 58,
+          "model": "Haiku 5.5 Medium",
+          "score": 36.9,
+          "cost": 0.17,
+          "tokens": 42659,
+          "steps": 39,
+          "value": 217.06
+        },
+        {
+          "rank": 5,
+          "officialRank": 85,
+          "model": "GLM 5.3 Flash Low",
+          "score": 26.9,
+          "cost": 0.15,
+          "tokens": 17831,
+          "steps": 58,
+          "value": 179.33
+        },
+        {
+          "rank": 6,
+          "officialRank": 45,
+          "model": "Haiku 5.5 High",
+          "score": 42.3,
+          "cost": 0.32,
+          "tokens": 77057,
+          "steps": 59,
+          "value": 132.19
+        },
+        {
+          "rank": 7,
+          "officialRank": 75,
+          "model": "GLM 5.3 Flash High",
+          "score": 31.1,
+          "cost": 0.25,
+          "tokens": 35104,
+          "steps": 84,
+          "value": 124.4
+        },
+        {
+          "rank": 8,
+          "officialRank": 79,
+          "model": "GPT-5.6 Luna High",
+          "score": 29.4,
+          "cost": 0.25,
+          "tokens": 23368,
+          "steps": 64,
+          "value": 117.6
+        },
+        {
+          "rank": 9,
+          "officialRank": 82,
+          "model": "Gemini 4 Hydrogen Low",
+          "score": 27.9,
+          "cost": 0.28,
+          "tokens": 8975,
+          "steps": 19,
+          "value": 99.64
+        },
+        {
+          "rank": 10,
+          "officialRank": 62,
+          "model": "Sonnet 5.5 Low",
+          "score": 35.8,
+          "cost": 0.37,
+          "tokens": 11668,
+          "steps": 18,
+          "value": 96.76
+        }
+      ],
+      "officialLeaderboard": [
+        {
+          "rank": 1,
+          "model": "Gemini 4 Carbon High",
+          "score": 60.4,
+          "cost": 9.22,
+          "tokens": 39960,
+          "steps": 71,
+          "value": 6.55
+        },
+        {
+          "rank": 2,
+          "model": "Gemini 4 Carbon Medium",
+          "score": 60.1,
+          "cost": 8.49,
+          "tokens": 37067,
+          "steps": 67,
+          "value": 7.08
+        },
+        {
+          "rank": 3,
+          "model": "Fable 5.2 Max",
+          "score": 60.0,
+          "cost": 32.79,
+          "tokens": 352794,
+          "steps": 218,
+          "value": 1.83
+        },
+        {
+          "rank": 4,
+          "model": "Gemini 4 Carbon Low",
+          "score": 58.6,
+          "cost": 11.89,
+          "tokens": 42663,
+          "steps": 124,
+          "value": 4.93
+        },
+        {
+          "rank": 5,
+          "model": "Opus 5.5 Max",
+          "score": 57.8,
+          "cost": 13.43,
+          "tokens": 218363,
+          "steps": 185,
+          "value": 4.3
+        },
+        {
+          "rank": 6,
+          "model": "Gemini 4 Hydrogen Extra High",
+          "score": 57.8,
+          "cost": 5.86,
+          "tokens": 164610,
+          "steps": 88,
+          "value": 9.86
+        },
+        {
+          "rank": 7,
+          "model": "Fable 5.2 High",
+          "score": 56.9,
+          "cost": 9.7,
+          "tokens": 99259,
+          "steps": 69,
+          "value": 5.87
+        },
+        {
+          "rank": 8,
+          "model": "Fable 5.2 Extra High",
+          "score": 56.3,
+          "cost": 15.48,
+          "tokens": 161251,
+          "steps": 108,
+          "value": 3.64
+        },
+        {
+          "rank": 9,
+          "model": "Opus 5.5 Extra High",
+          "score": 56.0,
+          "cost": 6.98,
+          "tokens": 101083,
+          "steps": 109,
+          "value": 8.02
+        },
+        {
+          "rank": 10,
+          "model": "Opus 5.5 High",
+          "score": 56.0,
+          "cost": 3.97,
+          "tokens": 53078,
+          "steps": 68,
+          "value": 14.11
+        }
+      ],
+      "snapshot": [
+        {
+          "rank": 1,
+          "model": "Gemini 4 Carbon High",
+          "score": 60.4,
+          "cost": 9.22,
+          "tokens": 39960,
+          "steps": 71,
+          "value": 6.55
+        },
+        {
+          "rank": 2,
+          "model": "Gemini 4 Carbon Medium",
+          "score": 60.1,
+          "cost": 8.49,
+          "tokens": 37067,
+          "steps": 67,
+          "value": 7.08
+        },
+        {
+          "rank": 3,
+          "model": "Fable 5.2 Max",
+          "score": 60.0,
+          "cost": 32.79,
+          "tokens": 352794,
+          "steps": 218,
+          "value": 1.83
+        },
+        {
+          "rank": 4,
+          "model": "Gemini 4 Carbon Low",
+          "score": 58.6,
+          "cost": 11.89,
+          "tokens": 42663,
+          "steps": 124,
+          "value": 4.93
+        },
+        {
+          "rank": 5,
+          "model": "Opus 5.5 Max",
+          "score": 57.8,
+          "cost": 13.43,
+          "tokens": 218363,
+          "steps": 185,
+          "value": 4.3
+        },
+        {
+          "rank": 6,
+          "model": "Gemini 4 Hydrogen Extra High",
+          "score": 57.8,
+          "cost": 5.86,
+          "tokens": 164610,
+          "steps": 88,
+          "value": 9.86
+        },
+        {
+          "rank": 7,
+          "model": "Fable 5.2 High",
+          "score": 56.9,
+          "cost": 9.7,
+          "tokens": 99259,
+          "steps": 69,
+          "value": 5.87
+        },
+        {
+          "rank": 8,
+          "model": "Fable 5.2 Extra High",
+          "score": 56.3,
+          "cost": 15.48,
+          "tokens": 161251,
+          "steps": 108,
+          "value": 3.64
+        },
+        {
+          "rank": 9,
+          "model": "Opus 5.5 Extra High",
+          "score": 56.0,
+          "cost": 6.98,
+          "tokens": 101083,
+          "steps": 109,
+          "value": 8.02
+        },
+        {
+          "rank": 10,
+          "model": "Opus 5.5 High",
+          "score": 56.0,
+          "cost": 3.97,
+          "tokens": 53078,
+          "steps": 68,
+          "value": 14.11
+        },
+        {
+          "rank": 11,
+          "model": "Sonnet 5.5 Max",
+          "score": 55.5,
+          "cost": 7.05,
+          "tokens": 271920,
+          "steps": 170,
+          "value": 7.87
+        },
+        {
+          "rank": 12,
+          "model": "Fable 5.2 Medium",
+          "score": 54.8,
+          "cost": 4.66,
+          "tokens": 44103,
+          "steps": 35,
+          "value": 11.76
+        },
+        {
+          "rank": 13,
+          "model": "Gemini 4 Hydrogen High",
+          "score": 54.3,
+          "cost": 5.59,
+          "tokens": 88682,
+          "steps": 59,
+          "value": 9.71
+        },
+        {
+          "rank": 14,
+          "model": "Fable 5.2 Low",
+          "score": 53.2,
+          "cost": 3.94,
+          "tokens": 36616,
+          "steps": 30,
+          "value": 13.5
+        },
+        {
+          "rank": 15,
+          "model": "Sonnet 5.5 Extra High",
+          "score": 53.1,
+          "cost": 2.81,
+          "tokens": 100158,
+          "steps": 78,
+          "value": 18.9
+        },
+        {
+          "rank": 16,
+          "model": "Gemini 4 Argon High",
+          "score": 52.9,
+          "cost": 4.57,
+          "tokens": 109500,
+          "steps": 118,
+          "value": 11.58
+        },
+        {
+          "rank": 17,
+          "model": "Gemini 4 Argon Medium",
+          "score": 52.8,
+          "cost": 4.39,
+          "tokens": 103600,
+          "steps": 115,
+          "value": 12.03
+        },
+        {
+          "rank": 18,
+          "model": "Opus 5.5 Medium",
+          "score": 52.5,
+          "cost": 2.91,
+          "tokens": 37954,
+          "steps": 54,
+          "value": 18.04
+        },
+        {
+          "rank": 19,
+          "model": "Fable 5.1 Max",
+          "score": 51.8,
+          "cost": 17.28,
+          "tokens": 117236,
+          "steps": 128,
+          "value": 3.0
+        },
+        {
+          "rank": 20,
+          "model": "Fable 5.1 Extra High",
+          "score": 51.6,
+          "cost": 13.01,
+          "tokens": 87294,
+          "steps": 101,
+          "value": 3.97
+        },
+        {
+          "rank": 21,
+          "model": "Gemini 4 Argon Low",
+          "score": 50.6,
+          "cost": 4.09,
+          "tokens": 94200,
+          "steps": 110,
+          "value": 12.37
+        },
+        {
+          "rank": 22,
+          "model": "Muse Wonder Max",
+          "score": 50.4,
+          "cost": 5.25,
+          "tokens": 49692,
+          "steps": 114,
+          "value": 9.6
+        },
+        {
+          "rank": 23,
+          "model": "Fable 5.1 High",
+          "score": 49.2,
+          "cost": 9.08,
+          "tokens": 58438,
+          "steps": 77,
+          "value": 5.42
+        },
+        {
+          "rank": 24,
+          "model": "Haiku 5.5 Max",
+          "score": 48.4,
+          "cost": 1.12,
+          "tokens": 325934,
+          "steps": 163,
+          "value": 43.21
+        },
+        {
+          "rank": 25,
+          "model": "Muse Wonder Extra High",
+          "score": 48.2,
+          "cost": 4.24,
+          "tokens": 39564,
+          "steps": 96,
+          "value": 11.37
+        },
+        {
+          "rank": 26,
+          "model": "Sonnet 5.5 High",
+          "score": 47.8,
+          "cost": 1.2,
+          "tokens": 37391,
+          "steps": 41,
+          "value": 39.83
+        },
+        {
+          "rank": 27,
+          "model": "DeepSeek V4.1 Flash 1017 Max",
+          "score": 47.7,
+          "cost": 0.98,
+          "tokens": 537047,
+          "steps": 187,
+          "value": 48.67
+        },
+        {
+          "rank": 28,
+          "model": "Fable 5.1 Medium",
+          "score": 46.8,
+          "cost": 7.05,
+          "tokens": 45411,
+          "steps": 63,
+          "value": 6.64
+        },
+        {
+          "rank": 29,
+          "model": "Gemini 4 Hydrogen Medium",
+          "score": 46.7,
+          "cost": 1.76,
+          "tokens": 36781,
+          "steps": 38,
+          "value": 26.53
+        },
+        {
+          "rank": 30,
+          "model": "Opus 5 Max",
+          "score": 46.6,
+          "cost": 11.95,
+          "tokens": 85384,
+          "steps": 106,
+          "value": 3.9
+        },
+        {
+          "rank": 31,
+          "model": "Grok 4.7 Extra High",
+          "score": 46.3,
+          "cost": 6.01,
+          "tokens": 70141,
+          "steps": 88,
+          "value": 7.7
+        },
+        {
+          "rank": 32,
+          "model": "DeepSeek V4.1 Flash 1017 Medium",
+          "score": 46.3,
+          "cost": 0.8,
+          "tokens": 398255,
+          "steps": 189,
+          "value": 57.87
+        },
+        {
+          "rank": 33,
+          "model": "Opus 5 Extra High",
+          "score": 46.1,
+          "cost": 11.43,
+          "tokens": 80094,
+          "steps": 103,
+          "value": 4.03
+        },
+        {
+          "rank": 34,
+          "model": "Muse Wonder High",
+          "score": 46.1,
+          "cost": 3.51,
+          "tokens": 33612,
+          "steps": 84,
+          "value": 13.13
+        },
+        {
+          "rank": 35,
+          "model": "DeepSeek V4.1 Flash 1017 High",
+          "score": 45.6,
+          "cost": 0.77,
+          "tokens": 385196,
+          "steps": 186,
+          "value": 59.22
+        },
+        {
+          "rank": 36,
+          "model": "Muse Wonder Medium",
+          "score": 45.2,
+          "cost": 2.82,
+          "tokens": 27124,
+          "steps": 75,
+          "value": 16.03
+        },
+        {
+          "rank": 37,
+          "model": "Fable 5.1 Low",
+          "score": 45.1,
+          "cost": 5.44,
+          "tokens": 34795,
+          "steps": 51,
+          "value": 8.29
+        },
+        {
+          "rank": 38,
+          "model": "DeepSeek V4.1 Flash 1017 Low",
+          "score": 44.9,
+          "cost": 0.6,
+          "tokens": 290651,
+          "steps": 161,
+          "value": 74.83
+        },
+        {
+          "rank": 39,
+          "model": "Opus 5 High",
+          "score": 44.7,
+          "cost": 9.0,
+          "tokens": 61405,
+          "steps": 86,
+          "value": 4.97
+        },
+        {
+          "rank": 40,
+          "model": "Haiku 5.5 Extra High",
+          "score": 44.3,
+          "cost": 0.56,
+          "tokens": 143813,
+          "steps": 93,
+          "value": 79.11
+        },
+        {
+          "rank": 41,
+          "model": "Grok 4.7 High",
+          "score": 43.9,
+          "cost": 4.69,
+          "tokens": 56382,
+          "steps": 71,
+          "value": 9.36
+        },
+        {
+          "rank": 42,
+          "model": "Opus 5.5 Low",
+          "score": 43.7,
+          "cost": 1.17,
+          "tokens": 15811,
+          "steps": 28,
+          "value": 37.35
+        },
+        {
+          "rank": 43,
+          "model": "Opus 5 Medium",
+          "score": 43.3,
+          "cost": 6.94,
+          "tokens": 45272,
+          "steps": 72,
+          "value": 6.24
+        },
+        {
+          "rank": 44,
+          "model": "GLM 5.3 Max",
+          "score": 42.6,
+          "cost": 5.05,
+          "tokens": 96387,
+          "steps": 166,
+          "value": 8.44
+        },
+        {
+          "rank": 45,
+          "model": "Haiku 5.5 High",
+          "score": 42.3,
+          "cost": 0.32,
+          "tokens": 77057,
+          "steps": 59,
+          "value": 132.19
+        },
+        {
+          "rank": 46,
+          "model": "GPT-5.6 Sol Max",
+          "score": 41.7,
+          "cost": 8.23,
+          "tokens": 42944,
+          "steps": 99,
+          "value": 5.07
+        },
+        {
+          "rank": 47,
+          "model": "Muse Wonder Low",
+          "score": 41.7,
+          "cost": 1.91,
+          "tokens": 18880,
+          "steps": 56,
+          "value": 21.83
+        },
+        {
+          "rank": 48,
+          "model": "Grok 4.7 Medium",
+          "score": 41.6,
+          "cost": 3.49,
+          "tokens": 36683,
+          "steps": 60,
+          "value": 11.92
+        },
+        {
+          "rank": 49,
+          "model": "Muse Spark 1.3 Max",
+          "score": 41.6,
+          "cost": 2.64,
+          "tokens": 52005,
+          "steps": 98,
+          "value": 15.76
+        },
+        {
+          "rank": 50,
+          "model": "Grok 4.6 Extra High",
+          "score": 41.4,
+          "cost": 6.1,
+          "tokens": 49814,
+          "steps": 56,
+          "value": 6.79
+        },
+        {
+          "rank": 51,
+          "model": "GPT-5.6 Terra Max",
+          "score": 41.3,
+          "cost": 5.14,
+          "tokens": 60814,
+          "steps": 107,
+          "value": 8.04
+        },
+        {
+          "rank": 52,
+          "model": "Opus 5 Low",
+          "score": 40.7,
+          "cost": 4.87,
+          "tokens": 31995,
+          "steps": 57,
+          "value": 8.36
+        },
+        {
+          "rank": 53,
+          "model": "Grok 4.6 High",
+          "score": 40.4,
+          "cost": 5.2,
+          "tokens": 41387,
+          "steps": 48,
+          "value": 7.77
+        },
+        {
+          "rank": 54,
+          "model": "Sonnet 5.5 Medium",
+          "score": 39.2,
+          "cost": 0.52,
+          "tokens": 16036,
+          "steps": 22,
+          "value": 75.38
+        },
+        {
+          "rank": 55,
+          "model": "GLM 5.3 High",
+          "score": 38.0,
+          "cost": 3.24,
+          "tokens": 60031,
+          "steps": 114,
+          "value": 11.73
+        },
+        {
+          "rank": 56,
+          "model": "GPT-5.6 Sol Extra High",
+          "score": 37.7,
+          "cost": 4.4,
+          "tokens": 24729,
+          "steps": 55,
+          "value": 8.57
+        },
+        {
+          "rank": 57,
+          "model": "Muse Spark 1.3 Extra High",
+          "score": 37.5,
+          "cost": 2.1,
+          "tokens": 40891,
+          "steps": 83,
+          "value": 17.86
+        },
+        {
+          "rank": 58,
+          "model": "Haiku 5.5 Medium",
+          "score": 36.9,
+          "cost": 0.17,
+          "tokens": 42659,
+          "steps": 39,
+          "value": 217.06
+        },
+        {
+          "rank": 59,
+          "model": "GLM 5.3 Flash Max",
+          "score": 36.8,
+          "cost": 0.39,
+          "tokens": 56410,
+          "steps": 118,
+          "value": 94.36
+        },
+        {
+          "rank": 60,
+          "model": "Grok 4.6 Medium",
+          "score": 36.1,
+          "cost": 3.48,
+          "tokens": 24893,
+          "steps": 40,
+          "value": 10.37
+        },
+        {
+          "rank": 61,
+          "model": "GPT-5.6 Luna Max",
+          "score": 35.9,
+          "cost": 1.03,
+          "tokens": 87284,
+          "steps": 208,
+          "value": 34.85
+        },
+        {
+          "rank": 62,
+          "model": "Sonnet 5.5 Low",
+          "score": 35.8,
+          "cost": 0.37,
+          "tokens": 11668,
+          "steps": 18,
+          "value": 96.76
+        },
+        {
+          "rank": 63,
+          "model": "GPT-5.6 Sol High",
+          "score": 35.7,
+          "cost": 2.85,
+          "tokens": 16174,
+          "steps": 41,
+          "value": 12.53
+        },
+        {
+          "rank": 64,
+          "model": "Muse Wonder Minimal",
+          "score": 34.2,
+          "cost": 0.84,
+          "tokens": 9761,
+          "steps": 33,
+          "value": 40.71
+        },
+        {
+          "rank": 65,
+          "model": "Sonnet 5 Max",
+          "score": 34.1,
+          "cost": 7.17,
+          "tokens": 149257,
+          "steps": 140,
+          "value": 4.76
+        },
+        {
+          "rank": 66,
+          "model": "GPT-5.6 Terra Extra High",
+          "score": 33.6,
+          "cost": 1.81,
+          "tokens": 23436,
+          "steps": 43,
+          "value": 18.56
+        },
+        {
+          "rank": 67,
+          "model": "Grok 4.6 Low",
+          "score": 33.4,
+          "cost": 2.25,
+          "tokens": 16307,
+          "steps": 32,
+          "value": 14.84
+        },
+        {
+          "rank": 68,
+          "model": "Muse Spark 1.3 High",
+          "score": 33.4,
+          "cost": 1.66,
+          "tokens": 30654,
+          "steps": 69,
+          "value": 20.12
+        },
+        {
+          "rank": 69,
+          "model": "GLM 5.3 Low",
+          "score": 33.3,
+          "cost": 2.04,
+          "tokens": 31983,
+          "steps": 81,
+          "value": 16.32
+        },
+        {
+          "rank": 70,
+          "model": "Grok 4.7 Low",
+          "score": 33.1,
+          "cost": 1.58,
+          "tokens": 15677,
+          "steps": 40,
+          "value": 20.95
+        },
+        {
+          "rank": 71,
+          "model": "GPT-5.6 Luna Extra High",
+          "score": 33.0,
+          "cost": 0.44,
+          "tokens": 40598,
+          "steps": 98,
+          "value": 75.0
+        },
+        {
+          "rank": 72,
+          "model": "Muse Spark 1.3 Medium",
+          "score": 32.6,
+          "cost": 1.49,
+          "tokens": 27255,
+          "steps": 64,
+          "value": 21.88
+        },
+        {
+          "rank": 73,
+          "model": "Sonnet 5 Extra High",
+          "score": 32.0,
+          "cost": 4.55,
+          "tokens": 83373,
+          "steps": 102,
+          "value": 7.03
+        },
+        {
+          "rank": 74,
+          "model": "GPT-5.6 Sol Medium",
+          "score": 31.1,
+          "cost": 1.77,
+          "tokens": 10111,
+          "steps": 32,
+          "value": 17.57
+        },
+        {
+          "rank": 75,
+          "model": "GLM 5.3 Flash High",
+          "score": 31.1,
+          "cost": 0.25,
+          "tokens": 35104,
+          "steps": 84,
+          "value": 124.4
+        },
+        {
+          "rank": 76,
+          "model": "Haiku 5.5 Low",
+          "score": 30.9,
+          "cost": 0.08,
+          "tokens": 23382,
+          "steps": 25,
+          "value": 386.25
+        },
+        {
+          "rank": 77,
+          "model": "Sonnet 5 High",
+          "score": 30.8,
+          "cost": 3.48,
+          "tokens": 61146,
+          "steps": 85,
+          "value": 8.85
+        },
+        {
+          "rank": 78,
+          "model": "GPT-5.6 Terra High",
+          "score": 30.7,
+          "cost": 1.11,
+          "tokens": 13162,
+          "steps": 33,
+          "value": 27.66
+        },
+        {
+          "rank": 79,
+          "model": "GPT-5.6 Luna High",
+          "score": 29.4,
+          "cost": 0.25,
+          "tokens": 23368,
+          "steps": 64,
+          "value": 117.6
+        },
+        {
+          "rank": 80,
+          "model": "Muse Spark 1.3 Low",
+          "score": 29.3,
+          "cost": 0.93,
+          "tokens": 17483,
+          "steps": 47,
+          "value": 31.51
+        },
+        {
+          "rank": 81,
+          "model": "Sonnet 5 Medium",
+          "score": 28.0,
+          "cost": 2.31,
+          "tokens": 39114,
+          "steps": 65,
+          "value": 12.12
+        },
+        {
+          "rank": 82,
+          "model": "Gemini 4 Hydrogen Low",
+          "score": 27.9,
+          "cost": 0.28,
+          "tokens": 8975,
+          "steps": 19,
+          "value": 99.64
+        },
+        {
+          "rank": 83,
+          "model": "Composer 2.5",
+          "score": 27.7,
+          "cost": 0.68,
+          "tokens": 17347,
+          "steps": 41,
+          "value": 40.74
+        },
+        {
+          "rank": 84,
+          "model": "GPT-5.6 Terra Medium",
+          "score": 27.6,
+          "cost": 0.64,
+          "tokens": 7307,
+          "steps": 25,
+          "value": 43.12
+        },
+        {
+          "rank": 85,
+          "model": "GLM 5.3 Flash Low",
+          "score": 26.9,
+          "cost": 0.15,
+          "tokens": 17831,
+          "steps": 58,
+          "value": 179.33
+        },
+        {
+          "rank": 86,
+          "model": "GPT-5.6 Terra Low",
+          "score": 25.2,
+          "cost": 0.52,
+          "tokens": 5914,
+          "steps": 23,
+          "value": 48.46
+        },
+        {
+          "rank": 87,
+          "model": "GPT-5.6 Sol Low",
+          "score": 24.6,
+          "cost": 0.87,
+          "tokens": 4885,
+          "steps": 21,
+          "value": 28.28
+        },
+        {
+          "rank": 88,
+          "model": "Muse Spark 1.3 Minimal",
+          "score": 24.3,
+          "cost": 0.56,
+          "tokens": 10620,
+          "steps": 34,
+          "value": 43.39
+        },
+        {
+          "rank": 89,
+          "model": "Sonnet 5 Low",
+          "score": 24.1,
+          "cost": 1.39,
+          "tokens": 23772,
+          "steps": 46,
+          "value": 17.34
+        },
+        {
+          "rank": 90,
+          "model": "GPT-5.6 Luna Medium",
+          "score": 22.2,
+          "cost": 0.08,
+          "tokens": 7642,
+          "steps": 32,
+          "value": 277.5
+        },
+        {
+          "rank": 91,
+          "model": "GPT-5.6 Luna Low",
+          "score": 16.0,
+          "cost": 0.03,
+          "tokens": 3288,
+          "steps": 18,
+          "value": 533.33
+        }
+      ],
+      "images": [
+        {
+          "src": "data/editions/2026-11-17/images/models-cursorbench.jpg",
+          "caption": {
+            "zh": "CursorBench 4.0 官方页截图（与昨日榜一致，今日复核后镜像入仓）",
+            "en": "Screenshot of the official CursorBench 4.0 page (unchanged versus yesterday; rechecked and mirrored today)"
+          }
+        }
+      ]
+    }
+  },
+  "finance": {
+    "stock": {
+      "name": {
+        "zh": "小米集团-W",
+        "en": "Xiaomi Group"
+      },
+      "symbol": "01810.HK",
+      "currency": "HKD",
+      "price": 29.08,
+      "change": 0.22,
+      "changePercent": 0.76,
+      "prevClose": 28.86,
+      "open": 29.0,
+      "high": 29.46,
+      "low": 28.7,
+      "volume": "约 0.935 亿股",
+      "amount": "约 27.22 亿港元",
+      "spark": [
+        27.08,
+        26.66,
+        27.06,
+        26.8,
+        25.8,
+        26.8,
+        26.9,
+        25.66,
+        25.62,
+        25.68,
+        26.48,
+        28.1,
+        28.6,
+        28.76,
+        31.3,
+        30.38,
+        30.1,
+        30.6,
+        30.1,
+        29.98,
+        28.86,
+        29.08
+      ],
+      "summary": {
+        "zh": "今日周二，港股现金市场尚未开盘（采集约 08:30，开市 09:30），无新成交价。报价为周一收盘：29.080 港元，涨 0.76%（+0.220），成交约 0.935 亿股、金额约 27.22 亿港元；日内 28.70–29.46，开盘 29.00。数据源：腾讯港股串（时间戳 2026/11/16 16:08:18）及日 K。周一从周五收盘 28.860 反弹，但仍低于 11/12 的 29.980。日 K 周一未见新的回购标注；最近一条仍为周五回购 172.50 万股，均价 28.889 港元。",
+        "en": "Tuesday collection; the HK cash market had not yet opened (collected around 08:30, the session starts at 09:30), so there is no new print. The quote is Monday’s close: HK$29.080, up 0.76% (+0.220), on about 93.5M shares and about HK$2.722 billion; the session ranged 28.70–29.46 after opening at 29.00. Source: Tencent HK quote (timestamp 2026/11/16 16:08:18) and daily bars. Monday bounced from Friday’s close of 28.860, but remains below 11/12’s 29.980. The daily bar has no new buyback annotation for Monday; the latest remains Friday’s repurchase of 1.725 million shares at an average HK$28.889."
+      },
+      "highlights": [
+        {
+          "zh": "周二早间尚未开盘，引用周一收盘 29.08（+0.76%）；成交约 0.935 亿股，低于周五约 1.092 亿股。",
+          "en": "Tuesday’s cash session had not opened at collection time, so the quote is Monday’s close of 29.08 (+0.76%) on about 93.5M shares, below Friday’s ~109.2M."
+        },
+        {
+          "zh": "周一开盘 29.00，高点 29.46，低点 28.70，收 29.08，较周五低位反弹，但仍低于 11/12 收盘 29.98。",
+          "en": "Monday opened at 29.00, ranged 28.70–29.46, and closed at 29.08, rebounding from Friday’s low close but still below 11/12’s 29.98."
+        },
+        {
+          "zh": "日 K 周一未见新的回购标注；最近披露仍为周五回购 172.50 万股，均价 28.889 港元。",
+          "en": "The daily bar shows no new buyback annotation for Monday; the latest disclosure remains Friday’s repurchase of 1.725 million shares at an average HK$28.889."
+        }
+      ]
+    }
+  },
+  "todos": [
+    {
+      "text": {
+        "zh": "今日重心（周二去敏）：工作日继续推进生产与架构事项，重点包括云端质量指标核算、新一版 harness 设计的理解与对照，以及下一阶段 AI 提效（含 RSI）的工作思考；同时整理现有产品安全基线，作为月底安全架构工作的输入。学习侧继续技术文章阅读，并安排安全架构课（信任边界）、harness 工程与 RSI/DDD，以及 pstack 方向的研究；实体硬件上的语音问答按计划推进。通识课仍在进行中。",
+        "en": "Tuesday focus (sanitized): on the work side, continue production and architecture items, including a cloud quality-metric calculation, a close read of the next-generation harness design, and thinking about the next stage of AI productivity work (including RSI); also pull together the current product security baseline as input for security-architecture work at month-end. On the learning side, keep up with technical reading, and schedule the security-architecture lesson on trust boundaries, harness engineering and RSI/DDD, plus pstack study; hardware voice-QA work continues as planned. The general-education course is still in progress."
+      },
+      "priority": "high"
+    }
+  ]
+}
