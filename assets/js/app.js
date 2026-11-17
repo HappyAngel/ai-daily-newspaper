@@ -59,6 +59,7 @@ const ICONS = {
   ext: svg('<path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/>'),
   info: svg('<circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/>'),
   cube: svg('<path d="M12 3 4 7v10l8 4 8-4V7l-8-4z"/><path d="M12 12 4 7M12 12l8-5M12 12v10"/>'),
+  users: svg('<path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/>'),
 };
 
 const WEATHER_ICONS = {
@@ -596,7 +597,7 @@ function sparklineSvg(values, w = 660, h = 130) {
   </svg>`;
 }
 
-function sectionFinanceTodos(fin) {
+function financeCardInner(fin) {
   const s = fin.stock || {};
   const up = (s.changePercent ?? 0) >= 0;
   const stats = [
@@ -607,11 +608,6 @@ function sectionFinanceTodos(fin) {
     ? '<svg viewBox="0 0 12 12" aria-hidden="true"><path d="M6 2l5 8H1z" fill="currentColor"/></svg>'
     : '<svg viewBox="0 0 12 12" aria-hidden="true"><path d="M6 10L1 2h10z" fill="currentColor"/></svg>';
   return `
-  <section class="section" id="sec-finance-todos">
-    <div class="grid">
-      <div class="span-7">
-        ${sectionHead(ICONS.chart, t('sectionFinance'), t('sectionFinanceSub'))}
-        <div class="card">
           <div class="fin-head">
             <span class="fin-name">${esc(L(s.name))}</span>
             <span class="fin-symbol">${esc(s.symbol)}</span>
@@ -629,13 +625,80 @@ function sectionFinanceTodos(fin) {
           <div class="fin-highlights">
             <ul>${(s.highlights || []).map((h) => `<li>${esc(L(h))}</li>`).join('')}</ul>
           </div>
-          <p class="fin-note">${esc(t('financeNote'))}</p>
+          <p class="fin-note">${esc(t('financeNote'))}</p>`;
+}
+
+function sectionFinance(fin) {
+  return `
+  <section class="section" id="sec-finance">
+    ${sectionHead(ICONS.chart, t('sectionFinance'), t('sectionFinanceSub'))}
+    <div class="card">
+      ${financeCardInner(fin)}
+    </div>
+  </section>`;
+}
+
+function sectionTodos() {
+  return `
+  <section class="section" id="sec-todos">
+    ${sectionHead(ICONS.check, t('sectionTodos'), t('sectionTodosSub'), 'cool')}
+    <div class="card" id="todos-card"></div>
+  </section>`;
+}
+
+function sectionFinanceTodos(fin) {
+  return `
+  <section class="section" id="sec-finance-todos">
+    <div class="grid">
+      <div class="span-7">
+        ${sectionHead(ICONS.chart, t('sectionFinance'), t('sectionFinanceSub'))}
+        <div class="card">
+          ${financeCardInner(fin)}
         </div>
       </div>
       <div class="span-5">
         ${sectionHead(ICONS.check, t('sectionTodos'), t('sectionTodosSub'), 'cool')}
         <div class="card" id="todos-card"></div>
       </div>
+    </div>
+  </section>`;
+}
+
+function sectionParenting(p) {
+  if (!p || !Array.isArray(p.posts) || !p.posts.length) return '';
+  const summary = L(p.summary);
+  const sourceName = L(p.sourceName) || t('sectionParentingSub');
+  const source = p.source || '';
+  const asOf = p.asOf || '';
+  const items = p.posts.map((post) => {
+    const title = L(post.title);
+    const url = post.url || '';
+    const sum = L(post.summary);
+    const author = post.author || '';
+    const posted = post.postedAt || '';
+    const last = post.lastReplyAt || '';
+    const replies = post.replies;
+    const meta = [
+      author ? `${esc(t('parentingAuthor'))} ${esc(author)}` : '',
+      posted ? `${esc(t('parentingPosted'))} ${esc(posted)}` : '',
+      last ? `${esc(t('parentingLastReply'))} ${esc(last)}` : '',
+      replies != null && replies !== '' ? esc(t('parentingReplies').replace('{n}', String(replies))) : '',
+    ].filter(Boolean).join(' · ');
+    const titleHtml = url
+      ? `<a class="parenting-title" href="${esc(url)}" target="_blank" rel="noopener">${esc(title)}</a>`
+      : `<span class="parenting-title">${esc(title)}</span>`;
+    return `<li class="parenting-item">${titleHtml}${sum ? `<p class="parenting-summary">${esc(sum)}</p>` : ''}${meta ? `<div class="parenting-meta">${meta}</div>` : ''}</li>`;
+  }).join('');
+  const sourceLine = source
+    ? `${esc(t('parentingSource'))} · <a href="${esc(source)}" target="_blank" rel="noopener">${esc(sourceName)}</a>${asOf ? ` · ${esc(t('parentingAsOf'))} ${esc(asOf)}` : ''}`
+    : `${esc(sourceName)}${asOf ? ` · ${esc(t('parentingAsOf'))} ${esc(asOf)}` : ''}`;
+  return `
+  <section class="section" id="sec-parenting">
+    ${sectionHead(ICONS.users, t('sectionParenting'), t('sectionParentingSub'))}
+    <div class="card">
+      ${summary ? `<p class="parenting-lead">${esc(summary)}</p>` : ''}
+      <p class="parenting-source">${sourceLine}</p>
+      <ul class="parenting-list">${items}</ul>
     </div>
   </section>`;
 }
@@ -659,13 +722,17 @@ function renderTodosInto(date) {
 function renderEdition() {
   const e = state.edition;
   renderMetaBar();
+  const parenting = sectionParenting(e.parenting);
+  const financeTodos = parenting
+    ? [sectionFinance(e.finance || {}), parenting, sectionTodos()].join('')
+    : sectionFinanceTodos(e.finance || {});
   $('#content').innerHTML = [
     e.sample ? `<div class="sample-notice">${ICONS.info}<span>${esc(t('sampleNotice'))}</span></div>` : '',
     sectionWeather(e.weather || {}, (e.aiTech || {}).openingSummary),
     sectionAiTech(e.aiTech || {}),
     sectionProducts(e.aiProducts || {}),
     sectionModels(e.models || {}),
-    sectionFinanceTodos(e.finance || {}),
+    financeTodos,
   ].join('');
   renderTodosInto(e.date);
   document.title = `${fmtDate(e.date, { month: 'long', day: 'numeric' })} · ${t('brand')}`;

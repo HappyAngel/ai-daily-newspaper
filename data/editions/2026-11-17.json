@@ -1504,6 +1504,381 @@
       ]
     }
   },
+  "parenting": {
+    "source": "https://www.newsmth.net/nForum/board/ChildEducation",
+    "sourceName": {
+      "zh": "水木社区 · 儿童教育",
+      "en": "NewSMTH · ChildEducation"
+    },
+    "asOf": "2026-11-17",
+    "board": "ChildEducation",
+    "summary": {
+      "zh": "今日版面最热的是家长会后的情绪与会风、英语学法，以及阳光分班、超前学等路径之争，并夹杂亲子沟通和习惯培养的讨论。",
+      "en": "The board’s liveliest threads today are about parent-teacher conferences, methods for learning English, and debates over mixed classes and learning ahead of the school pace, plus a few discussions on parent-child communication and habits."
+    },
+    "posts": [
+      {
+        "title": {
+          "zh": "今天开家长会了",
+          "en": "Today was the parent-teacher conference"
+        },
+        "url": "https://www.newsmth.net/nForum/article/ChildEducation/2596804",
+        "author": "jianpeng",
+        "postedAt": "2026-11-13",
+        "lastReplyAt": "2026-11-17 08:56",
+        "replies": 252,
+        "summary": {
+          "zh": "楼主家长会后情绪很低落，说难受、焦虑到“天都是灰的”。跟帖有劝放平心态的，也有建议先抓数学、谨慎给手机，讨论一直持续到今天上午。",
+          "en": "The original poster was despondent after a parent-teacher conference, saying they felt anxious and drained. Replies range from urging perspective to advice on focusing on math and being cautious with phones; the thread was still active this morning."
+        }
+      },
+      {
+        "title": {
+          "zh": "英语学习要磨刀不误砍柴工",
+          "en": "For English, sharpen the tools before chopping wood"
+        },
+        "url": "https://www.newsmth.net/nForum/article/ChildEducation/2596100",
+        "author": "jinshuo20",
+        "postedAt": "2026-11-11",
+        "lastReplyAt": "2026-11-17 08:34",
+        "replies": 154,
+        "summary": {
+          "zh": "楼主主张小学英语应先把听力和阅读的输入量做上去，再背单词、学语法或精读。今日末页仍在争论：有人反对小学就把背单词当头等大事，也有人指出本版不少讨论以高考高分为目标，被称为“剑宗和气宗之争”。",
+          "en": "The OP argues that primary-school English should first build listening and reading input, then vocabulary, grammar, or close reading. Today’s later replies still debate this: some oppose making word lists the top priority, others note that many threads here aim at a high gaokao score, calling it a clash of schools."
+        }
+      },
+      {
+        "title": {
+          "zh": "高知们赞成阳光分班吗",
+          "en": "Do you support mixed, non-tracked classes?"
+        },
+        "url": "https://www.newsmth.net/nForum/article/ChildEducation/2597542",
+        "author": "climaxhell",
+        "postedAt": "2026-11-16",
+        "lastReplyAt": "2026-11-17 07:59",
+        "replies": 20,
+        "summary": {
+          "zh": "楼主希望用阳光分班遏制低龄内卷，批评六七岁孩子晚上学到很晚、寒暑假泡培训班。跟帖多表怀疑：分班未必减负，也可能反过来刺激分班考试。",
+          "en": "The OP hopes mixed, non-tracked classes will curb early cramming, criticizing six- and seven-year-olds studying late and spending holidays in tutoring. Replies are mostly skeptical, saying grouping may not reduce pressure and could even intensify entrance testing."
+        }
+      },
+      {
+        "title": {
+          "zh": "初三家长求助：孩子偷偷下载违规软件，怎么沟通和处理",
+          "en": "Grade-9 parent asks how to talk with a child who secretly downloaded prohibited software"
+        },
+        "url": "https://www.newsmth.net/nForum/article/ChildEducation/2596969",
+        "author": "fixding",
+        "postedAt": "2026-11-14",
+        "lastReplyAt": "2026-11-17 07:57",
+        "replies": 198,
+        "summary": {
+          "zh": "初三家长给孩子设了手机管控后，发现孩子另用旧手机下载了违规软件，已沟通并征求怎么处理。跟帖多数认为不必过度上纲，更应把重点放在沟通、边界和青春期教育上。",
+          "en": "After setting phone restrictions, a parent of a ninth-grader found the child using an old phone to download prohibited software, and asks how to handle it. Most replies counsel against overreacting and emphasize communication, boundaries, and ordinary adolescent education."
+        }
+      },
+      {
+        "title": {
+          "zh": "如果不分班，学霸就不能是学霸了？",
+          "en": "Without tracking, can high achievers still be high achievers?"
+        },
+        "url": "https://www.newsmth.net/nForum/article/ChildEducation/2521881",
+        "author": "bom",
+        "postedAt": "2025-08-31",
+        "lastReplyAt": "2026-11-17 07:20",
+        "replies": 41,
+        "summary": {
+          "zh": "旧帖今日又被顶起。楼主认为平行分班并不会让学霸消失，分班更多是固化优势、加剧内卷。跟帖补充班风和纪律往往比单纯按成绩分班更影响发挥，也有人认为分层教学对基础薄弱的学生有用。",
+          "en": "This older thread was bumped again today. The OP says mixed classes do not stop high achievers from excelling, and tracking mostly hardens early advantages. Replies add that classroom climate and discipline often matter more than score-based tracking, though some argue grouped teaching can help weaker students."
+        }
+      },
+      {
+        "title": {
+          "zh": "做题掉坑",
+          "en": "Falling into traps on practice problems"
+        },
+        "url": "https://www.newsmth.net/nForum/article/ChildEducation/2597783",
+        "author": "Ivye",
+        "postedAt": "2026-11-16",
+        "lastReplyAt": "2026-11-16",
+        "replies": 2,
+        "summary": {
+          "zh": "楼主说孩子做浅奥题时容易掉进题目陷阱，审题也不够扎实，不想靠题海，想提高思维缜密度。跟帖认为没有捷径，只能放慢审题、多复查，并建议贴出原题一起看。",
+          "en": "The OP says the child often falls for traps in relatively easy contest-style problems and wants tighter thinking without a sea of drills. Replies say there is no shortcut: slow down, recheck the question, and perhaps post the original problems."
+        }
+      },
+      {
+        "title": {
+          "zh": "英语1年记录一下",
+          "en": "A one-year record of learning English"
+        },
+        "url": "https://www.newsmth.net/nForum/article/ChildEducation/2597673",
+        "author": "chouachou",
+        "postedAt": "2026-11-16",
+        "lastReplyAt": "2026-11-16",
+        "replies": 5,
+        "summary": {
+          "zh": "楼主回顾孩子二年级一年的英语自学：从课内听写不会，经词汇冷启动、精读和大量听读，一路摸索方法。跟帖祝贺进展，并纠正“重复若干次就能记住”“听力词汇必须大于阅读词汇”等说法。",
+          "en": "The OP recaps a year of self-directed English for a second-grader, from failing in-class dictation to a cold-start vocabulary phase, close reading, and a lot of listening and reading. Replies congratulate the progress and push back on claims such as a fixed number of repetitions making a word stick, or that listening vocabulary must exceed reading vocabulary."
+        }
+      },
+      {
+        "title": {
+          "zh": "目前二年级，怎么练英语口语？担心跟爸妈一样，虽然6级都过了，",
+          "en": "Grade 2: how to practice spoken English so they don’t pass exams but still can’t talk?"
+        },
+        "url": "https://www.newsmth.net/nForum/article/ChildEducation/2547730",
+        "author": "chouachou",
+        "postedAt": "2025-12-18",
+        "lastReplyAt": "2026-11-16",
+        "replies": 98,
+        "summary": {
+          "zh": "楼主孩子二年级，读写和词汇已有基础，想练口语，担心以后像父母一样过了六级却开不了口。旧帖今日又有人求口语 App，也有人愿意提供绘本/口语测试账号。",
+          "en": "The OP’s second-grader already has some reading, writing, and vocabulary, and the parent wants to build speaking so the child does not end up like CET-6 passers who still cannot talk. The older thread was bumped today with requests for speaking apps and an offer of a test account."
+        }
+      },
+      {
+        "title": {
+          "zh": "北京怎么没有秋假，北京秋天挺舒服的",
+          "en": "Why doesn’t Beijing have an autumn break when the weather is so pleasant?"
+        },
+        "url": "https://www.newsmth.net/nForum/article/ChildEducation/2597700",
+        "author": "chouachou",
+        "postedAt": "2026-11-16",
+        "lastReplyAt": "2026-11-16",
+        "replies": 1,
+        "summary": {
+          "zh": "楼主以标题发问：北京秋天天气舒适，为何没有秋假。正文几乎没有展开，仅有一条跟帖感慨单位春游也没了。",
+          "en": "The OP asks, mostly in the title, why Beijing has no autumn break when the weather is pleasant. The body is empty; the only reply notes that even workplace spring outings have disappeared."
+        }
+      },
+      {
+        "title": {
+          "zh": "超前学好吗？",
+          "en": "Is learning ahead of the school pace a good idea?"
+        },
+        "url": "https://www.newsmth.net/nForum/article/ChildEducation/2595777",
+        "author": "grains",
+        "postedAt": "2026-11-09",
+        "lastReplyAt": "2026-11-16",
+        "replies": 56,
+        "summary": {
+          "zh": "楼主用自家例子讨论超前学：被推着提前学完初中数学后，初三仍停在八十分上下，而孩子自己喜欢的电子制作则一直领先。跟帖分成两派，有人强调兴趣和天赋比进度更重要，也有人主张更早、更高标准地超前。",
+          "en": "The OP uses a family example: after being pushed to finish junior-high math early, the child is still around 80 in ninth grade, while self-driven electronics work stays near the top of the class. Replies split between those who say interest and aptitude matter more than pacing, and those who advocate starting even earlier with a higher bar."
+        }
+      },
+      {
+        "title": {
+          "zh": "英语听力宝有用吗？我看很多有的",
+          "en": "Is the English Listening Bao device actually useful?"
+        },
+        "url": "https://www.newsmth.net/nForum/article/ChildEducation/2596087",
+        "author": "treeflowerer",
+        "postedAt": "2026-11-10",
+        "lastReplyAt": "2026-11-16",
+        "replies": 4,
+        "summary": {
+          "zh": "楼主问英语听力宝是否有用，正文几乎没有补充。跟帖很少，有人刚买了倾听者 M5，打算搭配绘本练听力，楼主自己也买了但还没时间听。",
+          "en": "The OP asks whether the English Listening Bao device is useful, with almost no extra detail. There are few replies: one person just ordered a listener device to use with picture books, and the OP has also bought one but has not had time to use it."
+        }
+      },
+      {
+        "title": {
+          "zh": "让小孩多学电子制作，家电维修",
+          "en": "Let kids learn electronics and appliance repair"
+        },
+        "url": "https://www.newsmth.net/nForum/article/ChildEducation/2597126",
+        "author": "grains",
+        "postedAt": "2026-11-15",
+        "lastReplyAt": "2026-11-16",
+        "replies": 13,
+        "summary": {
+          "zh": "楼主主张顺着孩子兴趣做电子制作（主楼多次抓取失败，摘要依据后续楼）。楼主后来说孩子不喜欢编程，小学就参加过航天类竞赛；跟帖提醒不要把方向说成“电器维修”，普通维修又累又难赚钱，更宜往理论或高端方向走。",
+          "en": "The OP urges letting children follow an interest in electronics (the first post could not be fetched after repeated tries; this is based on later replies). The parent later said the child dislikes coding and already entered aerospace-style contests in primary school; commenters warn against framing it as “appliance repair,” which is tiring and poorly paid, and suggest aiming at theory or higher-end work."
+        }
+      },
+      {
+        "title": {
+          "zh": "家里有个不争气的孩子，我感觉就像",
+          "en": "When a child will not live up to expectations"
+        },
+        "url": "https://www.newsmth.net/nForum/article/ChildEducation/2595667",
+        "author": "jianpeng",
+        "postedAt": "2026-11-09",
+        "lastReplyAt": "2026-11-16",
+        "replies": 28,
+        "summary": {
+          "zh": "楼主因子女不争气而非常失落，觉得坏习惯很难改，只能先修炼自己、接受现实。跟帖劝放低期望、先保证身心健康，并建议多运动；楼主仍在问如何带动孩子愿意跟自己走。",
+          "en": "The OP feels crushed by a child who will not live up to expectations, and says bad habits are hard to change, so the parent can only toughen their own mindset. Replies urge lowering the bar, protecting mental and physical health, and using sports; the OP is still asking how to get the child to come along."
+        }
+      },
+      {
+        "title": {
+          "zh": "我始终下不了决心对孩子要求太严",
+          "en": "I still cannot bring myself to be too strict"
+        },
+        "url": "https://www.newsmth.net/nForum/article/ChildEducation/2597180",
+        "author": "fanzitao",
+        "postedAt": "2026-11-15",
+        "lastReplyAt": "2026-11-16",
+        "replies": 8,
+        "summary": {
+          "zh": "楼主对比自己当年，觉得孩子初中作息更累：六点半起床、七点一刻早读，晚上十点后才睡，因此下不了决心再加码要求。跟帖多数强调先保证睡眠和提高效率，能学成什么样算什么样，也有人认为这取决于孩子精力。",
+          "en": "Comparing with their own junior-high years, the OP feels the child’s schedule is harder: up at 6:30, morning reading at 7:15, and bed after 10 p.m., so they cannot bring themselves to demand more. Most replies stress protecting sleep and working more efficiently, accepting whatever result follows; some say it depends on the child’s energy."
+        }
+      },
+      {
+        "title": {
+          "zh": "家长会上的家长",
+          "en": "Parents at the parent-teacher conference"
+        },
+        "url": "https://www.newsmth.net/nForum/article/ChildEducation/2597054",
+        "author": "iambigcat",
+        "postedAt": "2026-11-14",
+        "lastReplyAt": "2026-11-16",
+        "replies": 10,
+        "summary": {
+          "zh": "楼主吐槽家长会没说结束时间，开了近一个半小时后，有家长打断老师要求先讲后面的内容，导致后半段草草收场。跟帖讨论学校是否该把会议讲短、讲到重点，也有人分享看视频家长会的做法。",
+          "en": "The OP complains that a parent-teacher meeting had no stated end time; after nearly 90 minutes, a parent interrupted and asked the teacher to skip ahead, and the rest was rushed. Replies debate whether schools should keep meetings short and focused, and some describe video-based conferences."
+        }
+      },
+      {
+        "title": {
+          "zh": "话多的小孩儿是不是ADHD？",
+          "en": "If a child talks nonstop, is it ADHD?"
+        },
+        "url": "https://www.newsmth.net/nForum/article/ChildEducation/2591688",
+        "author": "lelelele2019",
+        "postedAt": "2026-10-15",
+        "lastReplyAt": "2026-11-16",
+        "replies": 7,
+        "summary": {
+          "zh": "楼主说低年级孩子话多到嗓子沙哑，老师多次反馈上课不专注，但记忆力好、阅读时能安静，怀疑是不是多动症。跟帖提醒记忆力好往往不像典型 ADHD，是否确诊应就医，也有人担心长大后社交边界会成问题。",
+          "en": "The OP describes a lower-grade child who talks until hoarse and is often inattentive in class, yet has a strong memory and can read quietly, and wonders about ADHD. Replies note that a good memory is not typical of ADHD, suggest seeing a clinician for a real assessment, and some worry about social boundaries later on."
+        }
+      },
+      {
+        "title": {
+          "zh": "整理错题什么app好用？",
+          "en": "Which app is good for organizing wrong-answer notes?"
+        },
+        "url": "https://www.newsmth.net/nForum/article/ChildEducation/2597326",
+        "author": "cn62",
+        "postedAt": "2026-11-15",
+        "lastReplyAt": "2026-11-16",
+        "replies": 13,
+        "summary": {
+          "zh": "楼主求识别、复原效果好、好整理的错题 App。跟帖有人推荐试卷宝、超级错题本，也有人担心伤视力，主张用最原始的办法、尽量让孩子自己整理。",
+          "en": "The OP asks for an error-notebook app with reliable recognition and easy organization. Some recommend specific apps, while others worry about eye strain and prefer analog methods, ideally with the student doing the organizing."
+        }
+      },
+      {
+        "title": {
+          "zh": "准备社会化育儿，而不是宠物化育儿",
+          "en": "Raise children for society, not like pets"
+        },
+        "url": "https://www.newsmth.net/nForum/article/ChildEducation/2597397",
+        "author": "qingshang147",
+        "postedAt": "2026-11-16",
+        "lastReplyAt": "2026-11-16",
+        "replies": 2,
+        "summary": {
+          "zh": "楼主主张孩子应尽早了解社会规则、对自己的事负责，并用摆摊等劳动当社会实践，反对把孩子当宠物养。跟帖指出过去早熟也和人均寿命短有关，楼主回应社会化规则终究要学，不是童话。",
+          "en": "The OP argues that children should learn social rules early, take responsibility for themselves, and practice in the real world—for example by setting up a stall—rather than being raised like pets. A reply notes that past early adulthood also reflected shorter life expectancy; the OP says social rules still have to be learned and are not a fairy tale."
+        }
+      },
+      {
+        "title": {
+          "zh": "小学生家长们还是多花些精力在语文上吧",
+          "en": "Primary-school parents should put more effort into Chinese"
+        },
+        "url": "https://www.newsmth.net/nForum/article/ChildEducation/2596813",
+        "author": "dexterhl",
+        "postedAt": "2026-11-13",
+        "lastReplyAt": "2026-11-16",
+        "replies": 8,
+        "summary": {
+          "zh": "楼主认为现在中学英语变易、语文变难、更拉分，连数学压轴也越来越像阅读题，建议小学多投入语文。跟帖并不完全同意，有人觉得小学应先打数学和阅读习惯，也有人强调语数英都不能瘸腿。",
+          "en": "The OP says junior-high English is getting easier while Chinese is getting harder and more decisive—even math finals look like reading passages—and urges more effort on Chinese in primary school. Replies are mixed: some would prioritize math and reading habits first, others say no major subject should be neglected."
+        }
+      },
+      {
+        "title": {
+          "zh": "我们现在看孩子是不是就跟我们小时候看父母一样不可理喻",
+          "en": "Are we as unreasonable to our kids as our parents once seemed to us?"
+        },
+        "url": "https://www.newsmth.net/nForum/article/ChildEducation/2596734",
+        "author": "Rio2016",
+        "postedAt": "2026-11-13",
+        "lastReplyAt": "2026-11-16",
+        "replies": 7,
+        "summary": {
+          "zh": "楼主想起自己小时候被拦着看电视、打游戏，现在却在拦下一代，问这是不是同样不可理喻。跟帖有人说自己也在拦孩子吃糖，有人表示理解孩子看屏幕，也有人认为不必把个人感受说成“我们”。",
+          "en": "The OP recalls being blocked from cartoons and games as a child, and now doing the same to the next generation, asking whether that is equally unreasonable. Replies include a parent blocking candy, someone who empathizes with kids’ screen time, and a suggestion not to turn a personal feeling into “we.”"
+        }
+      },
+      {
+        "title": {
+          "zh": "amaoadiao被取消在ChildEducation版的发文权限",
+          "en": "amaoadiao has been banned from posting in ChildEducation"
+        },
+        "url": "https://www.newsmth.net/nForum/article/ChildEducation/2597382",
+        "author": "deliver",
+        "postedAt": "2026-11-15",
+        "lastReplyAt": "2026-11-15",
+        "replies": 0,
+        "summary": {
+          "zh": "版务自动帖：用户 amaoadiao 因发表不恰当文章，被暂时取消本版发文权限 28 天。",
+          "en": "A board-management notice: user amaoadiao has been temporarily banned from posting in this board for 28 days for publishing inappropriate posts."
+        }
+      },
+      {
+        "title": {
+          "zh": "[求助]初一孩子的英语怎么才能提高",
+          "en": "[Help] How can a 7th-grader improve English?"
+        },
+        "url": "https://www.newsmth.net/nForum/article/ChildEducation/2596713",
+        "author": "deng19822022",
+        "postedAt": "2026-11-13",
+        "lastReplyAt": "2026-11-15",
+        "replies": 37,
+        "summary": {
+          "zh": "朝阳初一家长说语数还行、英语偏弱，孩子背单词较懒，求方法和班级/老师推荐。跟帖建议不要把单词当密码硬背，可用自然拼读、新概念等办法，也有人讨论背单词 App。",
+          "en": "A Chaoyang parent of a seventh-grader says Chinese and math are fine but English is weak, and the child is lazy about vocabulary, and asks for methods or local class recommendations. Replies suggest phonics rather than rote memorization, New Concept-style drills, and a few vocabulary apps."
+        }
+      },
+      {
+        "title": {
+          "zh": "和数学老师聊了一下，可烦我家娃了",
+          "en": "After talking with the math teacher, they seemed fed up with my child"
+        },
+        "url": "https://www.newsmth.net/nForum/article/ChildEducation/2596131",
+        "author": "treeflowerer",
+        "postedAt": "2026-11-11",
+        "lastReplyAt": "2026-11-15",
+        "replies": 15,
+        "summary": {
+          "zh": "楼主与数学老师沟通后感到老师很烦孩子：上课爱告状、听讲不专心，成绩好被说成全凭聪明。楼主回来问孩子，孩子说是忍不住走神；跟帖讨论学习习惯，也有人提醒“老师说聪明”未必是真心夸奖。",
+          "en": "After talking with the math teacher, the OP felt the teacher was annoyed: the child tattles, zones out, and good scores were chalked up to raw smarts. The child later said the wandering attention was hard to control; replies discuss study habits, and some caution that “clever” is not always a real compliment."
+        }
+      },
+      {
+        "title": {
+          "zh": "有什么有趣有内容的视频给三年级娃看吗",
+          "en": "Any interesting, substantive videos for a third-grader?"
+        },
+        "url": "https://www.newsmth.net/nForum/article/ChildEducation/2597168",
+        "author": "jpye",
+        "postedAt": "2026-11-15",
+        "lastReplyAt": "2026-11-15",
+        "replies": 4,
+        "summary": {
+          "zh": "楼主为三年级孩子求有内容的视频，刚看完《中国通史》和《门捷列夫很忙》。跟帖询问片源（优酷等），也有人主张少看视频、多看书。",
+          "en": "The OP asks for substantial videos for a third-grader after finishing a Chinese history series and a show about Mendeleev. Replies ask where to watch them (including Youku), and one commenter prefers books over videos."
+        }
+      }
+    ]
+  },
   "todos": [
     {
       "text": {

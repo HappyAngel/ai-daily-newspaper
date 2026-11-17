@@ -1672,4 +1672,76 @@ footer {
   }
 }
 
+
+/* ---------------- Parenting ---------------- */
+
+.parenting-lead {
+  font-size: 14px;
+  color: var(--text-dim);
+  line-height: 1.7;
+  margin: 0 0 8px;
+}
+
+.parenting-source {
+  font-size: 12px;
+  color: var(--text-faint);
+  margin: 0 0 6px;
+}
+
+.parenting-source a {
+  color: #5fd0e8;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.2s;
+}
+
+.parenting-source a:hover {
+  border-color: currentColor;
+}
+
+.parenting-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.parenting-item {
+  padding: 14px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.parenting-item:first-child {
+  border-top: 0;
+  padding-top: 8px;
+}
+
+.parenting-title {
+  display: inline-block;
+  font-size: 14.5px;
+  font-weight: 600;
+  line-height: 1.5;
+  color: #f4f7ff;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.2s;
+}
+
+.parenting-title:hover {
+  border-color: currentColor;
+}
+
+.parenting-summary {
+  font-size: 13px;
+  color: var(--text-dim);
+  line-height: 1.7;
+  margin: 6px 0 0;
+}
+
+.parenting-meta {
+  margin-top: 6px;
+  font-size: 12px;
+  color: var(--text-faint);
+  font-variant-numeric: tabular-nums;
+}
+
 /* AIGC END */
