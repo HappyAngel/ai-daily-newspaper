@@ -1,0 +1,1898 @@
+{
+ "date": "2026-11-18",
+ "weather": {
+  "city": {
+   "zh": "北京",
+   "en": "Beijing"
+  },
+  "condition": {
+   "zh": "晴（早间一度阴；Open-Meteo 08:15 实况 code 0，今日 daily code 3）",
+   "en": "Clear after early-morning overcast (Open-Meteo 08:15 current code 0; daily code 3)"
+  },
+  "icon": "sun",
+  "temp": "-0.1 ~ 6.2°C",
+  "feels": "体感约 -5.1°C（08:15 实况约 0.1°C）",
+  "humidity": "35%",
+  "wind": {
+   "zh": "实况约 11.0 km/h，阵风约 30.2 km/h；今日日最大阵风约 44.6 km/h（午夜前后最高，午后也可到约 40 km/h）",
+   "en": "About 11.0 km/h now, gusts ~30.2 km/h; day max gusts ~44.6 km/h (highest around midnight, mid-afternoon also near 40 km/h)"
+  },
+  "air": {
+   "zh": "以同组 PM 读数为准：08:00 PM2.5≈22.9 μg/m³、PM10≈23.2，欧洲 AQI 45（中等）。Open-Meteo 同时给出的 US AQI 为 169，与这组 PM 不一致，故不以该 US AQI 作为今日空气主判断。傍晚起 PM2.5 预报明显走高（17 时约 66，18 时约 144，夜间可到 250 以上）。",
+   "en": "Using the co-reported PM readings: 08:00 PM2.5≈22.9 μg/m³, PM10≈23.2, European AQI 45 (Moderate). Open-Meteo also reports US AQI 169, which does not match those PM values, so that US AQI figure is not used as today’s main air reading. PM2.5 is forecast to rise sharply from late afternoon (about 66 at 17:00, 144 at 18:00, and possibly above 250 overnight)."
+  },
+  "sunrise": "07:02",
+  "sunset": "16:56",
+  "tip": {
+   "zh": "🏠 今日北京早间一度阴，随后转晴（08:15 实况 code 0 / 晴，今日 daily code 3），气温约 -0.1~6.2°C，早间很冷（08:15 实况约 0.1°C、体感约 -5.1°C），湿度约 35%；预报无明显降水（0.0 mm，降水概率约 10%），午后最高约 6.2°C。风力早晨约 11.0 km/h、阵风约 30.2 km/h，日最大阵风约 44.6 km/h（大风点名），午后阵风也可到约 40 km/h。日出 07:02，日落 16:56。空气以 PM 为准：上午 PM2.5 约 15–23 μg/m³（中等），欧洲 AQI 45；Open-Meteo 的 US AQI 读数与 PM 不一致，未作为主判断。傍晚起 PM2.5 预报转差，夜间可能到非常不健康甚至更高。\n🏃 训练提醒：今天是周三，无固定训练安排。下一可选跑日为周四（11/19），预报晴到少云、最低约 -0.5°C，日最大阵风约 51.8 km/h（大风点名），上午 PM2.5 约 87–92 μg/m³（不健康）——点名提醒：大风、偏冷与空气都不宜勉强户外长跑。下周五（11/20）为晨练日，室内健身为主；日最大阵风约 42.8 km/h，上午 PM2.5 约 98–135 μg/m³，出门仍留意风和空气。\n📅 未来7天（北京，Open-Meteo；阴晴参考 weather_code，空气以 PM2.5 为主，空气预报仅至 11/22）：\n• 11/18 周三 -0.1~6.2°C 早间一度阴、随后转晴（无固定训练日；日最大阵风约 44.6 km/h，大风点名；上午 PM 尚可，傍晚起预报转差）\n• 11/19 周四 -0.5~5.7°C 晴到少云（下一可选跑日；最低约 -0.5°C；日最大阵风约 51.8 km/h，大风点名；上午 PM2.5 约 87–92——点名冲突）\n• 11/20 周五 -1.4~7.5°C 阴（下一周五晨练日；日最大阵风约 42.8 km/h，大风点名；上午 PM2.5 约 98–135，出门留意风和空气）\n• 11/21 周六 -0.9~5.5°C 晴（日最大阵风约 21.2 km/h；上午 PM2.5 约 86–134）\n• 11/22 周日 -2.0~5.5°C 阴（日最大阵风约 21.6 km/h；上午 PM2.5 约 123–170，空气偏差）\n• 11/23 周一 -1.4~8.5°C 晴到少云（下一周一晨练日；日最大阵风约 43.6 km/h，大风点名；空气预报窗口至 11/22，周一空气未给出）\n• 11/24 周二 -2.1~5.6°C 晴到少云（日最大阵风约 48.2 km/h，大风点名；空气未给出）\n（气温/降水/风：Open-Meteo 约 08:15 北京时间；空气：Open-Meteo AQ 的 PM 读数，预报窗口至 11/22；其 US AQI 字段与 PM 不一致，未作为主判断）",
+   "en": "🏠 Beijing today: early overcast giving way to clear skies (code 0 at 08:15; daily code 3), about -0.1–6.2°C, a very cold morning (~0.1°C at 08:15, feels ~-5.1°C), humidity ~35%; no meaningful precip (0.0 mm, pop ~10%), mid-afternoon high about 6.2°C. Morning wind ~11.0 km/h with gusts ~30.2 km/h; day max gusts ~44.6 km/h (high-wind flag), and mid-afternoon gusts may still near 40 km/h. Sunrise 07:02, sunset 16:56. Air by PM: morning PM2.5 about 15–23 μg/m³ (Moderate), European AQI 45; Open-Meteo’s US AQI figure does not match the PM readings and is not used as the main call. PM2.5 is forecast to worsen from late afternoon and may reach Very Unhealthy or higher overnight.\n🏃 Training: Wednesday has no fixed session. Next optional run day is Thursday 11/19: mainly clear, low about -0.5°C, day max gusts ~51.8 km/h (high-wind flag), morning PM2.5 about 87–92 μg/m³ (Unhealthy)—flag: wind, cold, and air all argue against forcing an outdoor long run. Friday 11/20 is a morning gym day (indoors); day max gusts ~42.8 km/h and morning PM2.5 about 98–135 μg/m³, so still watch wind and air on the way out.\n📅 Next 7 days (Beijing, Open-Meteo; sky from weather_code, air from PM2.5, air forecast only through 11/22):\n• 11/18 Wed -0.1–6.2°C early overcast then clear (no fixed session; day max gusts ~44.6 km/h, high-wind flag; morning PM acceptable, worsening from late afternoon)\n• 11/19 Thu -0.5–5.7°C mainly clear (next optional run day; low about -0.5°C; day max gusts ~51.8 km/h, high-wind flag; morning PM2.5 about 87–92—flag)\n• 11/20 Fri -1.4–7.5°C overcast (next Friday gym morning; day max gusts ~42.8 km/h, high-wind flag; morning PM2.5 about 98–135)\n• 11/21 Sat -0.9–5.5°C clear (day max gusts ~21.2 km/h; morning PM2.5 about 86–134)\n• 11/22 Sun -2.0–5.5°C overcast (day max gusts ~21.6 km/h; morning PM2.5 about 123–170, poor air)\n• 11/23 Mon -1.4–8.5°C mainly clear (next Monday gym morning; day max gusts ~43.6 km/h, high-wind flag; air forecast ends 11/22, Monday air not given)\n• 11/24 Tue -2.1–5.6°C mainly clear (day max gusts ~48.2 km/h, high-wind flag; air not given)\n(Temperature/precip/wind: Open-Meteo around 08:15 Asia/Shanghai; air: Open-Meteo AQ PM readings, forecast through 11/22; its US AQI field is inconsistent with PM and was not used as the main call)"
+  }
+ },
+ "aiTech": {
+  "openingSummary": {
+   "zh": {
+    "greeting": "小熊早上好！",
+    "lead": "今天最大的产品消息：OpenAI 发布 GPT-6.2 Astra 与 Sol，即日起在 ChatGPT Work 和 Codex 向 Plus、Pro、Enterprise 与 Edu 用户开放。Astra 主打高难度专业与科研任务，Sol 面向日常工作与智能体；API 上 Astra 的输入/输出定价较 GPT-6 Astra 下调 20%。",
+    "important": {
+     "title": "重要消息",
+     "items": [
+      "OpenAI 于北京时间今天凌晨宣布 GPT-6.2 Astra 与 Sol 上线。Astra 在 Agents’ Last Exam 上比 GPT-6 Astra 高 5.2 分、成本不到三分之一，并称在 Terminal-Bench-Science 与 Vals Science Index 上刷新纪录；Sol 在 Cognition FrontierCode 2.0 上与 Astra 只差 0.5 分，成本约五分之一。Pro 500 可对两个模型使用 Ultrafast；官方首次把 Ultrafast 开放给 Pro 200，先从 Sol 开始。Astra API 为每百万 tokens 输入 8 美元、缓存输入 0.40 美元、输出 40 美元；Sol 维持 2/10 美元。",
+      "Google DeepMind 为 Gemini 4 Hydrogen 推出 Antigravity 机器人插件：可从 USB 完成机械臂接入，在 MuJoCo 里用对话搭建仿真，再把同一套控制代码部署到真机。官方称 I2RT YAM 大约 10 分钟完成标定，传送带分拣示例约一小时从白板做到真机。Hydrogen 在 Artificial Analysis Robotics 上得分 58，接近更大的 Argon，并把 Robotics ER 2 的具身推理带进 Gemini 4 主系列。",
+      "产品侧，OpenClaw 稳定版更新为 v2026.11.5（约北京时间昨天下午 18:47）：重启后可保留排队消息与最终写入，更新失败可回滚，并改进 Telegram 组件与记忆索引恢复。Grok Bot 官方 changelog 已补到 v1.2.0（与 Homebrew cask 一致），并补登了昨日尚未出现的 1.1.0 说明；1.2.0 重点是机票结果重做和酒店地图。DeepSeek Harness 实验标签推进到 dsh-v0.2.2-rc.4；codex 稳定版到 0.169.1，发行说明写明没有核实过的功能要点。"
+     ]
+    },
+    "sections": [
+     {
+      "title": "GPT-6.2：专业输出、法律配置与销售插件",
+      "body": "官方强调 Astra 在幻灯片、表格和文书上更贴近行业模板。配套的 Astra for Law 是其法律配置，在 Harvey LAB-AA 上满分比例为 20.8%，高于 GPT-6.2 Astra 的 15.0%；Enterprise 客户可通过 Trusted Access 申请。同时推出的 ChatGPT for Sales 带有自有 Sales 插件和 30 多个合作方插件，可把 CRM 与通话记录接进 ChatGPT。同日还有 NATO 网络安全与智利项目稿，此处不展开。"
+     },
+     {
+      "title": "DeepMind：Hydrogen 成为机器人工作台",
+      "body": "这不是 Hydrogen 本身的首次亮相，而是把它接到 Antigravity 里做成可安装的 Robotics 插件。支持示例包括 I2RT YAM、LeRobot SO-101 和 Franka FR3 Duo。官方演示还包括双臂肥皂店履约和棋类对弈。DeepMind 另发了一则 Hydrogen 把 Google 表格做成像素画的演示，属于趣味展示，不作为今天的产品主线。"
+     },
+     {
+      "title": "产品栏",
+      "body": "Hermes Agent 稳定版仍为昨日的 v0.23.2，今日仅见新的 canary 标签，完整说明仍要等 v0.24.0。Cursor changelog 自 11/6 的 Voice Chat with Agents 起仍无新条目。Claude / Anthropic 新闻页与官方 X 今日未见可核对的新产品稿。codex 实验线由昨日的 0.171.0-alpha.10 推进到 alpha.12，这些实验标签的说明仍只标版本号。"
+     },
+     {
+      "title": "缺口",
+      "body": "@karpathy、@AndrewYNg、@AnthropicAI、@claudeai、@AIatMeta / @Meta 近 48 小时无高信号原创。关注列表无 DeepSeek 一手 X。OpenAI 新闻页直接抓取仍为 403，改以官方 RSS 与已核对文章为准。港股周三早间尚未开盘，回退周二收盘。Open-Meteo 空气预报仅至 11/22，且 US AQI 字段与 PM 不一致，今日改以 PM 为主。水木帖文页出现游客验证码，部分新帖只保留标题与链接。CursorBench 较昨日无更新。"
+     }
+    ]
+   },
+   "en": {
+    "greeting": "Good morning!",
+    "lead": "Today’s biggest product news: OpenAI released GPT-6.2 Astra and Sol, available starting today in ChatGPT Work and Codex for Plus, Pro, Enterprise, and Edu users. Astra is the frontier model for hard professional and scientific work; Sol is the everyday and agentic model. Astra’s API input/output prices are 20% lower than GPT-6 Astra.",
+    "important": {
+     "title": "Key updates",
+     "items": [
+      "OpenAI announced GPT-6.2 Astra and Sol in the early hours of Asia/Shanghai today. On Agents’ Last Exam, Astra scores 5.2 points above GPT-6 Astra at less than one-third the cost, and OpenAI says it also sets new highs on Terminal-Bench-Science and the Vals Science Index. On Cognition’s FrontierCode 2.0, Sol comes within 0.5 points of Astra at about one-fifth the cost. Pro 500 can use Ultrafast with either model; Ultrafast is being extended to Pro 200 for the first time, starting with Sol. Astra API pricing is $8 input / $0.40 cached input / $40 output per million tokens; Sol keeps GPT-6.1 Sol’s $2 / $10 prices.",
+      "Google DeepMind launched a Robotics plugin for Antigravity with Gemini 4 Hydrogen: plug in a supported arm over USB, build a MuJoCo scene in chat, and deploy the same controller to hardware. Official examples include bringing up an I2RT YAM in about 10 minutes and going from a whiteboard sketch to a live conveyor sorter in about an hour. Hydrogen scores 58 on Artificial Analysis Robotics, close to the larger Argon, and brings Gemini Robotics ER 2’s embodied reasoning into the main Gemini 4 line.",
+      "On the product side, OpenClaw stable moved to v2026.11.5 (about 18:47 Asia/Shanghai yesterday): queued messages and final writes survive a Gateway restart, failed updates can roll back, and Telegram widgets and memory-index recovery improved. The official Grok Bot changelog has now caught up to v1.2.0 (matching the Homebrew cask) and also posted the 1.1.0 notes that were still missing yesterday; 1.2.0 focuses on a redesigned flight-results view and hotel maps. DeepSeek Harness’s experimental tag moved to dsh-v0.2.2-rc.4; Codex stable is 0.169.1, whose notes say there are no verified release highlights."
+     ]
+    },
+    "sections": [
+     {
+      "title": "GPT-6.2: professional output, law, and sales",
+      "body": "OpenAI says Astra follows professional templates more closely for slides, spreadsheets, and documents, with less generic filler. Astra for Law is a GPT-6.2 Astra configuration with an expanded legal search index; it earned full credit on 20.8% of Harvey LAB-AA assignments, ahead of GPT-6.2 Astra at 15.0%. ChatGPT Enterprise customers can request access through Trusted Access. OpenAI also launched ChatGPT for Sales: a first-party Sales plugin plus more than 30 partner plugins that bring CRM, outreach, and call notes into ChatGPT, including for the always-on dot assistant. Same-day posts on NATO cyber defense and OpenAI for Chile are noted but not expanded here."
+     },
+     {
+      "title": "DeepMind: Hydrogen as a robotics workbench",
+      "body": "This is not Hydrogen’s first appearance, but a Robotics plugin that turns Antigravity into a workbench. Supported examples include the I2RT YAM, LeRobot SO-101, and Franka FR3 Duo. Official demos also include a dual-arm soap-shop fulfillment flow and chess. A separate DeepMind post shows Hydrogen turning Google Sheets into pixel art; that is a fun demo, not today’s product lead."
+     },
+     {
+      "title": "Product desk",
+      "body": "Hermes Agent stable remains yesterday’s v0.23.2, with only a new canary tag today; full curated notes still wait for v0.24.0. Cursor’s changelog still has no entry after Voice Chat with Agents on November 6. No verifiable new Claude or Anthropic product post was found on the newsroom or official X today. Codex’s experimental line moved from yesterday’s 0.171.0-alpha.10 to alpha.12; those prerelease notes still name the version only."
+     },
+     {
+      "title": "Gaps",
+      "body": "No high-signal originals in the past 48 hours from @karpathy, @AndrewYNg, @AnthropicAI, @claudeai, or @AIatMeta / @Meta. The follow list has no first-party DeepSeek X account. Direct fetches of OpenAI’s news HTML still return 403, so official RSS and checked articles are used instead. The HK cash market had not opened at 08:30, so the quote is Tuesday’s close. Open-Meteo’s air forecast runs only through 11/22, and its US AQI field is inconsistent with the co-reported PM readings, so PM is used as the main air call. The Newsmth Child Education index was retrieved from a fallback endpoint, but article pages presented a guest captcha, so some new threads keep title and link only, with no invented summaries. CursorBench is unchanged versus yesterday."
+     }
+    ]
+   }
+  },
+  "xPosts": [
+   {
+    "author": "OpenAI",
+    "handle": "@OpenAI",
+    "time": "11-18 01:54（北京时间）",
+    "summary": {
+     "zh": "宣布 GPT-6.2 Astra 与 Sol 现已上线，定位“很高效、并且在真实工作里能打”；并附官方介绍页。",
+     "en": "Announces that GPT-6.2 Astra and Sol are now available, calling them highly efficient and built for real-world work, with a link to the official post."
+    },
+    "link": "https://x.com/OpenAI/status/2122750124543926515",
+    "images": [
+     {
+      "src": "data/editions/2026-11-18/images/openai-gpt62-hero.jpg",
+      "caption": {
+       "zh": "OpenAI《Introducing GPT-6.2 Astra and Sol》题图（官方页；已镜像入仓）",
+       "en": "Hero image from OpenAI’s Introducing GPT-6.2 Astra and Sol post (official page; mirrored in-repo)"
+      }
+     }
+    ]
+   },
+   {
+    "author": "OpenAI",
+    "handle": "@OpenAI",
+    "time": "11-18 01:54（北京时间）",
+    "summary": {
+     "zh": "介绍 GPT-6.2 Astra：面向最难项目的前沿模型，称在专业工作与科研评测上刷新纪录，单任务成本不到 GPT-6 Astra 的三分之一，并展示幻灯片、网站与 3D 设计示例。",
+     "en": "Introduces GPT-6.2 Astra as a frontier model for the hardest projects, saying it sets new highs on professional and scientific evals at less than a third of GPT-6 Astra’s cost per task, with examples of slides, websites, and 3D design."
+    },
+    "link": "https://x.com/OpenAI/status/2122750126297161811",
+    "images": [
+     {
+      "src": "data/editions/2026-11-18/images/openai-astra-evals.png",
+      "caption": {
+       "zh": "OpenAI 公布的 GPT-6.2 Astra 评测对比图（来源：官方帖；已镜像入仓）",
+       "en": "Eval comparison chart for GPT-6.2 Astra from OpenAI’s official post (mirrored in-repo)"
+      }
+     }
+    ]
+   },
+   {
+    "author": "OpenAI",
+    "handle": "@OpenAI",
+    "time": "11-18 01:54（北京时间）",
+    "summary": {
+     "zh": "说明即日起 GPT-6.2 Astra 与 Sol 在 ChatGPT Work 和 Codex 向 Plus、Pro、Enterprise 与 Edu 开放；Pro 500 可对两个模型使用 Ultrafast，并首次把 Ultrafast 开放给 Pro 200，先从 Sol 开始。",
+     "en": "Says GPT-6.2 Astra and Sol are available today in ChatGPT Work and Codex for Plus, Pro, Enterprise, and Edu; Pro 500 can use Ultrafast with either model, and Ultrafast is being extended to Pro 200 for the first time, starting with Sol."
+    },
+    "link": "https://x.com/OpenAI/status/2122750135608528984",
+    "images": []
+   },
+   {
+    "author": "Tibo",
+    "handle": "@thsottiaux",
+    "time": "11-18 02:09（北京时间）",
+    "summary": {
+     "zh": "OpenAI 产品侧账号确认 GPT-6.2 Sol 与 Astra“终于来了”，并说已把 Ultrafast 扩到 Pro 200 计划（先用于 Sol）；他称 Sol 是自己日常最常用的模型。",
+     "en": "OpenAI’s product account says GPT-6.2 Sol and Astra are “finally” here, and that Ultrafast has been expanded to Pro 200 plans for Sol, which he calls his go-to model for most day-to-day work."
+    },
+    "link": "https://x.com/thsottiaux/status/2122753991000133943",
+    "images": [
+     {
+      "src": "data/editions/2026-11-18/images/tibo-efficiency.png",
+      "caption": {
+       "zh": "Tibo 随后贴出的效率对比图（来源：其帖；已镜像入仓）",
+       "en": "Efficiency comparison image from Tibo’s follow-up post (mirrored in-repo)"
+      }
+     }
+    ]
+   },
+   {
+    "author": "Google DeepMind",
+    "handle": "@GoogleDeepMind",
+    "time": "11-18 03:03（北京时间）",
+    "summary": {
+     "zh": "宣布用 Gemini 4 Hydrogen 和新的 Antigravity 机器人插件，可以用对话给支持的机械臂做接入、在 MuJoCo 里练习，再放到真机上执行任务。",
+     "en": "Says Gemini 4 Hydrogen and a new Antigravity robotics plugin let you bring up a supported arm, practice in MuJoCo, and run tasks on hardware through conversation."
+    },
+    "link": "https://x.com/GoogleDeepMind/status/2122767521925230896",
+    "images": [
+     {
+      "src": "data/editions/2026-11-18/images/deepmind-robotics-video.jpg",
+      "caption": {
+       "zh": "DeepMind 机器人工件视频预览图（来源：官方帖；已镜像入仓）",
+       "en": "Preview image from DeepMind’s robotics announcement video (official post; mirrored in-repo)"
+      }
+     }
+    ]
+   },
+   {
+    "author": "Google DeepMind",
+    "handle": "@GoogleDeepMind",
+    "time": "11-18 03:03（北京时间）",
+    "summary": {
+     "zh": "补充评测：Hydrogen 在日常取放等控制任务上接近更大的 Argon，成本更低；在判断三维空间、相机角度和运动方面优于 Gemini Robotics ER 2。",
+     "en": "Adds that Hydrogen matches the larger Argon on everyday pick-and-place control at lower cost, and outperforms Gemini Robotics ER 2 on judging 3D space, camera angles, and motion."
+    },
+    "link": "https://x.com/GoogleDeepMind/status/2122767525419364630",
+    "images": [
+     {
+      "src": "data/editions/2026-11-18/images/deepmind-robotics-bench.jpg",
+      "caption": {
+       "zh": "DeepMind 公布的 Hydrogen 机器人评测图（来源：官方帖；已镜像入仓）",
+       "en": "Robotics benchmark image for Gemini 4 Hydrogen from DeepMind’s official post (mirrored in-repo)"
+      }
+     }
+    ]
+   }
+  ],
+  "engBlogs": [
+   {
+    "source": "OpenAI",
+    "title": {
+     "zh": "介绍 GPT-6.2 Astra 与 Sol",
+     "en": "Introducing GPT-6.2 Astra and Sol"
+    },
+    "summary": {
+     "zh": "OpenAI 正式发布 GPT-6.2 Astra（高难度专业与科研）和 GPT-6.2 Sol（日常与智能体）。Astra 在 Agents’ Last Exam 上比 GPT-6 Astra 高 5.2 分、成本不到三分之一，对比 Claude Fable 5.2 高 5.5 分、成本约 5%；并称刷新 Terminal-Bench-Science 与 Vals Science Index。API 上 Astra 为 $8 / $0.40 缓存 / $40 每百万 tokens，较上代降 20%；Sol 维持 $2 / $10。二者已进入 ChatGPT Work 与 Codex。",
+     "en": "OpenAI formally introduces GPT-6.2 Astra (hard professional and scientific work) and GPT-6.2 Sol (everyday and agentic work). On Agents’ Last Exam, Astra is 5.2 points above GPT-6 Astra at less than one-third the cost, and 5.5 points ahead of Claude Fable 5.2 at about 5% of the cost; OpenAI also claims new highs on Terminal-Bench-Science and the Vals Science Index. Astra API pricing is $8 / $0.40 cached / $40 per million tokens, 20% below the prior generation; Sol keeps $2 / $10. Both are in ChatGPT Work and Codex."
+    },
+    "link": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+    "images": [
+     {
+      "src": "data/editions/2026-11-18/images/openai-gpt62-hero.jpg",
+      "caption": {
+       "zh": "OpenAI 官方介绍页题图（已镜像入仓）",
+       "en": "Hero image from OpenAI’s official announcement (mirrored in-repo)"
+      }
+     }
+    ]
+   },
+   {
+    "source": "OpenAI",
+    "title": {
+     "zh": "推出 ChatGPT for Sales",
+     "en": "Introducing ChatGPT for Sales"
+    },
+    "summary": {
+     "zh": "OpenAI 推出面向销售团队的 ChatGPT for Sales：自有 Sales 插件提供选客户、准备通话和写跟进等流程，并新增或扩展 30 多个合作方插件，可连接 Salesforce、HubSpot、Gong、Outreach 等工具。也可把同样的客户上下文交给 ChatGPT 里常驻的 dot 助理去准备简报和跟踪进展。",
+     "en": "OpenAI launched ChatGPT for Sales: a first-party Sales plugin with workflows for choosing accounts, preparing calls, and drafting follow-ups, plus more than 30 new or expanded partner plugins for tools such as Salesforce, HubSpot, Gong, and Outreach. The same customer context can also be delegated to the always-on dot assistant in ChatGPT."
+    },
+    "link": "https://openai.com/index/introducing-chatgpt-for-sales",
+    "images": [
+     {
+      "src": "data/editions/2026-11-18/images/openai-sales.jpg",
+      "caption": {
+       "zh": "ChatGPT for Sales 官方题图（已镜像入仓）",
+       "en": "Official hero image for ChatGPT for Sales (mirrored in-repo)"
+      }
+     }
+    ]
+   },
+   {
+    "source": "Google Developers Blog",
+    "title": {
+     "zh": "Gemini 4 Hydrogen：更快的通用地机器人模型",
+     "en": "Gemini 4 Hydrogen: a faster model for general purpose robotics"
+    },
+    "summary": {
+     "zh": "Google 于 11/17 发布 Antigravity Robotics 插件，把 Hydrogen 做成从接入、仿真到真机控制的一站式工作台，并介绍“vibe sim”：用对话改 MuJoCo 场景再上真机。Hydrogen 在 AA Robotics 0.1 上得分 58，接近 Argon；官方建议原 Robotics ER 2 用户改试 Hydrogen。插件可在 Antigravity 的 Customizations 里安装。",
+     "en": "On November 17 Google launched the Antigravity Robotics plugin, turning Hydrogen into a one-stop workbench from bring-up and simulation to hardware control, including “vibe sim” of MuJoCo scenes in chat. Hydrogen scores 58 on AA Robotics 0.1, close to Argon; Google suggests Robotics ER 2 users try Hydrogen. The plugin is installed from Antigravity Customizations."
+    },
+    "link": "https://developers.googleblog.com/en/gemini-hydrogen-for-robotics/",
+    "images": [
+     {
+      "src": "data/editions/2026-11-18/images/deepmind-hydrogen-robotics.jpg",
+      "caption": {
+       "zh": "Google Developers Blog 机器人文章题图（已镜像入仓）",
+       "en": "Hero image from the Google Developers Blog robotics post (mirrored in-repo)"
+      }
+     }
+    ]
+   }
+  ],
+  "alphaxivTop3": [
+   {
+    "rank": 1,
+    "title": "ScaleVLA: Scaling Vision-Language-Action Models to 552 Billion Parameters",
+    "authors": "Ruixi Yu, Dairu Liu, Xuchuan Chen, Zekun Qi, Zekai Li, Zhuo Cao et al.",
+    "summary": {
+     "zh": "提出将视觉-语言-动作模型扩到 5520 亿参数的 ScaleVLA。作者认为前沿 VLM（文中提到 GPT-6 Astra）已能用于机器人控制，并讨论大规模预训练如何把这种能力带进 VLA。今日居 alphaXiv 热门第 1，替换了昨日的视觉编码论文。",
+     "en": "ScaleVLA scales vision-language-action models to 552 billion parameters. The authors argue that frontier VLMs (the abstract mentions GPT-6 Astra) already help with robot control, and discuss how large-scale pretraining can carry that into VLAs. It is alphaXiv’s #1 today, replacing yesterday’s vision-encoding paper."
+    },
+    "link": "https://www.alphaxiv.org/abs/2611.21607",
+    "images": [
+     {
+      "src": "data/editions/2026-11-18/images/ax-2611.21607.png",
+      "caption": {
+       "zh": "ScaleVLA 论文缩略图（alphaXiv；已镜像入仓）",
+       "en": "Thumbnail for the ScaleVLA paper (alphaXiv; mirrored in-repo)"
+      }
+     }
+    ]
+   },
+   {
+    "rank": 2,
+    "title": "Stream of Belief: Eliciting Collective Intelligence through Latent Belief Dynamics",
+    "authors": "Yu Yao, Jiayi Dong, Yilun Du",
+    "summary": {
+     "zh": "把多智能体推理看成潜在信念动力学的集体均衡，提出 Stream of Belief（SoB）：智能体维护并交换隐含信念，而不是只靠外显对话对齐。今日新上榜第 2。",
+     "en": "Treats multi-agent reasoning as seeking a collective equilibrium of latent belief dynamics, and introduces Stream of Belief (SoB), in which agents maintain and exchange implicit beliefs rather than aligning only through overt dialogue. New at #2 today."
+    },
+    "link": "https://www.alphaxiv.org/abs/2611.21250",
+    "images": [
+     {
+      "src": "data/editions/2026-11-18/images/ax-2611.21250.png",
+      "caption": {
+       "zh": "Stream of Belief 论文缩略图（alphaXiv；已镜像入仓）",
+       "en": "Thumbnail for the Stream of Belief paper (alphaXiv; mirrored in-repo)"
+      }
+     }
+    ]
+   },
+   {
+    "rank": 3,
+    "title": "K2-Horizon: A Frontier Fleet of Open Source Language Models",
+    "authors": "K2 Team, Zhengzhong Liu, Haonan Li, Xuezhe Ma, Alexander Moreno, Subham Sekhar Sahoo et al.",
+    "summary": {
+     "zh": "介绍 K2-Horizon：一套完全开源的语言模型家族，从 0.9B 稠密模型到 375B-A23B MoE，面向通用推理和智能体任务（数学与软件等）。今日新上榜第 3。昨日第 2 的仿真机器人训练论文现位于第 7。",
+     "en": "Introduces K2-Horizon, a fully open fleet of language models from a 0.9B dense model to a 375B-A23B MoE, built for general-purpose reasoning and agentic work in math and software. New at #3 today. Yesterday’s #2 paper on training robot-use agents in simulation now sits at #7."
+    },
+    "link": "https://www.alphaxiv.org/abs/2611.21003",
+    "images": [
+     {
+      "src": "data/editions/2026-11-18/images/ax-2611.21003.png",
+      "caption": {
+       "zh": "K2-Horizon 论文缩略图（alphaXiv；已镜像入仓）",
+       "en": "Thumbnail for the K2-Horizon paper (alphaXiv; mirrored in-repo)"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "aiProducts": {
+  "items": [
+   {
+    "name": "Hermes Agent",
+    "tag": "update",
+    "link": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.23.2",
+    "summary": {
+     "zh": "稳定版仍为昨日的 v0.23.2（published_at 2026-11-16T20:59:18Z）。今日另有 canary 标签 v0.23.2+canary.20261117T064624Z，不是新的稳定版。完整整理的发行说明仍将随 v0.24.0 发布，故不把 canary 或未整理清单写成正式功能介绍。",
+     "en": "Stable remains yesterday’s v0.23.2 (published_at 2026-11-16T20:59:18Z). A canary tag, v0.23.2+canary.20261117T064624Z, appeared today and is not a new stable. Full curated notes still wait for v0.24.0, so neither the canary nor the undocumented list is treated as a formal feature write-up."
+    }
+   },
+   {
+    "name": "OpenClaw",
+    "tag": "update",
+    "link": "https://github.com/openclaw/openclaw/releases/tag/v2026.11.5",
+    "summary": {
+     "zh": "稳定版更新为 v2026.11.5（published_at 2026-11-17T10:47:56Z，约北京时间昨天下午 18:47）。要点包括：Gateway 重启后保留排队消息、发送权限和最终聊天写入；Doctor/Gateway 启动失败时回滚已激活的更新；Telegram 交互组件可在私聊话题中渲染；大型记忆索引重建更可靠。另有一项破坏性说明：第三方 harness 与插件的会话控制接口有调整。完整说明见 GitHub Releases。",
+     "en": "Stable moved to v2026.11.5 (published_at 2026-11-17T10:47:56Z, about 18:47 Asia/Shanghai yesterday). Highlights include keeping queued messages, send permissions, and final chat writes across Gateway restarts; rolling back an activated update if Doctor or Gateway startup fails; rendering Telegram widgets in private-chat topics; and more reliable large memory-index rebuilds. There is also a breaking note: third-party harness and plugin session-control interfaces changed. Full notes are on the GitHub Releases page."
+    }
+   },
+   {
+    "name": "DeepSeek Harness",
+    "tag": "update",
+    "link": "https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.2.2-rc.4",
+    "summary": {
+     "zh": "实验标签由昨日的 dsh-v0.2.2-rc.3 推进到 dsh-v0.2.2-rc.4（2026-11-17T17:53:41Z，约北京时间昨天凌晨 1:53 之后的下午到傍晚窗口）。说明为问题修复：优化模型请求遇到异常消息时的表现，并修复桌面端 LiveShare 无法创建分享。仍不是稳定版。",
+     "en": "The experimental tag moved from yesterday’s dsh-v0.2.2-rc.3 to dsh-v0.2.2-rc.4 (2026-11-17T17:53:41Z). The notes are bug fixes: better handling of unexpected model responses, and a fix for LiveShare failing to create shares in the desktop app. It is still not a stable release."
+    }
+   },
+   {
+    "name": "codex",
+    "tag": "update",
+    "link": "https://github.com/openai/codex/releases/tag/rust-v0.169.1",
+    "summary": {
+     "zh": "稳定版由 0.169.0 升到 rust-v0.169.1 / 0.169.1（2026-11-17T22:21:10Z，约北京时间今日 06:21）。发行说明写明“No verified release highlights available”，故不编造功能。实验线由昨日的 0.171.0-alpha.10 推进到 rust-v0.171.0-alpha.12（2026-11-17T14:26:49Z），中间还有 alpha.11；这些实验标签的说明仍只标版本号。GPT-6.2 已进入 Codex，以 OpenAI 与 @thsottiaux 的帖为准，不写入该稳定版的功能清单。",
+     "en": "Stable moved from 0.169.0 to rust-v0.169.1 / 0.169.1 (2026-11-17T22:21:10Z, about 06:21 Asia/Shanghai today). The notes say “No verified release highlights available,” so no features are invented here. The experimental line moved from yesterday’s 0.171.0-alpha.10 to rust-v0.171.0-alpha.12 (2026-11-17T14:26:49Z), with alpha.11 in between; those prerelease notes still name the version only. GPT-6.2 is in Codex per OpenAI and @thsottiaux, which is treated as product news, not as a 0.169.1 feature list."
+    }
+   },
+   {
+    "name": "Claude",
+    "tag": "update",
+    "link": "https://www.anthropic.com/news",
+    "summary": {
+     "zh": "自昨日早报之后，Anthropic 新闻页与可核对的 changelog 未见新产品条目，官方 X 近 48 小时也无高信号原创。最近仍可核对的产品稿还是此前的 Claude Fable 5.2 / Mythos 5.2 与 Claude Meetings、自托管 Managed Agents。",
+     "en": "No new product post was verified on Anthropic’s newsroom or changelog since yesterday’s brief, and there was no high-signal official X original in the past 48 hours. The latest checked product posts remain Claude Fable 5.2 / Mythos 5.2 and the earlier Claude Meetings and self-hosted Managed Agents notes."
+    }
+   },
+   {
+    "name": "Cursor",
+    "tag": "update",
+    "link": "https://cursor.com/changelog/voice-chat",
+    "summary": {
+     "zh": "自 11/6 起 changelog 仍无更新条目。页面置顶仍为 2026-11-06 Voice Chat with Agents——与 agent 实时语音通话，由 Grok Voice 驱动，可在 Agents 窗口、IDE、Web 与 iOS 使用。",
+     "en": "Still no new changelog entry since November 6. The page still leads with Voice Chat with Agents (2026-11-06): a realtime voice call with the agent, powered by Grok Voice, in the Agents Window, the IDE, on the web, and on iOS."
+    }
+   },
+   {
+    "name": "Grok Bot",
+    "tag": "update",
+    "link": "https://x.ai/changelog/bot",
+    "summary": {
+     "zh": "官方 changelog Latest 已更新为 v1.2.0（标注日期 2026-11-16）：机票结果重做，可选中航班查看详情和预订；酒店照片与地图支持缩放、拖动和复制地址；另有 Google 手机验证卡片、团队关闭主动消息，以及任务页把已完成/取消/归档并入 Closed。昨日早报时 changelog 仍停在 1.0.1、cask 为 1.1.0；今日 changelog 同时补登了 1.1.0（礼品 Concierge、X 草稿卡片、会议听讲控制等），Homebrew cask 也已报 1.2.0，与 changelog 对齐。按客户端与 changelog 对照，现两者均为 1.2.0。",
+     "en": "The official changelog Latest is now v1.2.0 (dated 2026-11-16): flight results are redesigned so you can open full details and book; hotel photos and maps gain zoom, drag, and copy-address; there is also a Google phone-verification card, a team toggle to turn off proactive messages, and a Tasks page that groups Done / Canceled / Archived under Closed. Yesterday’s brief still saw changelog 1.0.1 and cask 1.1.0; today the changelog also posts the missing 1.1.0 notes (Gift Concierge, X draft cards, meeting listen-only controls), and the Homebrew cask now reports 1.2.0, matching the changelog."
+    }
+   }
+  ]
+ },
+ "models": {
+  "cursorBench": {
+   "version": "4.0",
+   "source": "https://cursor.com/cursorbench",
+   "asOf": "2026-11-18",
+   "total": 91,
+   "changed": false,
+   "changeKind": "unchanged",
+   "sort": "value",
+   "valueMetric": "score / cost",
+   "changeSummary": {
+    "zh": "较昨日无更新。CursorBench 4.0 仍为 91 个配置；官方得分前 10 与性价比前 10 的成员、名次、得分与成本均与昨日相同。今日对照官方页复核，顶部仍为 Gemini 4 Carbon High（60.4% / $9.22）、Carbon Medium（60.1%）与 Fable 5.2 Max（60.0%）。",
+    "en": "No update versus yesterday. CursorBench 4.0 still lists 91 configs; the official top 10 and the value top 10 are unchanged in membership, rank, score, and cost. A fresh check of the official page still leads with Gemini 4 Carbon High (60.4% / $9.22), Carbon Medium (60.1%), and Fable 5.2 Max (60.0%)."
+   },
+   "summary": {
+    "zh": "按得分÷单任务成本，性价比最高的仍是极低成本配置：GPT-5.6 Luna Low（16.0% / $0.03，约 533 分/$）和 Haiku 5.5 Low（30.9% / $0.08）。Gemini 4 Hydrogen Low（27.9% / $0.28，约 99.64 分/$）仍在性价比第 9。在分数更可用的区间，Haiku 5.5 High（42.3% / $0.32）和 Hydrogen Extra High（57.8% / $5.86，官方第 6，约 9.86 分/$）更均衡。官方得分仍由 Gemini 4 Carbon High（60.4% / $9.22）和 Carbon Medium（60.1%）领跑，随后是 Fable 5.2 Max（60.0%）；Hydrogen Extra High 与 Opus 5.5 Max 一同位于官方前 6。较昨日无更新。",
+    "en": "Ranked by score ÷ cost per task, the highest-value configs remain the cheapest ones: GPT-5.6 Luna Low (16.0% / $0.03, about 533 pts/$) and Haiku 5.5 Low (30.9% / $0.08). Gemini 4 Hydrogen Low (27.9% / $0.28, about 99.64 pts/$) stays at value #9. In a more usable score range, Haiku 5.5 High (42.3% / $0.32) and Hydrogen Extra High (57.8% / $5.86, official #6, about 9.86 pts/$) are more balanced. Official scores are still led by Gemini 4 Carbon High (60.4% / $9.22) and Carbon Medium (60.1%), followed by Fable 5.2 Max (60.0%); Hydrogen Extra High and Opus 5.5 Max remain in the official top 6. No update versus yesterday."
+   },
+   "leaderboard": [
+    {
+     "rank": 1,
+     "officialRank": 91,
+     "model": "GPT-5.6 Luna Low",
+     "score": 16.0,
+     "cost": 0.03,
+     "tokens": 3288,
+     "steps": 18,
+     "value": 533.33
+    },
+    {
+     "rank": 2,
+     "officialRank": 76,
+     "model": "Haiku 5.5 Low",
+     "score": 30.9,
+     "cost": 0.08,
+     "tokens": 23382,
+     "steps": 25,
+     "value": 386.25
+    },
+    {
+     "rank": 3,
+     "officialRank": 90,
+     "model": "GPT-5.6 Luna Medium",
+     "score": 22.2,
+     "cost": 0.08,
+     "tokens": 7642,
+     "steps": 32,
+     "value": 277.5
+    },
+    {
+     "rank": 4,
+     "officialRank": 58,
+     "model": "Haiku 5.5 Medium",
+     "score": 36.9,
+     "cost": 0.17,
+     "tokens": 42659,
+     "steps": 39,
+     "value": 217.06
+    },
+    {
+     "rank": 5,
+     "officialRank": 85,
+     "model": "GLM 5.3 Flash Low",
+     "score": 26.9,
+     "cost": 0.15,
+     "tokens": 17831,
+     "steps": 58,
+     "value": 179.33
+    },
+    {
+     "rank": 6,
+     "officialRank": 45,
+     "model": "Haiku 5.5 High",
+     "score": 42.3,
+     "cost": 0.32,
+     "tokens": 77057,
+     "steps": 59,
+     "value": 132.19
+    },
+    {
+     "rank": 7,
+     "officialRank": 75,
+     "model": "GLM 5.3 Flash High",
+     "score": 31.1,
+     "cost": 0.25,
+     "tokens": 35104,
+     "steps": 84,
+     "value": 124.4
+    },
+    {
+     "rank": 8,
+     "officialRank": 79,
+     "model": "GPT-5.6 Luna High",
+     "score": 29.4,
+     "cost": 0.25,
+     "tokens": 23368,
+     "steps": 64,
+     "value": 117.6
+    },
+    {
+     "rank": 9,
+     "officialRank": 82,
+     "model": "Gemini 4 Hydrogen Low",
+     "score": 27.9,
+     "cost": 0.28,
+     "tokens": 8975,
+     "steps": 19,
+     "value": 99.64
+    },
+    {
+     "rank": 10,
+     "officialRank": 62,
+     "model": "Sonnet 5.5 Low",
+     "score": 35.8,
+     "cost": 0.37,
+     "tokens": 11668,
+     "steps": 18,
+     "value": 96.76
+    }
+   ],
+   "officialLeaderboard": [
+    {
+     "rank": 1,
+     "model": "Gemini 4 Carbon High",
+     "score": 60.4,
+     "cost": 9.22,
+     "tokens": 39960,
+     "steps": 71,
+     "value": 6.55
+    },
+    {
+     "rank": 2,
+     "model": "Gemini 4 Carbon Medium",
+     "score": 60.1,
+     "cost": 8.49,
+     "tokens": 37067,
+     "steps": 67,
+     "value": 7.08
+    },
+    {
+     "rank": 3,
+     "model": "Fable 5.2 Max",
+     "score": 60.0,
+     "cost": 32.79,
+     "tokens": 352794,
+     "steps": 218,
+     "value": 1.83
+    },
+    {
+     "rank": 4,
+     "model": "Gemini 4 Carbon Low",
+     "score": 58.6,
+     "cost": 11.89,
+     "tokens": 42663,
+     "steps": 124,
+     "value": 4.93
+    },
+    {
+     "rank": 5,
+     "model": "Opus 5.5 Max",
+     "score": 57.8,
+     "cost": 13.43,
+     "tokens": 218363,
+     "steps": 185,
+     "value": 4.3
+    },
+    {
+     "rank": 6,
+     "model": "Gemini 4 Hydrogen Extra High",
+     "score": 57.8,
+     "cost": 5.86,
+     "tokens": 164610,
+     "steps": 88,
+     "value": 9.86
+    },
+    {
+     "rank": 7,
+     "model": "Fable 5.2 High",
+     "score": 56.9,
+     "cost": 9.7,
+     "tokens": 99259,
+     "steps": 69,
+     "value": 5.87
+    },
+    {
+     "rank": 8,
+     "model": "Fable 5.2 Extra High",
+     "score": 56.3,
+     "cost": 15.48,
+     "tokens": 161251,
+     "steps": 108,
+     "value": 3.64
+    },
+    {
+     "rank": 9,
+     "model": "Opus 5.5 Extra High",
+     "score": 56.0,
+     "cost": 6.98,
+     "tokens": 101083,
+     "steps": 109,
+     "value": 8.02
+    },
+    {
+     "rank": 10,
+     "model": "Opus 5.5 High",
+     "score": 56.0,
+     "cost": 3.97,
+     "tokens": 53078,
+     "steps": 68,
+     "value": 14.11
+    }
+   ],
+   "snapshot": [
+    {
+     "rank": 1,
+     "model": "Gemini 4 Carbon High",
+     "score": 60.4,
+     "cost": 9.22,
+     "tokens": 39960,
+     "steps": 71,
+     "value": 6.55
+    },
+    {
+     "rank": 2,
+     "model": "Gemini 4 Carbon Medium",
+     "score": 60.1,
+     "cost": 8.49,
+     "tokens": 37067,
+     "steps": 67,
+     "value": 7.08
+    },
+    {
+     "rank": 3,
+     "model": "Fable 5.2 Max",
+     "score": 60.0,
+     "cost": 32.79,
+     "tokens": 352794,
+     "steps": 218,
+     "value": 1.83
+    },
+    {
+     "rank": 4,
+     "model": "Gemini 4 Carbon Low",
+     "score": 58.6,
+     "cost": 11.89,
+     "tokens": 42663,
+     "steps": 124,
+     "value": 4.93
+    },
+    {
+     "rank": 5,
+     "model": "Opus 5.5 Max",
+     "score": 57.8,
+     "cost": 13.43,
+     "tokens": 218363,
+     "steps": 185,
+     "value": 4.3
+    },
+    {
+     "rank": 6,
+     "model": "Gemini 4 Hydrogen Extra High",
+     "score": 57.8,
+     "cost": 5.86,
+     "tokens": 164610,
+     "steps": 88,
+     "value": 9.86
+    },
+    {
+     "rank": 7,
+     "model": "Fable 5.2 High",
+     "score": 56.9,
+     "cost": 9.7,
+     "tokens": 99259,
+     "steps": 69,
+     "value": 5.87
+    },
+    {
+     "rank": 8,
+     "model": "Fable 5.2 Extra High",
+     "score": 56.3,
+     "cost": 15.48,
+     "tokens": 161251,
+     "steps": 108,
+     "value": 3.64
+    },
+    {
+     "rank": 9,
+     "model": "Opus 5.5 Extra High",
+     "score": 56.0,
+     "cost": 6.98,
+     "tokens": 101083,
+     "steps": 109,
+     "value": 8.02
+    },
+    {
+     "rank": 10,
+     "model": "Opus 5.5 High",
+     "score": 56.0,
+     "cost": 3.97,
+     "tokens": 53078,
+     "steps": 68,
+     "value": 14.11
+    },
+    {
+     "rank": 11,
+     "model": "Sonnet 5.5 Max",
+     "score": 55.5,
+     "cost": 7.05,
+     "tokens": 271920,
+     "steps": 170,
+     "value": 7.87
+    },
+    {
+     "rank": 12,
+     "model": "Fable 5.2 Medium",
+     "score": 54.8,
+     "cost": 4.66,
+     "tokens": 44103,
+     "steps": 35,
+     "value": 11.76
+    },
+    {
+     "rank": 13,
+     "model": "Gemini 4 Hydrogen High",
+     "score": 54.3,
+     "cost": 5.59,
+     "tokens": 88682,
+     "steps": 59,
+     "value": 9.71
+    },
+    {
+     "rank": 14,
+     "model": "Fable 5.2 Low",
+     "score": 53.2,
+     "cost": 3.94,
+     "tokens": 36616,
+     "steps": 30,
+     "value": 13.5
+    },
+    {
+     "rank": 15,
+     "model": "Sonnet 5.5 Extra High",
+     "score": 53.1,
+     "cost": 2.81,
+     "tokens": 100158,
+     "steps": 78,
+     "value": 18.9
+    },
+    {
+     "rank": 16,
+     "model": "Gemini 4 Argon High",
+     "score": 52.9,
+     "cost": 4.57,
+     "tokens": 109500,
+     "steps": 118,
+     "value": 11.58
+    },
+    {
+     "rank": 17,
+     "model": "Gemini 4 Argon Medium",
+     "score": 52.8,
+     "cost": 4.39,
+     "tokens": 103600,
+     "steps": 115,
+     "value": 12.03
+    },
+    {
+     "rank": 18,
+     "model": "Opus 5.5 Medium",
+     "score": 52.5,
+     "cost": 2.91,
+     "tokens": 37954,
+     "steps": 54,
+     "value": 18.04
+    },
+    {
+     "rank": 19,
+     "model": "Fable 5.1 Max",
+     "score": 51.8,
+     "cost": 17.28,
+     "tokens": 117236,
+     "steps": 128,
+     "value": 3.0
+    },
+    {
+     "rank": 20,
+     "model": "Fable 5.1 Extra High",
+     "score": 51.6,
+     "cost": 13.01,
+     "tokens": 87294,
+     "steps": 101,
+     "value": 3.97
+    },
+    {
+     "rank": 21,
+     "model": "Gemini 4 Argon Low",
+     "score": 50.6,
+     "cost": 4.09,
+     "tokens": 94200,
+     "steps": 110,
+     "value": 12.37
+    },
+    {
+     "rank": 22,
+     "model": "Muse Wonder Max",
+     "score": 50.4,
+     "cost": 5.25,
+     "tokens": 49692,
+     "steps": 114,
+     "value": 9.6
+    },
+    {
+     "rank": 23,
+     "model": "Fable 5.1 High",
+     "score": 49.2,
+     "cost": 9.08,
+     "tokens": 58438,
+     "steps": 77,
+     "value": 5.42
+    },
+    {
+     "rank": 24,
+     "model": "Haiku 5.5 Max",
+     "score": 48.4,
+     "cost": 1.12,
+     "tokens": 325934,
+     "steps": 163,
+     "value": 43.21
+    },
+    {
+     "rank": 25,
+     "model": "Muse Wonder Extra High",
+     "score": 48.2,
+     "cost": 4.24,
+     "tokens": 39564,
+     "steps": 96,
+     "value": 11.37
+    },
+    {
+     "rank": 26,
+     "model": "Sonnet 5.5 High",
+     "score": 47.8,
+     "cost": 1.2,
+     "tokens": 37391,
+     "steps": 41,
+     "value": 39.83
+    },
+    {
+     "rank": 27,
+     "model": "DeepSeek V4.1 Flash 1017 Max",
+     "score": 47.7,
+     "cost": 0.98,
+     "tokens": 537047,
+     "steps": 187,
+     "value": 48.67
+    },
+    {
+     "rank": 28,
+     "model": "Fable 5.1 Medium",
+     "score": 46.8,
+     "cost": 7.05,
+     "tokens": 45411,
+     "steps": 63,
+     "value": 6.64
+    },
+    {
+     "rank": 29,
+     "model": "Gemini 4 Hydrogen Medium",
+     "score": 46.7,
+     "cost": 1.76,
+     "tokens": 36781,
+     "steps": 38,
+     "value": 26.53
+    },
+    {
+     "rank": 30,
+     "model": "Opus 5 Max",
+     "score": 46.6,
+     "cost": 11.95,
+     "tokens": 85384,
+     "steps": 106,
+     "value": 3.9
+    },
+    {
+     "rank": 31,
+     "model": "Grok 4.7 Extra High",
+     "score": 46.3,
+     "cost": 6.01,
+     "tokens": 70141,
+     "steps": 88,
+     "value": 7.7
+    },
+    {
+     "rank": 32,
+     "model": "DeepSeek V4.1 Flash 1017 Medium",
+     "score": 46.3,
+     "cost": 0.8,
+     "tokens": 398255,
+     "steps": 189,
+     "value": 57.87
+    },
+    {
+     "rank": 33,
+     "model": "Opus 5 Extra High",
+     "score": 46.1,
+     "cost": 11.43,
+     "tokens": 80094,
+     "steps": 103,
+     "value": 4.03
+    },
+    {
+     "rank": 34,
+     "model": "Muse Wonder High",
+     "score": 46.1,
+     "cost": 3.51,
+     "tokens": 33612,
+     "steps": 84,
+     "value": 13.13
+    },
+    {
+     "rank": 35,
+     "model": "DeepSeek V4.1 Flash 1017 High",
+     "score": 45.6,
+     "cost": 0.77,
+     "tokens": 385196,
+     "steps": 186,
+     "value": 59.22
+    },
+    {
+     "rank": 36,
+     "model": "Muse Wonder Medium",
+     "score": 45.2,
+     "cost": 2.82,
+     "tokens": 27124,
+     "steps": 75,
+     "value": 16.03
+    },
+    {
+     "rank": 37,
+     "model": "Fable 5.1 Low",
+     "score": 45.1,
+     "cost": 5.44,
+     "tokens": 34795,
+     "steps": 51,
+     "value": 8.29
+    },
+    {
+     "rank": 38,
+     "model": "DeepSeek V4.1 Flash 1017 Low",
+     "score": 44.9,
+     "cost": 0.6,
+     "tokens": 290651,
+     "steps": 161,
+     "value": 74.83
+    },
+    {
+     "rank": 39,
+     "model": "Opus 5 High",
+     "score": 44.7,
+     "cost": 9.0,
+     "tokens": 61405,
+     "steps": 86,
+     "value": 4.97
+    },
+    {
+     "rank": 40,
+     "model": "Haiku 5.5 Extra High",
+     "score": 44.3,
+     "cost": 0.56,
+     "tokens": 143813,
+     "steps": 93,
+     "value": 79.11
+    },
+    {
+     "rank": 41,
+     "model": "Grok 4.7 High",
+     "score": 43.9,
+     "cost": 4.69,
+     "tokens": 56382,
+     "steps": 71,
+     "value": 9.36
+    },
+    {
+     "rank": 42,
+     "model": "Opus 5.5 Low",
+     "score": 43.7,
+     "cost": 1.17,
+     "tokens": 15811,
+     "steps": 28,
+     "value": 37.35
+    },
+    {
+     "rank": 43,
+     "model": "Opus 5 Medium",
+     "score": 43.3,
+     "cost": 6.94,
+     "tokens": 45272,
+     "steps": 72,
+     "value": 6.24
+    },
+    {
+     "rank": 44,
+     "model": "GLM 5.3 Max",
+     "score": 42.6,
+     "cost": 5.05,
+     "tokens": 96387,
+     "steps": 166,
+     "value": 8.44
+    },
+    {
+     "rank": 45,
+     "model": "Haiku 5.5 High",
+     "score": 42.3,
+     "cost": 0.32,
+     "tokens": 77057,
+     "steps": 59,
+     "value": 132.19
+    },
+    {
+     "rank": 46,
+     "model": "GPT-5.6 Sol Max",
+     "score": 41.7,
+     "cost": 8.23,
+     "tokens": 42944,
+     "steps": 99,
+     "value": 5.07
+    },
+    {
+     "rank": 47,
+     "model": "Muse Wonder Low",
+     "score": 41.7,
+     "cost": 1.91,
+     "tokens": 18880,
+     "steps": 56,
+     "value": 21.83
+    },
+    {
+     "rank": 48,
+     "model": "Grok 4.7 Medium",
+     "score": 41.6,
+     "cost": 3.49,
+     "tokens": 36683,
+     "steps": 60,
+     "value": 11.92
+    },
+    {
+     "rank": 49,
+     "model": "Muse Spark 1.3 Max",
+     "score": 41.6,
+     "cost": 2.64,
+     "tokens": 52005,
+     "steps": 98,
+     "value": 15.76
+    },
+    {
+     "rank": 50,
+     "model": "Grok 4.6 Extra High",
+     "score": 41.4,
+     "cost": 6.1,
+     "tokens": 49814,
+     "steps": 56,
+     "value": 6.79
+    },
+    {
+     "rank": 51,
+     "model": "GPT-5.6 Terra Max",
+     "score": 41.3,
+     "cost": 5.14,
+     "tokens": 60814,
+     "steps": 107,
+     "value": 8.04
+    },
+    {
+     "rank": 52,
+     "model": "Opus 5 Low",
+     "score": 40.7,
+     "cost": 4.87,
+     "tokens": 31995,
+     "steps": 57,
+     "value": 8.36
+    },
+    {
+     "rank": 53,
+     "model": "Grok 4.6 High",
+     "score": 40.4,
+     "cost": 5.2,
+     "tokens": 41387,
+     "steps": 48,
+     "value": 7.77
+    },
+    {
+     "rank": 54,
+     "model": "Sonnet 5.5 Medium",
+     "score": 39.2,
+     "cost": 0.52,
+     "tokens": 16036,
+     "steps": 22,
+     "value": 75.38
+    },
+    {
+     "rank": 55,
+     "model": "GLM 5.3 High",
+     "score": 38.0,
+     "cost": 3.24,
+     "tokens": 60031,
+     "steps": 114,
+     "value": 11.73
+    },
+    {
+     "rank": 56,
+     "model": "GPT-5.6 Sol Extra High",
+     "score": 37.7,
+     "cost": 4.4,
+     "tokens": 24729,
+     "steps": 55,
+     "value": 8.57
+    },
+    {
+     "rank": 57,
+     "model": "Muse Spark 1.3 Extra High",
+     "score": 37.5,
+     "cost": 2.1,
+     "tokens": 40891,
+     "steps": 83,
+     "value": 17.86
+    },
+    {
+     "rank": 58,
+     "model": "Haiku 5.5 Medium",
+     "score": 36.9,
+     "cost": 0.17,
+     "tokens": 42659,
+     "steps": 39,
+     "value": 217.06
+    },
+    {
+     "rank": 59,
+     "model": "GLM 5.3 Flash Max",
+     "score": 36.8,
+     "cost": 0.39,
+     "tokens": 56410,
+     "steps": 118,
+     "value": 94.36
+    },
+    {
+     "rank": 60,
+     "model": "Grok 4.6 Medium",
+     "score": 36.1,
+     "cost": 3.48,
+     "tokens": 24893,
+     "steps": 40,
+     "value": 10.37
+    },
+    {
+     "rank": 61,
+     "model": "GPT-5.6 Luna Max",
+     "score": 35.9,
+     "cost": 1.03,
+     "tokens": 87284,
+     "steps": 208,
+     "value": 34.85
+    },
+    {
+     "rank": 62,
+     "model": "Sonnet 5.5 Low",
+     "score": 35.8,
+     "cost": 0.37,
+     "tokens": 11668,
+     "steps": 18,
+     "value": 96.76
+    },
+    {
+     "rank": 63,
+     "model": "GPT-5.6 Sol High",
+     "score": 35.7,
+     "cost": 2.85,
+     "tokens": 16174,
+     "steps": 41,
+     "value": 12.53
+    },
+    {
+     "rank": 64,
+     "model": "Muse Wonder Minimal",
+     "score": 34.2,
+     "cost": 0.84,
+     "tokens": 9761,
+     "steps": 33,
+     "value": 40.71
+    },
+    {
+     "rank": 65,
+     "model": "Sonnet 5 Max",
+     "score": 34.1,
+     "cost": 7.17,
+     "tokens": 149257,
+     "steps": 140,
+     "value": 4.76
+    },
+    {
+     "rank": 66,
+     "model": "GPT-5.6 Terra Extra High",
+     "score": 33.6,
+     "cost": 1.81,
+     "tokens": 23436,
+     "steps": 43,
+     "value": 18.56
+    },
+    {
+     "rank": 67,
+     "model": "Grok 4.6 Low",
+     "score": 33.4,
+     "cost": 2.25,
+     "tokens": 16307,
+     "steps": 32,
+     "value": 14.84
+    },
+    {
+     "rank": 68,
+     "model": "Muse Spark 1.3 High",
+     "score": 33.4,
+     "cost": 1.66,
+     "tokens": 30654,
+     "steps": 69,
+     "value": 20.12
+    },
+    {
+     "rank": 69,
+     "model": "GLM 5.3 Low",
+     "score": 33.3,
+     "cost": 2.04,
+     "tokens": 31983,
+     "steps": 81,
+     "value": 16.32
+    },
+    {
+     "rank": 70,
+     "model": "Grok 4.7 Low",
+     "score": 33.1,
+     "cost": 1.58,
+     "tokens": 15677,
+     "steps": 40,
+     "value": 20.95
+    },
+    {
+     "rank": 71,
+     "model": "GPT-5.6 Luna Extra High",
+     "score": 33.0,
+     "cost": 0.44,
+     "tokens": 40598,
+     "steps": 98,
+     "value": 75.0
+    },
+    {
+     "rank": 72,
+     "model": "Muse Spark 1.3 Medium",
+     "score": 32.6,
+     "cost": 1.49,
+     "tokens": 27255,
+     "steps": 64,
+     "value": 21.88
+    },
+    {
+     "rank": 73,
+     "model": "Sonnet 5 Extra High",
+     "score": 32.0,
+     "cost": 4.55,
+     "tokens": 83373,
+     "steps": 102,
+     "value": 7.03
+    },
+    {
+     "rank": 74,
+     "model": "GPT-5.6 Sol Medium",
+     "score": 31.1,
+     "cost": 1.77,
+     "tokens": 10111,
+     "steps": 32,
+     "value": 17.57
+    },
+    {
+     "rank": 75,
+     "model": "GLM 5.3 Flash High",
+     "score": 31.1,
+     "cost": 0.25,
+     "tokens": 35104,
+     "steps": 84,
+     "value": 124.4
+    },
+    {
+     "rank": 76,
+     "model": "Haiku 5.5 Low",
+     "score": 30.9,
+     "cost": 0.08,
+     "tokens": 23382,
+     "steps": 25,
+     "value": 386.25
+    },
+    {
+     "rank": 77,
+     "model": "Sonnet 5 High",
+     "score": 30.8,
+     "cost": 3.48,
+     "tokens": 61146,
+     "steps": 85,
+     "value": 8.85
+    },
+    {
+     "rank": 78,
+     "model": "GPT-5.6 Terra High",
+     "score": 30.7,
+     "cost": 1.11,
+     "tokens": 13162,
+     "steps": 33,
+     "value": 27.66
+    },
+    {
+     "rank": 79,
+     "model": "GPT-5.6 Luna High",
+     "score": 29.4,
+     "cost": 0.25,
+     "tokens": 23368,
+     "steps": 64,
+     "value": 117.6
+    },
+    {
+     "rank": 80,
+     "model": "Muse Spark 1.3 Low",
+     "score": 29.3,
+     "cost": 0.93,
+     "tokens": 17483,
+     "steps": 47,
+     "value": 31.51
+    },
+    {
+     "rank": 81,
+     "model": "Sonnet 5 Medium",
+     "score": 28.0,
+     "cost": 2.31,
+     "tokens": 39114,
+     "steps": 65,
+     "value": 12.12
+    },
+    {
+     "rank": 82,
+     "model": "Gemini 4 Hydrogen Low",
+     "score": 27.9,
+     "cost": 0.28,
+     "tokens": 8975,
+     "steps": 19,
+     "value": 99.64
+    },
+    {
+     "rank": 83,
+     "model": "Composer 2.5",
+     "score": 27.7,
+     "cost": 0.68,
+     "tokens": 17347,
+     "steps": 41,
+     "value": 40.74
+    },
+    {
+     "rank": 84,
+     "model": "GPT-5.6 Terra Medium",
+     "score": 27.6,
+     "cost": 0.64,
+     "tokens": 7307,
+     "steps": 25,
+     "value": 43.12
+    },
+    {
+     "rank": 85,
+     "model": "GLM 5.3 Flash Low",
+     "score": 26.9,
+     "cost": 0.15,
+     "tokens": 17831,
+     "steps": 58,
+     "value": 179.33
+    },
+    {
+     "rank": 86,
+     "model": "GPT-5.6 Terra Low",
+     "score": 25.2,
+     "cost": 0.52,
+     "tokens": 5914,
+     "steps": 23,
+     "value": 48.46
+    },
+    {
+     "rank": 87,
+     "model": "GPT-5.6 Sol Low",
+     "score": 24.6,
+     "cost": 0.87,
+     "tokens": 4885,
+     "steps": 21,
+     "value": 28.28
+    },
+    {
+     "rank": 88,
+     "model": "Muse Spark 1.3 Minimal",
+     "score": 24.3,
+     "cost": 0.56,
+     "tokens": 10620,
+     "steps": 34,
+     "value": 43.39
+    },
+    {
+     "rank": 89,
+     "model": "Sonnet 5 Low",
+     "score": 24.1,
+     "cost": 1.39,
+     "tokens": 23772,
+     "steps": 46,
+     "value": 17.34
+    },
+    {
+     "rank": 90,
+     "model": "GPT-5.6 Luna Medium",
+     "score": 22.2,
+     "cost": 0.08,
+     "tokens": 7642,
+     "steps": 32,
+     "value": 277.5
+    },
+    {
+     "rank": 91,
+     "model": "GPT-5.6 Luna Low",
+     "score": 16.0,
+     "cost": 0.03,
+     "tokens": 3288,
+     "steps": 18,
+     "value": 533.33
+    }
+   ],
+   "images": [
+    {
+     "src": "data/editions/2026-11-18/images/models-cursorbench.jpg",
+     "caption": {
+      "zh": "根据 Cursor 官方 CursorBench 4.0 榜绘制的官方得分前 10（今日复核，较昨日无更新；已镜像入仓）",
+      "en": "Official-score top 10 drawn from the official CursorBench 4.0 table (rechecked today, unchanged versus yesterday; mirrored in-repo)"
+     }
+    }
+   ]
+  }
+ },
+ "finance": {
+  "stock": {
+   "name": {
+    "zh": "小米集团-W",
+    "en": "Xiaomi Group"
+   },
+   "symbol": "01810.HK",
+   "currency": "HKD",
+   "price": 29.7,
+   "change": 0.62,
+   "changePercent": 2.13,
+   "prevClose": 29.08,
+   "open": 29.08,
+   "high": 30.52,
+   "low": 28.46,
+   "volume": "约 1.668 亿股",
+   "amount": "约 49.63 亿港元",
+   "spark": [
+    26.66,
+    27.06,
+    26.8,
+    25.8,
+    26.8,
+    26.9,
+    25.66,
+    25.62,
+    25.68,
+    26.48,
+    28.1,
+    28.6,
+    28.76,
+    31.3,
+    30.38,
+    30.1,
+    30.6,
+    30.1,
+    29.98,
+    28.86,
+    29.08,
+    29.7
+   ],
+   "summary": {
+    "zh": "今日周三，港股现金市场尚未开盘（采集约 08:30，开市 09:30），无新成交价。报价为周二收盘：29.700 港元，涨 2.13%（+0.620），成交约 1.668 亿股、金额约 49.63 亿港元；日内 28.46–30.52，开盘 29.08。数据源：腾讯港股串（时间戳 2026/11/17 16:08:18）及日 K。周二放量反弹，成交明显高于周一的约 0.935 亿股，收盘仍低于 11/12 的 29.980。日 K 周一、周二均未见新的回购标注；最近一条仍为上周五回购 172.50 万股，均价 28.889 港元。",
+    "en": "Wednesday collection; the HK cash market had not yet opened (collected around 08:30, the session starts at 09:30), so there is no new print. The quote is Tuesday’s close: HK$29.700, up 2.13% (+0.620), on about 166.8M shares and about HK$4.963 billion; the session ranged 28.46–30.52 after opening at 29.08. Source: Tencent HK quote (timestamp 2026/11/17 16:08:18) and daily bars. Tuesday bounced on heavier volume than Monday’s about 93.5M shares, but the close remains below 11/12’s 29.980. The daily bar has no new buyback annotation for Monday or Tuesday; the latest remains Friday’s repurchase of 1.725 million shares at an average HK$28.889."
+   },
+   "highlights": [
+    {
+     "zh": "周三早间尚未开盘，引用周二收盘 29.70（+2.13%）；成交约 1.668 亿股，明显高于周一约 0.935 亿股。",
+     "en": "Wednesday’s cash session had not opened at collection time, so the quote is Tuesday’s close of 29.70 (+2.13%) on about 166.8M shares, well above Monday’s ~93.5M."
+    },
+    {
+     "zh": "周二开盘 29.08，高点 30.52，低点 28.46，收 29.70，放量反弹，但仍低于 11/12 收盘 29.98。",
+     "en": "Tuesday opened at 29.08, ranged 28.46–30.52, and closed at 29.70 on heavier volume, still below 11/12’s 29.98."
+    },
+    {
+     "zh": "日 K 周一、周二均未见新的回购标注；最近披露仍为上周五回购 172.50 万股，均价 28.889 港元。",
+     "en": "The daily bar shows no new buyback annotation for Monday or Tuesday; the latest disclosure remains Friday’s repurchase of 1.725 million shares at an average HK$28.889."
+    }
+   ]
+  }
+ },
+ "parenting": {
+  "source": "https://www.newsmth.net/nForum/board/ChildEducation",
+  "sourceName": {
+   "zh": "水木社区 · 儿童教育",
+   "en": "NewSMTH · Child Education"
+  },
+  "asOf": "2026-11-18 08:30",
+  "board": "ChildEducation",
+  "summary": {
+   "zh": "今日版面仍热的是家长会、阳光分班、英语学法和超前学等话题；另有若干新主题进入第一页。主题列表已取到（25 帖），其中 10 条新出现或昨日未抓取的帖文因游客验证未能打开正文，只保留标题与链接。",
+   "en": "The board’s liveliest continuing threads are still about parent-teacher conferences, mixed-class grouping, English study methods, and learning ahead of pace, with several new threads on the first page. The index was retrieved (25 posts); 10 newly appearing or previously unfetched threads could not be opened because of a guest captcha, so only titles and links are kept."
+  },
+  "posts": [
+   {
+    "title": {
+     "zh": "高知们赞成阳光分班吗",
+     "en": "高知们赞成阳光分班吗"
+    },
+    "url": "https://www.newsmth.net/nForum/article/ChildEducation/2597542",
+    "author": "climaxhell",
+    "postedAt": "2026-11-16",
+    "lastReplyAt": "2026-11-18 08:25",
+    "replies": 84,
+    "summary": {
+     "zh": "楼主希望用阳光分班遏制低龄内卷，批评六七岁孩子晚上学到很晚、寒暑假泡培训班。跟帖多表怀疑：分班未必减负，也可能反过来刺激分班考试。今日回复已增至 84（昨日 20），末页因游客验证未能刷新，摘要依据此前可见内容，不编造新增跟帖。",
+     "en": "The OP hopes mixed, non-tracked classes will curb early cramming, criticizing six- and seven-year-olds studying late and spending holidays in tutoring. Replies are mostly skeptical, saying grouping may not reduce pressure and could even intensify entrance testing. Replies are now 84 (yesterday 20); today’s last page could not be refreshed because of a guest captcha, so the summary follows previously visible posts and does not invent new replies."
+    }
+   },
+   {
+    "title": {
+     "zh": "做题掉坑",
+     "en": "做题掉坑"
+    },
+    "url": "https://www.newsmth.net/nForum/article/ChildEducation/2597783",
+    "author": "Ivye",
+    "postedAt": "2026-11-16",
+    "lastReplyAt": "2026-11-18 07:53",
+    "replies": 9,
+    "summary": {
+     "zh": "楼主说孩子做浅奥题时容易掉进题目陷阱，审题也不够扎实，不想靠题海，想提高思维缜密度。跟帖认为没有捷径，只能放慢审题、多复查，并建议贴出原题一起看。今日回复已增至 9（昨日 2），末页因游客验证未能刷新，摘要依据此前可见内容，不编造新增跟帖。",
+     "en": "The OP says the child often falls for traps in relatively easy contest-style problems and wants tighter thinking without a sea of drills. Replies say there is no shortcut: slow down, recheck the question, and perhaps post the original problems. Replies are now 9 (yesterday 2); today’s last page could not be refreshed because of a guest captcha, so the summary follows previously visible posts and does not invent new replies."
+    }
+   },
+   {
+    "title": {
+     "zh": "让小孩多学电子制作，家电维修",
+     "en": "让小孩多学电子制作，家电维修"
+    },
+    "url": "https://www.newsmth.net/nForum/article/ChildEducation/2597126",
+    "author": "grains",
+    "postedAt": "2026-11-15",
+    "lastReplyAt": "2026-11-18 06:52",
+    "replies": 20,
+    "summary": {
+     "zh": "楼主主张顺着孩子兴趣做电子制作（主楼多次抓取失败，摘要依据后续楼）。楼主后来说孩子不喜欢编程，小学就参加过航天类竞赛；跟帖提醒不要把方向说成“电器维修”，普通维修又累又难赚钱，更宜往理论或高端方向走。今日回复已增至 20（昨日 13），末页因游客验证未能刷新，摘要依据此前可见内容，不编造新增跟帖。",
+     "en": "The OP urges letting children follow an interest in electronics (the first post could not be fetched after repeated tries; this is based on later replies). The parent later said the child dislikes coding and already entered aerospace-style contests in primary school; commenters warn against framing it as “appliance repair,” which is tiring and poorly paid, and suggest aiming at theory or higher-end work. Replies are now 20 (yesterday 13); today’s last page could not be refreshed because of a guest captcha, so the summary follows previously visible posts and does not invent new replies."
+    }
+   },
+   {
+    "title": {
+     "zh": "我儿子的思维方式",
+     "en": "我儿子的思维方式"
+    },
+    "url": "https://www.newsmth.net/nForum/article/ChildEducation/2594690",
+    "author": "fuyzql",
+    "postedAt": "2026-11-04",
+    "lastReplyAt": "2026-11-18 06:39",
+    "replies": 9,
+    "summary": {
+     "zh": "版面主题列表已取到，但今日帖文页出现游客验证码，正文暂未获取到。这里只保留标题与链接，不编造摘要。",
+     "en": "The board index was retrieved, but article pages presented a guest captcha today, so the thread body could not be fetched. The title and link are kept; no summary is invented."
+    }
+   },
+   {
+    "title": {
+     "zh": "三年级孩子学习态度很差",
+     "en": "三年级孩子学习态度很差"
+    },
+    "url": "https://www.newsmth.net/nForum/article/ChildEducation/2595207",
+    "author": "jasminoides",
+    "postedAt": "2026-11-05",
+    "lastReplyAt": "2026-11-18 06:18",
+    "replies": 20,
+    "summary": {
+     "zh": "版面主题列表已取到，但今日帖文页出现游客验证码，正文暂未获取到。这里只保留标题与链接，不编造摘要。",
+     "en": "The board index was retrieved, but article pages presented a guest captcha today, so the thread body could not be fetched. The title and link are kept; no summary is invented."
+    }
+   },
+   {
+    "title": {
+     "zh": "感觉孩子的自控力很强",
+     "en": "感觉孩子的自控力很强"
+    },
+    "url": "https://www.newsmth.net/nForum/article/ChildEducation/2595678",
+    "author": "aikuihua",
+    "postedAt": "2026-11-09",
+    "lastReplyAt": "2026-11-18 05:58",
+    "replies": 11,
+    "summary": {
+     "zh": "版面主题列表已取到，但今日帖文页出现游客验证码，正文暂未获取到。这里只保留标题与链接，不编造摘要。",
+     "en": "The board index was retrieved, but article pages presented a guest captcha today, so the thread body could not be fetched. The title and link are kept; no summary is invented."
+    }
+   },
+   {
+    "title": {
+     "zh": "自媒体最近在炒作回家自学",
+     "en": "自媒体最近在炒作回家自学"
+    },
+    "url": "https://www.newsmth.net/nForum/article/ChildEducation/2595037",
+    "author": "AD007",
+    "postedAt": "2026-11-05",
+    "lastReplyAt": "2026-11-18 05:52",
+    "replies": 58,
+    "summary": {
+     "zh": "版面主题列表已取到，但今日帖文页出现游客验证码，正文暂未获取到。这里只保留标题与链接，不编造摘要。",
+     "en": "The board index was retrieved, but article pages presented a guest captcha today, so the thread body could not be fetched. The title and link are kept; no summary is invented."
+    }
+   },
+   {
+    "title": {
+     "zh": "家里有个不争气的孩子，我感觉就像",
+     "en": "家里有个不争气的孩子，我感觉就像"
+    },
+    "url": "https://www.newsmth.net/nForum/article/ChildEducation/2595667",
+    "author": "jianpeng",
+    "postedAt": "2026-11-09",
+    "lastReplyAt": "2026-11-17",
+    "replies": 32,
+    "summary": {
+     "zh": "楼主因子女不争气而非常失落，觉得坏习惯很难改，只能先修炼自己、接受现实。跟帖劝放低期望、先保证身心健康，并建议多运动；楼主仍在问如何带动孩子愿意跟自己走。",
+     "en": "The OP feels crushed by a child who will not live up to expectations, and says bad habits are hard to change, so the parent can only toughen their own mindset. Replies urge lowering the bar, protecting mental and physical health, and using sports; the OP is still asking how to get the child to come along."
+    }
+   },
+   {
+    "title": {
+     "zh": "今天开家长会了",
+     "en": "今天开家长会了"
+    },
+    "url": "https://www.newsmth.net/nForum/article/ChildEducation/2596804",
+    "author": "jianpeng",
+    "postedAt": "2026-11-13",
+    "lastReplyAt": "2026-11-17",
+    "replies": 347,
+    "summary": {
+     "zh": "楼主家长会后情绪很低落，说难受、焦虑到“天都是灰的”。跟帖有劝放平心态的，也有建议先抓数学、谨慎给手机，讨论一直持续到今天上午。今日回复已增至 347（昨日 252），末页因游客验证未能刷新，摘要依据此前可见内容，不编造新增跟帖。",
+     "en": "The original poster was despondent after a parent-teacher conference, saying they felt anxious and drained. Replies range from urging perspective to advice on focusing on math and being cautious with phones; the thread was still active this morning. Replies are now 347 (yesterday 252); today’s last page could not be refreshed because of a guest captcha, so the summary follows previously visible posts and does not invent new replies."
+    }
+   },
+   {
+    "title": {
+     "zh": "养孩子的核心是从小对孩子进行思想教育",
+     "en": "养孩子的核心是从小对孩子进行思想教育"
+    },
+    "url": "https://www.newsmth.net/nForum/article/ChildEducation/2596836",
+    "author": "springnier",
+    "postedAt": "2026-11-14",
+    "lastReplyAt": "2026-11-17",
+    "replies": 12,
+    "summary": {
+     "zh": "版面主题列表已取到，但今日帖文页出现游客验证码，正文暂未获取到。这里只保留标题与链接，不编造摘要。",
+     "en": "The board index was retrieved, but article pages presented a guest captcha today, so the thread body could not be fetched. The title and link are kept; no summary is invented."
+    }
+   },
+   {
+    "title": {
+     "zh": "[求助]初一孩子的英语怎么才能提高",
+     "en": "[求助]初一孩子的英语怎么才能提高"
+    },
+    "url": "https://www.newsmth.net/nForum/article/ChildEducation/2596713",
+    "author": "deng19822022",
+    "postedAt": "2026-11-13",
+    "lastReplyAt": "2026-11-17",
+    "replies": 91,
+    "summary": {
+     "zh": "朝阳初一家长说语数还行、英语偏弱，孩子背单词较懒，求方法和班级/老师推荐。跟帖建议不要把单词当密码硬背，可用自然拼读、新概念等办法，也有人讨论背单词 App。今日回复已增至 91（昨日 37），末页因游客验证未能刷新，摘要依据此前可见内容，不编造新增跟帖。",
+     "en": "A Chaoyang parent of a seventh-grader says Chinese and math are fine but English is weak, and the child is lazy about vocabulary, and asks for methods or local class recommendations. Replies suggest phonics rather than rote memorization, New Concept-style drills, and a few vocabulary apps. Replies are now 91 (yesterday 37); today’s last page could not be refreshed because of a guest captcha, so the summary follows previously visible posts and does not invent new replies."
+    }
+   },
+   {
+    "title": {
+     "zh": "英语学习要磨刀不误砍柴工",
+     "en": "英语学习要磨刀不误砍柴工"
+    },
+    "url": "https://www.newsmth.net/nForum/article/ChildEducation/2596100",
+    "author": "jinshuo20",
+    "postedAt": "2026-11-11",
+    "lastReplyAt": "2026-11-17",
+    "replies": 159,
+    "summary": {
+     "zh": "楼主主张小学英语应先把听力和阅读的输入量做上去，再背单词、学语法或精读。今日末页仍在争论：有人反对小学就把背单词当头等大事，也有人指出本版不少讨论以高考高分为目标，被称为“剑宗和气宗之争”。",
+     "en": "The OP argues that primary-school English should first build listening and reading input, then vocabulary, grammar, or close reading. Today’s later replies still debate this: some oppose making word lists the top priority, others note that many threads here aim at a high gaokao score, calling it a clash of schools."
+    }
+   },
+   {
+    "title": {
+     "zh": "北京现在据说很多上半天",
+     "en": "北京现在据说很多上半天"
+    },
+    "url": "https://www.newsmth.net/nForum/article/ChildEducation/2597894",
+    "author": "chouachou",
+    "postedAt": "2026-11-17",
+    "lastReplyAt": "2026-11-17",
+    "replies": 39,
+    "summary": {
+     "zh": "版面主题列表已取到，但今日帖文页出现游客验证码，正文暂未获取到。这里只保留标题与链接，不编造摘要。",
+     "en": "The board index was retrieved, but article pages presented a guest captcha today, so the thread body could not be fetched. The title and link are kept; no summary is invented."
+    }
+   },
+   {
+    "title": {
+     "zh": "超前学好吗？",
+     "en": "超前学好吗？"
+    },
+    "url": "https://www.newsmth.net/nForum/article/ChildEducation/2595777",
+    "author": "grains",
+    "postedAt": "2026-11-09",
+    "lastReplyAt": "2026-11-17",
+    "replies": 61,
+    "summary": {
+     "zh": "楼主用自家例子讨论超前学：被推着提前学完初中数学后，初三仍停在八十分上下，而孩子自己喜欢的电子制作则一直领先。跟帖分成两派，有人强调兴趣和天赋比进度更重要，也有人主张更早、更高标准地超前。",
+     "en": "The OP uses a family example: after being pushed to finish junior-high math early, the child is still around 80 in ninth grade, while self-driven electronics work stays near the top of the class. Replies split between those who say interest and aptitude matter more than pacing, and those who advocate starting even earlier with a higher bar."
+    }
+   },
+   {
+    "title": {
+     "zh": "英语1年记录一下",
+     "en": "英语1年记录一下"
+    },
+    "url": "https://www.newsmth.net/nForum/article/ChildEducation/2597673",
+    "author": "chouachou",
+    "postedAt": "2026-11-16",
+    "lastReplyAt": "2026-11-17",
+    "replies": 26,
+    "summary": {
+     "zh": "楼主回顾孩子二年级一年的英语自学：从课内听写不会，经词汇冷启动、精读和大量听读，一路摸索方法。跟帖祝贺进展，并纠正“重复若干次就能记住”“听力词汇必须大于阅读词汇”等说法。今日回复已增至 26（昨日 5），末页因游客验证未能刷新，摘要依据此前可见内容，不编造新增跟帖。",
+     "en": "The OP recaps a year of self-directed English for a second-grader, from failing in-class dictation to a cold-start vocabulary phase, close reading, and a lot of listening and reading. Replies congratulate the progress and push back on claims such as a fixed number of repetitions making a word stick, or that listening vocabulary must exceed reading vocabulary. Replies are now 26 (yesterday 5); today’s last page could not be refreshed because of a guest captcha, so the summary follows previously visible posts and does not invent new replies."
+    }
+   },
+   {
+    "title": {
+     "zh": "这样学奥数行不行",
+     "en": "这样学奥数行不行"
+    },
+    "url": "https://www.newsmth.net/nForum/article/ChildEducation/2530952",
+    "author": "xiayouqiaomu",
+    "postedAt": "2025-10-11",
+    "lastReplyAt": "2026-11-17",
+    "replies": 157,
+    "summary": {
+     "zh": "版面主题列表已取到，但今日帖文页出现游客验证码，正文暂未获取到。这里只保留标题与链接，不编造摘要。",
+     "en": "The board index was retrieved, but article pages presented a guest captcha today, so the thread body could not be fetched. The title and link are kept; no summary is invented."
+    }
+   },
+   {
+    "title": {
+     "zh": "海淀这么佛系的家长还有吗",
+     "en": "海淀这么佛系的家长还有吗"
+    },
+    "url": "https://www.newsmth.net/nForum/article/ChildEducation/2597933",
+    "author": "lynnlinda",
+    "postedAt": "2026-11-17",
+    "lastReplyAt": "2026-11-17",
+    "replies": 9,
+    "summary": {
+     "zh": "版面主题列表已取到，但今日帖文页出现游客验证码，正文暂未获取到。这里只保留标题与链接，不编造摘要。",
+     "en": "The board index was retrieved, but article pages presented a guest captcha today, so the thread body could not be fetched. The title and link are kept; no summary is invented."
+    }
+   },
+   {
+    "title": {
+     "zh": "话多的小孩儿是不是ADHD？",
+     "en": "话多的小孩儿是不是ADHD？"
+    },
+    "url": "https://www.newsmth.net/nForum/article/ChildEducation/2591688",
+    "author": "lelelele2019",
+    "postedAt": "2026-10-15",
+    "lastReplyAt": "2026-11-17",
+    "replies": 8,
+    "summary": {
+     "zh": "楼主说低年级孩子话多到嗓子沙哑，老师多次反馈上课不专注，但记忆力好、阅读时能安静，怀疑是不是多动症。跟帖提醒记忆力好往往不像典型 ADHD，是否确诊应就医，也有人担心长大后社交边界会成问题。",
+     "en": "The OP describes a lower-grade child who talks until hoarse and is often inattentive in class, yet has a strong memory and can read quietly, and wonders about ADHD. Replies note that a good memory is not typical of ADHD, suggest seeing a clinician for a real assessment, and some worry about social boundaries later on."
+    }
+   },
+   {
+    "title": {
+     "zh": "我始终下不了决心对孩子要求太严",
+     "en": "我始终下不了决心对孩子要求太严"
+    },
+    "url": "https://www.newsmth.net/nForum/article/ChildEducation/2597180",
+    "author": "fanzitao",
+    "postedAt": "2026-11-15",
+    "lastReplyAt": "2026-11-17",
+    "replies": 14,
+    "summary": {
+     "zh": "楼主对比自己当年，觉得孩子初中作息更累：六点半起床、七点一刻早读，晚上十点后才睡，因此下不了决心再加码要求。跟帖多数强调先保证睡眠和提高效率，能学成什么样算什么样，也有人认为这取决于孩子精力。今日回复已增至 14（昨日 8），末页因游客验证未能刷新，摘要依据此前可见内容，不编造新增跟帖。",
+     "en": "Comparing with their own junior-high years, the OP feels the child’s schedule is harder: up at 6:30, morning reading at 7:15, and bed after 10 p.m., so they cannot bring themselves to demand more. Most replies stress protecting sleep and working more efficiently, accepting whatever result follows; some say it depends on the child’s energy. Replies are now 14 (yesterday 8); today’s last page could not be refreshed because of a guest captcha, so the summary follows previously visible posts and does not invent new replies."
+    }
+   },
+   {
+    "title": {
+     "zh": "七年级语数英全面翻车，怎么办",
+     "en": "七年级语数英全面翻车，怎么办"
+    },
+    "url": "https://www.newsmth.net/nForum/article/ChildEducation/2595827",
+    "author": "friday123",
+    "postedAt": "2026-11-10",
+    "lastReplyAt": "2026-11-17",
+    "replies": 110,
+    "summary": {
+     "zh": "版面主题列表已取到，但今日帖文页出现游客验证码，正文暂未获取到。这里只保留标题与链接，不编造摘要。",
+     "en": "The board index was retrieved, but article pages presented a guest captcha today, so the thread body could not be fetched. The title and link are kept; no summary is invented."
+    }
+   },
+   {
+    "title": {
+     "zh": "初三家长求助：孩子偷偷下载违规软件，怎么沟通和处理",
+     "en": "A grade-9 parent asks how to handle a child secretly downloading prohibited software"
+    },
+    "url": "https://www.newsmth.net/nForum/article/ChildEducation/2596969",
+    "author": "fixding",
+    "postedAt": "2026-11-14",
+    "lastReplyAt": "2026-11-17",
+    "replies": 200,
+    "summary": {
+     "zh": "初三家长给孩子设了手机管控后，发现孩子另用旧手机下载了违规软件，已沟通并征求怎么处理。跟帖多数认为不必过度上纲，更应把重点放在沟通、边界和青春期教育上。",
+     "en": "After setting phone restrictions, a parent of a ninth-grader found the child using an old phone to download prohibited software, and asks how to handle it. Most replies counsel against overreacting and emphasize communication, boundaries, and ordinary adolescent education."
+    }
+   },
+   {
+    "title": {
+     "zh": "我来给0基础入学、平时没人辅导的海淀娃打打气吧",
+     "en": "我来给0基础入学、平时没人辅导的海淀娃打打气吧"
+    },
+    "url": "https://www.newsmth.net/nForum/article/ChildEducation/2341369",
+    "author": "Errica",
+    "postedAt": "2024-01-19",
+    "lastReplyAt": "2026-11-17",
+    "replies": 63,
+    "summary": {
+     "zh": "版面主题列表已取到，但今日帖文页出现游客验证码，正文暂未获取到。这里只保留标题与链接，不编造摘要。",
+     "en": "The board index was retrieved, but article pages presented a guest captcha today, so the thread body could not be fetched. The title and link are kept; no summary is invented."
+    }
+   },
+   {
+    "title": {
+     "zh": "整理错题什么app好用？",
+     "en": "整理错题什么app好用？"
+    },
+    "url": "https://www.newsmth.net/nForum/article/ChildEducation/2597326",
+    "author": "cn62",
+    "postedAt": "2026-11-15",
+    "lastReplyAt": "2026-11-17",
+    "replies": 19,
+    "summary": {
+     "zh": "楼主求识别、复原效果好、好整理的错题 App。跟帖有人推荐试卷宝、超级错题本，也有人担心伤视力，主张用最原始的办法、尽量让孩子自己整理。今日回复已增至 19（昨日 13），末页因游客验证未能刷新，摘要依据此前可见内容，不编造新增跟帖。",
+     "en": "The OP asks for an error-notebook app with reliable recognition and easy organization. Some recommend specific apps, while others worry about eye strain and prefer analog methods, ideally with the student doing the organizing. Replies are now 19 (yesterday 13); today’s last page could not be refreshed because of a guest captcha, so the summary follows previously visible posts and does not invent new replies."
+    }
+   },
+   {
+    "title": {
+     "zh": "如果不分班，学霸就不能是学霸了？",
+     "en": "如果不分班，学霸就不能是学霸了？"
+    },
+    "url": "https://www.newsmth.net/nForum/article/ChildEducation/2521881",
+    "author": "bom",
+    "postedAt": "2025-08-31",
+    "lastReplyAt": "2026-11-17",
+    "replies": 41,
+    "summary": {
+     "zh": "旧帖今日又被顶起。楼主认为平行分班并不会让学霸消失，分班更多是固化优势、加剧内卷。跟帖补充班风和纪律往往比单纯按成绩分班更影响发挥，也有人认为分层教学对基础薄弱的学生有用。",
+     "en": "This older thread was bumped again today. The OP says mixed classes do not stop high achievers from excelling, and tracking mostly hardens early advantages. Replies add that classroom climate and discipline often matter more than score-based tracking, though some argue grouped teaching can help weaker students."
+    }
+   },
+   {
+    "title": {
+     "zh": "目前二年级，怎么练英语口语？担心跟爸妈一样，虽然6级都过了，",
+     "en": "目前二年级，怎么练英语口语？担心跟爸妈一样，虽然6级都过了，"
+    },
+    "url": "https://www.newsmth.net/nForum/article/ChildEducation/2547730",
+    "author": "chouachou",
+    "postedAt": "2025-12-18",
+    "lastReplyAt": "2026-11-16",
+    "replies": 98,
+    "summary": {
+     "zh": "楼主孩子二年级，读写和词汇已有基础，想练口语，担心以后像父母一样过了六级却开不了口。旧帖今日又有人求口语 App，也有人愿意提供绘本/口语测试账号。",
+     "en": "The OP’s second-grader already has some reading, writing, and vocabulary, and the parent wants to build speaking so the child does not end up like CET-6 passers who still cannot talk. The older thread was bumped today with requests for speaking apps and an offer of a test account."
+    }
+   }
+  ]
+ },
+ "todos": [
+  {
+   "text": {
+    "zh": "今日重心（周三去敏）：工作日继续推进生产与架构事项，重点包括主要功能迁移情况梳理（含声纹相关）并准备整体汇报，同时继续知识库文档迁移与分享倡议，以及按季度审视供应商管理风险。学习侧继续技术文章阅读，并安排安全架构课（信任边界）、harness 工程与 RSI/DDD，以及 pstack 方向的研究；实体硬件上的语音问答按计划推进。通识课仍在进行中。",
+    "en": "Wednesday focus (sanitized): on the work side, continue production and architecture items, especially a review of major feature migration (including voiceprint-related work) and a planned overall briefing, along with the knowledge-base document migration and sharing effort, and a quarterly look at vendor-management risk. On the learning side, keep up with technical reading, and schedule the security-architecture lesson on trust boundaries, harness engineering and RSI/DDD, plus pstack study; hardware voice-QA work continues as planned. The general-education course is still in progress."
+   },
+   "priority": "high"
+  }
+ ]
+}
