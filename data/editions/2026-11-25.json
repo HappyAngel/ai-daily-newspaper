@@ -1592,7 +1592,7 @@
         "zh": "今日重心（周三去敏）：工作上继续推进生产架构拆解与上线规划，重点是技术方案评审和后续任务跟进，并处理服务端 2027 OKR 的拆解对齐。下午还有主要功能迁移情况梳理，包括整体汇报和声纹相关工作，同时继续流式语音识别接入。学习上继续技术文章阅读和 pstack。通识课（万维钢思考工具）仍在进行。",
         "en": "Wednesday focus (sanitized): on the work side, continue breaking down the production architecture and launch plan, with emphasis on reviewing a technical proposal and following remaining tasks, and align the 2027 server-side OKR breakdown. There is also an afternoon recap of major feature migration, including an overall readout and voiceprint-related work, plus continued work on streaming speech recognition. On the learning side, continue the technical-article reading and pstack. The general-education course (Wan Weigang’s thinking tools) is still in progress."
       },
-      "priority": 5
+      "priority": "high"
     }
   ]
 }
