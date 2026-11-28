@@ -1,0 +1,1421 @@
+{
+  "date": "2026-11-28",
+  "weather": {
+    "city": {
+      "zh": "北京",
+      "en": "Beijing"
+    },
+    "condition": {
+      "zh": "晴（08:28 实况晴；今日白天晴、夜间晴）",
+      "en": "Sunny at 08:28; sunny by day, clear at night"
+    },
+    "icon": "sunny",
+    "temp": "-1 ~ 11°C",
+    "feels": "体感 0.4°C（08:28 实况 4.0°C）；今日体感约 -3.3~7.0°C",
+    "humidity": "31%",
+    "wind": {
+      "zh": "实况北风 18.0 km/h，风力 3 级，阵风 18.0 km/h；今日西北风，日最大阵风 38.9 km/h（阵风 5 级，14 时前后），无大风预警。",
+      "en": "Northerly 18.0 km/h now, force 3, gusts 18.0 km/h; northwesterly today with day-max gusts of 38.9 km/h (gust force 5, around 14:00); no gale warning."
+    },
+    "air": {
+      "zh": "08:00 中国 AQI 13（优），PM2.5 2、PM10 5，O3 41、NO2 9、SO2 3，未标注主要污染物。未来几天仅有空气质量类别、暂无数值型 AQI/PM 分时预报：周日至周三为「良」，周四、周五为「优」。",
+      "en": "At 08:00, China AQI 13 (Good/优), PM2.5 2, PM10 5, O3 41, NO2 9, SO2 3, no primary pollutant listed. Later days only have an air-quality category, not numeric AQI/PM by time of day: Sunday through Wednesday are Moderate/良, Thursday and Friday are Good/优."
+    },
+    "sunrise": "07:13",
+    "sunset": "16:51",
+    "tip": {
+      "zh": "🏠 今日北京 08:28 实况为晴，气温 4.0°C、体感 0.4°C，湿度 31%，北风 18.0 km/h（风力 3 级），阵风 18.0 km/h，紫外线很弱（UV 2），能见度 30.0 km，无降水，无气象预警。今天预报白天晴、夜间晴，-1~11°C（体感约 -3.3~7.0°C），降水概率 0%，日照 9.6 小时；日出 07:13，日落 16:51。风以西北风为主，逐时阵风 09–10 时约 24–26 km/h（4 级），11 时起升到 5 级（约 30–39 km/h），14 时最大 38.9 km/h，傍晚回落到 4 级，夜里 3 级以下。（注：实况接口的文字等级「5-6级」与 18 km/h 的数值不符，这里按风速数值和 3 级折算为准；逐日平均风速多日都是 3.2 km/h，视为异常，不采用，大风以阵风判断。）数据来源：中国天气/华风爱科。\n💨 空气优：08:00 中国 AQI 13，PM2.5 2、PM10 5，O3 41、NO2 9、SO2 3，未标注主要污染物，适合户外。未来几天仅有空气质量类别（无数值型 AQI/PM 分时预报）：周日至周三为「良」，周四、周五为「优」。\n🏃 训练：今天周六无训练安排，天气晴朗、空气优，只是午后阵风 5 级，户外活动注意防风。下周训练点名：周一（11/30）早健身日，白天最高 15°C，但阵风 48.2 km/h（6 级），出门路上要防大风；周二（12/01）是冬季中午跑日，晴，-1~11°C，降水概率 1%，阵风 22.2 km/h（4 级），空气良，条件不错；周四（12/03）、周五（12/04）二选一跑：周四阴，-1~6°C，降水概率 23%；周五阴转多云，-3~2°C，降水概率 20%，周五同时是早健身日，气温更低、最高仅 2°C，若选周四需带伞或看实况再定。\n📅 未来7天：\n• 周六 11/28：晴，-1~11°C，西北风，阵风 38.9 km/h（5 级），降水 0%，空气优；今天无训练\n• 周日 11/29：晴，-1~10°C，阵风 14.8 km/h（3 级），降水 1%，空气良\n• 周一 11/30：晴，1~15°C（明显回暖），阵风 48.2 km/h（6 级，需提醒），降水 0%，空气良；早健身日，注意防风\n• 周二 12/01：晴，-1~11°C，阵风 22.2 km/h（4 级），降水 1%，空气良；冬季中午跑日，条件较好\n• 周三 12/02：多云，0~9°C，阵风 14.8 km/h（3 级），降水 2%，空气良\n• 周四 12/03：阴，-1~6°C（明显降温），阵风 14.8 km/h（3 级），降水 23%，空气优；可选跑日，有一定降水概率\n• 周五 12/04：阴转多云，-3~2°C（最高仅 2°C，较周一高温低 13°C），阵风 14.8 km/h（3 级），降水 20%，空气优；早健身日，也是可选跑日，气温偏低",
+      "en": "🏠 Beijing at 08:28 is sunny, 4.0°C (feels like 0.4°C), humidity 31%, north wind 18.0 km/h (force 3), gusts 18.0 km/h, UV very weak (2), visibility 30.0 km, no precipitation and no weather warning. Today: sunny by day and clear at night, -1 to 11°C (feels like about -3.3 to 7.0°C), 0% precipitation, 9.6 hours of sun; sunrise 07:13, sunset 16:51. Winds are mostly northwesterly; hourly gusts are about 24–26 km/h (force 4) at 09–10, rise to force 5 (about 30–39 km/h) from 11, peak at 38.9 km/h at 14:00, ease to force 4 by evening and below force 3 overnight. (Note: the live-observation text says “force 5–6”, which does not match 18 km/h; the numeric speed and force 3 are used. Daily mean wind is 3.2 km/h on many days, treated as anomalous and not used; strong wind is judged by gusts.) Source: China Weather / Huafeng Aike (中国天气/华风爱科).\n💨 Air is Good: at 08:00 China AQI 13, PM2.5 2, PM10 5, O3 41, NO2 9, SO2 3, no primary pollutant; fine for outdoor activity. Later days only have an air-quality category (no numeric AQI/PM by hour): Sunday through Wednesday are Moderate (良), Thursday and Friday are Good (优).\n🏃 Training: no session today (Saturday); it is sunny with good air, but afternoon gusts reach force 5, so dress for wind outdoors. Next week: Monday (11/30) is a morning-gym day, high 15°C but gusts of 48.2 km/h (force 6), so watch the wind on the way; Tuesday (12/01) is the winter midday run, sunny, -1 to 11°C, 1% precipitation, gusts 22.2 km/h (force 4), air Moderate, good conditions; for the Thursday (12/03) or Friday (12/04) run: Thursday is overcast, -1 to 6°C, 23% precipitation; Friday is overcast turning cloudy, -3 to 2°C, 20% precipitation, and is also a morning-gym day, colder with a high of only 2°C, so if you pick Thursday bring an umbrella or check live conditions.\n📅 Next 7 days:\n• Sat 11/28: sunny, -1 to 11°C, northwesterly, gusts 38.9 km/h (force 5), 0% precipitation, air Good; no training today\n• Sun 11/29: sunny, -1 to 10°C, gusts 14.8 km/h (force 3), 1% precipitation, air Moderate\n• Mon 11/30: sunny, 1 to 15°C (clearly warmer), gusts 48.2 km/h (force 6, flagged), 0% precipitation, air Moderate; morning-gym day, watch the wind\n• Tue 12/01: sunny, -1 to 11°C, gusts 22.2 km/h (force 4), 1% precipitation, air Moderate; winter midday run day, good conditions\n• Wed 12/02: cloudy, 0 to 9°C, gusts 14.8 km/h (force 3), 2% precipitation, air Moderate\n• Thu 12/03: overcast, -1 to 6°C (clear cool-down), gusts 14.8 km/h (force 3), 23% precipitation, air Good; optional run day, some chance of precipitation\n• Fri 12/04: overcast turning cloudy, -3 to 2°C (high only 2°C, 13°C below Monday’s high), gusts 14.8 km/h (force 3), 20% precipitation, air Good; morning-gym day and an optional run day, cold"
+    }
+  },
+  "aiTech": {
+    "openingSummary": {
+      "zh": {
+        "greeting": "小熊早上好！",
+        "lead": "周六清晨，盯的 X 账号自昨日早报以来没有新帖，今天的新动静主要在代码仓库和港股。",
+        "important": {
+          "title": "重要消息",
+          "items": [
+            "OpenClaw 11 月 28 日 08:21（北京时间）发布 v2026.12.1-beta.1 预发布：更新时不停止运行中的 Gateway，压缩复用热提示缓存，新增 Agent 模板分享与 Session Share。",
+            "小米集团（01810.HK）周五收盘 27.80 港元，上涨 4.51%，成交约 49.75 亿港元；周六休市，以周五收盘为准。",
+            "CursorBench 4.1 较昨日无更新：官方得分榜首仍是 Gemini 4 Neon Extra High（65.4%），性价比榜首仍是 Haiku 5.5 Low。",
+            "下周一（11/30）早健身日阵风 6 级（48.2 km/h）；周五最高仅 2°C。"
+          ]
+        },
+        "sections": [
+          {
+            "title": "智能体与 Claude",
+            "body": "Anthropic 官网新闻自 11 月 20 日 IPO 交割公告后没有新条目，产品线仍以 11 月 9 日的 Claude Fable 5.2 / Mythos 5.2 为准；工程博客最新仍是 11 月 25 日把 Messages API 迁到 Rust 的文章。Codex 稳定版仍是 0.172.0，实验线推进到 0.174.0-alpha.9；DeepSeek Harness 无新标签。"
+          },
+          {
+            "title": "模型与榜单",
+            "body": "CursorBench 4.1 的 53 个配置与昨日一致。官方得分前三是 Gemini 4 Neon Extra High、Gemini 4 Neon High 和 Gemini 4 Carbon High；按得分÷成本，Haiku 5.5 Low（27.8%，$0.08）约 347.5 分/$ 居首，Haiku 5.5 家族占据性价比头部。"
+          }
+        ]
+      },
+      "en": {
+        "greeting": "Good morning!",
+        "lead": "It is early Saturday and none of the X accounts we track has posted since yesterday’s briefing; today’s news is mostly in code repositories and the Hong Kong stock.",
+        "important": {
+          "title": "Highlights",
+          "items": [
+            "OpenClaw published the v2026.12.1-beta.1 pre-release at 08:21 Beijing time on November 28: updates that do not stop a running Gateway, compaction that reuses the warm prompt cache, and new agent-template sharing and Session Share.",
+            "Xiaomi (01810.HK) closed Friday at HK$27.80, up 4.51%, on about HK$4.975 billion turnover; the market is closed Saturday, so Friday’s close is used.",
+            "CursorBench 4.1 is unchanged versus yesterday: Gemini 4 Neon Extra High still leads on official score (65.4%) and Haiku 5.5 Low still leads on value.",
+            "Monday’s (11/30) morning-gym day has force-6 gusts (48.2 km/h); Friday’s high is only 2°C."
+          ]
+        },
+        "sections": [
+          {
+            "title": "Agents and Claude",
+            "body": "Anthropic’s newsroom has no new entry since the November 20 IPO-closing notice, so the product line is still Claude Fable 5.2 / Mythos 5.2 from November 9; the latest engineering post is still the November 25 piece on migrating the Messages API to Rust. Codex stable is still 0.172.0 with the experimental line at 0.174.0-alpha.9; DeepSeek Harness has no new tag."
+          },
+          {
+            "title": "Models and leaderboards",
+            "body": "All 53 CursorBench 4.1 configurations match yesterday. The top three by official score are Gemini 4 Neon Extra High, Gemini 4 Neon High and Gemini 4 Carbon High; by score divided by cost, Haiku 5.5 Low (27.8%, $0.08) leads at about 347.5 points per dollar, and the Haiku 5.5 family holds the top of the value table."
+          }
+        ]
+      }
+    },
+    "weeklyTrend": null,
+    "xPosts": [],
+    "engBlogs": [],
+    "alphaxivTop3": [
+      {
+        "title": {
+          "zh": "从零光锥出发的引力代数量子化",
+          "en": "An algebraic quantization of gravity from the null cone"
+        },
+        "summary": {
+          "zh": "alphaXiv 首页最前的一篇偏理论物理的论文，作者 Venkatesa Chandrasekaran（Stanford），首页标注约 5,000 次浏览。论文提出对四维洛伦兹时空真空广义相对论的背景无关量子化：在零光锥上解出引力约束，构造有限 G_N 下的约化相空间和可观测量代数，并在此基础上得到每一步求和都绝对收敛的洛伦兹路径积分，给出引力子对产生湮灭振幅的有限闭式。与智能体关系不大，列入只因为它是首页热度最高。摘要依据 arXiv 公开摘要。",
+          "en": "First on the alphaXiv homepage and a theoretical-physics paper by Venkatesa Chandrasekaran (Stanford), with about 5,000 views listed. It proposes a background-independent quantization of vacuum general relativity on four-dimensional Lorentzian spacetimes: solve the gravitational constraints on null cones, build the reduced phase space and an algebra of observables at finite G_N, and obtain a Lorentzian path integral in which every sum over intermediate states converges absolutely, with a finite closed-form amplitude for graviton pair creation and annihilation. It has little to do with agents; it is listed only because it is the most-viewed on the homepage. Based on the public arXiv abstract."
+        },
+        "link": "https://www.alphaxiv.org/abs/2611.34924",
+        "images": []
+      },
+      {
+        "title": {
+          "zh": "Mixture-of-Loops Transformer（循环混合 Transformer）",
+          "en": "Mixture-of-Loops Transformer"
+        },
+        "summary": {
+          "zh": "字节 Seed 与多伦多大学的论文，作者含 Lianghui Zhu、Shijie Wang、Xinggang Wang，首页标注约 963 次浏览。循环 Transformer 复用共享层以增强表达力但损失效率；这篇提出用 KV 作为跨深度、跨循环的选择性复用记忆（MoLA），并给出 U 形变体，让每个生成 token 只需一次遍历，延迟与标准 Transformer 相当。摘要称在 400B token 预训练中，U-MoLT 在 700M/1.5B 稠密和 3B MoE 模型上都优于 OLMo3。摘要依据 arXiv 公开摘要，未补充其他数字。",
+          "en": "A ByteDance Seed and University of Toronto paper whose authors include Lianghui Zhu, Shijie Wang and Xinggang Wang, with about 963 views listed. Looped Transformers reuse shared layers for expressivity at the cost of efficiency; this paper uses KV as selectively reused memory across depths and loops (MoLA) and adds a U-shaped variant so each generated token needs one traversal, matching a standard Transformer’s latency. The abstract says U-MoLT outperforms OLMo3 across 700M/1.5B dense and 3B MoE models in 400B-token pretraining. Based on the public arXiv abstract; no other figures added."
+        },
+        "link": "https://www.alphaxiv.org/abs/2611.34923",
+        "images": []
+      },
+      {
+        "title": {
+          "zh": "递归的集体智能：同等预算梯子上的多智能体涌现",
+          "en": "Recursive Collective Intelligence: Emergence on an Equal-Budget Ladder in Multi-Agent LLM Systems"
+        },
+        "summary": {
+          "zh": "上期已覆盖的多智能体论文，今天排在首页第三，作者含 Lixuan He、Shengqu Cai 和李飞飞，约 2,000 次浏览。论文用「同等预算梯子」在对齐计算量的条件下，衡量群体互动是否强于单个智能体、多数投票和 pass@n，以及群体能否用自己已验证的工作改进下一代；首页简介强调，当智能体共享彼此没有的事实时，能解决独立采样解决不了的问题。摘要依据首页介绍，未编造实验数字。",
+          "en": "The multi-agent paper covered last time, now third on the homepage; the authors include Lixuan He, Shengqu Cai and Li Fei-Fei, with about 2,000 views. It uses an equal-budget ladder, with compute aligned, to test whether group interaction beats a single agent, majority vote and pass@n, and whether a group can improve its next generation from its own verified work; the homepage blurb stresses that agents sharing facts the others lack can solve problems beyond independent sampling. Based on the homepage blurb; no experimental figures invented."
+        },
+        "link": "https://www.alphaxiv.org/abs/2611.32606",
+        "images": []
+      }
+    ]
+  },
+  "aiProducts": {
+    "items": [
+      {
+        "name": "Hermes Agent",
+        "tag": "update",
+        "link": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.23.4",
+        "summary": {
+          "zh": "较昨日无更新：稳定版仍是 11 月 24 日的 v0.23.4，最新 canary 仍是 11 月 25 日的 canary.20261125T064800Z-v0.23.4，未见新的 canary 或稳定版。",
+          "en": "No update versus yesterday: stable is still v0.23.4 from November 24, and the latest canary is still canary.20261125T064800Z-v0.23.4 from November 25; no newer canary or stable release."
+        }
+      },
+      {
+        "name": "OpenClaw",
+        "tag": "update",
+        "link": "https://github.com/openclaw/openclaw/releases/tag/v2026.12.1-beta.1",
+        "summary": {
+          "zh": "11 月 28 日 08:21（北京时间）发布 v2026.12.1-beta.1 预发布。亮点：Git 安装用准备好的发行版和常驻启动器，包更新时不停止运行中的 Gateway；压缩跨路由复用热提示缓存，自动压缩在上下文窗口 85% 时触发；可从 Agent 菜单分享模板、在聊天卡片里管理计划中的自动化；Session Share 通过出站 WSS 拉取被授权共享的会话；Gateway 共享核心 worker 代码并按内存预算放行 worker，缓解小机器内存压力；ClawHub 技能目录支持分类浏览和搜索。同时新增 Cloudflare Access JWT 校验（可选）、Slack 知识读取、`/codex review` 指定分支或提交，并把内置 Codex app-server 更新到 0.172.0。最新稳定功能版仍是 11 月 25 日的 v2026.11.10，11 月 26 日的 v2026.10.34 为 Gateway 扩展稳定补丁线。",
+          "en": "v2026.12.1-beta.1 was published as a pre-release at 08:21 Beijing time on November 28. Highlights: Git installs use prepared releases and a resident launcher, and package updates prepare without stopping the serving Gateway; compaction reuses the warm prompt cache across routes, with automatic compaction at 85% of the context window; agents can be shared as templates from their menu and planned automations managed from chat cards; Session Share pulls authorized shared sessions over outbound WSS; Gateways share core worker code and admit workers within a memory budget to ease small-machine memory pressure; the ClawHub skill catalog can be browsed and searched by category. It also adds opt-in Cloudflare Access JWT verification, Slack reading through Knowledge, `/codex review` for a branch or commit, and updates the bundled Codex app-server to 0.172.0. The latest stable feature release is still v2026.11.10 from November 25; v2026.10.34 on November 26 is the Gateway-only extended-stable patch line."
+        }
+      },
+      {
+        "name": "DeepSeek Harness",
+        "tag": "update",
+        "link": "https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.2.3-alpha.2",
+        "summary": {
+          "zh": "较昨日无新发行标签，最近一条仍是 11 月 22 日的 dsh-v0.2.3-alpha.2。",
+          "en": "No new release tag versus yesterday; the most recent is still dsh-v0.2.3-alpha.2 from November 22."
+        }
+      },
+      {
+        "name": "codex",
+        "tag": "update",
+        "link": "https://github.com/openai/codex/releases/tag/rust-v0.174.0-alpha.9",
+        "summary": {
+          "zh": "稳定版仍是 11 月 24 日的 0.172.0。实验线在 11 月 28 日 00:56（北京时间；UTC 11 月 27 日 16:56）推进到 0.174.0-alpha.9，发行说明只有版本号，没有功能列表，故不编造。",
+          "en": "Stable is still 0.172.0 from November 24. The experimental line moved to 0.174.0-alpha.9 at 00:56 Beijing time on November 28 (16:56 UTC on November 27); the release notes are version-only with no feature list, so none is invented."
+        }
+      },
+      {
+        "name": "Claude",
+        "tag": "update",
+        "link": "https://www.anthropic.com/news",
+        "summary": {
+          "zh": "Anthropic 官网新闻自 11 月 20 日 IPO 交割公告之后没有新条目；最近一次产品级发布是 11 月 9 日的 Claude Fable 5.2 与 Mythos 5.2。工程博客最新是 11 月 25 日「Migrating our Messages API to Rust」；Claude Platform 发布说明最新条目为 11 月 23 日，修复了 Enterprise Analytics API 中网页搜索计数偏低的问题。",
+          "en": "Anthropic’s newsroom has no new entry since the November 20 IPO-closing notice; the most recent product-level release is Claude Fable 5.2 and Mythos 5.2 on November 9. The latest engineering post is “Migrating our Messages API to Rust” on November 25; the newest Claude Platform release note, on November 23, fixes an undercount of web searches in the Enterprise Analytics API."
+        }
+      },
+      {
+        "name": "Cursor",
+        "tag": "update",
+        "link": "https://cursor.com/changelog",
+        "summary": {
+          "zh": "官方 changelog 最新仍是 11 月 6 日的「Voice Chat with Agents」（基于 Grok Voice 的实时语音对话），此后无新条目。CursorBench 4.1 较昨日无更新。",
+          "en": "The official changelog’s latest is still “Voice Chat with Agents” on November 6 (realtime voice calls powered by Grok Voice), with no entries since. CursorBench 4.1 is unchanged versus yesterday."
+        }
+      },
+      {
+        "name": "Grok Bot",
+        "tag": "update",
+        "link": "https://x.ai/changelog/bot",
+        "summary": {
+          "zh": "官方 changelog 的 Latest 仍为 11 月 24 日的 v1.3.0（「Smarter Slack Bots, restock alerts, org controls」），与昨日一致，没有更新的正式条目。",
+          "en": "The official changelog’s Latest is still v1.3.0 from November 24 (“Smarter Slack Bots, restock alerts, org controls”), unchanged versus yesterday, with no newer official entry."
+        }
+      }
+    ]
+  },
+  "models": {
+    "cursorBench": {
+      "source": "https://cursor.com/cursorbench",
+      "asOf": "2026-11-28",
+      "version": "4.1",
+      "changeKind": "unchanged",
+      "changeSummary": {
+        "zh": "较昨日无更新",
+        "en": "Unchanged versus yesterday"
+      },
+      "summary": {
+        "zh": "CursorBench 4.1 较昨日无更新。按得分÷单任务成本，性价比最高的仍是 Haiku 5.5 Low（27.8% / $0.08，约 347.5 分/$），随后是 Haiku 5.5 Medium（34.2% / $0.17）和 Haiku 5.5 High（37.5% / $0.31）。在分数更高的区间，Gemini 4 Neon Medium 等配置仍有更好的性价比平衡；官方得分头部仍是 Gemini 4 Neon Extra High（65.4%），随后是 Gemini 4 Neon High（63.7%）和 Gemini 4 Carbon High（61.5%）。完整 53 个配置与昨日快照一致，分数不可与 CursorBench 4.0 直接对比。",
+        "en": "CursorBench 4.1 is unchanged versus yesterday. By score divided by cost per task, Haiku 5.5 Low still leads on value (27.8% / $0.08, about 347.5 points/$), followed by Haiku 5.5 Medium (34.2% / $0.17) and Haiku 5.5 High (37.5% / $0.31). In a higher-score band, configurations such as Gemini 4 Neon Medium still offer a better value balance; the official-score lead remains Gemini 4 Neon Extra High (65.4%), then Gemini 4 Neon High (63.7%) and Gemini 4 Carbon High (61.5%). All 53 configurations match yesterday's snapshot. Scores are not directly comparable with CursorBench 4.0."
+      },
+      "leaderboard": [
+        {
+          "rank": 1,
+          "officialRank": 49,
+          "model": "Haiku 5.5 Low",
+          "score": 27.8,
+          "cost": 0.08,
+          "tokens": 23673,
+          "steps": 27,
+          "value": 347.5
+        },
+        {
+          "rank": 2,
+          "officialRank": 41,
+          "model": "Haiku 5.5 Medium",
+          "score": 34.2,
+          "cost": 0.17,
+          "tokens": 43441,
+          "steps": 41,
+          "value": 201.18
+        },
+        {
+          "rank": 3,
+          "officialRank": 37,
+          "model": "Haiku 5.5 High",
+          "score": 37.5,
+          "cost": 0.31,
+          "tokens": 77196,
+          "steps": 61,
+          "value": 120.97
+        },
+        {
+          "rank": 4,
+          "officialRank": 51,
+          "model": "Gemini 4 Hydrogen Low",
+          "score": 23.9,
+          "cost": 0.28,
+          "tokens": 10497,
+          "steps": 22,
+          "value": 85.36
+        },
+        {
+          "rank": 5,
+          "officialRank": 28,
+          "model": "Haiku 5.5 Extra High",
+          "score": 45.2,
+          "cost": 0.56,
+          "tokens": 149314,
+          "steps": 94,
+          "value": 80.71
+        },
+        {
+          "rank": 6,
+          "officialRank": 45,
+          "model": "Sonnet 5.5 Low",
+          "score": 31.8,
+          "cost": 0.44,
+          "tokens": 13798,
+          "steps": 21,
+          "value": 72.27
+        },
+        {
+          "rank": 7,
+          "officialRank": 40,
+          "model": "Sonnet 5.5 Medium",
+          "score": 34.3,
+          "cost": 0.63,
+          "tokens": 19144,
+          "steps": 26,
+          "value": 54.44
+        },
+        {
+          "rank": 8,
+          "officialRank": 23,
+          "model": "Haiku 5.5 Max",
+          "score": 48.4,
+          "cost": 1.14,
+          "tokens": 344890,
+          "steps": 166,
+          "value": 42.46
+        },
+        {
+          "rank": 9,
+          "officialRank": 25,
+          "model": "Gemini 4 Hydrogen Medium",
+          "score": 46.4,
+          "cost": 1.28,
+          "tokens": 43606,
+          "steps": 45,
+          "value": 36.25
+        },
+        {
+          "rank": 10,
+          "officialRank": 27,
+          "model": "Gemini 4 Neon Low",
+          "score": 45.5,
+          "cost": 1.26,
+          "tokens": 19580,
+          "steps": 26,
+          "value": 36.11
+        }
+      ],
+      "officialLeaderboard": [
+        {
+          "rank": 1,
+          "model": "Gemini 4 Neon Extra High",
+          "score": 65.4,
+          "cost": 10.67,
+          "tokens": 136273,
+          "steps": 73,
+          "value": 6.13
+        },
+        {
+          "rank": 2,
+          "model": "Gemini 4 Neon High",
+          "score": 63.7,
+          "cost": 6.54,
+          "tokens": 88596,
+          "steps": 56,
+          "value": 9.74
+        },
+        {
+          "rank": 3,
+          "model": "Gemini 4 Carbon High",
+          "score": 61.5,
+          "cost": 8.52,
+          "tokens": 114518,
+          "steps": 97,
+          "value": 7.22
+        },
+        {
+          "rank": 4,
+          "model": "Gemini 4 Hydrogen Extra High",
+          "score": 61.4,
+          "cost": 8.09,
+          "tokens": 205981,
+          "steps": 113,
+          "value": 7.59
+        },
+        {
+          "rank": 5,
+          "model": "Fable 5.2 Max",
+          "score": 61.3,
+          "cost": 48.11,
+          "tokens": 541003,
+          "steps": 295,
+          "value": 1.27
+        },
+        {
+          "rank": 6,
+          "model": "Gemini 4 Carbon Medium",
+          "score": 60.4,
+          "cost": 7.22,
+          "tokens": 103189,
+          "steps": 83,
+          "value": 8.37
+        },
+        {
+          "rank": 7,
+          "model": "Fable 5.2 Extra High",
+          "score": 58.8,
+          "cost": 17.84,
+          "tokens": 194918,
+          "steps": 122,
+          "value": 3.3
+        },
+        {
+          "rank": 8,
+          "model": "Opus 5.5 Max",
+          "score": 58.1,
+          "cost": 11.88,
+          "tokens": 213070,
+          "steps": 144,
+          "value": 4.89
+        },
+        {
+          "rank": 9,
+          "model": "Gemini 4 Neon Medium",
+          "score": 57.7,
+          "cost": 3.07,
+          "tokens": 47059,
+          "steps": 41,
+          "value": 18.79
+        },
+        {
+          "rank": 10,
+          "model": "Gemini 4 Hydrogen High",
+          "score": 57.3,
+          "cost": 4.57,
+          "tokens": 113807,
+          "steps": 77,
+          "value": 12.54
+        }
+      ],
+      "snapshot": [
+        {
+          "rank": 1,
+          "officialRank": 1,
+          "model": "Gemini 4 Neon Extra High",
+          "score": 65.4,
+          "cost": 10.67,
+          "tokens": 136273,
+          "steps": 73,
+          "value": 6.13
+        },
+        {
+          "rank": 2,
+          "officialRank": 2,
+          "model": "Gemini 4 Neon High",
+          "score": 63.7,
+          "cost": 6.54,
+          "tokens": 88596,
+          "steps": 56,
+          "value": 9.74
+        },
+        {
+          "rank": 3,
+          "officialRank": 3,
+          "model": "Gemini 4 Carbon High",
+          "score": 61.5,
+          "cost": 8.52,
+          "tokens": 114518,
+          "steps": 97,
+          "value": 7.22
+        },
+        {
+          "rank": 4,
+          "officialRank": 4,
+          "model": "Gemini 4 Hydrogen Extra High",
+          "score": 61.4,
+          "cost": 8.09,
+          "tokens": 205981,
+          "steps": 113,
+          "value": 7.59
+        },
+        {
+          "rank": 5,
+          "officialRank": 5,
+          "model": "Fable 5.2 Max",
+          "score": 61.3,
+          "cost": 48.11,
+          "tokens": 541003,
+          "steps": 295,
+          "value": 1.27
+        },
+        {
+          "rank": 6,
+          "officialRank": 6,
+          "model": "Gemini 4 Carbon Medium",
+          "score": 60.4,
+          "cost": 7.22,
+          "tokens": 103189,
+          "steps": 83,
+          "value": 8.37
+        },
+        {
+          "rank": 7,
+          "officialRank": 7,
+          "model": "Fable 5.2 Extra High",
+          "score": 58.8,
+          "cost": 17.84,
+          "tokens": 194918,
+          "steps": 122,
+          "value": 3.3
+        },
+        {
+          "rank": 8,
+          "officialRank": 8,
+          "model": "Opus 5.5 Max",
+          "score": 58.1,
+          "cost": 11.88,
+          "tokens": 213070,
+          "steps": 144,
+          "value": 4.89
+        },
+        {
+          "rank": 9,
+          "officialRank": 9,
+          "model": "Gemini 4 Neon Medium",
+          "score": 57.7,
+          "cost": 3.07,
+          "tokens": 47059,
+          "steps": 41,
+          "value": 18.79
+        },
+        {
+          "rank": 10,
+          "officialRank": 10,
+          "model": "Gemini 4 Hydrogen High",
+          "score": 57.3,
+          "cost": 4.57,
+          "tokens": 113807,
+          "steps": 77,
+          "value": 12.54
+        },
+        {
+          "rank": 11,
+          "officialRank": 11,
+          "model": "Opus 5.5 Extra High",
+          "score": 56.7,
+          "cost": 6.54,
+          "tokens": 104901,
+          "steps": 95,
+          "value": 8.67
+        },
+        {
+          "rank": 12,
+          "officialRank": 12,
+          "model": "Fable 5.2 High",
+          "score": 56.5,
+          "cost": 10.51,
+          "tokens": 108213,
+          "steps": 77,
+          "value": 5.38
+        },
+        {
+          "rank": 13,
+          "officialRank": 13,
+          "model": "Gemini 4 Argon High",
+          "score": 56.5,
+          "cost": 9.14,
+          "tokens": 135038,
+          "steps": 118,
+          "value": 6.18
+        },
+        {
+          "rank": 14,
+          "officialRank": 14,
+          "model": "Gemini 4 Argon Medium",
+          "score": 55.8,
+          "cost": 7.64,
+          "tokens": 128231,
+          "steps": 101,
+          "value": 7.3
+        },
+        {
+          "rank": 15,
+          "officialRank": 15,
+          "model": "Gemini 4 Carbon Low",
+          "score": 55.0,
+          "cost": 8.64,
+          "tokens": 48526,
+          "steps": 127,
+          "value": 6.37
+        },
+        {
+          "rank": 16,
+          "officialRank": 16,
+          "model": "Opus 5.5 High",
+          "score": 54.5,
+          "cost": 3.87,
+          "tokens": 56162,
+          "steps": 64,
+          "value": 14.08
+        },
+        {
+          "rank": 17,
+          "officialRank": 17,
+          "model": "Sonnet 5.5 Max",
+          "score": 54.4,
+          "cost": 8.63,
+          "tokens": 342273,
+          "steps": 199,
+          "value": 6.3
+        },
+        {
+          "rank": 18,
+          "officialRank": 18,
+          "model": "Fable 5.2 Medium",
+          "score": 54.2,
+          "cost": 5.01,
+          "tokens": 47678,
+          "steps": 40,
+          "value": 10.82
+        },
+        {
+          "rank": 19,
+          "officialRank": 19,
+          "model": "Fable 5.2 Low",
+          "score": 53.4,
+          "cost": 4.26,
+          "tokens": 40384,
+          "steps": 34,
+          "value": 12.54
+        },
+        {
+          "rank": 20,
+          "officialRank": 20,
+          "model": "Opus 5.5 Medium",
+          "score": 50.0,
+          "cost": 2.85,
+          "tokens": 39736,
+          "steps": 52,
+          "value": 17.54
+        },
+        {
+          "rank": 21,
+          "officialRank": 21,
+          "model": "Sonnet 5.5 Extra High",
+          "score": 49.9,
+          "cost": 3.13,
+          "tokens": 112299,
+          "steps": 87,
+          "value": 15.94
+        },
+        {
+          "rank": 22,
+          "officialRank": 22,
+          "model": "Grok 4.7 Extra High",
+          "score": 48.6,
+          "cost": 10.19,
+          "tokens": 90268,
+          "steps": 110,
+          "value": 4.77
+        },
+        {
+          "rank": 23,
+          "officialRank": 23,
+          "model": "Haiku 5.5 Max",
+          "score": 48.4,
+          "cost": 1.14,
+          "tokens": 344890,
+          "steps": 166,
+          "value": 42.46
+        },
+        {
+          "rank": 24,
+          "officialRank": 24,
+          "model": "Gemini 4 Argon Low",
+          "score": 47.9,
+          "cost": 7.96,
+          "tokens": 40541,
+          "steps": 121,
+          "value": 6.02
+        },
+        {
+          "rank": 25,
+          "officialRank": 25,
+          "model": "Gemini 4 Hydrogen Medium",
+          "score": 46.4,
+          "cost": 1.28,
+          "tokens": 43606,
+          "steps": 45,
+          "value": 36.25
+        },
+        {
+          "rank": 26,
+          "officialRank": 26,
+          "model": "Grok 4.7 High",
+          "score": 46.0,
+          "cost": 6.88,
+          "tokens": 65850,
+          "steps": 84,
+          "value": 6.69
+        },
+        {
+          "rank": 27,
+          "officialRank": 27,
+          "model": "Gemini 4 Neon Low",
+          "score": 45.5,
+          "cost": 1.26,
+          "tokens": 19580,
+          "steps": 26,
+          "value": 36.11
+        },
+        {
+          "rank": 28,
+          "officialRank": 28,
+          "model": "Haiku 5.5 Extra High",
+          "score": 45.2,
+          "cost": 0.56,
+          "tokens": 149314,
+          "steps": 94,
+          "value": 80.71
+        },
+        {
+          "rank": 29,
+          "officialRank": 29,
+          "model": "Grok 4.6 Extra High",
+          "score": 44.3,
+          "cost": 5.26,
+          "tokens": 58554,
+          "steps": 62,
+          "value": 8.42
+        },
+        {
+          "rank": 30,
+          "officialRank": 30,
+          "model": "Sonnet 5.5 High",
+          "score": 43.8,
+          "cost": 1.41,
+          "tokens": 43088,
+          "steps": 48,
+          "value": 31.06
+        },
+        {
+          "rank": 31,
+          "officialRank": 31,
+          "model": "Opus 5.5 Low",
+          "score": 42.7,
+          "cost": 1.43,
+          "tokens": 19497,
+          "steps": 32,
+          "value": 29.86
+        },
+        {
+          "rank": 32,
+          "officialRank": 32,
+          "model": "Grok 4.7 Medium",
+          "score": 42.5,
+          "cost": 5.52,
+          "tokens": 41173,
+          "steps": 70,
+          "value": 7.7
+        },
+        {
+          "rank": 33,
+          "officialRank": 33,
+          "model": "Muse Spark 1.3 Max",
+          "score": 41.9,
+          "cost": 2.89,
+          "tokens": 56572,
+          "steps": 113,
+          "value": 14.5
+        },
+        {
+          "rank": 34,
+          "officialRank": 34,
+          "model": "Grok 4.6 High",
+          "score": 41.3,
+          "cost": 4.28,
+          "tokens": 46330,
+          "steps": 52,
+          "value": 9.65
+        },
+        {
+          "rank": 35,
+          "officialRank": 35,
+          "model": "GPT-5.6 Sol Max",
+          "score": 40.9,
+          "cost": 7.6,
+          "tokens": 40466,
+          "steps": 100,
+          "value": 5.38
+        },
+        {
+          "rank": 36,
+          "officialRank": 36,
+          "model": "Grok 4.6 Medium",
+          "score": 38.9,
+          "cost": 2.59,
+          "tokens": 26374,
+          "steps": 40,
+          "value": 15.02
+        },
+        {
+          "rank": 37,
+          "officialRank": 37,
+          "model": "Haiku 5.5 High",
+          "score": 37.5,
+          "cost": 0.31,
+          "tokens": 77196,
+          "steps": 61,
+          "value": 120.97
+        },
+        {
+          "rank": 38,
+          "officialRank": 38,
+          "model": "GPT-5.6 Sol Extra High",
+          "score": 37.4,
+          "cost": 4.32,
+          "tokens": 23921,
+          "steps": 58,
+          "value": 8.66
+        },
+        {
+          "rank": 39,
+          "officialRank": 39,
+          "model": "Muse Spark 1.3 Extra High",
+          "score": 34.6,
+          "cost": 2.33,
+          "tokens": 47142,
+          "steps": 96,
+          "value": 14.85
+        },
+        {
+          "rank": 40,
+          "officialRank": 40,
+          "model": "Sonnet 5.5 Medium",
+          "score": 34.3,
+          "cost": 0.63,
+          "tokens": 19144,
+          "steps": 26,
+          "value": 54.44
+        },
+        {
+          "rank": 41,
+          "officialRank": 41,
+          "model": "Haiku 5.5 Medium",
+          "score": 34.2,
+          "cost": 0.17,
+          "tokens": 43441,
+          "steps": 41,
+          "value": 201.18
+        },
+        {
+          "rank": 42,
+          "officialRank": 42,
+          "model": "GPT-5.6 Sol High",
+          "score": 33.2,
+          "cost": 3.0,
+          "tokens": 16319,
+          "steps": 44,
+          "value": 11.07
+        },
+        {
+          "rank": 43,
+          "officialRank": 43,
+          "model": "Grok 4.6 Low",
+          "score": 33.1,
+          "cost": 1.76,
+          "tokens": 16863,
+          "steps": 33,
+          "value": 18.81
+        },
+        {
+          "rank": 44,
+          "officialRank": 44,
+          "model": "Muse Spark 1.3 High",
+          "score": 32.1,
+          "cost": 1.97,
+          "tokens": 36562,
+          "steps": 85,
+          "value": 16.29
+        },
+        {
+          "rank": 45,
+          "officialRank": 45,
+          "model": "Sonnet 5.5 Low",
+          "score": 31.8,
+          "cost": 0.44,
+          "tokens": 13798,
+          "steps": 21,
+          "value": 72.27
+        },
+        {
+          "rank": 46,
+          "officialRank": 46,
+          "model": "Grok 4.7 Low",
+          "score": 31.5,
+          "cost": 2.73,
+          "tokens": 14493,
+          "steps": 42,
+          "value": 11.54
+        },
+        {
+          "rank": 47,
+          "officialRank": 47,
+          "model": "Muse Spark 1.3 Medium",
+          "score": 31.3,
+          "cost": 1.75,
+          "tokens": 32034,
+          "steps": 77,
+          "value": 17.89
+        },
+        {
+          "rank": 48,
+          "officialRank": 48,
+          "model": "GPT-5.6 Sol Medium",
+          "score": 28.7,
+          "cost": 1.97,
+          "tokens": 10554,
+          "steps": 34,
+          "value": 14.57
+        },
+        {
+          "rank": 49,
+          "officialRank": 49,
+          "model": "Haiku 5.5 Low",
+          "score": 27.8,
+          "cost": 0.08,
+          "tokens": 23673,
+          "steps": 27,
+          "value": 347.5
+        },
+        {
+          "rank": 50,
+          "officialRank": 50,
+          "model": "Muse Spark 1.3 Low",
+          "score": 27.5,
+          "cost": 1.13,
+          "tokens": 20673,
+          "steps": 58,
+          "value": 24.34
+        },
+        {
+          "rank": 51,
+          "officialRank": 51,
+          "model": "Gemini 4 Hydrogen Low",
+          "score": 23.9,
+          "cost": 0.28,
+          "tokens": 10497,
+          "steps": 22,
+          "value": 85.36
+        },
+        {
+          "rank": 52,
+          "officialRank": 52,
+          "model": "GPT-5.6 Sol Low",
+          "score": 23.0,
+          "cost": 0.98,
+          "tokens": 5206,
+          "steps": 22,
+          "value": 23.47
+        },
+        {
+          "rank": 53,
+          "officialRank": 53,
+          "model": "Muse Spark 1.3 Minimal",
+          "score": 21.3,
+          "cost": 0.69,
+          "tokens": 12789,
+          "steps": 42,
+          "value": 30.87
+        }
+      ]
+    }
+  },
+  "finance": {
+    "stock": {
+      "name": {
+        "zh": "小米集团-W",
+        "en": "Xiaomi Group"
+      },
+      "symbol": "01810.HK",
+      "currency": "HKD",
+      "price": 27.8,
+      "change": 1.2,
+      "changePercent": 4.51,
+      "prevClose": 26.6,
+      "open": 26.3,
+      "high": 27.84,
+      "low": 26.24,
+      "volume": "约 1.820 亿股",
+      "amount": "约 49.75 亿港元",
+      "spark": [
+        25.68,
+        26.48,
+        28.1,
+        28.6,
+        28.76,
+        31.3,
+        30.38,
+        30.1,
+        30.6,
+        30.1,
+        29.98,
+        28.86,
+        29.08,
+        29.7,
+        29.66,
+        28.52,
+        27.64,
+        27.52,
+        26.5,
+        26.56,
+        26.6,
+        27.8
+      ],
+      "summary": {
+        "zh": "今天周六，港股休市，下面是周五（11 月 27 日）收盘数据：小米集团-W（01810.HK）收报 27.800 港元，较前收 26.600 上涨 1.200（+4.51%），成交约 1.820 亿股、约 49.75 亿港元；日内 26.24–27.84，开盘 26.30，收盘接近全天最高。周五小幅低开并探到 26.24，收盘靠近全天最高；成交约 1.820 亿股，高于周四的约 1.270 亿股，低于周三的约 2.471 亿股（周二约 2.328 亿股）。日 K 在周五没有标注新的回购；最近一条回购标注仍是 11 月 24 日（周二）188.80 万股，均价 26.444 港元。数据源：腾讯港股行情（时间戳 2026/11/27 16:09:01）及日 K。",
+        "en": "Saturday: the Hong Kong market is closed, so these are Friday (November 27) closing figures. Xiaomi Group-W (01810.HK) closed at HK$27.800, up 1.200 (+4.51%) from the previous close of 26.600, on about 182.0M shares and about HK$4.975 billion; the day range was 26.24–27.84, opening at 26.30 and closing near the high. Friday opened slightly lower and dipped to 26.24 but closed near the high; volume of about 182.0M shares was above Thursday’s about 127.0M but below Wednesday’s about 247.1M (Tuesday about 232.8M). The daily bar carries no new buyback note for Friday; the latest buyback annotation is still Tuesday, November 24: 1.888 million shares at an average HK$26.444. Source: Tencent HK quote (timestamp 2026/11/27 16:09:01) and daily bars."
+      },
+      "highlights": [
+        {
+          "zh": "周六休市，以周五收盘 27.80 港元为准，上涨 4.51%（+1.20）。",
+          "en": "Closed Saturday; Friday’s close of HK$27.80, up 4.51% (+1.20), is used."
+        },
+        {
+          "zh": "日内 26.24–27.84，小幅低开，收盘靠近全天最高；成交约 1.820 亿股、约 49.75 亿港元。",
+          "en": "Day range 26.24–27.84; opened slightly lower and closed near the high, on about 182.0M shares and about HK$4.975 billion."
+        },
+        {
+          "zh": "周五日 K 无新回购标注；最近一条仍是 11 月 24 日回购 188.80 万股，均价 26.444 港元。",
+          "en": "No new buyback note on Friday’s bar; the latest is still November 24: 1.888 million shares at an average HK$26.444."
+        }
+      ]
+    }
+  },
+  "parenting": {
+    "source": "https://www.newsmth.net/nForum/board/ChildEducation",
+    "sourceName": {
+      "zh": "水木社区 · 儿童教育",
+      "en": "NewSMTH Child Education"
+    },
+    "asOf": "2026-11-28",
+    "board": "ChildEducation",
+    "summary": {
+      "zh": "今日采集到儿童教育版当前第一页主题（已去掉置顶讨论指南、发文权限公告，以及几乎无讨论的短帖）。跟帖最多的仍是「今天开家长会了」（三百多层）和需中性改写的电子设备管理帖（二百多层），「读书就是天赋问题」已过百层；11 月 27 日仍有新回复的包括「听说现在东城也很卷了」「两个孩子一学期四次家长会」和「三年级英语一周两次课」等。新上榜的有「东城也很卷了」和孩子听广播剧一帖。网页正文需要验证码才能打开，摘要只根据标题、回复数和回复时间撰写，未编造讨论细节。",
+      "en": "Today’s collection covers the current first page of the Child Education board, after dropping the pinned guide, permission notices and nearly undiscussed short posts. The most-replied remain the parents’ meeting post (300+) and a device-and-software management thread summarized neutrally (200+); “academic success is a matter of talent” has passed 100 replies; threads that still drew replies on November 27 include the Dongcheng competitiveness thread, four parents’ meetings a term, and two English lessons a week in grade three. Newly on the page are the Dongcheng thread and a post about a child listening to an audio drama. Article bodies need a verification code to open, so summaries use only titles, reply counts and reply times, without inventing discussion details."
+    },
+    "posts": [
+      {
+        "title": {
+          "zh": "我现在再回想我小时候的经历觉得读书就是天赋问题",
+          "en": "Looking back, I feel studying is largely a matter of talent"
+        },
+        "url": "https://www.newsmth.net/nForum/article/ChildEducation/2599726",
+        "author": "Tongyanghao",
+        "postedAt": "2026-11-26",
+        "lastReplyAt": "2026-11-27",
+        "replies": 106,
+        "summary": {
+          "zh": "楼主从自己小时候的经历出发，认为读书在很大程度上是天赋问题。帖子于 11 月 26 日发出，现有 106 层跟帖，最新回复在 11 月 27 日。因未打开正文（需验证码），摘要只根据标题和回复数据撰写，不编造讨论细节。",
+          "en": "The original poster, looking back on childhood, argues that academic success is largely a matter of talent. Posted November 26, it now has 106 replies, the latest on November 27. The body was not opened (a verification code is required), so this summary uses only the title and reply data, without inventing discussion details."
+        }
+      },
+      {
+        "title": {
+          "zh": "听说现在东城也很卷了？不佛系了？",
+          "en": "Heard Dongcheng has become competitive too — no longer laid-back?"
+        },
+        "url": "https://www.newsmth.net/nForum/article/ChildEducation/2595887",
+        "author": "gongkun",
+        "postedAt": "2026-11-10",
+        "lastReplyAt": "2026-11-27",
+        "replies": 20,
+        "summary": {
+          "zh": "楼主问东城的家长圈是不是也开始变卷、不再那么佛系。帖子于 11 月 10 日发出，现有 20 层跟帖，最新回复在 11 月 27 日。因未打开正文（需验证码），摘要只根据标题和回复数据撰写，不编造讨论细节。",
+          "en": "The original poster asks whether parents in Dongcheng have also become competitive rather than laid-back. Posted November 10, it now has 20 replies, the latest on November 27. The body was not opened (a verification code is required), so this summary uses only the title and reply data, without inventing discussion details."
+        }
+      },
+      {
+        "title": {
+          "zh": "也谈小奥方程之争",
+          "en": "The debate over contest math and equations"
+        },
+        "url": "https://www.newsmth.net/nForum/article/ChildEducation/2530544",
+        "author": "ld2020",
+        "postedAt": "2025-10-10",
+        "lastReplyAt": "2026-11-27",
+        "replies": 96,
+        "summary": {
+          "zh": "这是一篇关于小学奥数与方程教法之争的旧帖，近日又有新回复，跟帖已有数十层。这是一篇较早的帖子（10 月 10 日发出），现有 96 层跟帖，最新回复在 11 月 27 日。因未打开正文（需验证码），摘要只根据标题和回复数据撰写，不编造讨论细节。",
+          "en": "This is an older thread on the debate over contest math and how equations are taught in primary school. This is an older thread (posted October 10), it now has 96 replies, the latest on November 27. The body was not opened (a verification code is required), so this summary uses only the title and reply data, without inventing discussion details."
+        }
+      },
+      {
+        "title": {
+          "zh": "记得自己小的时候",
+          "en": "I remember when I was little"
+        },
+        "url": "https://www.newsmth.net/nForum/article/ChildEducation/2599210",
+        "author": "o00000000",
+        "postedAt": "2026-11-24",
+        "lastReplyAt": "2026-11-27",
+        "replies": 33,
+        "summary": {
+          "zh": "楼主写下对自己小时候的回忆。帖子于 11 月 24 日发出，现有 33 层跟帖，最新回复在 11 月 27 日。因未打开正文（需验证码），摘要只根据标题和回复数据撰写，不编造讨论细节。",
+          "en": "The original poster writes about memories of childhood. Posted November 24, it now has 33 replies, the latest on November 27. The body was not opened (a verification code is required), so this summary uses only the title and reply data, without inventing discussion details."
+        }
+      },
+      {
+        "title": {
+          "zh": "两个孩子，一学期四次家长会，就不能线上嘛",
+          "en": "Four parents’ meetings a term for two children — can they be online?"
+        },
+        "url": "https://www.newsmth.net/nForum/article/ChildEducation/2599679",
+        "author": "luqian035",
+        "postedAt": "2026-11-26",
+        "lastReplyAt": "2026-11-27",
+        "replies": 17,
+        "summary": {
+          "zh": "两个孩子的家长提出，一学期要开四次家长会，能否改成线上。帖子于 11 月 26 日发出，现有 17 层跟帖，最新回复在 11 月 27 日。因未打开正文（需验证码），摘要只根据标题和回复数据撰写，不编造讨论细节。",
+          "en": "A parent of two children asks whether four parents’ meetings in one term could be held online. Posted November 26, it now has 17 replies, the latest on November 27. The body was not opened (a verification code is required), so this summary uses only the title and reply data, without inventing discussion details."
+        }
+      },
+      {
+        "title": {
+          "zh": "今天孩子听《哪吒脑海》的广播剧",
+          "en": "My child listened to the Ne Zha audio drama “Nezha Naohai” today"
+        },
+        "url": "https://www.newsmth.net/nForum/article/ChildEducation/2599914",
+        "author": "coolsailor",
+        "postedAt": "2026-11-27",
+        "lastReplyAt": "2026-11-27",
+        "replies": 4,
+        "summary": {
+          "zh": "楼主分享孩子今天听《哪吒脑海》广播剧的经历。帖子于 11 月 27 日发出，现有 4 层跟帖，最新回复在 11 月 27 日。因未打开正文（需验证码），摘要只根据标题和回复数据撰写，不编造讨论细节。",
+          "en": "The original poster shares their child listening to the “Nezha Naohai” audio drama today. Posted November 27, it now has 4 replies, the latest on November 27. The body was not opened (a verification code is required), so this summary uses only the title and reply data, without inventing discussion details."
+        }
+      },
+      {
+        "title": {
+          "zh": "三年级英语一周两次课",
+          "en": "Only two English lessons a week in grade three"
+        },
+        "url": "https://www.newsmth.net/nForum/article/ChildEducation/2599003",
+        "author": "jasminoides",
+        "postedAt": "2026-11-23",
+        "lastReplyAt": "2026-11-27",
+        "replies": 37,
+        "summary": {
+          "zh": "楼主讨论三年级英语一周只有两节课是否够用。帖子于 11 月 23 日发出，现有 37 层跟帖，最新回复在 11 月 27 日。因未打开正文（需验证码），摘要只根据标题和回复数据撰写，不编造讨论细节。",
+          "en": "The original poster discusses whether two English lessons a week are enough in grade three. Posted November 23, it now has 37 replies, the latest on November 27. The body was not opened (a verification code is required), so this summary uses only the title and reply data, without inventing discussion details."
+        }
+      },
+      {
+        "title": {
+          "zh": "求助：普校普娃该不该备战1+3这种美术招生？",
+          "en": "Should an ordinary student prepare for an art-admissions 1+3 track?"
+        },
+        "url": "https://www.newsmth.net/nForum/article/ChildEducation/2599022",
+        "author": "manman111",
+        "postedAt": "2026-11-23",
+        "lastReplyAt": "2026-11-27",
+        "replies": 24,
+        "summary": {
+          "zh": "普通学校、普通孩子的家长在问，该不该为「1+3」一类美术招生做准备。帖子于 11 月 23 日发出，现有 24 层跟帖，最新回复在 11 月 27 日。因未打开正文（需验证码），摘要只根据标题和回复数据撰写，不编造讨论细节。",
+          "en": "A parent of a child in an ordinary school asks whether it is worth preparing for an art-admissions track such as a 1+3 programme. Posted November 23, it now has 24 replies, the latest on November 27. The body was not opened (a verification code is required), so this summary uses only the title and reply data, without inventing discussion details."
+        }
+      },
+      {
+        "title": {
+          "zh": "感觉孩子的自控力很强",
+          "en": "I feel my child’s self-control is very strong"
+        },
+        "url": "https://www.newsmth.net/nForum/article/ChildEducation/2595678",
+        "author": "aikuihua",
+        "postedAt": "2026-11-09",
+        "lastReplyAt": "2026-11-27",
+        "replies": 15,
+        "summary": {
+          "zh": "楼主觉得自己的孩子自控力很强，并就此展开讨论。帖子于 11 月 9 日发出，现有 15 层跟帖，最新回复在 11 月 27 日。因未打开正文（需验证码），摘要只根据标题和回复数据撰写，不编造讨论细节。",
+          "en": "The original poster writes that their child shows strong self-control, and the board discusses it. Posted November 9, it now has 15 replies, the latest on November 27. The body was not opened (a verification code is required), so this summary uses only the title and reply data, without inventing discussion details."
+        }
+      },
+      {
+        "title": {
+          "zh": "一次与孩子的激烈冲突，以及事后的处理",
+          "en": "A heated conflict with a child, and what followed"
+        },
+        "url": "https://www.newsmth.net/nForum/article/ChildEducation/2599535",
+        "author": "rswilp",
+        "postedAt": "2026-11-25",
+        "lastReplyAt": "2026-11-27",
+        "replies": 39,
+        "summary": {
+          "zh": "楼主描述一次与孩子的激烈冲突和事后处理。帖子于 11 月 25 日发出，现有 39 层跟帖，最新回复在 11 月 27 日。因未打开正文（需验证码），摘要只根据标题和回复数据撰写，不编造讨论细节。",
+          "en": "The original poster describes a heated conflict with a child and what followed. Posted November 25, it now has 39 replies, the latest on November 27. The body was not opened (a verification code is required), so this summary uses only the title and reply data, without inventing discussion details."
+        }
+      },
+      {
+        "title": {
+          "zh": "今天开家长会了",
+          "en": "I went to a parents’ meeting today"
+        },
+        "url": "https://www.newsmth.net/nForum/article/ChildEducation/2596804",
+        "author": "jianpeng",
+        "postedAt": "2026-11-13",
+        "lastReplyAt": "2026-11-27",
+        "replies": 371,
+        "summary": {
+          "zh": "楼主分享当天参加家长会的见闻。帖子于 11 月 13 日发出，现有 371 层跟帖，最新回复在 11 月 27 日。因未打开正文（需验证码），摘要只根据标题和回复数据撰写，不编造讨论细节。",
+          "en": "The original poster writes about a parents’ meeting that day. Posted November 13, it now has 371 replies, the latest on November 27. The body was not opened (a verification code is required), so this summary uses only the title and reply data, without inventing discussion details."
+        }
+      },
+      {
+        "title": {
+          "zh": "为何北京中小学没有春秋假？",
+          "en": "Why don’t Beijing schools have spring and autumn breaks?"
+        },
+        "url": "https://www.newsmth.net/nForum/article/ChildEducation/2599577",
+        "author": "shuibo",
+        "postedAt": "2026-11-26",
+        "lastReplyAt": "2026-11-27",
+        "replies": 7,
+        "summary": {
+          "zh": "楼主问为什么北京中小学没有春假和秋假。帖子于 11 月 26 日发出，现有 7 层跟帖，最新回复在 11 月 27 日。因未打开正文（需验证码），摘要只根据标题和回复数据撰写，不编造讨论细节。",
+          "en": "The original poster asks why Beijing’s primary and secondary schools have no spring or autumn break. Posted November 26, it now has 7 replies, the latest on November 27. The body was not opened (a verification code is required), so this summary uses only the title and reply data, without inventing discussion details."
+        }
+      },
+      {
+        "title": {
+          "zh": "干脆小学全改为体育课",
+          "en": "Just turn primary school into PE"
+        },
+        "url": "https://www.newsmth.net/nForum/article/ChildEducation/2598920",
+        "author": "o00000000",
+        "postedAt": "2026-11-22",
+        "lastReplyAt": "2026-11-27",
+        "replies": 131,
+        "summary": {
+          "zh": "楼主提出把小学课程更多地改成体育课的想法。帖子于 11 月 22 日发出，现有 131 层跟帖，最新回复在 11 月 27 日。因未打开正文（需验证码），摘要只根据标题和回复数据撰写，不编造讨论细节。",
+          "en": "The original poster suggests turning more of primary school into physical education. Posted November 22, it now has 131 replies, the latest on November 27. The body was not opened (a verification code is required), so this summary uses only the title and reply data, without inventing discussion details."
+        }
+      },
+      {
+        "title": {
+          "zh": "时间和事情该怎么安排，求助高手",
+          "en": "How should time and tasks be arranged? Asking for advice"
+        },
+        "url": "https://www.newsmth.net/nForum/article/ChildEducation/2599314",
+        "author": "climaxhell",
+        "postedAt": "2026-11-24",
+        "lastReplyAt": "2026-11-27",
+        "replies": 91,
+        "summary": {
+          "zh": "楼主就时间和事情该如何安排向版内求助。帖子于 11 月 24 日发出，现有 91 层跟帖，最新回复在 11 月 27 日。因未打开正文（需验证码），摘要只根据标题和回复数据撰写，不编造讨论细节。",
+          "en": "The original poster asks the board for advice on arranging time and tasks. Posted November 24, it now has 91 replies, the latest on November 27. The body was not opened (a verification code is required), so this summary uses only the title and reply data, without inventing discussion details."
+        }
+      },
+      {
+        "title": {
+          "zh": "英语1年记录一下",
+          "en": "A one-year record of English learning"
+        },
+        "url": "https://www.newsmth.net/nForum/article/ChildEducation/2597673",
+        "author": "chouachou",
+        "postedAt": "2026-11-16",
+        "lastReplyAt": "2026-11-27",
+        "replies": 95,
+        "summary": {
+          "zh": "楼主记录孩子英语学习一年的情况。帖子于 11 月 16 日发出，现有 95 层跟帖，最新回复在 11 月 27 日。因未打开正文（需验证码），摘要只根据标题和回复数据撰写，不编造讨论细节。",
+          "en": "The original poster records a year of a child’s English learning. Posted November 16, it now has 95 replies, the latest on November 27. The body was not opened (a verification code is required), so this summary uses only the title and reply data, without inventing discussion details."
+        }
+      },
+      {
+        "title": {
+          "zh": "北大才子邵鑫精讲《古文观止》，需要自取",
+          "en": "A lecture series on Guwen Guanzhi, shared for anyone who wants it"
+        },
+        "url": "https://www.newsmth.net/nForum/article/ChildEducation/2588796",
+        "author": "missxc",
+        "postedAt": "2026-09-25",
+        "lastReplyAt": "2026-11-27",
+        "replies": 17,
+        "summary": {
+          "zh": "有人分享《古文观止》讲解资源，供有需要的人自取。这是一篇较早的帖子（9 月 25 日发出），现有 17 层跟帖，最新回复在 11 月 27 日。因未打开正文（需验证码），摘要只根据标题和回复数据撰写，不编造讨论细节。",
+          "en": "Someone shares a lecture series on Guwen Guanzhi for others to pick up if they want it. This is an older thread (posted September 25), it now has 17 replies, the latest on November 27. The body was not opened (a verification code is required), so this summary uses only the title and reply data, without inventing discussion details."
+        }
+      },
+      {
+        "title": {
+          "zh": "为啥课间都不让出教室呢？有啥办法没有",
+          "en": "Why can’t they leave the classroom at break? Is there anything to do?"
+        },
+        "url": "https://www.newsmth.net/nForum/article/ChildEducation/2599251",
+        "author": "chouachou",
+        "postedAt": "2026-11-24",
+        "lastReplyAt": "2026-11-26",
+        "replies": 19,
+        "summary": {
+          "zh": "楼主问为什么课间不让出教室，以及有没有应对办法。帖子于 11 月 24 日发出，现有 19 层跟帖，最新回复在 11 月 26 日。因未打开正文（需验证码），摘要只根据标题和回复数据撰写，不编造讨论细节。",
+          "en": "The original poster asks why students are not allowed out of the classroom at break, and whether there is anything parents can do. Posted November 24, it now has 19 replies, the latest on November 26. The body was not opened (a verification code is required), so this summary uses only the title and reply data, without inventing discussion details."
+        }
+      },
+      {
+        "title": {
+          "zh": "关于十大顿悟帖，想起自己的成长",
+          "en": "The famous “insight” posts, and my own growing up"
+        },
+        "url": "https://www.newsmth.net/nForum/article/ChildEducation/956284",
+        "author": "sagacitys",
+        "postedAt": "2019-07-10",
+        "lastReplyAt": "2026-11-26",
+        "replies": 181,
+        "summary": {
+          "zh": "这是一篇 2019 年的旧帖，楼主由「十大顿悟帖」联想到自己的成长。这是一篇较早的帖子（7 月 10 日发出），现有 181 层跟帖，最新回复在 11 月 26 日。因未打开正文（需验证码），摘要只根据标题和回复数据撰写，不编造讨论细节。",
+          "en": "This is a 2019 thread in which the original poster reflects on personal growth after a well-known set of “insight” posts. This is an older thread (posted July 10), it now has 181 replies, the latest on November 26. The body was not opened (a verification code is required), so this summary uses only the title and reply data, without inventing discussion details."
+        }
+      },
+      {
+        "title": {
+          "zh": "三年级怎么练字",
+          "en": "How should a third-grader practise handwriting?"
+        },
+        "url": "https://www.newsmth.net/nForum/article/ChildEducation/2598738",
+        "author": "gudiyoulan",
+        "postedAt": "2026-11-21",
+        "lastReplyAt": "2026-11-26",
+        "replies": 12,
+        "summary": {
+          "zh": "楼主在问三年级阶段该如何练字。帖子于 11 月 21 日发出，现有 12 层跟帖，最新回复在 11 月 26 日。因未打开正文（需验证码），摘要只根据标题和回复数据撰写，不编造讨论细节。",
+          "en": "The original poster asks how a third-grader should practise handwriting. Posted November 21, it now has 12 replies, the latest on November 26. The body was not opened (a verification code is required), so this summary uses only the title and reply data, without inventing discussion details."
+        }
+      },
+      {
+        "title": {
+          "zh": "ADHD学习力怎么培养",
+          "en": "How to build study skills for a child with ADHD"
+        },
+        "url": "https://www.newsmth.net/nForum/article/ChildEducation/2599086",
+        "author": "mariaxu",
+        "postedAt": "2026-11-23",
+        "lastReplyAt": "2026-11-26",
+        "replies": 43,
+        "summary": {
+          "zh": "楼主讨论如何培养被诊断为 ADHD 的孩子的学习力。帖子于 11 月 23 日发出，现有 43 层跟帖，最新回复在 11 月 26 日。因未打开正文（需验证码），摘要只根据标题和回复数据撰写，不编造讨论细节。",
+          "en": "The original poster discusses how to build study skills for a child with an ADHD diagnosis. Posted November 23, it now has 43 replies, the latest on November 26. The body was not opened (a verification code is required), so this summary uses only the title and reply data, without inventing discussion details."
+        }
+      },
+      {
+        "title": {
+          "zh": "据说老师被投诉12345了",
+          "en": "A teacher was reported to the 12345 hotline"
+        },
+        "url": "https://www.newsmth.net/nForum/article/ChildEducation/2598856",
+        "author": "tomcat",
+        "postedAt": "2026-11-21",
+        "lastReplyAt": "2026-11-26",
+        "replies": 148,
+        "summary": {
+          "zh": "帖子讨论老师被家长投诉到 12345 热线后的情况。帖子于 11 月 21 日发出，现有 148 层跟帖，最新回复在 11 月 26 日。因未打开正文（需验证码），摘要只根据标题和回复数据撰写，不编造讨论细节。",
+          "en": "The thread discusses what happened after a teacher was reported to the 12345 hotline. Posted November 21, it now has 148 replies, the latest on November 26. The body was not opened (a verification code is required), so this summary uses only the title and reply data, without inventing discussion details."
+        }
+      },
+      {
+        "title": {
+          "zh": "我一直觉得普班也挺好",
+          "en": "I’ve always thought ordinary classes are fine too"
+        },
+        "url": "https://www.newsmth.net/nForum/article/ChildEducation/2598496",
+        "author": "snailfly88",
+        "postedAt": "2026-11-19",
+        "lastReplyAt": "2026-11-26",
+        "replies": 16,
+        "summary": {
+          "zh": "楼主谈普通班也有其好处。帖子于 11 月 19 日发出，现有 16 层跟帖，最新回复在 11 月 26 日。因未打开正文（需验证码），摘要只根据标题和回复数据撰写，不编造讨论细节。",
+          "en": "The original poster writes that ordinary classes have their merits. Posted November 19, it now has 16 replies, the latest on November 26. The body was not opened (a verification code is required), so this summary uses only the title and reply data, without inventing discussion details."
+        }
+      },
+      {
+        "title": {
+          "zh": "CMO第一天考完了，有大佬点评一下考题吗",
+          "en": "Day one of the CMO is over — would anyone comment on the questions?"
+        },
+        "url": "https://www.newsmth.net/nForum/article/ChildEducation/2599512",
+        "author": "fujiancai",
+        "postedAt": "2026-11-25",
+        "lastReplyAt": "2026-11-26",
+        "replies": 5,
+        "summary": {
+          "zh": "有人在中国数学奥林匹克第一天结束后，请版内有经验的人点评试题。帖子于 11 月 25 日发出，现有 5 层跟帖，最新回复在 11 月 26 日。因未打开正文（需验证码），摘要只根据标题和回复数据撰写，不编造讨论细节。",
+          "en": "After the first day of the China Mathematical Olympiad, someone asks experienced readers to comment on the questions. Posted November 25, it now has 5 replies, the latest on November 26. The body was not opened (a verification code is required), so this summary uses only the title and reply data, without inventing discussion details."
+        }
+      },
+      {
+        "title": {
+          "zh": "初中孩子的电子设备与不当软件，该如何处理",
+          "en": "How to handle a junior-high student’s devices and inappropriate software"
+        },
+        "url": "https://www.newsmth.net/nForum/article/ChildEducation/2596969",
+        "author": "fixding",
+        "postedAt": "2026-11-14",
+        "lastReplyAt": "2026-11-25",
+        "replies": 209,
+        "summary": {
+          "zh": "家长讨论如何管理初中阶段孩子的电子设备，以及如何处理不当软件。帖子于 11 月 14 日发出，现有 209 层跟帖，最新回复在 11 月 25 日。因未打开正文（需验证码），摘要只根据标题和回复数据撰写，不编造讨论细节。",
+          "en": "Parents discuss how to manage a junior-high student’s electronic devices and how to handle inappropriate software. Posted November 14, it now has 209 replies, the latest on November 25. The body was not opened (a verification code is required), so this summary uses only the title and reply data, without inventing discussion details."
+        }
+      },
+      {
+        "title": {
+          "zh": "统招是西城好考还是海淀好考",
+          "en": "Is unified-enrollment easier in Xicheng or Haidian?"
+        },
+        "url": "https://www.newsmth.net/nForum/article/ChildEducation/2598204",
+        "author": "deng19822022",
+        "postedAt": "2026-11-18",
+        "lastReplyAt": "2026-11-25",
+        "replies": 4,
+        "summary": {
+          "zh": "帖子比较西城和海淀在统招上的难度。帖子于 11 月 18 日发出，现有 4 层跟帖，最新回复在 11 月 25 日。因未打开正文（需验证码），摘要只根据标题和回复数据撰写，不编造讨论细节。",
+          "en": "The thread compares how hard unified-enrollment admissions are in Xicheng versus Haidian. Posted November 18, it now has 4 replies, the latest on November 25. The body was not opened (a verification code is required), so this summary uses only the title and reply data, without inventing discussion details."
+        }
+      },
+      {
+        "title": {
+          "zh": "海淀这么佛系的家长还有吗",
+          "en": "Are there still laid-back parents in Haidian?"
+        },
+        "url": "https://www.newsmth.net/nForum/article/ChildEducation/2597933",
+        "author": "lynnlinda",
+        "postedAt": "2026-11-17",
+        "lastReplyAt": "2026-11-25",
+        "replies": 44,
+        "summary": {
+          "zh": "楼主在找海淀里比较「佛系」、不那么内卷的家长同路人。帖子于 11 月 17 日发出，现有 44 层跟帖，最新回复在 11 月 25 日。因未打开正文（需验证码），摘要只根据标题和回复数据撰写，不编造讨论细节。",
+          "en": "The original poster is looking for like-minded Haidian parents who take a more laid-back, less intense approach. Posted November 17, it now has 44 replies, the latest on November 25. The body was not opened (a verification code is required), so this summary uses only the title and reply data, without inventing discussion details."
+        }
+      },
+      {
+        "title": {
+          "zh": "家里有女儿的，不用给她花钱",
+          "en": "On spending when raising a daughter"
+        },
+        "url": "https://www.newsmth.net/nForum/article/ChildEducation/2594942",
+        "author": "jianpeng",
+        "postedAt": "2026-11-05",
+        "lastReplyAt": "2026-11-25",
+        "replies": 41,
+        "summary": {
+          "zh": "有家长讨论养女儿时在花费和投入上的安排。帖子于 11 月 5 日发出，现有 41 层跟帖，最新回复在 11 月 25 日。因未打开正文（需验证码），摘要只根据标题和回复数据撰写，不编造讨论细节。",
+          "en": "Parents discuss how to think about spending and investment when raising a daughter. Posted November 5, it now has 41 replies, the latest on November 25. The body was not opened (a verification code is required), so this summary uses only the title and reply data, without inventing discussion details."
+        }
+      }
+    ]
+  },
+  "todos": [
+    {
+      "text": {
+        "zh": "今日重心（周六去敏）：以家庭陪伴为主。陪大宝的英语（新课预习、单词默写、周末作业与错题订正，晚上 19 点有一节语法课）和语文（日记、课后习题、生词听写、好书共读），陪小宝（围棋对弈、英语练习册与视频课），并检查课内记事本。学习与工作侧：继续技术文章阅读、研究 pstack/superpower，流式语音识别接入仍是最高优先事项，另有一项面试题准备和通识课（万维钢思考工具）需要推进。今天周六无训练安排，天气晴、午后阵风 5 级，户外注意防风。",
+        "en": "Saturday focus (sanitized): mostly family time. Help the older child with English (new-lesson preview, word dictation, weekend homework and correcting mistakes, with a grammar class at 19:00) and Chinese (diary, post-lesson exercises, vocabulary dictation, shared reading), help the younger child (Go games, English workbook and video lesson), and check the in-class notebook. On the learning and work side: keep up technical-article reading and the pstack/superpower study; streaming speech-recognition integration remains the top priority; there is also interview-question prep and the general-education course (Wan Weigang’s thinking tools) to move forward. No training today (Saturday); it is sunny with force-5 gusts in the afternoon, so dress for wind outdoors."
+      },
+      "priority": "high"
+    }
+  ]
+}
